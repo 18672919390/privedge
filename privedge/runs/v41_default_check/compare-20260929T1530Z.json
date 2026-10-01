@@ -1,0 +1,56 @@
+[
+  {
+    "recorded": "security_v2_massive_steps-20260929T031029Z-1bd2f5",
+    "rerun": "security_v2_v41_massive_steps-20260929T151745Z-e17d59",
+    "rows_recorded": 2870,
+    "rows_rerun": 2870,
+    "shared": 2870,
+    "changed": 0,
+    "examples": []
+  },
+  {
+    "recorded": "security_v2_olist_brazil-20260929T031029Z-1ed46e",
+    "rerun": "security_v2_v41_olist_brazil-20260929T151745Z-49e644",
+    "rows_recorded": 2460,
+    "rows_rerun": 2460,
+    "shared": 2460,
+    "changed": 0,
+    "examples": []
+  },
+  {
+    "recorded": "security_v2_meituan_trd-20260929T031030Z-fd18bc",
+    "rerun": "security_v2_v41_meituan_trd-20260929T151745Z-32f207",
+    "rows_recorded": 4510,
+    "rows_rerun": 4510,
+    "shared": 4510,
+    "changed": 0,
+    "examples": []
+  },
+  {
+    "recorded": "security_v4_massive_steps-20260929T145354Z-705ea4",
+    "rerun": "security_v4_floor_massive_steps-20260929T151745Z-d49efb",
+    "rows_recorded": 1470,
+    "rows_rerun": 1470,
+    "shared": 1470,
+    "changed": 0,
+    "examples": []
+  },
+  {
+    "recorded": "security_v4_olist_brazil-20260929T145354Z-3c22fd",
+    "rerun": "security_v4_floor_olist_brazil-20260929T151745Z-de2fa2",
+    "rows_recorded": 1260,
+    "rows_rerun": 1260,
+    "shared": 1260,
+    "changed": 0,
+    "examples": []
+  },
+  {
+    "recorded": "security_v4_meituan_trd-20260929T145355Z-8514ad",
+    "rerun": "security_v4_floor_meituan_trd-20260929T151745Z-34796f",
+    "rows_recorded": 2310,
+    "rows_rerun": 2310,
+    "shared": 2310,
+    "changed": 0,
+    "examples": []
+  }
+]

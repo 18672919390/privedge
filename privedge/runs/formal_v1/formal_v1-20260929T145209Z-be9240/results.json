@@ -1,0 +1,222 @@
+{
+  "main": [
+    {
+      "query": "Q1",
+      "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is true.",
+      "holds": true
+    },
+    {
+      "query": "Q2",
+      "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(LoggedRel(sid_6,rid_5,h(((TAG_REL,sid_6,w_5,rid_5,m),s_4)))) is true.",
+      "holds": true
+    },
+    {
+      "query": "Q5",
+      "result": "event(LoggedRel(sid_6,rid_5,d)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is true.",
+      "holds": true
+    },
+    {
+      "query": "Q3",
+      "result": "event(AcceptCtx(r_3,snap_3,v)) ==> event(PublishCtx(r_3,snap_3,v)) || event(Compromised(r_3,CTX)) is true.",
+      "holds": true
+    },
+    {
+      "query": "Q4",
+      "result": "secret raw_2,raw_1,raw is true.",
+      "holds": true
+    },
+    {
+      "query": "S1",
+      "result": "not event(Accept(A[],W1[],rid_5,m)) is false.",
+      "holds": false
+    },
+    {
+      "query": "S2",
+      "result": "not event(AcceptCtx(T[],snap_3,v)) is false.",
+      "holds": false
+    }
+  ],
+  "controls": {
+    "nc1_window_unsigned": {
+      "dropped_check": "窗口号不在签名内（网关只检查未签名的窗口字段）",
+      "expected_broken": "Q1",
+      "broken": [
+        "Q1",
+        "Q2"
+      ],
+      "as_expected": false,
+      "results": [
+        {
+          "query": "Q1",
+          "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is false.",
+          "holds": false
+        },
+        {
+          "query": "Q2",
+          "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(LoggedRel(sid_6,rid_5,h(((TAG_REL,sid_6,w_5,rid_5,m),s_4)))) is false.",
+          "holds": false
+        },
+        {
+          "query": "Q5",
+          "result": "event(LoggedRel(sid_6,rid_5,d)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q3",
+          "result": "event(AcceptCtx(r_3,snap_3,v)) ==> event(PublishCtx(r_3,snap_3,v)) || event(Compromised(r_3,CTX)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q4",
+          "result": "secret raw_2,raw_1,raw is true.",
+          "holds": true
+        },
+        {
+          "query": "S1",
+          "result": "not event(Accept(A[],W1[],rid_5,m)) is false.",
+          "holds": false
+        },
+        {
+          "query": "S2",
+          "result": "not event(AcceptCtx(T[],snap_3,v)) is false.",
+          "holds": false
+        }
+      ]
+    },
+    "nc2_no_role_binding": {
+      "dropped_check": "注册表查询不区分密钥角色",
+      "expected_broken": "Q3",
+      "broken": [
+        "Q3"
+      ],
+      "as_expected": true,
+      "results": [
+        {
+          "query": "Q1",
+          "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q2",
+          "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(LoggedRel(sid_6,rid_5,h(((TAG_REL,sid_6,w_5,rid_5,m),s_4)))) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q5",
+          "result": "event(LoggedRel(sid_6,rid_5,d)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q3",
+          "result": "event(AcceptCtx(r_3,snap_3,v)) ==> event(PublishCtx(r_3,snap_3,v)) || event(Compromised(r_3,CTX)) is false.",
+          "holds": false
+        },
+        {
+          "query": "Q4",
+          "result": "secret raw_2,raw_1,raw is true.",
+          "holds": true
+        },
+        {
+          "query": "S1",
+          "result": "not event(Accept(A[],W1[],rid_5,m)) is false.",
+          "holds": false
+        },
+        {
+          "query": "S2",
+          "result": "not event(AcceptCtx(T[],snap_3,v)) is false.",
+          "holds": false
+        }
+      ]
+    },
+    "nc3_gateway_skips_ledger": {
+      "dropped_check": "网关不核对账本登记",
+      "expected_broken": "Q2",
+      "broken": [
+        "Q2"
+      ],
+      "as_expected": true,
+      "results": [
+        {
+          "query": "Q1",
+          "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q2",
+          "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(LoggedRel(sid_6,rid_5,h(((TAG_REL,sid_6,w_5,rid_5,m),s_4)))) is false.",
+          "holds": false
+        },
+        {
+          "query": "Q5",
+          "result": "event(LoggedRel(sid_6,rid_5,d)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q3",
+          "result": "event(AcceptCtx(r_3,snap_3,v)) ==> event(PublishCtx(r_3,snap_3,v)) || event(Compromised(r_3,CTX)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q4",
+          "result": "secret raw_2,raw_1,raw is true.",
+          "holds": true
+        },
+        {
+          "query": "S1",
+          "result": "not event(Accept(A[],W1[],rid_5,m)) is false.",
+          "holds": false
+        },
+        {
+          "query": "S2",
+          "result": "not event(AcceptCtx(T[],snap_3,v)) is false.",
+          "holds": false
+        }
+      ]
+    },
+    "nc4_ledger_skips_signature": {
+      "dropped_check": "账本登记不验签（修复前的 ledger.append）",
+      "expected_broken": "Q5",
+      "broken": [
+        "Q5"
+      ],
+      "as_expected": true,
+      "results": [
+        {
+          "query": "Q1",
+          "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q2",
+          "result": "event(Accept(sid_6,w_5,rid_5,m)) ==> event(LoggedRel(sid_6,rid_5,h(((TAG_REL,sid_6,w_5,rid_5,m),s_4)))) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q5",
+          "result": "event(LoggedRel(sid_6,rid_5,d)) ==> event(Publish(sid_6,w_5,rid_5,m)) || event(Compromised(sid_6,SRC)) is false.",
+          "holds": false
+        },
+        {
+          "query": "Q3",
+          "result": "event(AcceptCtx(r_3,snap_3,v)) ==> event(PublishCtx(r_3,snap_3,v)) || event(Compromised(r_3,CTX)) is true.",
+          "holds": true
+        },
+        {
+          "query": "Q4",
+          "result": "secret raw_2,raw_1,raw is true.",
+          "holds": true
+        },
+        {
+          "query": "S1",
+          "result": "not event(Accept(A[],W1[],rid_5,m)) is false.",
+          "holds": false
+        },
+        {
+          "query": "S2",
+          "result": "not event(AcceptCtx(T[],snap_3,v)) is false.",
+          "holds": false
+        }
+      ]
+    }
+  }
+}

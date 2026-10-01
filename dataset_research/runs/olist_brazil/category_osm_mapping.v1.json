@@ -1,0 +1,267 @@
+{
+  "version": "v1",
+  "written_before_behaviour_data": true,
+  "basis": "category name semantics only (product_category_name_translation.csv)",
+  "guiding_rule": "The mapping is written from category-name semantics only.  Guiding rule used\nfor every category: map to the specialised retail/service tag(s) whose goods\nmatch the category name; do not map to generic mass retail (supermarket,\nconvenience, department_store, variety_store, mall) because those sell many\ncategories; leave a category unmapped when the name has no clear OSM analogue.",
+  "catalog_file_sha256": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278",
+  "categories": 71,
+  "mapping": {
+    "health_beauty": [
+      "shop=cosmetics",
+      "shop=beauty",
+      "shop=chemist",
+      "shop=medical_supply",
+      "amenity=pharmacy"
+    ],
+    "computers_accessories": [
+      "shop=computer"
+    ],
+    "auto": [
+      "shop=car_parts",
+      "shop=tyres"
+    ],
+    "bed_bath_table": [
+      "shop=bed",
+      "shop=household_linen"
+    ],
+    "furniture_decor": [
+      "shop=furniture",
+      "shop=interior_decoration"
+    ],
+    "sports_leisure": [
+      "shop=sports",
+      "shop=outdoor"
+    ],
+    "perfumery": [
+      "shop=perfumery"
+    ],
+    "housewares": [
+      "shop=houseware"
+    ],
+    "telephony": [
+      "shop=mobile_phone",
+      "shop=telecommunication"
+    ],
+    "watches_gifts": [
+      "shop=watches",
+      "shop=jewelry",
+      "shop=gift"
+    ],
+    "food_drink": [
+      "shop=deli",
+      "shop=health_food",
+      "shop=spices",
+      "shop=confectionery",
+      "shop=chocolate",
+      "shop=coffee",
+      "shop=tea",
+      "shop=beverages",
+      "shop=alcohol",
+      "shop=wine"
+    ],
+    "baby": [
+      "shop=baby_goods"
+    ],
+    "stationery": [
+      "shop=stationery"
+    ],
+    "tablets_printing_image": [
+      "shop=copyshop"
+    ],
+    "toys": [
+      "shop=toys"
+    ],
+    "fixed_telephony": [
+      "shop=telecommunication"
+    ],
+    "garden_tools": [
+      "shop=garden_centre"
+    ],
+    "fashion_bags_accessories": [
+      "shop=bag",
+      "shop=fashion_accessories"
+    ],
+    "small_appliances": [
+      "shop=appliance"
+    ],
+    "consoles_games": [
+      "shop=video_games",
+      "shop=games"
+    ],
+    "audio": [
+      "shop=hifi"
+    ],
+    "fashion_shoes": [
+      "shop=shoes"
+    ],
+    "cool_stuff": [],
+    "luggage_accessories": [
+      "shop=bag",
+      "shop=leather"
+    ],
+    "air_conditioning": [
+      "craft=hvac"
+    ],
+    "construction_tools_construction": [
+      "shop=hardware",
+      "shop=doityourself",
+      "shop=trade"
+    ],
+    "kitchen_dining_laundry_garden_furniture": [
+      "shop=kitchen",
+      "shop=garden_furniture"
+    ],
+    "costruction_tools_garden": [
+      "shop=garden_centre"
+    ],
+    "fashion_male_clothing": [
+      "shop=clothes"
+    ],
+    "pet_shop": [
+      "shop=pet"
+    ],
+    "office_furniture": [
+      "shop=furniture"
+    ],
+    "market_place": [
+      "amenity=marketplace"
+    ],
+    "electronics": [
+      "shop=electronics"
+    ],
+    "home_appliances": [
+      "shop=appliance"
+    ],
+    "party_supplies": [
+      "shop=party"
+    ],
+    "home_confort": [
+      "shop=household_linen"
+    ],
+    "costruction_tools_tools": [
+      "shop=hardware",
+      "shop=doityourself"
+    ],
+    "agro_industry_and_commerce": [
+      "shop=agrarian"
+    ],
+    "furniture_mattress_and_upholstery": [
+      "shop=bed",
+      "craft=upholsterer"
+    ],
+    "books_technical": [
+      "shop=books"
+    ],
+    "home_construction": [
+      "shop=doityourself",
+      "shop=hardware",
+      "shop=trade"
+    ],
+    "musical_instruments": [
+      "shop=musical_instrument"
+    ],
+    "furniture_living_room": [
+      "shop=furniture"
+    ],
+    "construction_tools_lights": [
+      "shop=lighting",
+      "shop=electrical"
+    ],
+    "industry_commerce_and_business": [
+      "shop=wholesale"
+    ],
+    "food": [
+      "shop=deli",
+      "shop=health_food",
+      "shop=spices",
+      "shop=confectionery",
+      "shop=chocolate",
+      "shop=coffee",
+      "shop=tea"
+    ],
+    "art": [
+      "shop=art",
+      "shop=frame"
+    ],
+    "furniture_bedroom": [
+      "shop=furniture",
+      "shop=bed"
+    ],
+    "books_general_interest": [
+      "shop=books"
+    ],
+    "construction_tools_safety": [
+      "shop=safety_equipment"
+    ],
+    "fashion_underwear_beach": [
+      "shop=clothes"
+    ],
+    "fashion_sport": [
+      "shop=sports",
+      "shop=clothes"
+    ],
+    "signaling_and_security": [
+      "shop=security"
+    ],
+    "computers": [
+      "shop=computer"
+    ],
+    "christmas_supplies": [
+      "shop=party"
+    ],
+    "fashio_female_clothing": [
+      "shop=clothes"
+    ],
+    "home_appliances_2": [
+      "shop=appliance"
+    ],
+    "books_imported": [
+      "shop=books"
+    ],
+    "drinks": [
+      "shop=beverages",
+      "shop=alcohol",
+      "shop=wine"
+    ],
+    "cine_photo": [
+      "shop=photo"
+    ],
+    "la_cuisine": [
+      "shop=kitchen",
+      "shop=cookware"
+    ],
+    "music": [
+      "shop=music"
+    ],
+    "home_comfort_2": [
+      "shop=household_linen"
+    ],
+    "small_appliances_home_oven_and_coffee": [
+      "shop=appliance"
+    ],
+    "cds_dvds_musicals": [
+      "shop=music",
+      "shop=video"
+    ],
+    "dvds_blu_ray": [
+      "shop=video"
+    ],
+    "flowers": [
+      "shop=florist"
+    ],
+    "arts_and_craftmanship": [
+      "shop=craft",
+      "shop=art"
+    ],
+    "diapers_and_hygiene": [
+      "shop=chemist",
+      "shop=baby_goods"
+    ],
+    "fashion_childrens_clothes": [
+      "shop=clothes"
+    ],
+    "security_and_services": [
+      "office=insurance"
+    ]
+  }
+}

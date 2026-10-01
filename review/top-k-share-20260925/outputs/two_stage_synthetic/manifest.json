@@ -1,0 +1,41 @@
+{
+  "seeds": [
+    1437653525,
+    258941325,
+    1149497392,
+    2345230409,
+    488978732,
+    3221442128,
+    996182977,
+    2795256881,
+    2676286446,
+    1727536262,
+    279194863,
+    1543281915,
+    2623370103,
+    1385622850,
+    2832937315,
+    221222866,
+    3242745963,
+    1573659390,
+    48831070,
+    1079800752
+  ],
+  "domain": 128,
+  "servers": 6,
+  "users_per_server": 5000,
+  "epsilon": 2,
+  "top_k": 10,
+  "report_m": 20,
+  "prior_strength": 0.1,
+  "shift_tolerance": 0.02,
+  "mixture_ridge": 0.1,
+  "context_concentrations": [
+    25,
+    75,
+    250
+  ],
+  "target_generation": "Independent Dirichlet(500*latent mixture)",
+  "context_generation": "Independent Dirichlet(c*same latent mixture)",
+  "information_boundary": "Methods receive releases and public context only"
+}

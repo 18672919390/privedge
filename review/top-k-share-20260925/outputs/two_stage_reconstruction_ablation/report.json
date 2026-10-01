@@ -1,0 +1,235 @@
+{
+  "status": "Exploratory mismatch diagnosis on previously inspected seeds.",
+  "variants": [
+    "direct",
+    "full_shift_002",
+    "full_shift_0",
+    "full_shift_0_reported_only",
+    "candidate_tail",
+    "candidate_tail_reported_only"
+  ],
+  "synthetic_paired": [
+    {
+      "variant": "candidate_tail",
+      "stage": "equal",
+      "units": 120,
+      "recall_delta": 0.010000000000000002,
+      "wins_ties_losses": [
+        21,
+        90,
+        9
+      ]
+    },
+    {
+      "variant": "candidate_tail",
+      "stage": "target_mix",
+      "units": 120,
+      "recall_delta": -0.020833333333333332,
+      "wins_ties_losses": [
+        24,
+        60,
+        36
+      ]
+    },
+    {
+      "variant": "candidate_tail",
+      "stage": "target_mix_full_metric",
+      "units": 120,
+      "recall_delta": -0.009166666666666665,
+      "wins_ties_losses": [
+        15,
+        80,
+        25
+      ]
+    },
+    {
+      "variant": "candidate_tail_reported_only",
+      "stage": "equal",
+      "units": 120,
+      "recall_delta": 0.010000000000000002,
+      "wins_ties_losses": [
+        21,
+        90,
+        9
+      ]
+    },
+    {
+      "variant": "candidate_tail_reported_only",
+      "stage": "target_mix",
+      "units": 120,
+      "recall_delta": -0.020833333333333332,
+      "wins_ties_losses": [
+        24,
+        60,
+        36
+      ]
+    },
+    {
+      "variant": "candidate_tail_reported_only",
+      "stage": "target_mix_full_metric",
+      "units": 120,
+      "recall_delta": -0.009166666666666665,
+      "wins_ties_losses": [
+        15,
+        80,
+        25
+      ]
+    },
+    {
+      "variant": "full_shift_0",
+      "stage": "equal",
+      "units": 120,
+      "recall_delta": 0.002499999999999998,
+      "wins_ties_losses": [
+        6,
+        111,
+        3
+      ]
+    },
+    {
+      "variant": "full_shift_0",
+      "stage": "target_mix",
+      "units": 120,
+      "recall_delta": -0.013333333333333332,
+      "wins_ties_losses": [
+        7,
+        90,
+        23
+      ]
+    },
+    {
+      "variant": "full_shift_0",
+      "stage": "target_mix_full_metric",
+      "units": 120,
+      "recall_delta": -0.0125,
+      "wins_ties_losses": [
+        12,
+        83,
+        25
+      ]
+    },
+    {
+      "variant": "full_shift_002",
+      "stage": "equal",
+      "units": 120,
+      "recall_delta": 0.002499999999999995,
+      "wins_ties_losses": [
+        39,
+        39,
+        42
+      ]
+    },
+    {
+      "variant": "full_shift_002",
+      "stage": "target_mix",
+      "units": 120,
+      "recall_delta": -0.03666666666666667,
+      "wins_ties_losses": [
+        33,
+        27,
+        60
+      ]
+    },
+    {
+      "variant": "full_shift_002",
+      "stage": "target_mix_full_metric",
+      "units": 120,
+      "recall_delta": -0.024166666666666663,
+      "wins_ties_losses": [
+        31,
+        35,
+        54
+      ]
+    },
+    {
+      "variant": "full_shift_0_reported_only",
+      "stage": "equal",
+      "units": 120,
+      "recall_delta": 0.002499999999999998,
+      "wins_ties_losses": [
+        6,
+        111,
+        3
+      ]
+    },
+    {
+      "variant": "full_shift_0_reported_only",
+      "stage": "target_mix",
+      "units": 120,
+      "recall_delta": -0.013333333333333332,
+      "wins_ties_losses": [
+        7,
+        90,
+        23
+      ]
+    },
+    {
+      "variant": "full_shift_0_reported_only",
+      "stage": "target_mix_full_metric",
+      "units": 120,
+      "recall_delta": -0.0125,
+      "wins_ties_losses": [
+        12,
+        83,
+        25
+      ]
+    }
+  ],
+  "books_paired": [
+    {
+      "variant": "candidate_tail",
+      "stage": "equal",
+      "units": 10,
+      "recall_delta": 0.0,
+      "wins_ties_losses": [
+        1,
+        8,
+        1
+      ]
+    },
+    {
+      "variant": "candidate_tail_reported_only",
+      "stage": "equal",
+      "units": 10,
+      "recall_delta": 0.0,
+      "wins_ties_losses": [
+        1,
+        8,
+        1
+      ]
+    },
+    {
+      "variant": "full_shift_0",
+      "stage": "equal",
+      "units": 10,
+      "recall_delta": 0.009999999999999998,
+      "wins_ties_losses": [
+        1,
+        9,
+        0
+      ]
+    },
+    {
+      "variant": "full_shift_002",
+      "stage": "equal",
+      "units": 10,
+      "recall_delta": 0.009999999999999998,
+      "wins_ties_losses": [
+        1,
+        9,
+        0
+      ]
+    },
+    {
+      "variant": "full_shift_0_reported_only",
+      "stage": "equal",
+      "units": 10,
+      "recall_delta": 0.009999999999999998,
+      "wins_ties_losses": [
+        1,
+        9,
+        0
+      ]
+    }
+  ]
+}

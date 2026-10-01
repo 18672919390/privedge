@@ -1,0 +1,17 @@
+{
+  "massive_steps": {
+    "published_values": 19600,
+    "negative_values": 0,
+    "min_value": 0.0
+  },
+  "olist_brazil": {
+    "published_values": 16800,
+    "negative_values": 0,
+    "min_value": 0.0
+  },
+  "meituan_trd": {
+    "published_values": 30800,
+    "negative_values": 0,
+    "min_value": 0.0
+  }
+}

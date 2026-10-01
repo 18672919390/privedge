@@ -1,0 +1,692 @@
+{
+  "date": "2026-09-25",
+  "purpose": "Dataset-free research code handoff",
+  "excluded": [
+    "raw datasets",
+    "prepared event caches",
+    "Yelp audit event counts",
+    "Python runtime/virtual environments",
+    "logs/bytecode",
+    "legacy Yelp and Amazon ID experiments",
+    "duplicate pilot outputs"
+  ],
+  "changes": [
+    "Removed obsolete G17 entry from packaged experiment catalog",
+    "Added README, data preparation helper, quick check, environment and verification notes"
+  ],
+  "notes": "Original experiment outputs and manifests are historical snapshots; paths may refer to the original machine.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 29,
+      "sha256": "3e782aec83661b3537393e8f42b401b72f1265d22f51d8c46d5a6b84e1022e13",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "adaptive_selection.py",
+      "bytes": 3364,
+      "sha256": "d01cf87caf30e7c6c4c5eaffee29c5cf0e7c1f61e34c32bdb60c1cd71e9f2755",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "censor_estimator.py",
+      "bytes": 6675,
+      "sha256": "c3ce92582591db7ac136785d0724caab5ea0c73b2b07bfc5d89cbfcf4137d58a",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "competitive_baselines.py",
+      "bytes": 1958,
+      "sha256": "6b2eb29cee105f4d9a84c81d531b88adf0eb14243a5696162cd4fdfd4e348a6a",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 90,
+      "sha256": "93e320995251579e7f1fed38dcfe6ca72913d2877080dc54ecee8d574da435fd",
+      "identical_to_workspace": false
+    },
+    {
+      "path": "docs/ADAPTIVE_REPOSITIONING.md",
+      "bytes": 7222,
+      "sha256": "4076cc3f981f45c25923d2cc29ab8f8fd3e894a887e54b2e355d9365c85a8113",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/ADAPTIVE_REPOSITIONING_RESULTS.md",
+      "bytes": 3671,
+      "sha256": "6486c1d30c3b98ae774aeaa081ed065aec165af9df8d6a02109f1f730f418f85",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/BOOKS_DIAGNOSTIC_20260917.md",
+      "bytes": 7874,
+      "sha256": "a37a2b9f93e88f3f2b68b66f384efab681867f852d794f4c8d878d7aca679169",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/CENSOR_AWARE_METHOD.md",
+      "bytes": 3448,
+      "sha256": "056a3d22480929e221c5808d216759f5a08e47cc763de847f4964c1bfc60486d",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/CENSOR_ESTIMATOR_V2.md",
+      "bytes": 8880,
+      "sha256": "4e2788502c35a8d764dd74020e591793910f5f4d76bd08cfb33ed89b59a3ca2b",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/CENSOR_ESTIMATOR_V2_RESULTS.md",
+      "bytes": 3789,
+      "sha256": "b122ba28fb8b8afe22c3ce8dc808e47e28e8de4458495d9a8771c1471cc3e8da",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/CHALLENGE_GENERATOR_V4.md",
+      "bytes": 5074,
+      "sha256": "8a40a55e50e17b170b627968e58f40751d7a35b0a2d7fcb0a441f1646e5da5e1",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/COMPETITIVE_BASELINES_V5.md",
+      "bytes": 5797,
+      "sha256": "60d2759f2756d385d7315d15badade30332d592b876f3d9566115976b226093f",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/COMPETITIVE_BASELINES_V5_RESULTS.md",
+      "bytes": 2624,
+      "sha256": "dc28d375d7de4992940ffd4976a91142fd231c150907397d2ae82d65c15311bb",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/INFORMATION_BOUNDARY_AUDIT.md",
+      "bytes": 5754,
+      "sha256": "d63012eb316f08d886604a5f0c5a80b21ab8b6316e87b2597101b54198bae38c",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 987,
+      "sha256": "4aa33fb5e6174415ebd90ff545c7f5e2ca21c30a34fc703fff3ec3090598640d",
+      "identical_to_workspace": false
+    },
+    {
+      "path": "docs/RECONSTRUCTION_ABLATION_RESULTS.md",
+      "bytes": 4378,
+      "sha256": "df9949088bc7ca81a48bda5654d2491ba41d64f90a4e64dc86c4e925ec7704ae",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/RESEARCH_DEFINITION_V1.md",
+      "bytes": 12698,
+      "sha256": "300d4d69a1018c4ea74a81dc8083df338d6c8a01839998b90029dcda7a392447",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/TWO_STAGE_TRANSFER_RESULTS_20260917.md",
+      "bytes": 5621,
+      "sha256": "2c1a436c4729b3ac4f4580a7f7b729d2b86772c7d49027082266b54fe8835108",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "docs/YELP_CATEGORIES_V3_RESULTS_20260920.md",
+      "bytes": 5983,
+      "sha256": "67768d86a80422b330144a10b9510b4413f3c183f0f34d3d23f1a7ac8bebb364",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "ENVIRONMENT.txt",
+      "bytes": 293,
+      "sha256": "f2471f299e4af24ef74deab815a38d3419652505e470a7cfbf99b815a25f439a",
+      "identical_to_workspace": false
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 21841,
+      "sha256": "7cbaf8eec3a95bfa78cd3dbf57c19894ef0dbc5d3351ad11141b2bfb2b6d0e88",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/__init__.py",
+      "bytes": 69,
+      "sha256": "4ddcf2a189da83b8e0cd979a4c7d90e58f515ace0123eb52e04afdc750852f8d",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/catalog.py",
+      "bytes": 784,
+      "sha256": "691d772c929cb13ce0c644d899f994d10968f05edb93dda3eea58178ba8d460f",
+      "identical_to_workspace": false
+    },
+    {
+      "path": "experiments/common.py",
+      "bytes": 3170,
+      "sha256": "2c6b01fab1104cc7770dc95232e342810ea31f0109005954ac6e2dc3bd286e63",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/G1_competitive_baselines.py",
+      "bytes": 814,
+      "sha256": "b97869f144d95e023a4ff281cd18bb1af8e2da1e7eaabba0829795a01948f321",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/G2_protocol_baselines.py",
+      "bytes": 837,
+      "sha256": "da15c5bf7877d19db82d5b9ec11b0191accb1d0d9a88fc4c444e0269bf14f291",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/G3_context_quality.py",
+      "bytes": 1295,
+      "sha256": "7bcfcaed40969f17626acd39efe5859f6f0326a4cfb581a96763e99691d35119",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/G4_heterogeneous.py",
+      "bytes": 2294,
+      "sha256": "4b63336774df7eb0a96cb783f24fc3dcec3fbb1366e0da3369a94346d9e49488",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/G5_context_robustness.py",
+      "bytes": 1057,
+      "sha256": "5371931bb34dd13a045080f1d4eef5cfda1e26cc45933ed8254ccaa97db35774",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/G6_source_robustness.py",
+      "bytes": 1474,
+      "sha256": "743a598fec8ad4c0bb7258039dda53a380efe4d9cb2de7cca9563c2309edb03d",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/G7_candidate_release.py",
+      "bytes": 2180,
+      "sha256": "5871d590033485c870852d32738145cf15ce452f28c4c7b3f3a3c4602217a334",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/G8_parameter_sensitivity.py",
+      "bytes": 2210,
+      "sha256": "cea33f96b75348a1d7f87c892410c9f83f51f7a2525fc7401f47f456d42b0a21",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/__init__.py",
+      "bytes": 58,
+      "sha256": "4577172802d6c29ce012b997e11ce802a43e44b6f5e08b78576c2686b469fa34",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/amazon_books_categories.py",
+      "bytes": 13780,
+      "sha256": "fc184fd13ede353299c904267a7bca490ed695485c21f5cb10a05fb435c5489a",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/amazon_books_diagnostic.py",
+      "bytes": 4542,
+      "sha256": "1c1b797fca6dbfe9de4430c09684b7aaf935be9b73fff145c2b4e690ce4eb033",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/analyze_books_diagnostic.py",
+      "bytes": 7400,
+      "sha256": "93639aefb112b0b4ae4edd50d385f5189e4bfc3d0a0a3997925c36a3c6ac8a1f",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/analyze_censor_aware.py",
+      "bytes": 4091,
+      "sha256": "d01e83cf4080822cc478800962441f523879887c27a95fc97a2cf7a0101f85ba",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/analyze_parameter_sensitivity.py",
+      "bytes": 5442,
+      "sha256": "80cb9b44b469813c824c2977e6eb0da8f27bf0b3ca2bb692b13b47527dc51e47",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/analyze_two_stage.py",
+      "bytes": 2614,
+      "sha256": "fac1ffcbd063f98d53484e7cf0177e09df363870dbd263abc4afae54f0221e8f",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/audit_available_data.py",
+      "bytes": 7050,
+      "sha256": "6d6aa40c3ce19bdc98def15ff187d0bdb1b2c05c9ead1ba40f466bceee47c2dd",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/calibrate_variances.py",
+      "bytes": 11054,
+      "sha256": "92bb17d6dcd1954d07b274297cc35dcfad98a12d8adbaf7fcfbea5b66e148571",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/challenge_generator.py",
+      "bytes": 2829,
+      "sha256": "aea75e099556797e60d121554895e72cff7fd212e47f315a138e1695897900db",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/desktop_validation.py",
+      "bytes": 13984,
+      "sha256": "74d84992cf3f7303fb20bfcc262698c5add1eab848391d351436c7eec77c2983",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/report_reconstruction_ablation.py",
+      "bytes": 5998,
+      "sha256": "2ba00768a8a318d6df0b36e7969e9bbb7ef34fac82c1a0efd6f0562896c51554",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/report_yelp_categories_v3.py",
+      "bytes": 8068,
+      "sha256": "4879e8941fec10964ea237a6440f7c4538de9871dd8b54a75dcf03e81f9461b1",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/two_stage_books.py",
+      "bytes": 3974,
+      "sha256": "d259766639aa21a04fbbb871df52586ba43f311823b4da8355ce3cae6c6d0b23",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/two_stage_reconstruction_ablation.py",
+      "bytes": 10194,
+      "sha256": "783440241b55c91fb468743a4c80a4b76da92f99d468b08f6a766807980d3e50",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/two_stage_synthetic.py",
+      "bytes": 7547,
+      "sha256": "b3b37586ec93fcf1f976bbf911778555477a7c1bcbf41f89e2e2263dad02b836",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/validate_independent_seeds.py",
+      "bytes": 11014,
+      "sha256": "4886cc1a54bf512f74d0cb60052eac8d2431b47a09275a40bf824f2a812b3f35",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "experiments/validation/yelp_categories_v3.py",
+      "bytes": 15042,
+      "sha256": "f9df1a6e8528f9eba239e3725d46a172957c4ab9049ba91cdd7808ea379950d6",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "fusion.py",
+      "bytes": 17993,
+      "sha256": "7148dd39e584b2f3d7582067dbf51695c872c326253bee153116fd145794b82e",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "ldp_protocols.py",
+      "bytes": 5566,
+      "sha256": "d49ce380e3a052bfc759a4efb7ecd0a7c7e5b22654a14b4d92948fdd51ac93ae",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "metrics.py",
+      "bytes": 2426,
+      "sha256": "353150de83bc83b61a5f7287c4bd87d744e36f22929244340441d510a33e530e",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_categories_v2/config.json",
+      "bytes": 493,
+      "sha256": "1bce96b2df2b16180f355d51823110a2860fff309a7ef214592c8a31d34f15e8",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_categories_v2/results.csv",
+      "bytes": 11547,
+      "sha256": "53a574a5ede9a734faac29f40e44f61f9899e5a81355bad441c1245a6fbb3e8c",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_categories_v2/summary.json",
+      "bytes": 26142,
+      "sha256": "623db795ee136aad6bc123b8e27a96ff01f0d1dc561cf7303167d4cdbf57724f",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/base.csv",
+      "bytes": 29769,
+      "sha256": "13a01f99358b3df1e126187462f50968a8fa1155641451341c6542e6d91f5f6f",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/epsilon_1.csv",
+      "bytes": 30361,
+      "sha256": "2ad49bd5cde6eaa39e8da0e342dbb44ff183410dfa1c246846908976ac69646a",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/epsilon_4.csv",
+      "bytes": 30383,
+      "sha256": "29a9a58dec5f0c972241529a5c99a43f96d5ce5ef46be4903d889769664ef2a3",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/manifest.json",
+      "bytes": 1017,
+      "sha256": "d0430b7ded034535d46d9a211795de094f880e329d1abbebcd44c1b637fe70e8",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/paired.json",
+      "bytes": 8417,
+      "sha256": "6360771e7c73df28b93462651856e908de01fcf47b8492170ae956908ac5fcea",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/report_10.csv",
+      "bytes": 30313,
+      "sha256": "ed7ca3e84ef184bab6a65ae58a0ea9e2fab7f154da199704cebf19a4662d52ed",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/report_50.csv",
+      "bytes": 30371,
+      "sha256": "449c152771d665f27c70c54fa5dbaa208cc99d3dcf1741dcc6b229287d331d45",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/summary.json",
+      "bytes": 145363,
+      "sha256": "be05db021ae4cdc37ed40f73c7942ef141ec9dd2e67066783e12ea8d6412a6c6",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/users_10000.csv",
+      "bytes": 30499,
+      "sha256": "b883e4d1f5dcb46ca26ea97a6dd91bd672d76f735640efd74c814b8d86c55dd4",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/amazon_books_diagnostic/users_5000.csv",
+      "bytes": 30362,
+      "sha256": "c41dde674b89da98cb8b0ca748cf8db7542cc95c980b83df04671f077d44c404",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/formal_baseline_comparison/manifest.json",
+      "bytes": 7230,
+      "sha256": "1db6b53a67fd2cbaf78593274dc9123a862e9b89e19e02d787c8aa745561c6f4",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/formal_baseline_comparison/method_summary.csv",
+      "bytes": 23131,
+      "sha256": "7b6eafe20d0be34812b1a3d5d78b3665101e326079044765154ffd36f8fca0a9",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/formal_baseline_comparison/paired_comparisons.csv",
+      "bytes": 170472,
+      "sha256": "4c0c31fe68aef75235846194c34392fe1e915de2f41bbeb71f909ceecf8d1f11",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/formal_baseline_comparison/round_results.csv",
+      "bytes": 571525,
+      "sha256": "54132a45f0841db0dc365e29253807162075a889457003c70930579f0fc978bd",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/formal_baseline_comparison/runtime.json",
+      "bytes": 233,
+      "sha256": "834ca3aa451606ace425afe0bddceba1c0c15f2d7e39cda6b3817fe06c7c76ee",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_books/manifest.json",
+      "bytes": 519,
+      "sha256": "b7651bb0ba55d654106df8435b4ac794e2f4fc19b7d48ab317fb42fc53a0c8a4",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_books/paired.json",
+      "bytes": 535,
+      "sha256": "e41d8d62c5e0f495bc678b5e30cd1beed1c620b455a49cac0bf9ff1d1ce4ae10",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_books/results.csv",
+      "bytes": 2817,
+      "sha256": "6b226880c0d5dd6bd35217a2aea59c1de600124e4107b43299fadac3f80d9760",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_books/summary.json",
+      "bytes": 1588,
+      "sha256": "d82e93285983352ba42986f8d509d74750b821b9b346f2e327bea170e4443b00",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_reconstruction_ablation/books_results.csv",
+      "bytes": 6626,
+      "sha256": "3932aa1b4509c076a82b0b627b49626d2fea118bbea6d0ecf51c4fe78113bb82",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_reconstruction_ablation/books_summary.json",
+      "bytes": 4760,
+      "sha256": "b1080ce0f61532f91d557f8cac138045a453c099dd2cd97e2a7bede13ee0960d",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_reconstruction_ablation/manifest.json",
+      "bytes": 953,
+      "sha256": "461a8d617fed19fbe58f28715b025b4b11f27477dc653736979079acadb7ebd4",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_reconstruction_ablation/report.json",
+      "bytes": 4800,
+      "sha256": "ca4accc020ba7572a62fa0ee40def72250f4f5c557e5c0e9cf958f27e473a9e9",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_reconstruction_ablation/seed_paired.json",
+      "bytes": 15768,
+      "sha256": "0d16fc25e9b890c644471e6cecbb9820ca483dffa36ac00131001a4cbbafe02d",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_reconstruction_ablation/synthetic_results.csv",
+      "bytes": 402408,
+      "sha256": "3f43e52df9760f46acf2fdf8b06d84f2fb7e9e86bbbda60d4b9005fc7d8808ab",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_reconstruction_ablation/synthetic_summary.json",
+      "bytes": 40560,
+      "sha256": "683b2aee12db7e7f24099b72d2aedecddb294185769c4bb1e5321267a545d9a6",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_synthetic/manifest.json",
+      "bytes": 835,
+      "sha256": "56d0446efdbe44c4faca0dd2ca64cbe48f53689e1d5389e6c866e016032ff1aa",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_synthetic/paired.json",
+      "bytes": 5169,
+      "sha256": "1cb91ea7063d9ff66a4840bab6c8594fb5fff9382a989dee821f466c1b9f72e6",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_synthetic/results.csv",
+      "bytes": 126471,
+      "sha256": "57e59c8d19979df8a505dd13ecea84c4fd3536fe730c226934176cf479007964",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/two_stage_synthetic/summary.json",
+      "bytes": 15325,
+      "sha256": "7d1157cc995d8b7aa04fd8090a51eb9e4497790a91bf3de76d7991cec4bc8e5d",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/yelp_categories_v3_six/manifest.json",
+      "bytes": 1161,
+      "sha256": "7420115aac09242b7c71d4175af89989fd47fdcc317d70dfd004eb335af82f03",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/yelp_categories_v3_six/paired_context.csv",
+      "bytes": 136110,
+      "sha256": "48e447d5dda985d3c19ef0204e470b02bb2ce6075eac054e823f7b5126c67398",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/yelp_categories_v3_six/paired_context_summary.json",
+      "bytes": 23336,
+      "sha256": "5a0b46c6c9eb96390ffe7a54e050e4fb2b92ebc7665cc3acd25c2351abd9e194",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/yelp_categories_v3_six/results.csv",
+      "bytes": 717394,
+      "sha256": "bed73ca0d1b9c45396af57891ff8615232eaf54947359a6489cc90819b274dfb",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/yelp_categories_v3_six/summary.json",
+      "bytes": 62836,
+      "sha256": "d37c30af4dd013d7a3957fdea42e156bf5c4ad75385a6b305efadd3f91ab7ec0",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "outputs/yelp_categories_v3_six/summary_recomputed.json",
+      "bytes": 48556,
+      "sha256": "1c785523a26c7991e153e5ce7a399ac5fc0678a866d678fbfdda4cb301a65fb7",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "pem.py",
+      "bytes": 3348,
+      "sha256": "c679bbd068aaa1f5324e39886632f82e2a1972d3d62e635f8a25c6ef60550088",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "prepare_data.py",
+      "bytes": 1620,
+      "sha256": "4e2020332111a719ca660396d3ca35ac6ad5a993b6059433b4d19c6b1d2794f1",
+      "identical_to_workspace": false
+    },
+    {
+      "path": "problem_definition.py",
+      "bytes": 1412,
+      "sha256": "11629cb4852f635db58432968019a5a46c9e4869cd5807a7274c003f3535a5ed",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "quick_check.py",
+      "bytes": 1828,
+      "sha256": "f2f08fc65d2c0507a6ee3655b4ccb73859e9801351736920155729014accb8c2",
+      "identical_to_workspace": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 8677,
+      "sha256": "fac48d3294903122fa2ec66cd42beb189989f846a277d2c7ecf8d1af51d038b6",
+      "identical_to_workspace": false
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 174,
+      "sha256": "bc0b363b1e08b0ae40170e25ab6d6e6a9ce68f046016e6a0245dc7763f149467",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "run_experiment.py",
+      "bytes": 3767,
+      "sha256": "15a0fcb7343df4c50bf50fb5365b87d97555fb0e81b814c44d1c048c3f767e87",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "run_groups.py",
+      "bytes": 1077,
+      "sha256": "bb6f3bb264f37a933e47e2ac81333615161af33a331d257f09c2bac5d9265cb8",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "simulation.py",
+      "bytes": 5525,
+      "sha256": "9ebd4a25b4ff754770d764f3be80db809908a82b2364579e0ab0877c718700a2",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "tests/test_adaptive_selection.py",
+      "bytes": 2581,
+      "sha256": "e41de3a89de61712b72f636ef6ca87a56d88d186942fb3b6941936bb53a80016",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "tests/test_books_categories.py",
+      "bytes": 3603,
+      "sha256": "a802c5e78c7de05fe89f4d3596ef1021fd771fe169044bd0afe6058bb86d6637",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "tests/test_censor_estimator.py",
+      "bytes": 3019,
+      "sha256": "82710202c1b02b976e18896a68f9fc9da123ab2a04d2d2cc0dfb272086d33100",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "tests/test_competitive_baselines.py",
+      "bytes": 1006,
+      "sha256": "4c97ec360c83fbccf966b2829a13e5f389ef5bd34bc49a0b56e33242a91ef0ff",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "tests/test_desktop_validation.py",
+      "bytes": 2699,
+      "sha256": "bbfdcd360b5e49b4a2ef648a49af65d90eb29f9051d8ed285fc76761e3de0e0e",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "tests/test_experiment.py",
+      "bytes": 13331,
+      "sha256": "b784ca39379e253f9248d2c4511c2b4bd6dcddce5c150678de01bae9d2134179",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "tests/test_information_boundary.py",
+      "bytes": 3044,
+      "sha256": "4b0670c3b60a5cc7b809940655e11a4688c8c42f1fd1845f8883afdac6e7b5c5",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "tests/test_two_stage_transfer.py",
+      "bytes": 3086,
+      "sha256": "7b5ae891b4e078316cac664763228d0a49855779ba88452f44baa001ee148999",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "two_stage_transfer.py",
+      "bytes": 10279,
+      "sha256": "719e3a1ad1cb68e15ed31933f36ce4a7aeb9d3696948781646df0634d1e5b712",
+      "identical_to_workspace": true
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 1067,
+      "sha256": "ded75c69920e7b2ab874b406c2f88547f537fd8fafa46d2d4323f0677dd1834b",
+      "identical_to_workspace": false
+    }
+  ]
+}

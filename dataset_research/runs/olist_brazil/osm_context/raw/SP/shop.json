@@ -1,0 +1,2596 @@
+{
+  "attribution": {
+    "url": "https://ohsome.org/copyrights",
+    "text": "© OpenStreetMap contributors"
+  },
+  "apiVersion": "1.10.4",
+  "groupByResult": [
+    {
+      "groupByObject": "shop=convenience",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 494.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 619.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=supermarket",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1670.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2112.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=clothes",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1090.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1586.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=hairdresser",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 223.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 285.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=yes",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1004.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1119.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=car_repair",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 475.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 590.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=bakery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 730.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 917.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=beauty",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 148.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 182.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=car",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 495.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 610.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=kiosk",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 84.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 110.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=butcher",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 181.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 226.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=mobile_phone",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 53.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 74.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=hardware",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 292.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 393.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=vacant",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 66.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 63.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=furniture",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 166.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 196.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=mall",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 332.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 466.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=electronics",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 76.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 88.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=alcohol",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 47.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 56.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=variety_store",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 61.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 76.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=florist",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 59.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 79.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=shoes",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 142.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 206.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=car_parts",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 135.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 192.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=doityourself",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 131.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 142.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=jewelry",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 52.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 63.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=optician",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 99.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 134.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=gift",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 103.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 134.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=department_store",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 115.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 181.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=chemist",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 28.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 34.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=greengrocer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 169.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 188.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=books",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 69.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 96.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=bicycle",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 58.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 72.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=travel_agency",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 30.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 46.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=sports",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 19.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 31.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=laundry",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 45.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 53.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=stationery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 83.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 126.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=pet",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 110.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 172.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=confectionery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 92.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 123.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=computer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 60.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 75.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=cosmetics",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 46.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 69.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=tyres",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 102.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 120.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=storage_rental",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=beverages",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 44.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 71.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=tobacco",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=garden_centre",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 20.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 23.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=trade",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 26.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 26.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=newsagent",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 238.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 412.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=dry_cleaning",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 7.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 11.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=motorcycle",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 51.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 59.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=copyshop",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 33.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=tailor",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 10.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=farm",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 42.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 47.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=massage",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=pastry",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 15.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=funeral_directors",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 24.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 33.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=general",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 6.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=interior_decoration",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 31.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 37.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=toys",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 30.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 32.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=deli",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 76.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 82.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=ticket",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 6.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=food",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=houseware",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 29.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 38.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=seafood",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 36.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 44.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=wine",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 16.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 19.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=second_hand",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=boutique",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 49.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 49.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=tattoo",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 7.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 19.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=outdoor",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 11.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=photo",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 10.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 16.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=pawnbroker",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=art",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 12.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 15.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=charity",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=paint",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 34.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 49.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=bed",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 29.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 39.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=kitchen",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 12.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=medical_supply",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=coffee",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 9.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 16.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=fabric",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 14.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 21.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=antiques",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=lottery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 73.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 102.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=agrarian",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=craft",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 12.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 12.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=perfumery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 8.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 20.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=gas",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 31.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=appliance",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=tea",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=electrical",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=motorcycle_repair",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=money_lender",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=baby_goods",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 20.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=bag",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 19.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 59.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=hifi",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 7.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=music",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 14.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 14.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=musical_instrument",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 13.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 18.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=pet_grooming",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=dairy",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 10.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 12.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=grocery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=chocolate",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 25.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 42.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=carpet",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 8.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=estate_agent",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 22.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 21.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=fashion",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 254.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 481.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=cheese",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=video_games",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 12.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 17.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=video",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 11.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 13.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=fishing",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=nutrition_supplements",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=locksmith",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 19.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 22.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=bathroom_furnishing",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=watches",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=sewing",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=curtain",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=erotic",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=herbalist",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=lighting",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=frozen_food",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=frame",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=no",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 6.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=religion",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=leather",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 12.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=swimming_pool",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 9.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=ice_cream",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=weapons",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=radiotechnics",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 16.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 15.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=boat",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=window_blind",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=glaziery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=pharmacy",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=spices",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=pyrotechnics",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=building_materials",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=vacuum_cleaner",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=insurance",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=candles",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=truck",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=pasta",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=water_sports",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=market",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=military_surplus",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=lamps",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=office_supplies",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=haberdashery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=marketplace",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=musical_instruments",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=wedding",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=chandler",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=fireworks",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=sweets",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=battery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=hat",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=supplements",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=baby",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=icecream",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=art_supplies",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=ice",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=building_supplies",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=FIXME",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=industrial",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=nutrition",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=showroom",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=kids",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=balloon",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=commercial",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=optical",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=fire_extinguisher",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=vacancy",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=cutlery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=gemstones",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=rock",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=key_cutter",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=ppe",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=dog_food",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=confectionery;bakery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=supermarket;greengrocer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=newsagent;books",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=supermarket;clothes",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=tractor_parts",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Loja",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=eletrical",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=utilities",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=clots",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Tapeçaria",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=news_stand",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=model_aircraft",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=packing_material",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Papelaria",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Venda_de_GLP",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Vidraceiro",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Futon Company Outlet",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=hobby;*",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=costume_shop",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Aeromodelismo_e_afins",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=orthopedic_products",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=loja_de_eletronicos",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=loja_de_manequins",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=breshopping",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Equipamentos_Para_Panificação",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Vidros_e_espelhos",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=ppp",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=comestics",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "shop=Vazia",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    }
+  ]
+}

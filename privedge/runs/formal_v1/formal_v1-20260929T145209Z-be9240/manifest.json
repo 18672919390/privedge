@@ -1,0 +1,70 @@
+{
+  "run_id": "formal_v1-20260929T145209Z-be9240",
+  "experiment": "formal_v1",
+  "started_at": "2026-09-29T14:52:09.442277+00:00",
+  "config": {
+    "model": "privedge_release.pv",
+    "proverif": "Proverif 2.05. Cryptographic protocol verifier, by Bruno Blanchet, Vincent Cheval, and Marc Sylvestre",
+    "controls": [
+      "nc1_window_unsigned",
+      "nc2_no_role_binding",
+      "nc3_gateway_skips_ledger",
+      "nc4_ledger_skips_signature"
+    ]
+  },
+  "data_sha256": {
+    "privedge_release.pv": "f8dd97cf9cb88e2d8c9b4ca3497cd8363dc1ac88e583155d433b48b7454d37c0"
+  },
+  "code": {
+    "combined": "58432b60191f172717e7913217127a2723bc4558007fa4c714fb142755b03e51",
+    "files": {
+      "privedge/__init__.py": "2789847d1e738cac6ac5413b96f1cf7be6f52a2876922e9c3762cebc5db90101",
+      "privedge/adapters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privedge/adapters/export_massive.py": "9090e68356869ddc17a647c07d9ca669a576db1ce7e2f71d0e3d352b7838080a",
+      "privedge/adapters/export_olist.py": "68e15848a1d0eb10fecf6590c97dadec9ff695a0a68083fffaa2b631419ff374",
+      "privedge/adapters/export_trd.py": "2def00c7840b18f7b8edaace103f60cc5d7b008ebdb45dd79ff2e2c632f23038",
+      "privedge/adapters/standard.py": "03cd725f6e6e10e32d1d034c776d640611b318321d06d10870150e067ace8820",
+      "privedge/algorithms.py": "7fa5b88e037ab42ba82a26bfa6430ce05b8a7bd61f4a0ecaf10d852a1d6de5f8",
+      "privedge/attacks.py": "beb98c283e7cb05342748782607e26ce6fe053fb430a5e23c02183a6dc7d1984",
+      "privedge/decision.py": "4c1d2731fce25e8462743111feb34f6ecc0d3371a0614694183cfcab40f7c663",
+      "privedge/envelope.py": "017e25e84662ad95674e546b3ad967e27027791b75cb7e64cfd8d6a9e85bc44a",
+      "privedge/experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privedge/experiments/context_v1.py": "d815954a40498118d232f477dfb21711f4c1c4d935b860565575df6204c69aac",
+      "privedge/experiments/formal_v1.py": "89a8f26d9fefe03bba386c45bf95aa8dbc0acf42ae5fa78177577c69c065247d",
+      "privedge/experiments/overhead_v1.py": "59f2c8d4ca2f1c5b3b6753c9fc7edb07dbcdbc09108b8cde250b2407ef6a8af6",
+      "privedge/experiments/runner.py": "0797945150d694107c4973046b388429079b9aebcc736d428d40df3cf417cb26",
+      "privedge/experiments/security_v1.py": "a26656d305df60951e7a32265ec112883457a1b4ea39a404e9d5349bffac7a4c",
+      "privedge/experiments/security_v3.py": "d6501c37057ee61a2da1c5d4d4ec1e1685976b1b3f487b07056fcfa5babfe78f",
+      "privedge/experiments/utility_v1.py": "5fab94576cabc07892b3f0d7189e0db3ca36de3d56d38fef638f9172b1ed1f1b",
+      "privedge/gateway.py": "f34520b66091665ce3f9b56b1e7bceeea6488b443a0bd935ebba22168795227e",
+      "privedge/keys.py": "579ca4e1ab848ad00b335dd9c2d127626d30f6a4353696f0108ca1b9c66b2b90",
+      "privedge/ldp.py": "153b0218eafa03258aa1910e48e3e9cd49f8d1f45699b358c4afef4e10d0e68b",
+      "privedge/ledger.py": "ba49ebe1d403cf5b7d908a21e3c7ead39c95a802839259fa591a88c6b5eb0f30",
+      "privedge/pipeline.py": "3f8b048bcb9494ccf8f5ca25046623dac95e33b514b448730622df34bc9adbe5",
+      "privedge/research_core/adaptive_selection.py": "d01cf87caf30e7c6c4c5eaffee29c5cf0e7c1f61e34c32bdb60c1cd71e9f2755",
+      "privedge/research_core/censor_estimator.py": "c3ce92582591db7ac136785d0724caab5ea0c73b2b07bfc5d89cbfcf4137d58a",
+      "privedge/research_core/competitive_baselines.py": "6b2eb29cee105f4d9a84c81d531b88adf0eb14243a5696162cd4fdfd4e348a6a",
+      "privedge/research_core/fusion.py": "7148dd39e584b2f3d7582067dbf51695c872c326253bee153116fd145794b82e",
+      "privedge/research_core/ldp_protocols.py": "d49ce380e3a052bfc759a4efb7ecd0a7c7e5b22654a14b4d92948fdd51ac93ae",
+      "privedge/research_core/metrics.py": "353150de83bc83b61a5f7287c4bd87d744e36f22929244340441d510a33e530e",
+      "privedge/research_core/pem.py": "c679bbd068aaa1f5324e39886632f82e2a1972d3d62e635f8a25c6ef60550088",
+      "privedge/research_core/problem_definition.py": "11629cb4852f635db58432968019a5a46c9e4869cd5807a7274c003f3535a5ed",
+      "privedge/research_core/two_stage_transfer.py": "719e3a1ad1cb68e15ed31933f36ce4a7aeb9d3696948781646df0634d1e5b712",
+      "privedge/robust.py": "066af06ef0640454d54a9728775c74ae30d4b358df291f4a24e6ce846c873044"
+    }
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "finished_at": "2026-09-29T14:52:09.638416+00:00",
+  "outputs": {
+    "privedge_release.pv": "809fd03c8f3eb51d0c5516e11d0b3d0f057203f50c660199f732752c3daedacb",
+    "nc1_window_unsigned.pv": "9b370a419b8677f3a01f5bcd2655350e64fabb5f63e2a590a3c894629d9e25af",
+    "nc2_no_role_binding.pv": "addd12bdf134bed65a4ec01f0912f88b9fe211dab4542eda530c45c352796dd4",
+    "nc3_gateway_skips_ledger.pv": "d350708e27ceb89b9f20c42d7199505833ff01ec8bd2252aac52c714e5024272",
+    "nc4_ledger_skips_signature.pv": "19866ba1a6a2d9943e1bdac3d180826b8438dd2bb1ef89067eccd04c81db4d86",
+    "results.json": "5ba0756271eb94a1b96dbd633e93837f485b7cad6d4ca26ab9f363048a24c5ea"
+  }
+}

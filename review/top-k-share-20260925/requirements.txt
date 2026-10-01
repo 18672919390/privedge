@@ -1,0 +1,5 @@
+numpy>=1.23
+# Optional but recommended: this is the hash implementation used by the
+# original LDP_Protocols OLH/PEM code. A deterministic fallback is included.
+xxhash>=3.0
+

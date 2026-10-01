@@ -1,0 +1,64 @@
+{
+  "cases": [
+    [
+      "base",
+      1000,
+      2,
+      2
+    ],
+    [
+      "users_5000",
+      5000,
+      2,
+      2
+    ],
+    [
+      "users_10000",
+      10000,
+      2,
+      2
+    ],
+    [
+      "epsilon_1",
+      1000,
+      1,
+      2
+    ],
+    [
+      "epsilon_4",
+      1000,
+      4,
+      2
+    ],
+    [
+      "report_10",
+      1000,
+      2,
+      1
+    ],
+    [
+      "report_50",
+      1000,
+      2,
+      5
+    ]
+  ],
+  "seeds": [
+    2026091701,
+    2026091702,
+    2026091703,
+    2026091704,
+    2026091705
+  ],
+  "source_years": [
+    2011,
+    2012
+  ],
+  "target_year": 2013,
+  "top_k": 10,
+  "full_target": true,
+  "cache": "D:\\Project\\\u4ee3\u7801\\top-k\\outputs\\amazon_books_categories_v2\\prepared.json",
+  "hash_backend": "xxhash",
+  "status": "Exploratory diagnosis; 2013 already inspected, not held-out confirmation",
+  "context_note": "Present metadata snapshot; historical availability is NOT established."
+}

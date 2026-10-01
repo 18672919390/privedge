@@ -1,0 +1,902 @@
+{
+  "cells": [
+    {
+      "epsilon": 0.5,
+      "top_m": 10,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.5667,
+      "ndcg": 0.738,
+      "candidate_recall_upper_bound": 0.8533
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 10,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.8533
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 10,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.5033,
+      "ndcg": 0.669,
+      "candidate_recall_upper_bound": 0.8533,
+      "states": {
+        "DEGRADED": 27,
+        "REFUSED": 3
+      },
+      "refusal_rate": 0.1,
+      "answered_recall": 0.5593,
+      "answered_ndcg": 0.7434,
+      "d_recall_vs_nonprivate_source_mean": -0.28,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.3333,
+        -0.24
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0713,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.1166,
+        -0.0243
+      ]
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 10,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.57,
+      "ndcg": 0.7403,
+      "candidate_recall_upper_bound": 0.8533
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 20,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.6133,
+      "ndcg": 0.7876,
+      "candidate_recall_upper_bound": 0.99
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 20,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.99
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 20,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.6133,
+      "ndcg": 0.7874,
+      "candidate_recall_upper_bound": 0.99,
+      "states": {
+        "NORMAL": 28,
+        "DEGRADED": 2
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6133,
+      "answered_ndcg": 0.7874,
+      "d_recall_vs_nonprivate_source_mean": -0.17,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.2067,
+        -0.1333
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0004,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0011,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 20,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.6133,
+      "ndcg": 0.7878,
+      "candidate_recall_upper_bound": 0.99
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 40,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.6433,
+      "ndcg": 0.808,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 40,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 40,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.6433,
+      "ndcg": 0.8076,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6433,
+      "answered_ndcg": 0.8076,
+      "d_recall_vs_nonprivate_source_mean": -0.14,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.1833,
+        -0.0899
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0002,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0006,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 40,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.6433,
+      "ndcg": 0.8078,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.8,
+      "ndcg": 0.943,
+      "candidate_recall_upper_bound": 0.95
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.95
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.8,
+      "ndcg": 0.943,
+      "candidate_recall_upper_bound": 0.95,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.8,
+      "answered_ndcg": 0.943,
+      "d_recall_vs_nonprivate_source_mean": 0.0167,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0033,
+        0.04
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.8,
+      "ndcg": 0.943,
+      "candidate_recall_upper_bound": 0.95
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.76,
+      "ndcg": 0.9133,
+      "candidate_recall_upper_bound": 0.9733
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.8167,
+      "ndcg": 0.9648,
+      "candidate_recall_upper_bound": 0.9733
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.76,
+      "ndcg": 0.9124,
+      "candidate_recall_upper_bound": 0.9733,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.76,
+      "answered_ndcg": 0.9124,
+      "d_recall_vs_nonprivate_source_mean": -0.0567,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0867,
+        -0.0233
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0007,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0016,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.76,
+      "ndcg": 0.9132,
+      "candidate_recall_upper_bound": 0.9733
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.9439,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.9429,
+      "candidate_recall_upper_bound": 0.9967,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7967,
+      "answered_ndcg": 0.9429,
+      "d_recall_vs_nonprivate_source_mean": 0.0133,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0167,
+        0.0467
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0012,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0035,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.9441,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.9439,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.9429,
+      "candidate_recall_upper_bound": 0.9967,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7967,
+      "answered_ndcg": 0.9429,
+      "d_recall_vs_nonprivate_source_mean": 0.0133,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0167,
+        0.0467
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0012,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0035,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.9441,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.8133,
+      "ndcg": 0.9455,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.81,
+      "ndcg": 0.9449,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.81,
+      "answered_ndcg": 0.9449,
+      "d_recall_vs_nonprivate_source_mean": 0.0267,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0067,
+        0.0533
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0007,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0021,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.8133,
+      "ndcg": 0.9456,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.77,
+      "ndcg": 0.9577,
+      "candidate_recall_upper_bound": 0.9833
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.9833
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.77,
+      "ndcg": 0.9554,
+      "candidate_recall_upper_bound": 0.9833,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.77,
+      "answered_ndcg": 0.9554,
+      "d_recall_vs_nonprivate_source_mean": -0.0133,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0467,
+        0.03
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0027,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0044,
+        -0.0008
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.7733,
+      "ndcg": 0.9581,
+      "candidate_recall_upper_bound": 0.9833
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.7933,
+      "ndcg": 0.9497,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.8167,
+      "ndcg": 0.9648,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.95,
+      "candidate_recall_upper_bound": 0.9967,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7967,
+      "answered_ndcg": 0.95,
+      "d_recall_vs_nonprivate_source_mean": -0.02,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0533,
+        0.02
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.95,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.7867,
+      "ndcg": 0.9605,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7867,
+      "ndcg": 0.9605,
+      "candidate_recall_upper_bound": 0.9967,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7867,
+      "answered_ndcg": 0.9605,
+      "d_recall_vs_nonprivate_source_mean": 0.0033,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.03,
+        0.04
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0001
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.7867,
+      "ndcg": 0.9605,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.7867,
+      "ndcg": 0.9605,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7867,
+      "ndcg": 0.9605,
+      "candidate_recall_upper_bound": 0.9967,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7867,
+      "answered_ndcg": 0.9605,
+      "d_recall_vs_nonprivate_source_mean": 0.0033,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.03,
+        0.04
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0001
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.7867,
+      "ndcg": 0.9605,
+      "candidate_recall_upper_bound": 0.9967
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.7933,
+      "ndcg": 0.9615,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7933,
+      "ndcg": 0.9615,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7933,
+      "answered_ndcg": 0.9615,
+      "d_recall_vs_nonprivate_source_mean": 0.01,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0233,
+        0.04
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0001
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.7933,
+      "ndcg": 0.9615,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.7933,
+      "ndcg": 0.9619,
+      "candidate_recall_upper_bound": 0.9933
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 0.9933
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7867,
+      "ndcg": 0.958,
+      "candidate_recall_upper_bound": 0.9933,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7867,
+      "answered_ndcg": 0.958,
+      "d_recall_vs_nonprivate_source_mean": 0.0033,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0167,
+        0.0267
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0051,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0096,
+        -0.0012
+      ]
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.7967,
+      "ndcg": 0.9631,
+      "candidate_recall_upper_bound": 0.9933
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.79,
+      "ndcg": 0.9638,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9623,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7833,
+      "answered_ndcg": 0.9623,
+      "d_recall_vs_nonprivate_source_mean": -0.0,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0133,
+        0.0133
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0015,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0035,
+        -0.0003
+      ]
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.79,
+      "ndcg": 0.9638,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "average",
+      "targets": 6,
+      "recall": 0.79,
+      "ndcg": 0.9638,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9637,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 6,
+      "recall": 0.7833,
+      "ndcg": 0.9623,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "NORMAL": 30
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7833,
+      "answered_ndcg": 0.9623,
+      "d_recall_vs_nonprivate_source_mean": -0.0,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.0133,
+        0.0133
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0016,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0035,
+        -0.0003
+      ]
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 6,
+      "recall": 0.79,
+      "ndcg": 0.9639,
+      "candidate_recall_upper_bound": 1.0
+    }
+  ]
+}

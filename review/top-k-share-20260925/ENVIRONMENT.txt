@@ -1,0 +1,4 @@
+Observed local environment: Python 3.11.9, numpy 2.4.6, xxhash 4.0.1.
+Use requirements.txt to install available compatible versions.
+Recorded versions are provenance, not a guarantee of public package availability.
+Changing NumPy or the OLH hash backend may change seeded numeric results.

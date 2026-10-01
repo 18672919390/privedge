@@ -1,0 +1,138 @@
+(* NEGATIVE CONTROL nc4_ledger_skips_signature: 账本登记不验签（修复前的 ledger.append）
+   PrivEdge release / context / ledger protocol, Dolev-Yao attacker.
+   Mirrors privedge/gateway.py (admit), privedge/ledger.py (append with registry)
+   and privedge/keys.py (check_signed). Budget arithmetic and the statistical
+   defences are outside the symbolic model. *)
+
+free c: channel.
+
+type skey.
+type pkey.
+type principal.
+type role.
+type window.
+
+fun pk(skey): pkey.
+fun sign(bitstring, skey): bitstring.
+reduc forall m: bitstring, k: skey; getmess(sign(m, k)) = m.
+reduc forall m: bitstring, k: skey; checksign(sign(m, k), pk(k)) = m.
+fun h(bitstring): bitstring.
+(* LDP summary: one-way in the raw data. *)
+fun ldp(bitstring, bitstring): bitstring.
+
+const SRC: role.
+const CTX: role.
+const TAG_REL: bitstring.
+const TAG_CTX: bitstring.
+
+free A, B, T: principal.
+free W1, W2: window.
+
+(* Key registry administered off-line: (principal, role, public key). *)
+table registry(principal, role, pkey).
+(* Ledger: (record id, envelope digest). *)
+table ledger(bitstring, bitstring).
+
+event Publish(principal, window, bitstring, bitstring).
+event PublishCtx(principal, bitstring, bitstring).
+event LoggedRel(principal, bitstring, bitstring).
+event LoggedCtx(principal, bitstring, bitstring).
+event Accept(principal, window, bitstring, bitstring).
+event AcceptCtx(principal, bitstring, bitstring).
+event Compromised(principal, role).
+
+(* Honest source: releases one LDP summary per window it is asked to serve. *)
+let Publisher(sid: principal, sk: skey) =
+  in(c, w: window);
+  new raw: bitstring;
+  new noise: bitstring;
+  new rid: bitstring;
+  let summary = ldp(raw, noise) in
+  let body = (TAG_REL, sid, w, rid, summary) in
+  event Publish(sid, w, rid, summary);
+  out(c, (body, sign(body, sk))).
+
+(* Honest context authority of region r. *)
+let ContextAuthority(r: principal, sk: skey) =
+  in(c, (snap: bitstring, vals: bitstring));
+  new cid: bitstring;
+  let body = (TAG_CTX, r, cid, snap, vals) in
+  event PublishCtx(r, snap, vals);
+  out(c, (body, sign(body, sk))).
+
+(* Ledger service: logs only envelopes signed by the key registered for (principal, role). *)
+let LedgerRelease =
+  in(c, (body: bitstring, s: bitstring));
+  let (=TAG_REL, sid: principal, w: window, rid: bitstring, summary: bitstring) = body in
+  event LoggedRel(sid, rid, h((body, s)));
+  insert ledger(rid, h((body, s))).
+
+let LedgerContext =
+  in(c, (body: bitstring, s: bitstring));
+  let (=TAG_CTX, r: principal, cid: bitstring, snap: bitstring, vals: bitstring) = body in
+  get registry(=r, =CTX, pkr) in
+  if checksign(s, pkr) = body then
+  event LoggedCtx(r, cid, h((body, s)));
+  insert ledger(cid, h((body, s))).
+
+(* Target gateway for window wok: signature under the source-role key, allowed window,
+   ledger entry with matching digest. *)
+let Gateway(wok: window) =
+  in(c, (body: bitstring, s: bitstring));
+  let (=TAG_REL, sid: principal, w: window, rid: bitstring, summary: bitstring) = body in
+  if w = wok then
+  get registry(=sid, =SRC, pks) in
+  if checksign(s, pks) = body then
+  get ledger(=rid, =h((body, s))) in
+  event Accept(sid, w, rid, summary).
+
+let GatewayCtx(target: principal) =
+  in(c, (body: bitstring, s: bitstring));
+  let (=TAG_CTX, r: principal, cid: bitstring, snap: bitstring, vals: bitstring) = body in
+  if r = target then
+  get registry(=r, =CTX, pkr) in
+  if checksign(s, pkr) = body then
+  get ledger(=cid, =h((body, s))) in
+  event AcceptCtx(r, snap, vals).
+
+(* Q1 authentication + integrity + window binding: an accepted release for window w was
+   published by that source for that window with exactly that summary, unless its source key leaked. *)
+query sid: principal, w: window, rid: bitstring, m: bitstring;
+  event(Accept(sid, w, rid, m)) ==> event(Publish(sid, w, rid, m)) || event(Compromised(sid, SRC)).
+
+(* Q2 ledger binding: every accepted release is the one logged under its id, even for
+   compromised sources, so auditors see exactly what gateways consumed. *)
+query sid: principal, w: window, rid: bitstring, m: bitstring, s: bitstring;
+  event(Accept(sid, w, rid, m)) ==> event(LoggedRel(sid, rid, h(((TAG_REL, sid, w, rid, m), s)))).
+
+(* Q5 no budget burning: a ledger entry charged to a source was published by that source,
+   unless its key leaked. *)
+query sid: principal, rid: bitstring, d: bitstring, w: window, m: bitstring;
+  event(LoggedRel(sid, rid, d)) ==> event(Publish(sid, w, rid, m)) || event(Compromised(sid, SRC)).
+
+(* Q3 context authenticity with role separation: T's leaked source key cannot produce an
+   accepted context for T. *)
+query r: principal, snap: bitstring, v: bitstring;
+  event(AcceptCtx(r, snap, v)) ==> event(PublishCtx(r, snap, v)) || event(Compromised(r, CTX)).
+
+(* Q4 data minimisation: raw user data never becomes known to the network attacker. *)
+query secret raw.
+
+(* Sanity: acceptance is reachable (the model is not vacuous); expected result "false". *)
+query rid: bitstring, m: bitstring; event(Accept(A, W1, rid, m)).
+query snap: bitstring, v: bitstring; event(AcceptCtx(T, snap, v)).
+
+process
+  new skA: skey; new skB: skey; new skTsrc: skey; new skTctx: skey;
+  insert registry(A, SRC, pk(skA));
+  insert registry(B, SRC, pk(skB));
+  insert registry(T, SRC, pk(skTsrc));
+  insert registry(T, CTX, pk(skTctx));
+  out(c, (pk(skA), pk(skB), pk(skTsrc), pk(skTctx)));
+  (
+    (!Publisher(A, skA)) | (!Publisher(B, skB)) | (!Publisher(T, skTsrc))
+  | (!ContextAuthority(T, skTctx))
+  | (!LedgerRelease) | (!LedgerContext)
+  | (!Gateway(W1)) | (!GatewayCtx(T))
+  | (event Compromised(T, SRC); out(c, skTsrc))
+  )

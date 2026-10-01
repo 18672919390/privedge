@@ -1,0 +1,914 @@
+{
+  "dataset": "Olist Brazilian E-Commerce state x window + pre-window historical OSM context",
+  "phase": "phase2-correct-vs-swapped-preregistered-v1",
+  "generated_at_utc": "2026-09-28T18:43:19.042565+00:00",
+  "mapping": {
+    "path": "runs\\olist_brazil\\category_osm_mapping.v1.json",
+    "sha256": "2ac8e79ec4ec0d02b3f771ae0dfbd884c3fa820a7f7eb4b2671cdfbe5e0901fc",
+    "freeze_manifest": "runs\\olist_brazil\\mapping_freeze_manifest.json"
+  },
+  "ohsome": {
+    "endpoint": "https://api.ohsome.org/v1/elements/count/groupBy/tag",
+    "apiVersion": "1.10.4",
+    "attribution": {
+      "url": "https://ohsome.org/copyrights",
+      "text": "© OpenStreetMap contributors"
+    },
+    "keys": [
+      "amenity",
+      "craft",
+      "office",
+      "shop"
+    ],
+    "snapshots_requested": [
+      "2016-12-31",
+      "2017-12-31"
+    ],
+    "raw_cache": "runs\\olist_brazil\\osm_context\\raw"
+  },
+  "boundaries": "geoBoundaries gbOpen BRA ADM1 simplified (downloads/olist_brazil/boundaries/manifest.json)",
+  "partition_used": "primary_state_x_window",
+  "servers": [
+    {
+      "server": "MG@W2017",
+      "state": "MG",
+      "window": "W2017",
+      "snapshot": "2016-12-31"
+    },
+    {
+      "server": "MG@W2018",
+      "state": "MG",
+      "window": "W2018",
+      "snapshot": "2017-12-31"
+    },
+    {
+      "server": "RJ@W2017",
+      "state": "RJ",
+      "window": "W2017",
+      "snapshot": "2016-12-31"
+    },
+    {
+      "server": "RJ@W2018",
+      "state": "RJ",
+      "window": "W2018",
+      "snapshot": "2017-12-31"
+    },
+    {
+      "server": "SP@W2017",
+      "state": "SP",
+      "window": "W2017",
+      "snapshot": "2016-12-31"
+    },
+    {
+      "server": "SP@W2018",
+      "state": "SP",
+      "window": "W2018",
+      "snapshot": "2017-12-31"
+    }
+  ],
+  "swapped_definition": "mean over all servers of a different state with the same snapshot date (same-state other-year excluded)",
+  "context_scoring": "category share of mapped OSM tag counts in state at snapshot; context-only prediction ranks inside union of non-private source Top-20; ties by name",
+  "context_audit": {
+    "MG@W2017": {
+      "state": "MG",
+      "snapshot": "2016-12-31",
+      "raw_category_score_total": 1938,
+      "nonzero_categories": 57,
+      "all_amenity_features": 12662,
+      "mapped_distinct_tag_features": 1112,
+      "all_craft_features": 39,
+      "all_office_features": 243,
+      "all_shop_features": 2700,
+      "top10_context_categories": [
+        "health_beauty",
+        "fashion_sport",
+        "fashio_female_clothing",
+        "fashion_childrens_clothes",
+        "fashion_male_clothing",
+        "fashion_underwear_beach",
+        "construction_tools_construction",
+        "home_construction",
+        "costruction_tools_tools",
+        "food_drink"
+      ]
+    },
+    "MG@W2018": {
+      "state": "MG",
+      "snapshot": "2017-12-31",
+      "raw_category_score_total": 3049,
+      "nonzero_categories": 62,
+      "all_amenity_features": 17300,
+      "mapped_distinct_tag_features": 1766,
+      "all_craft_features": 74,
+      "all_office_features": 413,
+      "all_shop_features": 3938,
+      "top10_context_categories": [
+        "health_beauty",
+        "fashion_sport",
+        "auto",
+        "construction_tools_construction",
+        "home_construction",
+        "fashio_female_clothing",
+        "fashion_childrens_clothes",
+        "fashion_male_clothing",
+        "fashion_underwear_beach",
+        "costruction_tools_tools"
+      ]
+    },
+    "RJ@W2017": {
+      "state": "RJ",
+      "snapshot": "2016-12-31",
+      "raw_category_score_total": 3936,
+      "nonzero_categories": 57,
+      "all_amenity_features": 14776,
+      "mapped_distinct_tag_features": 1729,
+      "all_craft_features": 44,
+      "all_office_features": 242,
+      "all_shop_features": 4131,
+      "top10_context_categories": [
+        "health_beauty",
+        "fashion_sport",
+        "fashio_female_clothing",
+        "fashion_childrens_clothes",
+        "fashion_male_clothing",
+        "fashion_underwear_beach",
+        "construction_tools_construction",
+        "costruction_tools_tools",
+        "home_construction",
+        "furniture_bedroom"
+      ]
+    },
+    "RJ@W2018": {
+      "state": "RJ",
+      "snapshot": "2017-12-31",
+      "raw_category_score_total": 4643,
+      "nonzero_categories": 63,
+      "all_amenity_features": 17184,
+      "mapped_distinct_tag_features": 2149,
+      "all_craft_features": 111,
+      "all_office_features": 388,
+      "all_shop_features": 4904,
+      "top10_context_categories": [
+        "health_beauty",
+        "fashion_sport",
+        "fashio_female_clothing",
+        "fashion_childrens_clothes",
+        "fashion_male_clothing",
+        "fashion_underwear_beach",
+        "construction_tools_construction",
+        "home_construction",
+        "costruction_tools_tools",
+        "furniture_bedroom"
+      ]
+    },
+    "SP@W2017": {
+      "state": "SP",
+      "snapshot": "2016-12-31",
+      "raw_category_score_total": 11097,
+      "nonzero_categories": 59,
+      "all_amenity_features": 29195,
+      "mapped_distinct_tag_features": 4648,
+      "all_craft_features": 143,
+      "all_office_features": 801,
+      "all_shop_features": 11039,
+      "top10_context_categories": [
+        "fashion_sport",
+        "health_beauty",
+        "fashio_female_clothing",
+        "fashion_childrens_clothes",
+        "fashion_male_clothing",
+        "fashion_underwear_beach",
+        "construction_tools_construction",
+        "home_construction",
+        "costruction_tools_tools",
+        "food_drink"
+      ]
+    },
+    "SP@W2018": {
+      "state": "SP",
+      "snapshot": "2017-12-31",
+      "raw_category_score_total": 15390,
+      "nonzero_categories": 62,
+      "all_amenity_features": 38785,
+      "mapped_distinct_tag_features": 6351,
+      "all_craft_features": 227,
+      "all_office_features": 1315,
+      "all_shop_features": 14543,
+      "top10_context_categories": [
+        "fashion_sport",
+        "fashio_female_clothing",
+        "fashion_childrens_clothes",
+        "fashion_male_clothing",
+        "fashion_underwear_beach",
+        "health_beauty",
+        "construction_tools_construction",
+        "home_construction",
+        "costruction_tools_tools",
+        "food_drink"
+      ]
+    }
+  },
+  "primary": {
+    "folds": [
+      {
+        "target": "MG@W2017",
+        "state": "MG",
+        "snapshot": "2016-12-31",
+        "users": 5074,
+        "sources": [
+          "MG@W2018",
+          "RJ@W2017",
+          "RJ@W2018",
+          "SP@W2017",
+          "SP@W2018"
+        ],
+        "truth_top10": [
+          "bed_bath_table",
+          "sports_leisure",
+          "health_beauty",
+          "furniture_decor",
+          "computers_accessories",
+          "toys",
+          "housewares",
+          "cool_stuff",
+          "garden_tools",
+          "telephony"
+        ],
+        "candidate_count": 22,
+        "candidate_recall_upper_bound": 1.0,
+        "source_average_top10": [
+          "bed_bath_table",
+          "health_beauty",
+          "sports_leisure",
+          "computers_accessories",
+          "furniture_decor",
+          "housewares",
+          "watches_gifts",
+          "toys",
+          "auto",
+          "garden_tools"
+        ],
+        "source_average_recall": 0.8,
+        "source_average_ndcg": 0.8603818544462508,
+        "correct_context_top10": [
+          "health_beauty",
+          "construction_tools_construction",
+          "auto",
+          "watches_gifts",
+          "furniture_decor",
+          "office_furniture",
+          "stationery",
+          "telephony",
+          "computers_accessories",
+          "pet_shop"
+        ],
+        "correct_context_recall": 0.4,
+        "correct_context_ndcg": 0.4409203293308675,
+        "swapped_context_servers": [
+          "RJ@W2017",
+          "SP@W2017"
+        ],
+        "swapped_detail": [
+          {
+            "context_server": "RJ@W2017",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "furniture_decor",
+              "office_furniture",
+              "auto",
+              "watches_gifts",
+              "pet_shop",
+              "stationery",
+              "computers_accessories",
+              "garden_tools"
+            ],
+            "recall": 0.4,
+            "ndcg": 0.46001266110046096
+          },
+          {
+            "context_server": "SP@W2017",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "auto",
+              "furniture_decor",
+              "office_furniture",
+              "watches_gifts",
+              "pet_shop",
+              "stationery",
+              "electronics",
+              "computers_accessories"
+            ],
+            "recall": 0.3,
+            "ndcg": 0.37850091886658266
+          }
+        ],
+        "swapped_context_recall": 0.35,
+        "swapped_context_ndcg": 0.4192567899835218,
+        "correct_minus_swapped_recall": 0.050000000000000044,
+        "correct_minus_swapped_ndcg": 0.021663539347345717,
+        "truth_top10_mapped_fraction": 0.9,
+        "truth_top10_nonzero_context_fraction": 0.9
+      },
+      {
+        "target": "MG@W2018",
+        "state": "MG",
+        "snapshot": "2017-12-31",
+        "users": 5931,
+        "sources": [
+          "MG@W2017",
+          "RJ@W2017",
+          "RJ@W2018",
+          "SP@W2017",
+          "SP@W2018"
+        ],
+        "truth_top10": [
+          "health_beauty",
+          "bed_bath_table",
+          "computers_accessories",
+          "sports_leisure",
+          "watches_gifts",
+          "housewares",
+          "furniture_decor",
+          "auto",
+          "garden_tools",
+          "telephony"
+        ],
+        "candidate_count": 22,
+        "candidate_recall_upper_bound": 1.0,
+        "source_average_top10": [
+          "bed_bath_table",
+          "health_beauty",
+          "sports_leisure",
+          "furniture_decor",
+          "computers_accessories",
+          "housewares",
+          "watches_gifts",
+          "toys",
+          "cool_stuff",
+          "garden_tools"
+        ],
+        "source_average_recall": 0.8,
+        "source_average_ndcg": 0.8643145546088337,
+        "correct_context_top10": [
+          "health_beauty",
+          "auto",
+          "construction_tools_construction",
+          "furniture_decor",
+          "watches_gifts",
+          "office_furniture",
+          "computers_accessories",
+          "stationery",
+          "pet_shop",
+          "telephony"
+        ],
+        "correct_context_recall": 0.6,
+        "correct_context_ndcg": 0.6758704024811182,
+        "swapped_context_servers": [
+          "RJ@W2018",
+          "SP@W2018"
+        ],
+        "swapped_detail": [
+          {
+            "context_server": "RJ@W2018",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "furniture_decor",
+              "office_furniture",
+              "auto",
+              "pet_shop",
+              "watches_gifts",
+              "stationery",
+              "electronics",
+              "computers_accessories"
+            ],
+            "recall": 0.5,
+            "ndcg": 0.552265477387053
+          },
+          {
+            "context_server": "SP@W2018",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "auto",
+              "furniture_decor",
+              "watches_gifts",
+              "office_furniture",
+              "pet_shop",
+              "stationery",
+              "electronics",
+              "computers_accessories"
+            ],
+            "recall": 0.5,
+            "ndcg": 0.5736899196572437
+          }
+        ],
+        "swapped_context_recall": 0.5,
+        "swapped_context_ndcg": 0.5629776985221484,
+        "correct_minus_swapped_recall": 0.09999999999999998,
+        "correct_minus_swapped_ndcg": 0.11289270395896978,
+        "truth_top10_mapped_fraction": 1.0,
+        "truth_top10_nonzero_context_fraction": 1.0
+      },
+      {
+        "target": "RJ@W2017",
+        "state": "RJ",
+        "snapshot": "2016-12-31",
+        "users": 5819,
+        "sources": [
+          "MG@W2017",
+          "MG@W2018",
+          "RJ@W2018",
+          "SP@W2017",
+          "SP@W2018"
+        ],
+        "truth_top10": [
+          "bed_bath_table",
+          "sports_leisure",
+          "furniture_decor",
+          "health_beauty",
+          "toys",
+          "computers_accessories",
+          "garden_tools",
+          "cool_stuff",
+          "watches_gifts",
+          "housewares"
+        ],
+        "candidate_count": 22,
+        "candidate_recall_upper_bound": 1.0,
+        "source_average_top10": [
+          "bed_bath_table",
+          "health_beauty",
+          "sports_leisure",
+          "computers_accessories",
+          "housewares",
+          "furniture_decor",
+          "watches_gifts",
+          "auto",
+          "telephony",
+          "toys"
+        ],
+        "source_average_recall": 0.8,
+        "source_average_ndcg": 0.8643145546088337,
+        "correct_context_top10": [
+          "health_beauty",
+          "construction_tools_construction",
+          "furniture_decor",
+          "office_furniture",
+          "auto",
+          "watches_gifts",
+          "pet_shop",
+          "stationery",
+          "computers_accessories",
+          "garden_tools"
+        ],
+        "correct_context_recall": 0.5,
+        "correct_context_ndcg": 0.5384109300791363,
+        "swapped_context_servers": [
+          "MG@W2017",
+          "SP@W2017"
+        ],
+        "swapped_detail": [
+          {
+            "context_server": "MG@W2017",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "auto",
+              "watches_gifts",
+              "furniture_decor",
+              "office_furniture",
+              "stationery",
+              "telephony",
+              "computers_accessories",
+              "pet_shop"
+            ],
+            "recall": 0.4,
+            "ndcg": 0.4662774717636409
+          },
+          {
+            "context_server": "SP@W2017",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "auto",
+              "furniture_decor",
+              "office_furniture",
+              "watches_gifts",
+              "pet_shop",
+              "stationery",
+              "electronics",
+              "computers_accessories"
+            ],
+            "recall": 0.4,
+            "ndcg": 0.456899187845258
+          }
+        ],
+        "swapped_context_recall": 0.4,
+        "swapped_context_ndcg": 0.46158832980444947,
+        "correct_minus_swapped_recall": 0.09999999999999998,
+        "correct_minus_swapped_ndcg": 0.07682260027468685,
+        "truth_top10_mapped_fraction": 0.9,
+        "truth_top10_nonzero_context_fraction": 0.9
+      },
+      {
+        "target": "RJ@W2018",
+        "state": "RJ",
+        "snapshot": "2017-12-31",
+        "users": 6287,
+        "sources": [
+          "MG@W2017",
+          "MG@W2018",
+          "RJ@W2017",
+          "SP@W2017",
+          "SP@W2018"
+        ],
+        "truth_top10": [
+          "bed_bath_table",
+          "health_beauty",
+          "watches_gifts",
+          "computers_accessories",
+          "sports_leisure",
+          "housewares",
+          "furniture_decor",
+          "electronics",
+          "auto",
+          "garden_tools"
+        ],
+        "candidate_count": 22,
+        "candidate_recall_upper_bound": 1.0,
+        "source_average_top10": [
+          "bed_bath_table",
+          "health_beauty",
+          "sports_leisure",
+          "computers_accessories",
+          "furniture_decor",
+          "housewares",
+          "watches_gifts",
+          "toys",
+          "garden_tools",
+          "cool_stuff"
+        ],
+        "source_average_recall": 0.8,
+        "source_average_ndcg": 0.8669479898642709,
+        "correct_context_top10": [
+          "health_beauty",
+          "construction_tools_construction",
+          "furniture_decor",
+          "office_furniture",
+          "auto",
+          "pet_shop",
+          "watches_gifts",
+          "stationery",
+          "electronics",
+          "computers_accessories"
+        ],
+        "correct_context_recall": 0.6,
+        "correct_context_ndcg": 0.618519700841442,
+        "swapped_context_servers": [
+          "MG@W2018",
+          "SP@W2018"
+        ],
+        "swapped_detail": [
+          {
+            "context_server": "MG@W2018",
+            "top10": [
+              "health_beauty",
+              "auto",
+              "construction_tools_construction",
+              "furniture_decor",
+              "watches_gifts",
+              "office_furniture",
+              "computers_accessories",
+              "stationery",
+              "pet_shop",
+              "telephony"
+            ],
+            "recall": 0.5,
+            "ndcg": 0.6122496142821665
+          },
+          {
+            "context_server": "SP@W2018",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "auto",
+              "furniture_decor",
+              "watches_gifts",
+              "office_furniture",
+              "pet_shop",
+              "stationery",
+              "electronics",
+              "computers_accessories"
+            ],
+            "recall": 0.6,
+            "ndcg": 0.6399441431116327
+          }
+        ],
+        "swapped_context_recall": 0.55,
+        "swapped_context_ndcg": 0.6260968786968997,
+        "correct_minus_swapped_recall": 0.04999999999999993,
+        "correct_minus_swapped_ndcg": -0.00757717785545764,
+        "truth_top10_mapped_fraction": 1.0,
+        "truth_top10_nonzero_context_fraction": 1.0
+      },
+      {
+        "target": "SP@W2017",
+        "state": "SP",
+        "snapshot": "2016-12-31",
+        "users": 16568,
+        "sources": [
+          "MG@W2017",
+          "MG@W2018",
+          "RJ@W2017",
+          "RJ@W2018",
+          "SP@W2018"
+        ],
+        "truth_top10": [
+          "bed_bath_table",
+          "sports_leisure",
+          "furniture_decor",
+          "health_beauty",
+          "housewares",
+          "computers_accessories",
+          "toys",
+          "watches_gifts",
+          "cool_stuff",
+          "telephony"
+        ],
+        "candidate_count": 22,
+        "candidate_recall_upper_bound": 1.0,
+        "source_average_top10": [
+          "bed_bath_table",
+          "health_beauty",
+          "sports_leisure",
+          "computers_accessories",
+          "furniture_decor",
+          "housewares",
+          "watches_gifts",
+          "garden_tools",
+          "toys",
+          "auto"
+        ],
+        "source_average_recall": 0.8,
+        "source_average_ndcg": 0.8669479898642709,
+        "correct_context_top10": [
+          "health_beauty",
+          "construction_tools_construction",
+          "auto",
+          "furniture_decor",
+          "office_furniture",
+          "watches_gifts",
+          "pet_shop",
+          "stationery",
+          "electronics",
+          "computers_accessories"
+        ],
+        "correct_context_recall": 0.4,
+        "correct_context_ndcg": 0.456899187845258,
+        "swapped_context_servers": [
+          "MG@W2017",
+          "RJ@W2017"
+        ],
+        "swapped_detail": [
+          {
+            "context_server": "MG@W2017",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "auto",
+              "watches_gifts",
+              "furniture_decor",
+              "office_furniture",
+              "stationery",
+              "telephony",
+              "computers_accessories",
+              "pet_shop"
+            ],
+            "recall": 0.5,
+            "ndcg": 0.5357086937004182
+          },
+          {
+            "context_server": "RJ@W2017",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "furniture_decor",
+              "office_furniture",
+              "auto",
+              "watches_gifts",
+              "pet_shop",
+              "stationery",
+              "computers_accessories",
+              "garden_tools"
+            ],
+            "recall": 0.4,
+            "ndcg": 0.47479014188018454
+          }
+        ],
+        "swapped_context_recall": 0.45,
+        "swapped_context_ndcg": 0.5052494177903013,
+        "correct_minus_swapped_recall": -0.04999999999999999,
+        "correct_minus_swapped_ndcg": -0.04835022994504329,
+        "truth_top10_mapped_fraction": 0.9,
+        "truth_top10_nonzero_context_fraction": 0.9
+      },
+      {
+        "target": "SP@W2018",
+        "state": "SP",
+        "snapshot": "2017-12-31",
+        "users": 22812,
+        "sources": [
+          "MG@W2017",
+          "MG@W2018",
+          "RJ@W2017",
+          "RJ@W2018",
+          "SP@W2017"
+        ],
+        "truth_top10": [
+          "health_beauty",
+          "bed_bath_table",
+          "sports_leisure",
+          "computers_accessories",
+          "housewares",
+          "watches_gifts",
+          "furniture_decor",
+          "auto",
+          "telephony",
+          "perfumery"
+        ],
+        "candidate_count": 22,
+        "candidate_recall_upper_bound": 1.0,
+        "source_average_top10": [
+          "bed_bath_table",
+          "health_beauty",
+          "sports_leisure",
+          "computers_accessories",
+          "furniture_decor",
+          "housewares",
+          "watches_gifts",
+          "toys",
+          "garden_tools",
+          "cool_stuff"
+        ],
+        "source_average_recall": 0.7,
+        "source_average_ndcg": 0.8006937664098819,
+        "correct_context_top10": [
+          "health_beauty",
+          "construction_tools_construction",
+          "auto",
+          "furniture_decor",
+          "watches_gifts",
+          "office_furniture",
+          "pet_shop",
+          "stationery",
+          "electronics",
+          "computers_accessories"
+        ],
+        "correct_context_recall": 0.5,
+        "correct_context_ndcg": 0.5736899196572437,
+        "swapped_context_servers": [
+          "MG@W2018",
+          "RJ@W2018"
+        ],
+        "swapped_detail": [
+          {
+            "context_server": "MG@W2018",
+            "top10": [
+              "health_beauty",
+              "auto",
+              "construction_tools_construction",
+              "furniture_decor",
+              "watches_gifts",
+              "office_furniture",
+              "computers_accessories",
+              "stationery",
+              "pet_shop",
+              "telephony"
+            ],
+            "recall": 0.6,
+            "ndcg": 0.6758704024811182
+          },
+          {
+            "context_server": "RJ@W2018",
+            "top10": [
+              "health_beauty",
+              "construction_tools_construction",
+              "furniture_decor",
+              "office_furniture",
+              "auto",
+              "pet_shop",
+              "watches_gifts",
+              "stationery",
+              "electronics",
+              "computers_accessories"
+            ],
+            "recall": 0.5,
+            "ndcg": 0.552265477387053
+          }
+        ],
+        "swapped_context_recall": 0.55,
+        "swapped_context_ndcg": 0.6140679399340856,
+        "correct_minus_swapped_recall": -0.050000000000000044,
+        "correct_minus_swapped_ndcg": -0.0403780202768419,
+        "truth_top10_mapped_fraction": 1.0,
+        "truth_top10_nonzero_context_fraction": 1.0
+      }
+    ],
+    "summary": {
+      "targets": 6,
+      "source_average_recall": 0.7833333333333333,
+      "source_average_ndcg": 0.8539334516337237,
+      "correct_context_recall": 0.5,
+      "correct_context_ndcg": 0.5507184117058442,
+      "swapped_context_recall": 0.46666666666666673,
+      "swapped_context_ndcg": 0.5315395091219011,
+      "correct_minus_swapped_recall": 0.03333333333333332,
+      "correct_minus_swapped_ndcg": 0.019178902583943253,
+      "correct_recall_strict_win_fraction": 0.6666666666666666,
+      "correct_ndcg_strict_win_fraction": 0.5,
+      "minimum_truth_top10_mapped_fraction": 0.9,
+      "minimum_truth_top10_nonzero_context_fraction": 0.9,
+      "minimum_candidate_recall_upper_bound": 1.0,
+      "leave_top_contributor_out_recall": {
+        "removed_target": "MG@W2018",
+        "removed_delta": 0.09999999999999998,
+        "mean_delta_remaining": 0.019999999999999983
+      },
+      "leave_top_contributor_out_ndcg": {
+        "removed_target": "MG@W2018",
+        "removed_delta": 0.11289270395896978,
+        "mean_delta_remaining": 0.0004361423089379479
+      }
+    }
+  },
+  "diagnostic_full_domain_ranking": {
+    "targets": 6,
+    "source_average_recall": 0.7833333333333333,
+    "source_average_ndcg": 0.8539334516337237,
+    "correct_context_recall": 0.11666666666666668,
+    "correct_context_ndcg": 0.20127894353226508,
+    "swapped_context_recall": 0.11666666666666668,
+    "swapped_context_ndcg": 0.20127894353226514,
+    "correct_minus_swapped_recall": -4.625929269271485e-18,
+    "correct_minus_swapped_ndcg": -4.625929269271485e-18,
+    "correct_recall_strict_win_fraction": 0.16666666666666666,
+    "correct_ndcg_strict_win_fraction": 0.6666666666666666,
+    "minimum_truth_top10_mapped_fraction": 0.9,
+    "minimum_truth_top10_nonzero_context_fraction": 0.9,
+    "minimum_candidate_recall_upper_bound": 1.0,
+    "leave_top_contributor_out_recall": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.1,
+      "mean_delta_remaining": -0.020000000000000007
+    },
+    "leave_top_contributor_out_ndcg": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.18089263180874252,
+      "mean_delta_remaining": -0.03617852636174851
+    }
+  },
+  "sensitivity_exclude_same_state_sources": {
+    "targets": 6,
+    "source_average_recall": 0.8166666666666668,
+    "source_average_ndcg": 0.8765476925322514,
+    "correct_context_recall": 0.5,
+    "correct_context_ndcg": 0.5507184117058442,
+    "swapped_context_recall": 0.46666666666666673,
+    "swapped_context_ndcg": 0.5315395091219011,
+    "correct_minus_swapped_recall": 0.03333333333333332,
+    "correct_minus_swapped_ndcg": 0.019178902583943253,
+    "correct_recall_strict_win_fraction": 0.6666666666666666,
+    "correct_ndcg_strict_win_fraction": 0.5,
+    "minimum_truth_top10_mapped_fraction": 0.9,
+    "minimum_truth_top10_nonzero_context_fraction": 0.9,
+    "minimum_candidate_recall_upper_bound": 1.0,
+    "leave_top_contributor_out_recall": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.09999999999999998,
+      "mean_delta_remaining": 0.019999999999999983
+    },
+    "leave_top_contributor_out_ndcg": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.11289270395896978,
+      "mean_delta_remaining": 0.0004361423089379479
+    }
+  },
+  "gate_C": {
+    "context_available_for_all_servers": true,
+    "min_truth_top10_mapped_fraction_ge_0.70": true,
+    "snapshot_precedes_window": true
+  },
+  "gate_C_pass": true,
+  "gate_D": {
+    "positive_mean_recall_delta": true,
+    "positive_mean_ndcg_delta": true,
+    "recall_strict_win_fraction_ge_0.70": false,
+    "ndcg_strict_win_fraction_ge_0.70": false,
+    "leave_top_out_recall_mean_delta_gt_0": true,
+    "leave_top_out_ndcg_mean_delta_gt_0": true
+  },
+  "gate_D_pass": false
+}

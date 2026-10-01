@@ -1,0 +1,19 @@
+ohsome 1/12: MG amenity
+ohsome 2/12: MG craft
+ohsome 3/12: MG office
+ohsome 4/12: MG shop
+ohsome 5/12: RJ amenity
+ohsome 6/12: RJ craft
+ohsome 7/12: RJ office
+ohsome 8/12: RJ shop
+ohsome 9/12: SP amenity
+ohsome 10/12: SP craft
+ohsome 11/12: SP office
+ohsome 12/12: SP shop
+target=MG@W2017 complete
+target=MG@W2018 complete
+target=RJ@W2017 complete
+target=RJ@W2018 complete
+target=SP@W2017 complete
+target=SP@W2018 complete
+{"output": "D:\\比赛\\dataset_research\\runs\\olist_brazil\\ldp_diagnostic\\summary.json", "rows": 1680}

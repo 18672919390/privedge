@@ -1,0 +1,66 @@
+{
+  "run_id": "overhead_v1-20260928T190506Z-184162",
+  "experiment": "overhead_v1",
+  "started_at": "2026-09-28T19:05:06.216137+00:00",
+  "config": {
+    "users": [
+      5000,
+      20000,
+      100000
+    ],
+    "domain": [
+      71,
+      156,
+      500
+    ],
+    "epsilon": 1.0,
+    "top_m": 20,
+    "sources": 6,
+    "repeat": 5,
+    "machine": {
+      "platform": "Windows-11-10.0.26200-SP0",
+      "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+      "python": "3.12.14"
+    }
+  },
+  "data_sha256": {},
+  "code": {
+    "combined": "69c7f2c300d8b0e3db6123680baa33abb12428fa7ccde9d75675793cac2c49bb",
+    "files": {
+      "privedge/__init__.py": "2789847d1e738cac6ac5413b96f1cf7be6f52a2876922e9c3762cebc5db90101",
+      "privedge/adapters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privedge/adapters/export_massive.py": "9090e68356869ddc17a647c07d9ca669a576db1ce7e2f71d0e3d352b7838080a",
+      "privedge/adapters/export_olist.py": "68e15848a1d0eb10fecf6590c97dadec9ff695a0a68083fffaa2b631419ff374",
+      "privedge/adapters/standard.py": "6f5644399d03c73c39c7606d49e126398594eb3b28e06816cd526cc2b143640a",
+      "privedge/algorithms.py": "434eb64105534a8bcab6e46bd6858f3c4fc5a33f59fcbeb03471958982ea27db",
+      "privedge/attacks.py": "5839647c509e2dde513c21d3326527df4b507db494c4474117cfcee3ad41b7a9",
+      "privedge/decision.py": "53bfb427b8b6e36be612a47592c28acc84a5721df8d11d8b2c479d07c93dec19",
+      "privedge/envelope.py": "017e25e84662ad95674e546b3ad967e27027791b75cb7e64cfd8d6a9e85bc44a",
+      "privedge/experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privedge/experiments/context_v1.py": "d815954a40498118d232f477dfb21711f4c1c4d935b860565575df6204c69aac",
+      "privedge/experiments/overhead_v1.py": "7311fac8f992851fc58c76ca11d1d34665143458bfca81605ddaeddb43127276",
+      "privedge/experiments/runner.py": "0797945150d694107c4973046b388429079b9aebcc736d428d40df3cf417cb26",
+      "privedge/experiments/security_v1.py": "735368c5a3ac26b43f70badb5ddd6f1d1347d0a3ba0043b7794d24de5e9b5818",
+      "privedge/gateway.py": "4ddca1a36148adb6b68c03988b9b0be6da2b42132fd4c24c4d64524b0ca63e64",
+      "privedge/keys.py": "7071d9ede0dc34c0bb01cef2c22015a611cae257afee868442e531c6dc1bdb6d",
+      "privedge/ldp.py": "153b0218eafa03258aa1910e48e3e9cd49f8d1f45699b358c4afef4e10d0e68b",
+      "privedge/ledger.py": "92cda26f8e76cf85eac80a44f301dc72d65d2c24ce1f090cf1603d2bbc216358",
+      "privedge/pipeline.py": "3f8b048bcb9494ccf8f5ca25046623dac95e33b514b448730622df34bc9adbe5",
+      "privedge/research_core/adaptive_selection.py": "d01cf87caf30e7c6c4c5eaffee29c5cf0e7c1f61e34c32bdb60c1cd71e9f2755",
+      "privedge/research_core/censor_estimator.py": "c3ce92582591db7ac136785d0724caab5ea0c73b2b07bfc5d89cbfcf4137d58a",
+      "privedge/research_core/competitive_baselines.py": "6b2eb29cee105f4d9a84c81d531b88adf0eb14243a5696162cd4fdfd4e348a6a",
+      "privedge/research_core/fusion.py": "7148dd39e584b2f3d7582067dbf51695c872c326253bee153116fd145794b82e",
+      "privedge/research_core/ldp_protocols.py": "d49ce380e3a052bfc759a4efb7ecd0a7c7e5b22654a14b4d92948fdd51ac93ae",
+      "privedge/research_core/metrics.py": "353150de83bc83b61a5f7287c4bd87d744e36f22929244340441d510a33e530e",
+      "privedge/research_core/pem.py": "c679bbd068aaa1f5324e39886632f82e2a1972d3d62e635f8a25c6ef60550088",
+      "privedge/research_core/problem_definition.py": "11629cb4852f635db58432968019a5a46c9e4869cd5807a7274c003f3535a5ed",
+      "privedge/research_core/two_stage_transfer.py": "719e3a1ad1cb68e15ed31933f36ce4a7aeb9d3696948781646df0634d1e5b712",
+      "privedge/robust.py": "3e4f300acb46325cc6e0999806a6524723d6387d8efb5312c84bafeaefa848f1"
+    }
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  }
+}

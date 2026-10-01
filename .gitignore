@@ -1,0 +1,43 @@
+# Whitelist: everything at the top level is ignored except the paths below.
+# D:\比赛 also holds raw downloads (dataset_research, ~110 GB), tools and other projects; keep them out.
+/*
+!/.gitignore
+!/.gitattributes
+
+!/privedge/
+!/review/
+/review/*
+!/review/top-k-share-20260925/
+
+!/competition_entry/
+/competition_entry/*
+!/competition_entry/docs/
+/competition_entry/docs/*
+!/competition_entry/docs/v4/
+!/competition_entry/tools/
+!/competition_entry/v4_audit/
+/competition_entry/v4_audit/*
+!/competition_entry/v4_audit/outputs/
+/competition_entry/v4_audit/outputs/*
+!/competition_entry/v4_audit/outputs/massive_ldp_recompute_20260929.json
+
+!/dataset_research/
+/dataset_research/*
+!/dataset_research/TRD_AUDIT_RESULT_20260929.md
+!/dataset_research/runs/
+/dataset_research/runs/*
+!/dataset_research/runs/olist_brazil/
+
+# Environments, dependencies and caches anywhere
+.venv/
+node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.tsbuildinfo
+
+# Credentials must never be committed
+.env
+*.pem
+*.key
+kaggle.json

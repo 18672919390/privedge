@@ -1,0 +1,480 @@
+{
+  "cells": [
+    {
+      "epsilon": 1.0,
+      "scenario": "C0_correct",
+      "system": "naive_censor_aware",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.5714,
+      "ndcg": 0.7579
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C0_correct",
+      "system": "naive_robust_context",
+      "targets": 7,
+      "attack_success": 0.019,
+      "recall": 0.56,
+      "ndcg": 0.764
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C0_correct",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.019,
+      "recall": 0.5714,
+      "ndcg": 0.7548,
+      "states": {
+        "DEGRADED|LOW_AGREEMENT|ctx=OK": 35
+      },
+      "d_ndcg_vs_naive_censor_aware": -0.0032,
+      "d_ndcg_vs_naive_censor_aware_ci95": [
+        -0.0214,
+        0.0142
+      ],
+      "d_attack_success_vs_naive_censor_aware": 0.0095,
+      "d_attack_success_vs_naive_censor_aware_ci95": [
+        0.0,
+        0.0286
+      ],
+      "d_ndcg_vs_naive_robust_context": -0.0092,
+      "d_ndcg_vs_naive_robust_context_ci95": [
+        -0.0322,
+        0.0178
+      ],
+      "d_attack_success_vs_naive_robust_context": 0.0,
+      "d_attack_success_vs_naive_robust_context_ci95": [
+        -0.0286,
+        0.0286
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C1_swapped",
+      "system": "naive_censor_aware",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.5514,
+      "ndcg": 0.7073
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C1_swapped",
+      "system": "naive_robust_context",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.5029,
+      "ndcg": 0.612
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C1_swapped",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0286,
+      "recall": 0.5657,
+      "ndcg": 0.7278,
+      "states": {
+        "DEGRADED|LOW_AGREEMENT;CONTEXT_UNVERIFIED|ctx=CONTEXT_REGION_MISMATCH": 35
+      },
+      "d_ndcg_vs_naive_censor_aware": 0.0205,
+      "d_ndcg_vs_naive_censor_aware_ci95": [
+        -0.0056,
+        0.0507
+      ],
+      "d_attack_success_vs_naive_censor_aware": 0.0286,
+      "d_attack_success_vs_naive_censor_aware_ci95": [
+        0.0095,
+        0.0476
+      ],
+      "d_ndcg_vs_naive_robust_context": 0.1158,
+      "d_ndcg_vs_naive_robust_context_ci95": [
+        0.0783,
+        0.1579
+      ],
+      "d_attack_success_vs_naive_robust_context": 0.019,
+      "d_attack_success_vs_naive_robust_context_ci95": [
+        -0.019,
+        0.0476
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C2_forged_unsigned",
+      "system": "naive_censor_aware",
+      "targets": 7,
+      "attack_success": 0.2476,
+      "recall": 0.5629,
+      "ndcg": 0.7612
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C2_forged_unsigned",
+      "system": "naive_robust_context",
+      "targets": 7,
+      "attack_success": 0.0667,
+      "recall": 0.5457,
+      "ndcg": 0.7491
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C2_forged_unsigned",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0286,
+      "recall": 0.5657,
+      "ndcg": 0.7278,
+      "states": {
+        "DEGRADED|LOW_AGREEMENT;CONTEXT_UNVERIFIED|ctx=SIGNATURE_INVALID": 35
+      },
+      "d_ndcg_vs_naive_censor_aware": -0.0334,
+      "d_ndcg_vs_naive_censor_aware_ci95": [
+        -0.0597,
+        -0.0033
+      ],
+      "d_attack_success_vs_naive_censor_aware": -0.219,
+      "d_attack_success_vs_naive_censor_aware_ci95": [
+        -0.2857,
+        -0.1619
+      ],
+      "d_ndcg_vs_naive_robust_context": -0.0214,
+      "d_ndcg_vs_naive_robust_context_ci95": [
+        -0.0519,
+        0.0135
+      ],
+      "d_attack_success_vs_naive_robust_context": -0.0381,
+      "d_attack_success_vs_naive_robust_context_ci95": [
+        -0.0571,
+        -0.0095
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C3_forged_signed",
+      "system": "naive_censor_aware",
+      "targets": 7,
+      "attack_success": 0.2476,
+      "recall": 0.5629,
+      "ndcg": 0.7612
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C3_forged_signed",
+      "system": "naive_robust_context",
+      "targets": 7,
+      "attack_success": 0.0667,
+      "recall": 0.5457,
+      "ndcg": 0.7491
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C3_forged_signed",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.1238,
+      "recall": 0.5657,
+      "ndcg": 0.7545,
+      "states": {
+        "DEGRADED|LOW_AGREEMENT|ctx=OK": 35
+      },
+      "d_ndcg_vs_naive_censor_aware": -0.0067,
+      "d_ndcg_vs_naive_censor_aware_ci95": [
+        -0.0234,
+        0.012
+      ],
+      "d_attack_success_vs_naive_censor_aware": -0.1238,
+      "d_attack_success_vs_naive_censor_aware_ci95": [
+        -0.2,
+        -0.0571
+      ],
+      "d_ndcg_vs_naive_robust_context": 0.0054,
+      "d_ndcg_vs_naive_robust_context_ci95": [
+        -0.0262,
+        0.0386
+      ],
+      "d_attack_success_vs_naive_robust_context": 0.0571,
+      "d_attack_success_vs_naive_robust_context_ci95": [
+        0.0286,
+        0.0857
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "C4_none",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0286,
+      "recall": 0.5657,
+      "ndcg": 0.7278,
+      "states": {
+        "DEGRADED|LOW_AGREEMENT;CONTEXT_UNVERIFIED|ctx=CONTEXT_MISSING": 35
+      }
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "R2_two_sources",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.0,
+      "ndcg": 0.0,
+      "states": {
+        "REFUSED|INSUFFICIENT_SOURCES|ctx=OK": 35
+      }
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "R3_three_sources",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.4914,
+      "ndcg": 0.6495,
+      "states": {
+        "REFUSED|LOW_AGREEMENT;INSUFFICIENT_CANDIDATES|ctx=OK": 9,
+        "DEGRADED|LOW_AGREEMENT|ctx=OK": 14,
+        "NORMAL||ctx=OK": 12
+      }
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C0_correct",
+      "system": "naive_censor_aware",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6429,
+      "ndcg": 0.7859
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C0_correct",
+      "system": "naive_robust_context",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6229,
+      "ndcg": 0.7842
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C0_correct",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6543,
+      "ndcg": 0.7827,
+      "states": {
+        "NORMAL||ctx=OK": 35
+      },
+      "d_ndcg_vs_naive_censor_aware": -0.0032,
+      "d_ndcg_vs_naive_censor_aware_ci95": [
+        -0.0356,
+        0.0278
+      ],
+      "d_attack_success_vs_naive_censor_aware": 0.0,
+      "d_attack_success_vs_naive_censor_aware_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_naive_robust_context": -0.0014,
+      "d_ndcg_vs_naive_robust_context_ci95": [
+        -0.0389,
+        0.0458
+      ],
+      "d_attack_success_vs_naive_robust_context": 0.0,
+      "d_attack_success_vs_naive_robust_context_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C1_swapped",
+      "system": "naive_censor_aware",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6343,
+      "ndcg": 0.7399
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C1_swapped",
+      "system": "naive_robust_context",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.5771,
+      "ndcg": 0.6869
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C1_swapped",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6571,
+      "ndcg": 0.7789,
+      "states": {
+        "DEGRADED|CONTEXT_UNVERIFIED|ctx=CONTEXT_REGION_MISMATCH": 35
+      },
+      "d_ndcg_vs_naive_censor_aware": 0.0389,
+      "d_ndcg_vs_naive_censor_aware_ci95": [
+        -0.0032,
+        0.0839
+      ],
+      "d_attack_success_vs_naive_censor_aware": 0.0,
+      "d_attack_success_vs_naive_censor_aware_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_naive_robust_context": 0.092,
+      "d_ndcg_vs_naive_robust_context_ci95": [
+        0.0448,
+        0.1452
+      ],
+      "d_attack_success_vs_naive_robust_context": 0.0,
+      "d_attack_success_vs_naive_robust_context_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C2_forged_unsigned",
+      "system": "naive_censor_aware",
+      "targets": 7,
+      "attack_success": 0.2381,
+      "recall": 0.6343,
+      "ndcg": 0.7797
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C2_forged_unsigned",
+      "system": "naive_robust_context",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.6314,
+      "ndcg": 0.7725
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C2_forged_unsigned",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6571,
+      "ndcg": 0.7789,
+      "states": {
+        "DEGRADED|CONTEXT_UNVERIFIED|ctx=SIGNATURE_INVALID": 35
+      },
+      "d_ndcg_vs_naive_censor_aware": -0.0008,
+      "d_ndcg_vs_naive_censor_aware_ci95": [
+        -0.0352,
+        0.0363
+      ],
+      "d_attack_success_vs_naive_censor_aware": -0.2381,
+      "d_attack_success_vs_naive_censor_aware_ci95": [
+        -0.3143,
+        -0.1619
+      ],
+      "d_ndcg_vs_naive_robust_context": 0.0063,
+      "d_ndcg_vs_naive_robust_context_ci95": [
+        -0.0491,
+        0.0679
+      ],
+      "d_attack_success_vs_naive_robust_context": -0.0095,
+      "d_attack_success_vs_naive_robust_context_ci95": [
+        -0.0286,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C3_forged_signed",
+      "system": "naive_censor_aware",
+      "targets": 7,
+      "attack_success": 0.2381,
+      "recall": 0.6343,
+      "ndcg": 0.7797
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C3_forged_signed",
+      "system": "naive_robust_context",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.6314,
+      "ndcg": 0.7725
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C3_forged_signed",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0857,
+      "recall": 0.6429,
+      "ndcg": 0.7792,
+      "states": {
+        "NORMAL||ctx=OK": 35
+      },
+      "d_ndcg_vs_naive_censor_aware": -0.0005,
+      "d_ndcg_vs_naive_censor_aware_ci95": [
+        -0.0353,
+        0.0324
+      ],
+      "d_attack_success_vs_naive_censor_aware": -0.1524,
+      "d_attack_success_vs_naive_censor_aware_ci95": [
+        -0.219,
+        -0.0857
+      ],
+      "d_ndcg_vs_naive_robust_context": 0.0066,
+      "d_ndcg_vs_naive_robust_context_ci95": [
+        -0.0392,
+        0.0671
+      ],
+      "d_attack_success_vs_naive_robust_context": 0.0762,
+      "d_attack_success_vs_naive_robust_context_ci95": [
+        0.0667,
+        0.0952
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "C4_none",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6571,
+      "ndcg": 0.7789,
+      "states": {
+        "DEGRADED|CONTEXT_UNVERIFIED|ctx=CONTEXT_MISSING": 35
+      }
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "R2_two_sources",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.0,
+      "ndcg": 0.0,
+      "states": {
+        "REFUSED|INSUFFICIENT_SOURCES|ctx=OK": 35
+      }
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "R3_three_sources",
+      "system": "privedge",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.6143,
+      "ndcg": 0.7417,
+      "states": {
+        "NORMAL||ctx=OK": 32,
+        "REFUSED|LOW_AGREEMENT;INSUFFICIENT_CANDIDATES|ctx=OK": 1,
+        "DEGRADED|LOW_AGREEMENT|ctx=OK": 2
+      }
+    }
+  ]
+}

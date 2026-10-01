@@ -1,0 +1,109 @@
+{
+  "run_id": "security_v4_floor_massive_steps-20260929T151745Z-d49efb",
+  "experiment": "security_v4_floor_massive_steps",
+  "started_at": "2026-09-29T15:17:45.191239+00:00",
+  "config": {
+    "dataset": "massive_steps",
+    "epsilons": [
+      1.0,
+      2.0
+    ],
+    "seeds": [
+      601,
+      709,
+      811,
+      907,
+      1009
+    ],
+    "targets": [
+      "Istanbul@2013",
+      "Istanbul@2018",
+      "Jakarta@2013",
+      "Kuwait City@2018",
+      "New York@2013",
+      "Petaling Jaya@2013",
+      "Petaling Jaya@2018"
+    ],
+    "smoke_test": false,
+    "users_per_source": 5000,
+    "top_m": 20,
+    "top_k": 10,
+    "n_targets": 3,
+    "scenarios": [
+      "clean",
+      "compromised_1src",
+      "compromised_2src",
+      "hijack_1src",
+      "hijack_2src",
+      "demote_1src",
+      "mga_1src_b0.10"
+    ],
+    "defenses": [
+      "D0_none",
+      "D3_both",
+      "D4_capped"
+    ],
+    "variance_scale": 0.0001,
+    "demote": 7,
+    "kappa": 2.0,
+    "d4_clip_floor": 0.0,
+    "prereg": "experiments_prereg/SECURITY_V4.md"
+  },
+  "data_sha256": {
+    "private_events.csv.gz": "6ee1e55a6262f8e6328f7e2316cedb783c93cf90a859c49f2e67e04e75fc8026",
+    "public_context.csv": "9a8beb5207e99dd095293eaeb528e9853fbc31d7de9bf57d5d7ad4cbb7559278"
+  },
+  "code": {
+    "combined": "4df451323fe1d5d5d4b62593d2f71c2a90d5955413d5f9551205de0e0ab67fd2",
+    "files": {
+      "privedge/__init__.py": "2789847d1e738cac6ac5413b96f1cf7be6f52a2876922e9c3762cebc5db90101",
+      "privedge/adapters/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privedge/adapters/export_massive.py": "9090e68356869ddc17a647c07d9ca669a576db1ce7e2f71d0e3d352b7838080a",
+      "privedge/adapters/export_olist.py": "68e15848a1d0eb10fecf6590c97dadec9ff695a0a68083fffaa2b631419ff374",
+      "privedge/adapters/export_trd.py": "2def00c7840b18f7b8edaace103f60cc5d7b008ebdb45dd79ff2e2c632f23038",
+      "privedge/adapters/standard.py": "03cd725f6e6e10e32d1d034c776d640611b318321d06d10870150e067ace8820",
+      "privedge/algorithms.py": "7fa5b88e037ab42ba82a26bfa6430ce05b8a7bd61f4a0ecaf10d852a1d6de5f8",
+      "privedge/attacks.py": "beb98c283e7cb05342748782607e26ce6fe053fb430a5e23c02183a6dc7d1984",
+      "privedge/decision.py": "824cd9b8120961c5687beeacb33a4044d61c9c70c544cd4fa4dd441cbc2b7a4f",
+      "privedge/envelope.py": "017e25e84662ad95674e546b3ad967e27027791b75cb7e64cfd8d6a9e85bc44a",
+      "privedge/experiments/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privedge/experiments/context_v1.py": "e4b92ebc8dbbd26b8106636c1f174f7dfc3cc7e91f344b03dd4d185d9b41f29d",
+      "privedge/experiments/formal_v1.py": "8af341c2f4cceb83263fd05abb6dad2480fcbe5a416a693de940497345674bdd",
+      "privedge/experiments/negative_check.py": "58999577c52c520727dee4cf78deac8460af66967573c21fabd541c740bc30a6",
+      "privedge/experiments/overhead_v1.py": "59f2c8d4ca2f1c5b3b6753c9fc7edb07dbcdbc09108b8cde250b2407ef6a8af6",
+      "privedge/experiments/runner.py": "0797945150d694107c4973046b388429079b9aebcc736d428d40df3cf417cb26",
+      "privedge/experiments/security_v1.py": "645003ed10ef7ca8cf03a2c2b688c2d5b975878fcea5366eadf3a04fc7d0f65a",
+      "privedge/experiments/security_v3.py": "b005d80573af7c198f55e487d402ff54f6c9c83fe567080ae9ef182524bbc4aa",
+      "privedge/experiments/utility_v1.py": "a25188aed312f5e4da7cfc5a0e044a411c2896c11857e750974932a4012343d3",
+      "privedge/gateway.py": "f34520b66091665ce3f9b56b1e7bceeea6488b443a0bd935ebba22168795227e",
+      "privedge/keys.py": "579ca4e1ab848ad00b335dd9c2d127626d30f6a4353696f0108ca1b9c66b2b90",
+      "privedge/ldp.py": "153b0218eafa03258aa1910e48e3e9cd49f8d1f45699b358c4afef4e10d0e68b",
+      "privedge/ledger.py": "ba49ebe1d403cf5b7d908a21e3c7ead39c95a802839259fa591a88c6b5eb0f30",
+      "privedge/pipeline.py": "3f8b048bcb9494ccf8f5ca25046623dac95e33b514b448730622df34bc9adbe5",
+      "privedge/research_core/adaptive_selection.py": "d01cf87caf30e7c6c4c5eaffee29c5cf0e7c1f61e34c32bdb60c1cd71e9f2755",
+      "privedge/research_core/censor_estimator.py": "c3ce92582591db7ac136785d0724caab5ea0c73b2b07bfc5d89cbfcf4137d58a",
+      "privedge/research_core/competitive_baselines.py": "6b2eb29cee105f4d9a84c81d531b88adf0eb14243a5696162cd4fdfd4e348a6a",
+      "privedge/research_core/fusion.py": "7148dd39e584b2f3d7582067dbf51695c872c326253bee153116fd145794b82e",
+      "privedge/research_core/ldp_protocols.py": "d49ce380e3a052bfc759a4efb7ecd0a7c7e5b22654a14b4d92948fdd51ac93ae",
+      "privedge/research_core/metrics.py": "353150de83bc83b61a5f7287c4bd87d744e36f22929244340441d510a33e530e",
+      "privedge/research_core/pem.py": "c679bbd068aaa1f5324e39886632f82e2a1972d3d62e635f8a25c6ef60550088",
+      "privedge/research_core/problem_definition.py": "11629cb4852f635db58432968019a5a46c9e4869cd5807a7274c003f3535a5ed",
+      "privedge/research_core/two_stage_transfer.py": "719e3a1ad1cb68e15ed31933f36ce4a7aeb9d3696948781646df0634d1e5b712",
+      "privedge/robust.py": "dca7838653c487651e0d0ae91df714085240782fd2a692d3ea09849311e9ac24",
+      "privedge/server/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privedge/server/app.py": "c9a74a84e5e6d80909ddbb219565d17ceaa797c772abaaaed0e96e1bc11bee0d",
+      "privedge/server/engine.py": "639cb8fac6065dfc1b1a1ff194b885a9969f659318119cdce92675e9e0d2bf1f",
+      "privedge/server/evidence.py": "41582bdc2601143f521431b34e05ce2aa26775b6ee94590110682f56310e02fa"
+    }
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "finished_at": "2026-09-29T15:18:32.383549+00:00",
+  "outputs": {
+    "results.csv": "67a817666a166d94281f2e4cdf862fa3bb6fd81313d8ddaee265ad8b1d22d783",
+    "summary.json": "b024e94283ecc51c34c2f99a74402b6c07fe297cef50331e932872102884f91c"
+  }
+}

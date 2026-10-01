@@ -1,0 +1,490 @@
+{
+  "attribution": {
+    "url": "https://ohsome.org/copyrights",
+    "text": "© OpenStreetMap contributors"
+  },
+  "apiVersion": "1.10.4",
+  "groupByResult": [
+    {
+      "groupByObject": "craft=carpenter",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 9.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 13.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=electronics_repair",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=metal_construction",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=winery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=photographer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=electrician",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=brewery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=hvac",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=plumber",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=caterer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=shoemaker",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 13.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 16.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=tailor",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=sawmill",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=gardener",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=handicraft",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=confectionery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 15.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 25.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=dressmaker",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=stonemason",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=glaziery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 12.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 21.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=yes",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=roofer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=key_cutter",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 26.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 34.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=upholsterer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=pottery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=distillery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=jeweller",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=photographic_laboratory",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=locksmith",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 6.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 13.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=clockmaker",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=optician",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=tinsmith",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 5.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=boatbuilder",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=plasterer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=confectionary",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=electronics",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=sweep",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "craft=key_cutter;locksmith",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    }
+  ]
+}

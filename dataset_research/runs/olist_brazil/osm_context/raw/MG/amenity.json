@@ -1,0 +1,1647 @@
+{
+  "attribution": {
+    "url": "https://ohsome.org/copyrights",
+    "text": "© OpenStreetMap contributors"
+  },
+  "apiVersion": "1.10.4",
+  "groupByResult": [
+    {
+      "groupByObject": "amenity=parking",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 913.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1223.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=parking_space",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 13.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 20.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bench",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 55.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 63.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=restaurant",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1343.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1704.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=place_of_worship",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1585.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2478.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=school",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1590.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2435.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=waste_basket",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 25.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 27.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bicycle_parking",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 23.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 41.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=fuel",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1498.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1825.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=fast_food",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 414.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 585.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=cafe",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 133.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 165.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=shelter",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 50.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 56.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=recycling",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 17.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 22.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bank",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 582.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 759.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=toilets",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 93.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 118.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=pharmacy",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 379.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 539.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=kindergarten",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 32.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=post_box",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 8.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=hospital",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 480.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 579.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=vending_machine",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=drinking_water",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 37.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 47.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bar",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 255.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 303.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=waste_disposal",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=post_office",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 132.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 168.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=atm",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 73.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 70.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=pub",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 247.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 356.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=hunting_stand",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=grave_yard",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 41.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=parking_entrance",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 38.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=clinic",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 150.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 308.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=community_centre",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 53.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 88.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=doctors",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 15.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 20.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=fire_station",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 29.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=townhall",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 188.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 259.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=police",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 255.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 324.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=charging_station",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=fountain",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 53.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 76.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=social_facility",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 27.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 47.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=public_building",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 245.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 220.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=dentist",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 30.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=telephone",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 172.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 229.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=library",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 61.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 74.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bus_station",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 266.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 321.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=car_wash",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 45.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 66.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=university",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 177.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 244.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=marketplace",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 58.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 113.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=college",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 84.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 91.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bicycle_rental",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 16.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 27.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=swimming_pool",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 17.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 16.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=childcare",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 16.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 54.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=ice_cream",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 28.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=theatre",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 53.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 65.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=veterinary",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 24.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 34.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=taxi",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 125.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 147.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=nursing_home",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=water_point",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bbq",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=motorcycle_parking",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=cinema",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 27.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 31.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=ferry_terminal",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 24.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 33.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=public_bookcase",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=courthouse",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 49.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 90.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=shower",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=car_rental",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 21.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 34.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=driving_school",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=arts_centre",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 46.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 58.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=events_venue",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=clock",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=nightclub",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 49.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=watering_place",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bureau_de_change",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bicycle_repair_station",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=prison",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 37.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 42.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=biergarten",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=studio",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 17.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 26.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=monastery",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=internet_cafe",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=embassy",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=social_centre",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=music_school",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=compressed_air",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=weighbridge",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=casino",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=dojo",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=shop",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=waste_transfer_station",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=conference_centre",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=research_institute",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=love_hotel",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 30.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 31.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=crematorium",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=yes",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=building",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=stage",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=stripclub",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=gym",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 6.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=register_office",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 20.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 20.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=music_venue",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 9.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 9.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=planetarium",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=rescue_station",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=club",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=commercial",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=wifi",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=scrapyard",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=culture_center",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=stadium",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 8.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=bandstand",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=exhibition_center",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=restaurant;fast_food",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=event_venue",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=rental",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=publisher",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=services",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=paved",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 4.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=amphitheatre",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=love_motel",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=skatepark",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=arts_centre;cinema",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=tennis court",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=Avenida Senhora do Porto",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=public_council",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=Praça",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=open air theatre",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=rental_properties",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 0.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=peteca court",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=Associação",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "amenity=General",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "source_type": "mirror – must be verified against official Kaggle olistbr/brazilian-ecommerce",
+  "mirror_repository": "https://github.com/olist/work-at-olist-data (datasets/)",
+  "official_source": "https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce",
+  "official_license": "CC BY-NC-SA 4.0",
+  "files": [
+    {
+      "file": "product_category_name_translation.csv",
+      "stage": "catalog",
+      "url": "https://raw.githubusercontent.com/olist/work-at-olist-data/master/datasets/product_category_name_translation.csv",
+      "bytes": 2613,
+      "sha256": "a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278",
+      "physical_lines_including_header": 72,
+      "downloaded_at_utc": "2026-09-28T18:37:25.910202+00:00",
+      "status": "mirror – must be verified against official Kaggle olistbr/brazilian-ecommerce"
+    },
+    {
+      "file": "olist_customers_dataset.csv",
+      "stage": "behavior",
+      "url": "https://raw.githubusercontent.com/olist/work-at-olist-data/master/datasets/olist_customers_dataset.csv",
+      "bytes": 8562270,
+      "sha256": "c26c17f59f3027a6a0dbeb8f1fa373c38f3323ecc84f225a8f4820e5bb288df8",
+      "physical_lines_including_header": 99442,
+      "downloaded_at_utc": "2026-09-28T18:39:04.009015+00:00",
+      "status": "mirror – must be verified against official Kaggle olistbr/brazilian-ecommerce"
+    },
+    {
+      "file": "olist_orders_dataset.csv",
+      "stage": "behavior",
+      "url": "https://raw.githubusercontent.com/olist/work-at-olist-data/master/datasets/olist_orders_dataset.csv",
+      "bytes": 17654914,
+      "sha256": "8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf",
+      "physical_lines_including_header": 99442,
+      "downloaded_at_utc": "2026-09-28T18:39:05.905601+00:00",
+      "status": "mirror – must be verified against official Kaggle olistbr/brazilian-ecommerce"
+    },
+    {
+      "file": "olist_order_items_dataset.csv",
+      "stage": "behavior",
+      "url": "https://raw.githubusercontent.com/olist/work-at-olist-data/master/datasets/olist_order_items_dataset.csv",
+      "bytes": 15007623,
+      "sha256": "4f6abdbbc94036d0df4a76fa0520c072e31a40119d70f7f370fba1e2285d2bcb",
+      "physical_lines_including_header": 112651,
+      "downloaded_at_utc": "2026-09-28T18:39:07.615181+00:00",
+      "status": "mirror – must be verified against official Kaggle olistbr/brazilian-ecommerce"
+    },
+    {
+      "file": "olist_products_dataset.csv",
+      "stage": "behavior",
+      "url": "https://raw.githubusercontent.com/olist/work-at-olist-data/master/datasets/olist_products_dataset.csv",
+      "bytes": 2379446,
+      "sha256": "3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc",
+      "physical_lines_including_header": 32952,
+      "downloaded_at_utc": "2026-09-28T18:39:08.868827+00:00",
+      "status": "mirror – must be verified against official Kaggle olistbr/brazilian-ecommerce"
+    }
+  ]
+}

@@ -1,0 +1,1681 @@
+target_city,users,release,seed,method,metric,correct_minus_swapped,correct_minus_uniform
+Philadelphia | PA,2000,OLH,2026092001,average,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092001,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092001,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092001,context_weighted,ndcg,-0.00727747651762789,0.0031955748557779273
+Philadelphia | PA,2000,OLH,2026092001,censor_aware,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092001,censor_aware,ndcg,-0.00926605203527997,0.0029451697051230408
+Philadelphia | PA,2000,OLH,2026092001,robust_context,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092001,robust_context,ndcg,0.0028676849800174375,0.0031955748557779273
+Philadelphia | PA,2000,OLH,2026092001,context_only,recall,0.09999999999999998,0.39999999999999997
+Philadelphia | PA,2000,OLH,2026092001,context_only,ndcg,0.05541165578529106,0.8057152606251667
+Philadelphia | PA,2000,OLH,2026092001,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,OLH,2026092001,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,ORACLE,2026092001,average,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092001,context_weighted,ndcg,0.0006603698776973532,0.0009462100246179217
+Philadelphia | PA,2000,ORACLE,2026092001,censor_aware,recall,-0.09999999999999998,0.0
+Philadelphia | PA,2000,ORACLE,2026092001,censor_aware,ndcg,-0.010228680025334724,0.00012095432048597754
+Philadelphia | PA,2000,ORACLE,2026092001,robust_context,recall,0.0,0.09999999999999998
+Philadelphia | PA,2000,ORACLE,2026092001,robust_context,ndcg,0.0,0.01041464068661313
+Philadelphia | PA,2000,ORACLE,2026092001,context_only,recall,0.09999999999999998,0.0
+Philadelphia | PA,2000,ORACLE,2026092001,context_only,ndcg,0.09948946899421285,0.6516894704474943
+Philadelphia | PA,2000,ORACLE,2026092001,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,ORACLE,2026092001,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,OLH,2026092002,average,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092002,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092002,context_weighted,ndcg,-0.0025681715647738468,-0.002584664021375138
+Philadelphia | PA,2000,OLH,2026092002,censor_aware,recall,0.09999999999999998,0.09999999999999998
+Philadelphia | PA,2000,OLH,2026092002,censor_aware,ndcg,0.04689119424997168,0.05520851667214344
+Philadelphia | PA,2000,OLH,2026092002,robust_context,recall,0.10000000000000003,0.0
+Philadelphia | PA,2000,OLH,2026092002,robust_context,ndcg,0.056922023025590684,0.03677050727248743
+Philadelphia | PA,2000,OLH,2026092002,context_only,recall,0.09999999999999998,0.39999999999999997
+Philadelphia | PA,2000,OLH,2026092002,context_only,ndcg,0.04832789079889188,0.8512517128267238
+Philadelphia | PA,2000,OLH,2026092002,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,OLH,2026092002,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,ORACLE,2026092002,average,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092002,context_weighted,ndcg,0.0,0.000901364486188716
+Philadelphia | PA,2000,ORACLE,2026092002,censor_aware,recall,0.0,0.10000000000000009
+Philadelphia | PA,2000,ORACLE,2026092002,censor_aware,ndcg,0.0006538713500887638,0.016535888452326786
+Philadelphia | PA,2000,ORACLE,2026092002,robust_context,recall,0.0,0.10000000000000009
+Philadelphia | PA,2000,ORACLE,2026092002,robust_context,ndcg,0.0,0.01612968310983054
+Philadelphia | PA,2000,ORACLE,2026092002,context_only,recall,0.2,0.0
+Philadelphia | PA,2000,ORACLE,2026092002,context_only,ndcg,0.10731441600592795,0.6321076482990144
+Philadelphia | PA,2000,ORACLE,2026092002,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,ORACLE,2026092002,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,OLH,2026092003,average,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092003,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092003,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092003,context_weighted,ndcg,0.0,-0.0004291822105272347
+Philadelphia | PA,2000,OLH,2026092003,censor_aware,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092003,censor_aware,ndcg,0.0,-0.0006864144068523537
+Philadelphia | PA,2000,OLH,2026092003,robust_context,recall,0.0,-0.10000000000000003
+Philadelphia | PA,2000,OLH,2026092003,robust_context,ndcg,0.0,-0.029910210754498068
+Philadelphia | PA,2000,OLH,2026092003,context_only,recall,0.09999999999999998,0.3
+Philadelphia | PA,2000,OLH,2026092003,context_only,ndcg,0.06136508526447082,0.8038350124520469
+Philadelphia | PA,2000,OLH,2026092003,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,OLH,2026092003,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,ORACLE,2026092003,average,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092003,context_weighted,ndcg,-0.005601212464984462,-0.0003661749576278073
+Philadelphia | PA,2000,ORACLE,2026092003,censor_aware,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092003,censor_aware,ndcg,0.001008864714789337,0.01093067799170866
+Philadelphia | PA,2000,ORACLE,2026092003,robust_context,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092003,robust_context,ndcg,0.0,0.0041355071423268
+Philadelphia | PA,2000,ORACLE,2026092003,context_only,recall,0.2,0.0
+Philadelphia | PA,2000,ORACLE,2026092003,context_only,ndcg,0.10731441600592795,0.6795010849010139
+Philadelphia | PA,2000,ORACLE,2026092003,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,ORACLE,2026092003,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,OLH,2026092004,average,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092004,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092004,context_weighted,ndcg,-0.009104583559434332,0.0031596609443323986
+Philadelphia | PA,2000,OLH,2026092004,censor_aware,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092004,censor_aware,ndcg,0.008741989629602487,0.013142112108720072
+Philadelphia | PA,2000,OLH,2026092004,robust_context,recall,0.09999999999999998,0.0
+Philadelphia | PA,2000,OLH,2026092004,robust_context,ndcg,-0.01816470594507502,-0.030993960798777476
+Philadelphia | PA,2000,OLH,2026092004,context_only,recall,0.09999999999999998,0.39999999999999997
+Philadelphia | PA,2000,OLH,2026092004,context_only,ndcg,0.04623870129935459,0.7868016260477659
+Philadelphia | PA,2000,OLH,2026092004,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,OLH,2026092004,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,ORACLE,2026092004,average,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092004,context_weighted,recall,-0.09999999999999998,0.0
+Philadelphia | PA,2000,ORACLE,2026092004,context_weighted,ndcg,-0.011698591602109842,0.0058797831736396855
+Philadelphia | PA,2000,ORACLE,2026092004,censor_aware,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092004,censor_aware,ndcg,0.0008085782530558028,0.013768374758785784
+Philadelphia | PA,2000,ORACLE,2026092004,robust_context,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092004,robust_context,ndcg,0.0,0.014454153066625675
+Philadelphia | PA,2000,ORACLE,2026092004,context_only,recall,0.2,0.0
+Philadelphia | PA,2000,ORACLE,2026092004,context_only,ndcg,0.11665758348353783,0.6594388760120511
+Philadelphia | PA,2000,ORACLE,2026092004,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,ORACLE,2026092004,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,OLH,2026092005,average,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092005,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092005,context_weighted,ndcg,-0.0008569910664386615,0.003738748373862899
+Philadelphia | PA,2000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Philadelphia | PA,2000,OLH,2026092005,censor_aware,ndcg,-0.011116169508604723,0.004322094969212653
+Philadelphia | PA,2000,OLH,2026092005,robust_context,recall,0.0,-0.10000000000000003
+Philadelphia | PA,2000,OLH,2026092005,robust_context,ndcg,-0.031366631229479025,-0.05433304140907236
+Philadelphia | PA,2000,OLH,2026092005,context_only,recall,0.09999999999999998,0.39999999999999997
+Philadelphia | PA,2000,OLH,2026092005,context_only,ndcg,0.05121926878269634,0.8230089187783811
+Philadelphia | PA,2000,OLH,2026092005,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,OLH,2026092005,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,2000,ORACLE,2026092005,average,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.0
+Philadelphia | PA,2000,ORACLE,2026092005,censor_aware,recall,0.09999999999999998,0.09999999999999998
+Philadelphia | PA,2000,ORACLE,2026092005,censor_aware,ndcg,0.0152364330354261,0.01676597781064304
+Philadelphia | PA,2000,ORACLE,2026092005,robust_context,recall,0.0,0.09999999999999998
+Philadelphia | PA,2000,ORACLE,2026092005,robust_context,ndcg,0.0029786725831946192,0.01772238993494124
+Philadelphia | PA,2000,ORACLE,2026092005,context_only,recall,0.2,0.0
+Philadelphia | PA,2000,ORACLE,2026092005,context_only,ndcg,0.11849331048439149,0.6562117736937276
+Philadelphia | PA,2000,ORACLE,2026092005,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,2000,ORACLE,2026092005,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,OLH,2026092001,average,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092001,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092001,context_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092001,context_weighted,ndcg,0.00174824229900572,0.0012448257967306864
+Philadelphia | PA,10000,OLH,2026092001,censor_aware,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092001,censor_aware,ndcg,0.00022356056325323337,-0.0007796248785529869
+Philadelphia | PA,10000,OLH,2026092001,robust_context,recall,0.20000000000000007,0.20000000000000007
+Philadelphia | PA,10000,OLH,2026092001,robust_context,ndcg,0.03533731311779098,0.04603984995084309
+Philadelphia | PA,10000,OLH,2026092001,context_only,recall,0.09999999999999998,0.39999999999999997
+Philadelphia | PA,10000,OLH,2026092001,context_only,ndcg,0.07448756984309468,0.8595565627236005
+Philadelphia | PA,10000,OLH,2026092001,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,OLH,2026092001,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,ORACLE,2026092001,average,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092001,context_weighted,ndcg,-0.00028649774013911333,-0.0003661749576278073
+Philadelphia | PA,10000,ORACLE,2026092001,censor_aware,recall,0.0,0.09999999999999998
+Philadelphia | PA,10000,ORACLE,2026092001,censor_aware,ndcg,0.0015104118993044535,0.016142444158092517
+Philadelphia | PA,10000,ORACLE,2026092001,robust_context,recall,0.0,0.09999999999999998
+Philadelphia | PA,10000,ORACLE,2026092001,robust_context,ndcg,0.0,0.016578575348127345
+Philadelphia | PA,10000,ORACLE,2026092001,context_only,recall,0.2,0.0
+Philadelphia | PA,10000,ORACLE,2026092001,context_only,ndcg,0.11665758348353783,0.6594388760120511
+Philadelphia | PA,10000,ORACLE,2026092001,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,ORACLE,2026092001,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,OLH,2026092002,average,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092002,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092002,context_weighted,ndcg,-0.0005573539429959418,0.0
+Philadelphia | PA,10000,OLH,2026092002,censor_aware,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092002,censor_aware,ndcg,-0.01658021514567809,-0.005877699705036821
+Philadelphia | PA,10000,OLH,2026092002,robust_context,recall,0.09999999999999998,0.0
+Philadelphia | PA,10000,OLH,2026092002,robust_context,ndcg,-0.006937172311570983,-0.014396691167571918
+Philadelphia | PA,10000,OLH,2026092002,context_only,recall,0.29999999999999993,0.29999999999999993
+Philadelphia | PA,10000,OLH,2026092002,context_only,ndcg,0.11777143990031613,0.8010887371660737
+Philadelphia | PA,10000,OLH,2026092002,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,OLH,2026092002,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,ORACLE,2026092002,average,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092002,context_weighted,ndcg,-0.0001277288614214278,-0.003686048184486257
+Philadelphia | PA,10000,ORACLE,2026092002,censor_aware,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092002,censor_aware,ndcg,0.0025192766140937906,0.01418472326836584
+Philadelphia | PA,10000,ORACLE,2026092002,robust_context,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092002,robust_context,ndcg,0.0,0.012983690243039803
+Philadelphia | PA,10000,ORACLE,2026092002,context_only,recall,0.2,0.0
+Philadelphia | PA,10000,ORACLE,2026092002,context_only,ndcg,0.11665758348353783,0.6594388760120511
+Philadelphia | PA,10000,ORACLE,2026092002,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,ORACLE,2026092002,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,OLH,2026092003,average,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092003,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092003,context_weighted,recall,0.10000000000000009,0.0
+Philadelphia | PA,10000,OLH,2026092003,context_weighted,ndcg,0.018846709653506544,0.0
+Philadelphia | PA,10000,OLH,2026092003,censor_aware,recall,0.09999999999999998,-0.10000000000000009
+Philadelphia | PA,10000,OLH,2026092003,censor_aware,ndcg,0.003179652839675695,-0.022678159249382657
+Philadelphia | PA,10000,OLH,2026092003,robust_context,recall,-0.09999999999999998,-0.20000000000000007
+Philadelphia | PA,10000,OLH,2026092003,robust_context,ndcg,-0.021453738507609454,-0.038607270283279704
+Philadelphia | PA,10000,OLH,2026092003,context_only,recall,0.09999999999999998,0.09999999999999998
+Philadelphia | PA,10000,OLH,2026092003,context_only,ndcg,0.07666538837780323,0.7385080456334852
+Philadelphia | PA,10000,OLH,2026092003,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,OLH,2026092003,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,ORACLE,2026092003,average,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092003,context_weighted,ndcg,-0.00010587530610073337,0.0005694854158193596
+Philadelphia | PA,10000,ORACLE,2026092003,censor_aware,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092003,censor_aware,ndcg,0.0025192766140936795,0.005588344737829876
+Philadelphia | PA,10000,ORACLE,2026092003,robust_context,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092003,robust_context,ndcg,0.0,0.0033324818725124494
+Philadelphia | PA,10000,ORACLE,2026092003,context_only,recall,0.2,0.0
+Philadelphia | PA,10000,ORACLE,2026092003,context_only,ndcg,0.10731441600592795,0.6463817802250054
+Philadelphia | PA,10000,ORACLE,2026092003,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,ORACLE,2026092003,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,OLH,2026092004,average,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092004,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092004,context_weighted,recall,-0.10000000000000009,-0.10000000000000009
+Philadelphia | PA,10000,OLH,2026092004,context_weighted,ndcg,-0.024465013879364284,-0.024465013879364284
+Philadelphia | PA,10000,OLH,2026092004,censor_aware,recall,-0.10000000000000009,-0.10000000000000009
+Philadelphia | PA,10000,OLH,2026092004,censor_aware,ndcg,-0.026666086819183588,-0.024794585028313554
+Philadelphia | PA,10000,OLH,2026092004,robust_context,recall,0.0,-0.10000000000000009
+Philadelphia | PA,10000,OLH,2026092004,robust_context,ndcg,0.006886986810830553,-0.03634128947004012
+Philadelphia | PA,10000,OLH,2026092004,context_only,recall,0.19999999999999996,0.39999999999999997
+Philadelphia | PA,10000,OLH,2026092004,context_only,ndcg,0.10831857529335598,0.7960652884057042
+Philadelphia | PA,10000,OLH,2026092004,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,OLH,2026092004,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,ORACLE,2026092004,average,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092004,context_weighted,ndcg,0.0,-0.00036617495762769625
+Philadelphia | PA,10000,ORACLE,2026092004,censor_aware,recall,0.0,0.09999999999999998
+Philadelphia | PA,10000,ORACLE,2026092004,censor_aware,ndcg,0.0005727335247543985,0.01699253999416417
+Philadelphia | PA,10000,ORACLE,2026092004,robust_context,recall,0.0,0.09999999999999998
+Philadelphia | PA,10000,ORACLE,2026092004,robust_context,ndcg,0.0,0.01641980646940977
+Philadelphia | PA,10000,ORACLE,2026092004,context_only,recall,0.2,0.0
+Philadelphia | PA,10000,ORACLE,2026092004,context_only,ndcg,0.11665758348353783,0.6594388760120511
+Philadelphia | PA,10000,ORACLE,2026092004,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,ORACLE,2026092004,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,OLH,2026092005,average,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092005,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092005,context_weighted,ndcg,-0.005473483603563145,0.0
+Philadelphia | PA,10000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092005,censor_aware,ndcg,0.00109777374752007,0.0015159383849649988
+Philadelphia | PA,10000,OLH,2026092005,robust_context,recall,0.0,0.0
+Philadelphia | PA,10000,OLH,2026092005,robust_context,ndcg,-0.0011235675524169375,0.0003766254578347894
+Philadelphia | PA,10000,OLH,2026092005,context_only,recall,0.09999999999999998,0.19999999999999996
+Philadelphia | PA,10000,OLH,2026092005,context_only,ndcg,0.07890361160055093,0.7183899980863835
+Philadelphia | PA,10000,OLH,2026092005,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,OLH,2026092005,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Philadelphia | PA,10000,ORACLE,2026092005,average,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.0
+Philadelphia | PA,10000,ORACLE,2026092005,censor_aware,recall,0.0,0.09999999999999998
+Philadelphia | PA,10000,ORACLE,2026092005,censor_aware,ndcg,0.0,0.017151308872881743
+Philadelphia | PA,10000,ORACLE,2026092005,robust_context,recall,0.0,0.09999999999999998
+Philadelphia | PA,10000,ORACLE,2026092005,robust_context,ndcg,0.0,0.016578575348127345
+Philadelphia | PA,10000,ORACLE,2026092005,context_only,recall,0.2,0.0
+Philadelphia | PA,10000,ORACLE,2026092005,context_only,ndcg,0.10731441600592795,0.6463817802250054
+Philadelphia | PA,10000,ORACLE,2026092005,context_full_domain,recall,0.2,0.5
+Philadelphia | PA,10000,ORACLE,2026092005,context_full_domain,ndcg,0.11849331048439149,0.9066158308291333
+Tucson | AZ,2000,OLH,2026092001,average,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092001,average,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092001,context_weighted,recall,-0.10000000000000003,0.0
+Tucson | AZ,2000,OLH,2026092001,context_weighted,ndcg,-0.02867405232246556,0.0025047312970816193
+Tucson | AZ,2000,OLH,2026092001,censor_aware,recall,0.0,0.10000000000000003
+Tucson | AZ,2000,OLH,2026092001,censor_aware,ndcg,-0.02816719233249143,0.03874179089092922
+Tucson | AZ,2000,OLH,2026092001,robust_context,recall,0.0,0.10000000000000003
+Tucson | AZ,2000,OLH,2026092001,robust_context,ndcg,-0.0037335222611082353,0.03788458291555519
+Tucson | AZ,2000,OLH,2026092001,context_only,recall,0.0,0.30000000000000004
+Tucson | AZ,2000,OLH,2026092001,context_only,ndcg,-0.024698220013901206,0.7671836217741104
+Tucson | AZ,2000,OLH,2026092001,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,OLH,2026092001,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,ORACLE,2026092001,average,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092001,context_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092001,censor_aware,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092001,censor_aware,ndcg,-0.0015833195922595467,0.005946177769838412
+Tucson | AZ,2000,ORACLE,2026092001,robust_context,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092001,robust_context,ndcg,0.0,0.0072894787501568414
+Tucson | AZ,2000,ORACLE,2026092001,context_only,recall,0.09999999999999998,0.19999999999999996
+Tucson | AZ,2000,ORACLE,2026092001,context_only,ndcg,-0.0015113100102540633,0.6051919376204755
+Tucson | AZ,2000,ORACLE,2026092001,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,ORACLE,2026092001,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,OLH,2026092002,average,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092002,average,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092002,context_weighted,ndcg,0.0018569874119879204,-1.4001740404112617e-05
+Tucson | AZ,2000,OLH,2026092002,censor_aware,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092002,censor_aware,ndcg,0.0018569874119878094,0.006227745409360663
+Tucson | AZ,2000,OLH,2026092002,robust_context,recall,0.0,-0.09999999999999998
+Tucson | AZ,2000,OLH,2026092002,robust_context,ndcg,9.08190192453473e-05,-0.022774637465034497
+Tucson | AZ,2000,OLH,2026092002,context_only,recall,0.0,0.5
+Tucson | AZ,2000,OLH,2026092002,context_only,ndcg,0.015673058197637313,0.8550750435360966
+Tucson | AZ,2000,OLH,2026092002,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,OLH,2026092002,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,ORACLE,2026092002,average,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092002,context_weighted,ndcg,0.0,0.0011072698043289586
+Tucson | AZ,2000,ORACLE,2026092002,censor_aware,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092002,censor_aware,ndcg,-0.0016018436770801614,0.020894700604805694
+Tucson | AZ,2000,ORACLE,2026092002,robust_context,recall,0.0,0.10000000000000009
+Tucson | AZ,2000,ORACLE,2026092002,robust_context,ndcg,0.0,0.05520933644295356
+Tucson | AZ,2000,ORACLE,2026092002,context_only,recall,0.19999999999999996,0.29999999999999993
+Tucson | AZ,2000,ORACLE,2026092002,context_only,ndcg,0.022767467067972724,0.6232471785766407
+Tucson | AZ,2000,ORACLE,2026092002,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,ORACLE,2026092002,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,OLH,2026092003,average,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092003,average,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092003,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092003,context_weighted,ndcg,0.0,-0.0004532549897415805
+Tucson | AZ,2000,OLH,2026092003,censor_aware,recall,0.0,0.10000000000000003
+Tucson | AZ,2000,OLH,2026092003,censor_aware,ndcg,0.00015851083341200667,0.02750130370567705
+Tucson | AZ,2000,OLH,2026092003,robust_context,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092003,robust_context,ndcg,0.0,-0.01112911423134566
+Tucson | AZ,2000,OLH,2026092003,context_only,recall,0.0,0.3
+Tucson | AZ,2000,OLH,2026092003,context_only,ndcg,-0.005922853872044609,0.7626488864211131
+Tucson | AZ,2000,OLH,2026092003,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,OLH,2026092003,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,ORACLE,2026092003,average,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092003,context_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092003,censor_aware,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092003,censor_aware,ndcg,-0.008349965845084184,-0.007192895334828031
+Tucson | AZ,2000,ORACLE,2026092003,robust_context,recall,0.10000000000000009,0.10000000000000009
+Tucson | AZ,2000,ORACLE,2026092003,robust_context,ndcg,0.03666235106281979,0.05294619914870813
+Tucson | AZ,2000,ORACLE,2026092003,context_only,recall,0.09999999999999998,0.19999999999999996
+Tucson | AZ,2000,ORACLE,2026092003,context_only,ndcg,-0.01157941568421772,0.6350133777160263
+Tucson | AZ,2000,ORACLE,2026092003,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,ORACLE,2026092003,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,OLH,2026092004,average,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092004,average,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092004,context_weighted,ndcg,0.019841023351873877,0.007649574602102915
+Tucson | AZ,2000,OLH,2026092004,censor_aware,recall,0.0,0.09999999999999998
+Tucson | AZ,2000,OLH,2026092004,censor_aware,ndcg,-0.011608002001617157,0.053109303788138496
+Tucson | AZ,2000,OLH,2026092004,robust_context,recall,-0.10000000000000003,-0.10000000000000003
+Tucson | AZ,2000,OLH,2026092004,robust_context,ndcg,-0.01784786164143648,-0.014251965910447972
+Tucson | AZ,2000,OLH,2026092004,context_only,recall,0.0,0.39999999999999997
+Tucson | AZ,2000,OLH,2026092004,context_only,ndcg,-0.007778310143345735,0.7481328713182247
+Tucson | AZ,2000,OLH,2026092004,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,OLH,2026092004,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,ORACLE,2026092004,average,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092004,context_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092004,censor_aware,recall,-0.09999999999999998,-0.09999999999999998
+Tucson | AZ,2000,ORACLE,2026092004,censor_aware,ndcg,-0.04229995227329664,-0.023155849186322186
+Tucson | AZ,2000,ORACLE,2026092004,robust_context,recall,0.0,0.10000000000000009
+Tucson | AZ,2000,ORACLE,2026092004,robust_context,ndcg,-0.018120223960120585,0.011367420326216182
+Tucson | AZ,2000,ORACLE,2026092004,context_only,recall,0.19999999999999996,0.29999999999999993
+Tucson | AZ,2000,ORACLE,2026092004,context_only,ndcg,0.022623599804006855,0.6432187927704354
+Tucson | AZ,2000,ORACLE,2026092004,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,ORACLE,2026092004,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,OLH,2026092005,average,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092005,average,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092005,context_weighted,ndcg,0.0022389336428282336,0.004216432538631687
+Tucson | AZ,2000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Tucson | AZ,2000,OLH,2026092005,censor_aware,ndcg,0.0,0.0042591340833360025
+Tucson | AZ,2000,OLH,2026092005,robust_context,recall,0.0,-0.10000000000000003
+Tucson | AZ,2000,OLH,2026092005,robust_context,ndcg,0.008134296440738153,-0.00930430605498489
+Tucson | AZ,2000,OLH,2026092005,context_only,recall,0.0,0.30000000000000004
+Tucson | AZ,2000,OLH,2026092005,context_only,ndcg,0.009335180308529312,0.7905888428917147
+Tucson | AZ,2000,OLH,2026092005,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,OLH,2026092005,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,2000,ORACLE,2026092005,average,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.0004792435044617127
+Tucson | AZ,2000,ORACLE,2026092005,censor_aware,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092005,censor_aware,ndcg,-0.00033774564399935425,0.0011175955783432334
+Tucson | AZ,2000,ORACLE,2026092005,robust_context,recall,0.0,0.0
+Tucson | AZ,2000,ORACLE,2026092005,robust_context,ndcg,0.0,0.0010738883736473026
+Tucson | AZ,2000,ORACLE,2026092005,context_only,recall,0.09999999999999998,0.19999999999999996
+Tucson | AZ,2000,ORACLE,2026092005,context_only,ndcg,-0.009270474705048826,0.5877200309815194
+Tucson | AZ,2000,ORACLE,2026092005,context_full_domain,recall,0.0,0.5
+Tucson | AZ,2000,ORACLE,2026092005,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,OLH,2026092001,average,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092001,average,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092001,context_weighted,recall,-0.09999999999999998,0.0
+Tucson | AZ,10000,OLH,2026092001,context_weighted,ndcg,-0.014234954880099293,-0.0005864252955116722
+Tucson | AZ,10000,OLH,2026092001,censor_aware,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092001,censor_aware,ndcg,-8.24454595365065e-05,-0.0006688707550481787
+Tucson | AZ,10000,OLH,2026092001,robust_context,recall,-0.19999999999999996,-0.09999999999999998
+Tucson | AZ,10000,OLH,2026092001,robust_context,ndcg,-0.011001076939485155,-0.00146682726717684
+Tucson | AZ,10000,OLH,2026092001,context_only,recall,0.0,0.3
+Tucson | AZ,10000,OLH,2026092001,context_only,ndcg,-0.022445741135397657,0.7814521031589348
+Tucson | AZ,10000,OLH,2026092001,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,OLH,2026092001,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,ORACLE,2026092001,average,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092001,context_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092001,censor_aware,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092001,censor_aware,ndcg,-0.0009933206882580814,-0.00030328490703612765
+Tucson | AZ,10000,ORACLE,2026092001,robust_context,recall,0.0,0.10000000000000009
+Tucson | AZ,10000,ORACLE,2026092001,robust_context,ndcg,0.0,0.010546329217335448
+Tucson | AZ,10000,ORACLE,2026092001,context_only,recall,0.19999999999999996,0.29999999999999993
+Tucson | AZ,10000,ORACLE,2026092001,context_only,ndcg,0.022767467067972724,0.6175472946366823
+Tucson | AZ,10000,ORACLE,2026092001,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,ORACLE,2026092001,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,OLH,2026092002,average,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092002,average,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092002,context_weighted,ndcg,-5.512587867051444e-05,-0.022933877561319593
+Tucson | AZ,10000,OLH,2026092002,censor_aware,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092002,censor_aware,ndcg,0.00047924350446182373,-5.512587867062546e-05
+Tucson | AZ,10000,OLH,2026092002,robust_context,recall,-0.09999999999999998,-0.09999999999999998
+Tucson | AZ,10000,OLH,2026092002,robust_context,ndcg,-0.03330844701374558,-0.057979726546427135
+Tucson | AZ,10000,OLH,2026092002,context_only,recall,-0.09999999999999998,0.3
+Tucson | AZ,10000,OLH,2026092002,context_only,ndcg,-0.048945935604454927,0.704564538276044
+Tucson | AZ,10000,OLH,2026092002,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,OLH,2026092002,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,ORACLE,2026092002,average,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092002,context_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092002,censor_aware,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092002,censor_aware,ndcg,-0.0010856070033677945,0.0057265651451181565
+Tucson | AZ,10000,ORACLE,2026092002,robust_context,recall,0.0,0.10000000000000009
+Tucson | AZ,10000,ORACLE,2026092002,robust_context,ndcg,0.0,0.03906830812877482
+Tucson | AZ,10000,ORACLE,2026092002,context_only,recall,0.19999999999999996,0.29999999999999993
+Tucson | AZ,10000,ORACLE,2026092002,context_only,ndcg,0.022767467067972724,0.6175472946366823
+Tucson | AZ,10000,ORACLE,2026092002,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,ORACLE,2026092002,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,OLH,2026092003,average,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092003,average,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092003,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092003,context_weighted,ndcg,0.00030994761712888064,0.00030994761712888064
+Tucson | AZ,10000,OLH,2026092003,censor_aware,recall,0.09999999999999998,0.09999999999999998
+Tucson | AZ,10000,OLH,2026092003,censor_aware,ndcg,0.010557665201467059,0.009459147423810155
+Tucson | AZ,10000,OLH,2026092003,robust_context,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092003,robust_context,ndcg,0.009485520718525264,-0.03183758419152449
+Tucson | AZ,10000,OLH,2026092003,context_only,recall,-0.09999999999999998,0.09999999999999998
+Tucson | AZ,10000,OLH,2026092003,context_only,ndcg,-0.030251869606806148,0.7089005076523867
+Tucson | AZ,10000,OLH,2026092003,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,OLH,2026092003,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,ORACLE,2026092003,average,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092003,context_weighted,ndcg,0.0,0.00030328490703612765
+Tucson | AZ,10000,ORACLE,2026092003,censor_aware,recall,-0.09999999999999998,-0.09999999999999998
+Tucson | AZ,10000,ORACLE,2026092003,censor_aware,ndcg,-0.030686450948371857,-0.029277985553586183
+Tucson | AZ,10000,ORACLE,2026092003,robust_context,recall,0.0,0.10000000000000009
+Tucson | AZ,10000,ORACLE,2026092003,robust_context,ndcg,0.0,0.03810945386385556
+Tucson | AZ,10000,ORACLE,2026092003,context_only,recall,0.19999999999999996,0.29999999999999993
+Tucson | AZ,10000,ORACLE,2026092003,context_only,ndcg,0.022767467067972724,0.6175472946366823
+Tucson | AZ,10000,ORACLE,2026092003,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,ORACLE,2026092003,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,OLH,2026092004,average,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092004,average,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092004,context_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092004,censor_aware,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092004,censor_aware,ndcg,0.0,0.0016191323973349103
+Tucson | AZ,10000,OLH,2026092004,robust_context,recall,-0.09999999999999998,-0.09999999999999998
+Tucson | AZ,10000,OLH,2026092004,robust_context,ndcg,-0.04175359930003364,-0.010402127168938957
+Tucson | AZ,10000,OLH,2026092004,context_only,recall,0.0,0.39999999999999997
+Tucson | AZ,10000,OLH,2026092004,context_only,ndcg,0.020346844755012583,0.7773041888157091
+Tucson | AZ,10000,OLH,2026092004,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,OLH,2026092004,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,ORACLE,2026092004,average,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092004,context_weighted,ndcg,-0.0007825284114978404,0.0
+Tucson | AZ,10000,ORACLE,2026092004,censor_aware,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092004,censor_aware,ndcg,-0.00022320736735381708,0.006425421274300125
+Tucson | AZ,10000,ORACLE,2026092004,robust_context,recall,0.0,0.10000000000000009
+Tucson | AZ,10000,ORACLE,2026092004,robust_context,ndcg,0.0,0.01632205319132074
+Tucson | AZ,10000,ORACLE,2026092004,context_only,recall,0.19999999999999996,0.29999999999999993
+Tucson | AZ,10000,ORACLE,2026092004,context_only,ndcg,0.022767467067972724,0.6175472946366823
+Tucson | AZ,10000,ORACLE,2026092004,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,ORACLE,2026092004,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,OLH,2026092005,average,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092005,average,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092005,context_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092005,censor_aware,ndcg,0.0,-0.0016537763601135458
+Tucson | AZ,10000,OLH,2026092005,robust_context,recall,0.0,0.0
+Tucson | AZ,10000,OLH,2026092005,robust_context,ndcg,0.0,-0.0014947186034703908
+Tucson | AZ,10000,OLH,2026092005,context_only,recall,0.0,0.3
+Tucson | AZ,10000,OLH,2026092005,context_only,ndcg,-0.004812922791840646,0.7910268678325889
+Tucson | AZ,10000,OLH,2026092005,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,OLH,2026092005,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tucson | AZ,10000,ORACLE,2026092005,average,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092005,censor_aware,recall,0.0,0.0
+Tucson | AZ,10000,ORACLE,2026092005,censor_aware,ndcg,0.0,0.0011051804877495464
+Tucson | AZ,10000,ORACLE,2026092005,robust_context,recall,0.0,0.10000000000000009
+Tucson | AZ,10000,ORACLE,2026092005,robust_context,ndcg,0.0,0.010227688753248199
+Tucson | AZ,10000,ORACLE,2026092005,context_only,recall,0.19999999999999996,0.29999999999999993
+Tucson | AZ,10000,ORACLE,2026092005,context_only,ndcg,0.022767467067972724,0.6175472946366823
+Tucson | AZ,10000,ORACLE,2026092005,context_full_domain,recall,0.0,0.5
+Tucson | AZ,10000,ORACLE,2026092005,context_full_domain,ndcg,-0.02517869005191342,0.869574346165738
+Tampa | FL,2000,OLH,2026092001,average,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092001,average,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092001,context_weighted,recall,-0.09999999999999998,0.0
+Tampa | FL,2000,OLH,2026092001,context_weighted,ndcg,-0.024862618916498325,-0.0002829589101484009
+Tampa | FL,2000,OLH,2026092001,censor_aware,recall,-0.09999999999999998,0.0
+Tampa | FL,2000,OLH,2026092001,censor_aware,ndcg,-0.03656146980979336,0.01874023482766396
+Tampa | FL,2000,OLH,2026092001,robust_context,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092001,robust_context,ndcg,0.005491671122748953,0.019462544253436742
+Tampa | FL,2000,OLH,2026092001,context_only,recall,0.0,0.49999999999999994
+Tampa | FL,2000,OLH,2026092001,context_only,ndcg,-0.0019209864276767963,0.8338348665308207
+Tampa | FL,2000,OLH,2026092001,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,OLH,2026092001,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,ORACLE,2026092001,average,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092001,context_weighted,ndcg,0.0,-0.00012301545326665053
+Tampa | FL,2000,ORACLE,2026092001,censor_aware,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092001,censor_aware,ndcg,-0.0002476659544402571,0.001981341128635461
+Tampa | FL,2000,ORACLE,2026092001,robust_context,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092001,robust_context,ndcg,0.0,0.0018085963239078406
+Tampa | FL,2000,ORACLE,2026092001,context_only,recall,-0.09999999999999998,-0.09999999999999998
+Tampa | FL,2000,ORACLE,2026092001,context_only,ndcg,-0.01862460660972598,0.5898460216858467
+Tampa | FL,2000,ORACLE,2026092001,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,ORACLE,2026092001,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,OLH,2026092002,average,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092002,average,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092002,context_weighted,ndcg,0.000285847502518366,-0.001964006893242276
+Tampa | FL,2000,OLH,2026092002,censor_aware,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092002,censor_aware,ndcg,0.000285847502518366,-0.001964006893242276
+Tampa | FL,2000,OLH,2026092002,robust_context,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092002,robust_context,ndcg,-0.02074629970263031,-0.04449636562514925
+Tampa | FL,2000,OLH,2026092002,context_only,recall,-0.09999999999999998,0.3
+Tampa | FL,2000,OLH,2026092002,context_only,ndcg,-0.027963934148168224,0.8391672568522768
+Tampa | FL,2000,OLH,2026092002,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,OLH,2026092002,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,ORACLE,2026092002,average,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092002,context_weighted,ndcg,0.0,-0.00014840687939143837
+Tampa | FL,2000,ORACLE,2026092002,censor_aware,recall,0.0,0.09999999999999998
+Tampa | FL,2000,ORACLE,2026092002,censor_aware,ndcg,-0.0008181429267066775,0.0024920553007014012
+Tampa | FL,2000,ORACLE,2026092002,robust_context,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092002,robust_context,ndcg,0.0,-0.002250164933685239
+Tampa | FL,2000,ORACLE,2026092002,context_only,recall,-0.09999999999999998,-0.09999999999999998
+Tampa | FL,2000,ORACLE,2026092002,context_only,ndcg,-0.01862460660972598,0.58279223771167
+Tampa | FL,2000,ORACLE,2026092002,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,ORACLE,2026092002,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,OLH,2026092003,average,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092003,average,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092003,context_weighted,recall,-0.10000000000000003,-0.10000000000000003
+Tampa | FL,2000,OLH,2026092003,context_weighted,ndcg,-0.021837098829337598,-0.02174814628063715
+Tampa | FL,2000,OLH,2026092003,censor_aware,recall,-0.09999999999999998,0.0
+Tampa | FL,2000,OLH,2026092003,censor_aware,ndcg,-0.025372362386957836,0.007814245166495648
+Tampa | FL,2000,OLH,2026092003,robust_context,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092003,robust_context,ndcg,0.0,-0.005181980457121371
+Tampa | FL,2000,OLH,2026092003,context_only,recall,-0.09999999999999998,0.3
+Tampa | FL,2000,OLH,2026092003,context_only,ndcg,-0.024984295136454948,0.7849532279871927
+Tampa | FL,2000,OLH,2026092003,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,OLH,2026092003,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,ORACLE,2026092003,average,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092003,context_weighted,ndcg,0.0,0.0002752714095980435
+Tampa | FL,2000,ORACLE,2026092003,censor_aware,recall,0.0,-0.19999999999999996
+Tampa | FL,2000,ORACLE,2026092003,censor_aware,ndcg,-0.0003044169887099768,-0.005486993274288032
+Tampa | FL,2000,ORACLE,2026092003,robust_context,recall,0.0,-0.19999999999999996
+Tampa | FL,2000,ORACLE,2026092003,robust_context,ndcg,-0.004993947326038417,-0.01184717393266832
+Tampa | FL,2000,ORACLE,2026092003,context_only,recall,-0.09999999999999998,-0.09999999999999998
+Tampa | FL,2000,ORACLE,2026092003,context_only,ndcg,-0.01862460660972598,0.6153399334608001
+Tampa | FL,2000,ORACLE,2026092003,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,ORACLE,2026092003,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,OLH,2026092004,average,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092004,average,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092004,context_weighted,ndcg,-0.0017351768356465014,-0.0047195521966634235
+Tampa | FL,2000,OLH,2026092004,censor_aware,recall,0.09999999999999998,0.09999999999999998
+Tampa | FL,2000,OLH,2026092004,censor_aware,ndcg,0.022473226129161028,0.02028817193349508
+Tampa | FL,2000,OLH,2026092004,robust_context,recall,-0.09999999999999998,0.0
+Tampa | FL,2000,OLH,2026092004,robust_context,ndcg,-0.024866439955563924,-0.009823461575623194
+Tampa | FL,2000,OLH,2026092004,context_only,recall,0.0,0.3
+Tampa | FL,2000,OLH,2026092004,context_only,ndcg,-0.0007525292182344323,0.7738104354035313
+Tampa | FL,2000,OLH,2026092004,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,OLH,2026092004,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,ORACLE,2026092004,average,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092004,context_weighted,ndcg,-0.004987744408859407,0.0028570563228389467
+Tampa | FL,2000,ORACLE,2026092004,censor_aware,recall,-0.09999999999999998,-0.09999999999999998
+Tampa | FL,2000,ORACLE,2026092004,censor_aware,ndcg,-0.004720209545683418,0.0009536222767628777
+Tampa | FL,2000,ORACLE,2026092004,robust_context,recall,0.0,-0.09999999999999998
+Tampa | FL,2000,ORACLE,2026092004,robust_context,ndcg,0.0,0.00167944735864467
+Tampa | FL,2000,ORACLE,2026092004,context_only,recall,0.0,0.09999999999999998
+Tampa | FL,2000,ORACLE,2026092004,context_only,ndcg,-0.0006994690814110527,0.6541546901181701
+Tampa | FL,2000,ORACLE,2026092004,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,ORACLE,2026092004,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,OLH,2026092005,average,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092005,average,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092005,context_weighted,ndcg,-0.0038306246688114554,-0.00345906807409857
+Tampa | FL,2000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Tampa | FL,2000,OLH,2026092005,censor_aware,ndcg,-0.008115059662690438,-0.006958423169830752
+Tampa | FL,2000,OLH,2026092005,robust_context,recall,0.0,-0.10000000000000003
+Tampa | FL,2000,OLH,2026092005,robust_context,ndcg,0.0,-0.03174545052162736
+Tampa | FL,2000,OLH,2026092005,context_only,recall,-0.09999999999999998,0.3
+Tampa | FL,2000,OLH,2026092005,context_only,ndcg,-0.01175265771800671,0.824861276849691
+Tampa | FL,2000,OLH,2026092005,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,OLH,2026092005,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,2000,ORACLE,2026092005,average,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092005,context_weighted,recall,-0.09999999999999998,0.0
+Tampa | FL,2000,ORACLE,2026092005,context_weighted,ndcg,-0.005828969181269517,0.0
+Tampa | FL,2000,ORACLE,2026092005,censor_aware,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092005,censor_aware,ndcg,-0.000762524131421638,0.0034042378522692873
+Tampa | FL,2000,ORACLE,2026092005,robust_context,recall,0.0,0.0
+Tampa | FL,2000,ORACLE,2026092005,robust_context,ndcg,-0.0004612494380860088,0.0030350680796153995
+Tampa | FL,2000,ORACLE,2026092005,context_only,recall,-0.09999999999999998,-0.09999999999999998
+Tampa | FL,2000,ORACLE,2026092005,context_only,ndcg,-0.01862460660972598,0.5850069077256543
+Tampa | FL,2000,ORACLE,2026092005,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,2000,ORACLE,2026092005,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,OLH,2026092001,average,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092001,average,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092001,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092001,context_weighted,ndcg,-0.000165803437011669,0.0
+Tampa | FL,10000,OLH,2026092001,censor_aware,recall,0.0,0.09999999999999998
+Tampa | FL,10000,OLH,2026092001,censor_aware,ndcg,0.0010554205122704774,0.017757902923677626
+Tampa | FL,10000,OLH,2026092001,robust_context,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,OLH,2026092001,robust_context,ndcg,-0.01167746143822479,-0.005613984730675092
+Tampa | FL,10000,OLH,2026092001,context_only,recall,-0.09999999999999998,0.3
+Tampa | FL,10000,OLH,2026092001,context_only,ndcg,-0.022025363389210573,0.7917639126374085
+Tampa | FL,10000,OLH,2026092001,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,OLH,2026092001,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,ORACLE,2026092001,average,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092001,context_weighted,ndcg,-0.00011826123285074708,0.0
+Tampa | FL,10000,ORACLE,2026092001,censor_aware,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,ORACLE,2026092001,censor_aware,ndcg,-0.0006096674183146966,-0.002899613755403929
+Tampa | FL,10000,ORACLE,2026092001,robust_context,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,ORACLE,2026092001,robust_context,ndcg,-0.0002636205568032901,-0.0019616859275360943
+Tampa | FL,10000,ORACLE,2026092001,context_only,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092001,context_only,ndcg,-0.0006994690814110527,0.6109289315445289
+Tampa | FL,10000,ORACLE,2026092001,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,ORACLE,2026092001,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,OLH,2026092002,average,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092002,average,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092002,context_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092002,censor_aware,recall,0.0,0.10000000000000009
+Tampa | FL,10000,OLH,2026092002,censor_aware,ndcg,0.0,-0.003910964387689009
+Tampa | FL,10000,OLH,2026092002,robust_context,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092002,robust_context,ndcg,0.013603973850026319,-0.016374445136543514
+Tampa | FL,10000,OLH,2026092002,context_only,recall,-0.09999999999999998,0.19999999999999996
+Tampa | FL,10000,OLH,2026092002,context_only,ndcg,-0.026116974332933474,0.757448642196404
+Tampa | FL,10000,OLH,2026092002,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,OLH,2026092002,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,ORACLE,2026092002,average,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092002,context_weighted,ndcg,0.0,0.0008389080323122355
+Tampa | FL,10000,ORACLE,2026092002,censor_aware,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092002,censor_aware,ndcg,-0.0004951009938942708,0.0006415165971860315
+Tampa | FL,10000,ORACLE,2026092002,robust_context,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,ORACLE,2026092002,robust_context,ndcg,0.0,-0.0032492617068567986
+Tampa | FL,10000,ORACLE,2026092002,context_only,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092002,context_only,ndcg,-0.0006994690814110527,0.6109289315445289
+Tampa | FL,10000,ORACLE,2026092002,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,ORACLE,2026092002,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,OLH,2026092003,average,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092003,average,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092003,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092003,context_weighted,ndcg,0.0,0.002640863519869252
+Tampa | FL,10000,OLH,2026092003,censor_aware,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,OLH,2026092003,censor_aware,ndcg,-0.002640863519869252,-0.013323358128616292
+Tampa | FL,10000,OLH,2026092003,robust_context,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,OLH,2026092003,robust_context,ndcg,0.001040131538749156,-0.014396957093674168
+Tampa | FL,10000,OLH,2026092003,context_only,recall,-0.09999999999999998,0.09999999999999998
+Tampa | FL,10000,OLH,2026092003,context_only,ndcg,-0.019904303950335378,0.7000105987725215
+Tampa | FL,10000,OLH,2026092003,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,OLH,2026092003,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,ORACLE,2026092003,average,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092003,context_weighted,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,ORACLE,2026092003,context_weighted,ndcg,0.0,-0.0028536516255798228
+Tampa | FL,10000,ORACLE,2026092003,censor_aware,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,ORACLE,2026092003,censor_aware,ndcg,-0.0013255124784657957,-0.0030988495782708902
+Tampa | FL,10000,ORACLE,2026092003,robust_context,recall,0.0,-0.09999999999999998
+Tampa | FL,10000,ORACLE,2026092003,robust_context,ndcg,-0.0004612494380860088,-0.0027754784975416724
+Tampa | FL,10000,ORACLE,2026092003,context_only,recall,-0.09999999999999998,-0.09999999999999998
+Tampa | FL,10000,ORACLE,2026092003,context_only,ndcg,-0.01862460660972598,0.5781424663883614
+Tampa | FL,10000,ORACLE,2026092003,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,ORACLE,2026092003,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,OLH,2026092004,average,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092004,average,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092004,context_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092004,censor_aware,recall,0.0,0.09999999999999998
+Tampa | FL,10000,OLH,2026092004,censor_aware,ndcg,9.762256211409692e-06,0.016194771518404205
+Tampa | FL,10000,OLH,2026092004,robust_context,recall,-0.10000000000000009,-0.10000000000000009
+Tampa | FL,10000,OLH,2026092004,robust_context,ndcg,-0.02944046706050929,-0.017958385912776875
+Tampa | FL,10000,OLH,2026092004,context_only,recall,0.0,0.39999999999999997
+Tampa | FL,10000,OLH,2026092004,context_only,ndcg,-0.006578625801433757,0.7474196170050272
+Tampa | FL,10000,OLH,2026092004,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,OLH,2026092004,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,ORACLE,2026092004,average,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092004,context_weighted,ndcg,0.0,0.002585633990180969
+Tampa | FL,10000,ORACLE,2026092004,censor_aware,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092004,censor_aware,ndcg,-0.0004951009938942708,0.002522310605519329
+Tampa | FL,10000,ORACLE,2026092004,robust_context,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092004,robust_context,ndcg,0.0,0.0021822131710265147
+Tampa | FL,10000,ORACLE,2026092004,context_only,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092004,context_only,ndcg,-0.0006994690814110527,0.6109289315445289
+Tampa | FL,10000,ORACLE,2026092004,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,ORACLE,2026092004,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,OLH,2026092005,average,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092005,average,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092005,context_weighted,ndcg,0.0,-0.0002960185521551084
+Tampa | FL,10000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Tampa | FL,10000,OLH,2026092005,censor_aware,ndcg,-0.0037973475242214505,-0.005326471838056679
+Tampa | FL,10000,OLH,2026092005,robust_context,recall,0.20000000000000007,0.0
+Tampa | FL,10000,OLH,2026092005,robust_context,ndcg,0.01221852414118585,0.0122123438619256
+Tampa | FL,10000,OLH,2026092005,context_only,recall,0.0,0.19999999999999996
+Tampa | FL,10000,OLH,2026092005,context_only,ndcg,-0.009436043768350055,0.7765116022509289
+Tampa | FL,10000,OLH,2026092005,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,OLH,2026092005,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Tampa | FL,10000,ORACLE,2026092005,average,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092005,context_weighted,ndcg,-0.0008675884178231952,0.002734040869572296
+Tampa | FL,10000,ORACLE,2026092005,censor_aware,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092005,censor_aware,ndcg,-0.0002910782272118606,0.0035977080208218215
+Tampa | FL,10000,ORACLE,2026092005,robust_context,recall,0.0,0.0
+Tampa | FL,10000,ORACLE,2026092005,robust_context,ndcg,0.0,0.003053490683727844
+Tampa | FL,10000,ORACLE,2026092005,context_only,recall,-0.09999999999999998,-0.09999999999999998
+Tampa | FL,10000,ORACLE,2026092005,context_only,ndcg,-0.01862460660972598,0.5781424663883614
+Tampa | FL,10000,ORACLE,2026092005,context_full_domain,recall,-0.09999999999999998,0.4
+Tampa | FL,10000,ORACLE,2026092005,context_full_domain,ndcg,-0.01862460660972598,0.8915997725483589
+Indianapolis | IN,2000,OLH,2026092001,average,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092001,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092001,context_weighted,recall,-0.09999999999999998,0.10000000000000003
+Indianapolis | IN,2000,OLH,2026092001,context_weighted,ndcg,-0.05590062365923942,0.019533491397394243
+Indianapolis | IN,2000,OLH,2026092001,censor_aware,recall,0.0,0.2
+Indianapolis | IN,2000,OLH,2026092001,censor_aware,ndcg,-0.014360567943617952,0.08759191845876824
+Indianapolis | IN,2000,OLH,2026092001,robust_context,recall,0.0,0.2
+Indianapolis | IN,2000,OLH,2026092001,robust_context,ndcg,-0.009779381870324011,0.07467967151652266
+Indianapolis | IN,2000,OLH,2026092001,context_only,recall,-0.09999999999999998,0.3
+Indianapolis | IN,2000,OLH,2026092001,context_only,ndcg,-0.025488002151431655,0.8145884617823721
+Indianapolis | IN,2000,OLH,2026092001,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,OLH,2026092001,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,ORACLE,2026092001,average,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092001,context_weighted,ndcg,0.0,-7.229061179125917e-05
+Indianapolis | IN,2000,ORACLE,2026092001,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092001,censor_aware,ndcg,0.0009356032633927036,0.007122911804330334
+Indianapolis | IN,2000,ORACLE,2026092001,robust_context,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092001,robust_context,ndcg,0.0,-0.0021840379817773536
+Indianapolis | IN,2000,ORACLE,2026092001,context_only,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092001,context_only,ndcg,-0.024979155303959888,0.6283695258794191
+Indianapolis | IN,2000,ORACLE,2026092001,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,ORACLE,2026092001,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,OLH,2026092002,average,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092002,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092002,context_weighted,ndcg,0.006545572240319597,0.0033205398517607287
+Indianapolis | IN,2000,OLH,2026092002,censor_aware,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092002,censor_aware,ndcg,0.004779818780687783,0.009337072512621059
+Indianapolis | IN,2000,OLH,2026092002,robust_context,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092002,robust_context,ndcg,0.005823948905534948,0.018735617032950125
+Indianapolis | IN,2000,OLH,2026092002,context_only,recall,0.0,0.39999999999999997
+Indianapolis | IN,2000,OLH,2026092002,context_only,ndcg,-0.004940146788424915,0.8427899724089954
+Indianapolis | IN,2000,OLH,2026092002,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,OLH,2026092002,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,ORACLE,2026092002,average,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092002,context_weighted,recall,0.0,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092002,context_weighted,ndcg,0.0003532011575675398,0.004804319815233993
+Indianapolis | IN,2000,ORACLE,2026092002,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092002,censor_aware,ndcg,-0.003957158302301922,0.006638734131768742
+Indianapolis | IN,2000,ORACLE,2026092002,robust_context,recall,0.0,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092002,robust_context,ndcg,0.0,0.009727933610493511
+Indianapolis | IN,2000,ORACLE,2026092002,context_only,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092002,context_only,ndcg,-0.024979155303959888,0.6152562659372636
+Indianapolis | IN,2000,ORACLE,2026092002,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,ORACLE,2026092002,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,OLH,2026092003,average,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092003,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092003,context_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092003,context_weighted,ndcg,0.0,0.00107574287558021
+Indianapolis | IN,2000,OLH,2026092003,censor_aware,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092003,censor_aware,ndcg,0.003686121760833938,0.007492407341915364
+Indianapolis | IN,2000,OLH,2026092003,robust_context,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092003,robust_context,ndcg,0.0,0.007141446522877404
+Indianapolis | IN,2000,OLH,2026092003,context_only,recall,-0.09999999999999998,0.2
+Indianapolis | IN,2000,OLH,2026092003,context_only,ndcg,-0.01453812745136418,0.7860574095781702
+Indianapolis | IN,2000,OLH,2026092003,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,OLH,2026092003,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,ORACLE,2026092003,average,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092003,context_weighted,ndcg,0.0020990763604213925,0.003098979005660585
+Indianapolis | IN,2000,ORACLE,2026092003,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092003,censor_aware,ndcg,-0.007241499413076835,-0.000499410150973767
+Indianapolis | IN,2000,ORACLE,2026092003,robust_context,recall,0.0,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092003,robust_context,ndcg,-0.0017786421666577956,0.00502258716854731
+Indianapolis | IN,2000,ORACLE,2026092003,context_only,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092003,context_only,ndcg,-0.024979155303959888,0.6617949488555661
+Indianapolis | IN,2000,ORACLE,2026092003,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,ORACLE,2026092003,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,OLH,2026092004,average,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092004,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092004,context_weighted,ndcg,9.070632338448181e-05,-0.0006185463697921945
+Indianapolis | IN,2000,OLH,2026092004,censor_aware,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092004,censor_aware,ndcg,-0.0015321017259473102,0.00693823524883308
+Indianapolis | IN,2000,OLH,2026092004,robust_context,recall,0.0,-0.19999999999999996
+Indianapolis | IN,2000,OLH,2026092004,robust_context,ndcg,0.0,-0.07571725900267479
+Indianapolis | IN,2000,OLH,2026092004,context_only,recall,0.0,0.3
+Indianapolis | IN,2000,OLH,2026092004,context_only,ndcg,-0.0020755581200085915,0.7746304882575206
+Indianapolis | IN,2000,OLH,2026092004,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,OLH,2026092004,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,ORACLE,2026092004,average,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092004,context_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092004,censor_aware,recall,0.10000000000000009,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092004,censor_aware,ndcg,0.004825856472679968,0.00820856736490494
+Indianapolis | IN,2000,ORACLE,2026092004,robust_context,recall,0.10000000000000009,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092004,robust_context,ndcg,0.005116654538586229,0.0081985013870578
+Indianapolis | IN,2000,ORACLE,2026092004,context_only,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092004,context_only,ndcg,-0.02586204068807918,0.6400519869178015
+Indianapolis | IN,2000,ORACLE,2026092004,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,ORACLE,2026092004,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,OLH,2026092005,average,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092005,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092005,context_weighted,ndcg,-0.009207876148725203,-0.003059607872183956
+Indianapolis | IN,2000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Indianapolis | IN,2000,OLH,2026092005,censor_aware,ndcg,-0.009264473579926102,-0.0024313411242257166
+Indianapolis | IN,2000,OLH,2026092005,robust_context,recall,0.0,-0.09999999999999998
+Indianapolis | IN,2000,OLH,2026092005,robust_context,ndcg,0.002115693732613999,-0.01842034886172106
+Indianapolis | IN,2000,OLH,2026092005,context_only,recall,0.0,0.39999999999999997
+Indianapolis | IN,2000,OLH,2026092005,context_only,ndcg,0.0029772405345662722,0.8238471166499417
+Indianapolis | IN,2000,OLH,2026092005,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,OLH,2026092005,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,2000,ORACLE,2026092005,average,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092005,context_weighted,ndcg,0.0,3.27616790202212e-05
+Indianapolis | IN,2000,ORACLE,2026092005,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,2000,ORACLE,2026092005,censor_aware,ndcg,-0.0030104143064997313,0.0047520156216670495
+Indianapolis | IN,2000,ORACLE,2026092005,robust_context,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092005,robust_context,ndcg,0.0,-0.004243627362017333
+Indianapolis | IN,2000,ORACLE,2026092005,context_only,recall,0.0,0.0
+Indianapolis | IN,2000,ORACLE,2026092005,context_only,ndcg,-0.024979155303959888,0.6315259633172766
+Indianapolis | IN,2000,ORACLE,2026092005,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,2000,ORACLE,2026092005,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,OLH,2026092001,average,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092001,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092001,context_weighted,recall,-0.09999999999999998,0.0
+Indianapolis | IN,10000,OLH,2026092001,context_weighted,ndcg,-0.015804035270389982,-0.005469350021962693
+Indianapolis | IN,10000,OLH,2026092001,censor_aware,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092001,censor_aware,ndcg,-0.01960408772530542,-0.005058621816607323
+Indianapolis | IN,10000,OLH,2026092001,robust_context,recall,0.0,0.09999999999999998
+Indianapolis | IN,10000,OLH,2026092001,robust_context,ndcg,-0.0009068799798644944,0.015931756344964687
+Indianapolis | IN,10000,OLH,2026092001,context_only,recall,0.09999999999999998,0.39999999999999997
+Indianapolis | IN,10000,OLH,2026092001,context_only,ndcg,-0.0006384706082926961,0.8486462958141829
+Indianapolis | IN,10000,OLH,2026092001,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,OLH,2026092001,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,ORACLE,2026092001,average,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092001,context_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092001,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092001,censor_aware,ndcg,-0.0004434612608090749,0.006476771189449004
+Indianapolis | IN,10000,ORACLE,2026092001,robust_context,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092001,robust_context,ndcg,-0.0017569225128005739,0.003968330447782775
+Indianapolis | IN,10000,ORACLE,2026092001,context_only,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092001,context_only,ndcg,-0.02586204068807918,0.6324904244668671
+Indianapolis | IN,10000,ORACLE,2026092001,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,ORACLE,2026092001,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,OLH,2026092002,average,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092002,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092002,context_weighted,ndcg,-0.0013092117547938154,0.0004172803327854302
+Indianapolis | IN,10000,OLH,2026092002,censor_aware,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092002,censor_aware,ndcg,0.0003122280419739498,0.00258976630519292
+Indianapolis | IN,10000,OLH,2026092002,robust_context,recall,-0.20000000000000007,-0.09999999999999998
+Indianapolis | IN,10000,OLH,2026092002,robust_context,ndcg,-0.007870683534554668,-0.01732890038598911
+Indianapolis | IN,10000,OLH,2026092002,context_only,recall,0.09999999999999998,0.3
+Indianapolis | IN,10000,OLH,2026092002,context_only,ndcg,0.0012032815269580333,0.78444541051055
+Indianapolis | IN,10000,OLH,2026092002,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,OLH,2026092002,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,ORACLE,2026092002,average,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092002,context_weighted,ndcg,0.0,0.0009999026452391924
+Indianapolis | IN,10000,ORACLE,2026092002,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092002,censor_aware,ndcg,-0.0025886973230869748,0.005523129359723544
+Indianapolis | IN,10000,ORACLE,2026092002,robust_context,recall,0.10000000000000009,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092002,robust_context,ndcg,0.014606123060920795,0.007766654870143275
+Indianapolis | IN,10000,ORACLE,2026092002,context_only,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092002,context_only,ndcg,-0.02586204068807918,0.6324904244668671
+Indianapolis | IN,10000,ORACLE,2026092002,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,ORACLE,2026092002,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,OLH,2026092003,average,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092003,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092003,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092003,context_weighted,ndcg,0.0023307643182319815,0.0017548484870320014
+Indianapolis | IN,10000,OLH,2026092003,censor_aware,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092003,censor_aware,ndcg,0.0031080583864279143,0.003623528527944342
+Indianapolis | IN,10000,OLH,2026092003,robust_context,recall,0.09999999999999998,0.0
+Indianapolis | IN,10000,OLH,2026092003,robust_context,ndcg,0.01090958542553011,-0.01614254952213101
+Indianapolis | IN,10000,OLH,2026092003,context_only,recall,0.09999999999999998,0.09999999999999998
+Indianapolis | IN,10000,OLH,2026092003,context_only,ndcg,-0.006811910209420957,0.7176482738929896
+Indianapolis | IN,10000,OLH,2026092003,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,OLH,2026092003,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,ORACLE,2026092003,average,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092003,context_weighted,ndcg,0.0,-0.00029795003774435447
+Indianapolis | IN,10000,ORACLE,2026092003,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092003,censor_aware,ndcg,-0.003380867673821508,0.0030773082271121632
+Indianapolis | IN,10000,ORACLE,2026092003,robust_context,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092003,robust_context,ndcg,-0.0031940103620217153,0.0025954933724708917
+Indianapolis | IN,10000,ORACLE,2026092003,context_only,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092003,context_only,ndcg,-0.024979155303959888,0.6133385106538469
+Indianapolis | IN,10000,ORACLE,2026092003,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,ORACLE,2026092003,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,OLH,2026092004,average,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092004,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092004,context_weighted,ndcg,0.003588528033940497,0.003588528033940497
+Indianapolis | IN,10000,OLH,2026092004,censor_aware,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092004,censor_aware,ndcg,0.00044917986235792906,0.0055394640929051775
+Indianapolis | IN,10000,OLH,2026092004,robust_context,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,OLH,2026092004,robust_context,ndcg,-0.009476565528804382,0.0006618342266208055
+Indianapolis | IN,10000,OLH,2026092004,context_only,recall,0.0,0.3
+Indianapolis | IN,10000,OLH,2026092004,context_only,ndcg,-0.008396065229368532,0.7798477191495242
+Indianapolis | IN,10000,OLH,2026092004,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,OLH,2026092004,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,ORACLE,2026092004,average,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092004,context_weighted,ndcg,0.0,0.003721397035594598
+Indianapolis | IN,10000,ORACLE,2026092004,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092004,censor_aware,ndcg,0.0007496040302407136,0.007927593639766806
+Indianapolis | IN,10000,ORACLE,2026092004,robust_context,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092004,robust_context,ndcg,0.0,-0.004607231518606869
+Indianapolis | IN,10000,ORACLE,2026092004,context_only,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092004,context_only,ndcg,-0.02586204068807918,0.6324904244668671
+Indianapolis | IN,10000,ORACLE,2026092004,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,ORACLE,2026092004,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,OLH,2026092005,average,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092005,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092005,context_weighted,ndcg,-0.0020205465978527792,-0.0023684622627271334
+Indianapolis | IN,10000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Indianapolis | IN,10000,OLH,2026092005,censor_aware,ndcg,0.0051618683809940835,0.003490749987337227
+Indianapolis | IN,10000,OLH,2026092005,robust_context,recall,0.09999999999999998,0.0
+Indianapolis | IN,10000,OLH,2026092005,robust_context,ndcg,0.020198001706589253,0.008174742194950735
+Indianapolis | IN,10000,OLH,2026092005,context_only,recall,0.09999999999999998,0.3
+Indianapolis | IN,10000,OLH,2026092005,context_only,ndcg,-0.010376255038271776,0.832643102906649
+Indianapolis | IN,10000,OLH,2026092005,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,OLH,2026092005,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Indianapolis | IN,10000,ORACLE,2026092005,average,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.0022857303827792386
+Indianapolis | IN,10000,ORACLE,2026092005,censor_aware,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092005,censor_aware,ndcg,-1.1985965764238493e-05,0.006491926986951446
+Indianapolis | IN,10000,ORACLE,2026092005,robust_context,recall,0.0,0.10000000000000009
+Indianapolis | IN,10000,ORACLE,2026092005,robust_context,ndcg,-0.00013660492363154475,0.005353464049975831
+Indianapolis | IN,10000,ORACLE,2026092005,context_only,recall,0.0,0.0
+Indianapolis | IN,10000,ORACLE,2026092005,context_only,ndcg,-0.024979155303959888,0.6133385106538469
+Indianapolis | IN,10000,ORACLE,2026092005,context_full_domain,recall,-0.10000000000000003,0.3
+Indianapolis | IN,10000,ORACLE,2026092005,context_full_domain,ndcg,-0.03960560981060657,0.8647017904724245
+Nashville | TN,2000,OLH,2026092001,average,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092001,average,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092001,context_weighted,recall,0.09999999999999998,0.2
+Nashville | TN,2000,OLH,2026092001,context_weighted,ndcg,0.03410859914384812,0.07536912056532208
+Nashville | TN,2000,OLH,2026092001,censor_aware,recall,0.0,0.2
+Nashville | TN,2000,OLH,2026092001,censor_aware,ndcg,0.0009541837865328917,0.07867556416895993
+Nashville | TN,2000,OLH,2026092001,robust_context,recall,0.0,0.2
+Nashville | TN,2000,OLH,2026092001,robust_context,ndcg,-0.00011844627509949301,0.07994368455462919
+Nashville | TN,2000,OLH,2026092001,context_only,recall,0.0,0.30000000000000004
+Nashville | TN,2000,OLH,2026092001,context_only,ndcg,-3.6779178815060654e-05,0.770781061921473
+Nashville | TN,2000,OLH,2026092001,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,OLH,2026092001,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,ORACLE,2026092001,average,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092001,context_weighted,ndcg,0.0016520076094983516,0.003567996298916687
+Nashville | TN,2000,ORACLE,2026092001,censor_aware,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092001,censor_aware,ndcg,-0.0019702699658737943,0.011208653863795437
+Nashville | TN,2000,ORACLE,2026092001,robust_context,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092001,robust_context,ndcg,-0.0017908284132313046,0.004863472047163642
+Nashville | TN,2000,ORACLE,2026092001,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,2000,ORACLE,2026092001,context_only,ndcg,0.01148138243809349,0.4591265712098028
+Nashville | TN,2000,ORACLE,2026092001,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,ORACLE,2026092001,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,OLH,2026092002,average,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092002,average,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092002,context_weighted,ndcg,-0.011312366301004517,-0.0005676912552653457
+Nashville | TN,2000,OLH,2026092002,censor_aware,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092002,censor_aware,ndcg,-0.00021317758482541915,0.010222025572555915
+Nashville | TN,2000,OLH,2026092002,robust_context,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092002,robust_context,ndcg,-0.010412112044553168,-0.00042061284174721436
+Nashville | TN,2000,OLH,2026092002,context_only,recall,0.09999999999999998,0.39999999999999997
+Nashville | TN,2000,OLH,2026092002,context_only,ndcg,0.013364559385407593,0.7608047215500243
+Nashville | TN,2000,OLH,2026092002,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,OLH,2026092002,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,ORACLE,2026092002,average,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092002,context_weighted,ndcg,0.0,0.0017396397626426863
+Nashville | TN,2000,ORACLE,2026092002,censor_aware,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092002,censor_aware,ndcg,-0.004006076238665446,0.0018358167719776386
+Nashville | TN,2000,ORACLE,2026092002,robust_context,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092002,robust_context,ndcg,0.0005323939359400676,0.004921498114059064
+Nashville | TN,2000,ORACLE,2026092002,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,2000,ORACLE,2026092002,context_only,ndcg,0.01148138243809349,0.46267124300263573
+Nashville | TN,2000,ORACLE,2026092002,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,ORACLE,2026092002,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,OLH,2026092003,average,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092003,average,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092003,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092003,context_weighted,ndcg,0.00202353239249331,0.00023193412981215022
+Nashville | TN,2000,OLH,2026092003,censor_aware,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092003,censor_aware,ndcg,-0.01584386645330982,-0.01078140178583864
+Nashville | TN,2000,OLH,2026092003,robust_context,recall,0.0,-0.10000000000000003
+Nashville | TN,2000,OLH,2026092003,robust_context,ndcg,7.641191595975094e-05,-0.05857203542694367
+Nashville | TN,2000,OLH,2026092003,context_only,recall,0.09999999999999998,0.39999999999999997
+Nashville | TN,2000,OLH,2026092003,context_only,ndcg,0.017634825608558335,0.7566007555021548
+Nashville | TN,2000,OLH,2026092003,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,OLH,2026092003,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,ORACLE,2026092003,average,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092003,context_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092003,censor_aware,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092003,censor_aware,ndcg,-0.01417429471368803,-0.005811502125713464
+Nashville | TN,2000,ORACLE,2026092003,robust_context,recall,0.0,0.10000000000000009
+Nashville | TN,2000,ORACLE,2026092003,robust_context,ndcg,0.0,0.013886608868695527
+Nashville | TN,2000,ORACLE,2026092003,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,2000,ORACLE,2026092003,context_only,ndcg,0.01148138243809349,0.4591265712098028
+Nashville | TN,2000,ORACLE,2026092003,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,ORACLE,2026092003,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,OLH,2026092004,average,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092004,average,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092004,context_weighted,ndcg,0.0,0.012446682832395473
+Nashville | TN,2000,OLH,2026092004,censor_aware,recall,0.09999999999999998,0.09999999999999998
+Nashville | TN,2000,OLH,2026092004,censor_aware,ndcg,0.033418921618186825,0.0458656044505823
+Nashville | TN,2000,OLH,2026092004,robust_context,recall,0.0,0.09999999999999998
+Nashville | TN,2000,OLH,2026092004,robust_context,ndcg,0.0015242280153936472,0.046889792559802856
+Nashville | TN,2000,OLH,2026092004,context_only,recall,0.09999999999999998,0.39999999999999997
+Nashville | TN,2000,OLH,2026092004,context_only,ndcg,0.04675410518913625,0.6786043274546106
+Nashville | TN,2000,OLH,2026092004,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,OLH,2026092004,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,ORACLE,2026092004,average,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092004,context_weighted,ndcg,-0.007279508178107519,0.0003632534536391896
+Nashville | TN,2000,ORACLE,2026092004,censor_aware,recall,0.0,-0.09999999999999998
+Nashville | TN,2000,ORACLE,2026092004,censor_aware,ndcg,-0.001305037376685414,-0.01872198230990807
+Nashville | TN,2000,ORACLE,2026092004,robust_context,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092004,robust_context,ndcg,0.0,0.005820273769080231
+Nashville | TN,2000,ORACLE,2026092004,context_only,recall,0.0,0.10000000000000003
+Nashville | TN,2000,ORACLE,2026092004,context_only,ndcg,0.010112315358398738,0.5018690702077266
+Nashville | TN,2000,ORACLE,2026092004,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,ORACLE,2026092004,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,OLH,2026092005,average,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092005,average,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092005,context_weighted,ndcg,0.0,0.015111978484654953
+Nashville | TN,2000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Nashville | TN,2000,OLH,2026092005,censor_aware,ndcg,8.447698990632357e-05,0.025662155556508748
+Nashville | TN,2000,OLH,2026092005,robust_context,recall,0.0,-0.10000000000000003
+Nashville | TN,2000,OLH,2026092005,robust_context,ndcg,0.0,-0.012737112644931603
+Nashville | TN,2000,OLH,2026092005,context_only,recall,0.0,0.3
+Nashville | TN,2000,OLH,2026092005,context_only,ndcg,-0.002523204839133264,0.7019116616042143
+Nashville | TN,2000,OLH,2026092005,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,OLH,2026092005,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,2000,ORACLE,2026092005,average,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Nashville | TN,2000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.00019182454487698397
+Nashville | TN,2000,ORACLE,2026092005,censor_aware,recall,-0.09999999999999998,-0.09999999999999998
+Nashville | TN,2000,ORACLE,2026092005,censor_aware,ndcg,-0.02288930568960812,-0.016952920799170546
+Nashville | TN,2000,ORACLE,2026092005,robust_context,recall,0.0,-0.09999999999999998
+Nashville | TN,2000,ORACLE,2026092005,robust_context,ndcg,0.0,-0.023071988307631908
+Nashville | TN,2000,ORACLE,2026092005,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,2000,ORACLE,2026092005,context_only,ndcg,0.01148138243809349,0.4675609558766251
+Nashville | TN,2000,ORACLE,2026092005,context_full_domain,recall,0.0,0.4
+Nashville | TN,2000,ORACLE,2026092005,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,OLH,2026092001,average,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092001,average,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092001,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092001,context_weighted,ndcg,-0.004263124680185859,0.004456017471898721
+Nashville | TN,10000,OLH,2026092001,censor_aware,recall,0.09999999999999998,0.09999999999999998
+Nashville | TN,10000,OLH,2026092001,censor_aware,ndcg,0.027131512293467663,0.03667198100268787
+Nashville | TN,10000,OLH,2026092001,robust_context,recall,0.0,0.09999999999999998
+Nashville | TN,10000,OLH,2026092001,robust_context,ndcg,0.0008239725320627889,0.02105148643416721
+Nashville | TN,10000,OLH,2026092001,context_only,recall,0.09999999999999998,0.3
+Nashville | TN,10000,OLH,2026092001,context_only,ndcg,0.03126437644338309,0.7512856056172283
+Nashville | TN,10000,OLH,2026092001,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,OLH,2026092001,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,ORACLE,2026092001,average,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092001,average,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092001,context_weighted,ndcg,0.0,0.00019182454487698397
+Nashville | TN,10000,ORACLE,2026092001,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092001,censor_aware,ndcg,0.0014824004012989889,0.006216104679092838
+Nashville | TN,10000,ORACLE,2026092001,robust_context,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092001,robust_context,ndcg,0.0014342636024949895,0.007370648492932563
+Nashville | TN,10000,ORACLE,2026092001,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,10000,ORACLE,2026092001,context_only,ndcg,0.010112315358398738,0.4675609558766251
+Nashville | TN,10000,ORACLE,2026092001,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,ORACLE,2026092001,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,OLH,2026092002,average,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092002,average,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092002,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092002,context_weighted,ndcg,0.006151674744761859,0.0
+Nashville | TN,10000,OLH,2026092002,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092002,censor_aware,ndcg,-0.0015368765943184481,-0.0017850884024640523
+Nashville | TN,10000,OLH,2026092002,robust_context,recall,0.0,-0.09999999999999998
+Nashville | TN,10000,OLH,2026092002,robust_context,ndcg,0.00018418750334459055,-0.03694048797059857
+Nashville | TN,10000,OLH,2026092002,context_only,recall,0.09999999999999998,0.3
+Nashville | TN,10000,OLH,2026092002,context_only,ndcg,0.03750327168885459,0.6505183706679776
+Nashville | TN,10000,OLH,2026092002,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,OLH,2026092002,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,ORACLE,2026092002,average,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092002,average,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092002,context_weighted,ndcg,0.0003742116684497532,0.003391647372140927
+Nashville | TN,10000,ORACLE,2026092002,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092002,censor_aware,ndcg,-0.0006524637997707972,0.00864844443398105
+Nashville | TN,10000,ORACLE,2026092002,robust_context,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092002,robust_context,ndcg,0.0024214105343344228,0.01172231876808627
+Nashville | TN,10000,ORACLE,2026092002,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,10000,ORACLE,2026092002,context_only,ndcg,0.010112315358398738,0.4675609558766251
+Nashville | TN,10000,ORACLE,2026092002,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,ORACLE,2026092002,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,OLH,2026092003,average,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092003,average,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092003,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092003,context_weighted,ndcg,0.0,0.0015368765943185592
+Nashville | TN,10000,OLH,2026092003,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092003,censor_aware,ndcg,0.0,-0.0004496593007851102
+Nashville | TN,10000,OLH,2026092003,robust_context,recall,-0.09999999999999998,-0.09999999999999998
+Nashville | TN,10000,OLH,2026092003,robust_context,ndcg,-0.03823382614362725,-0.07522014565059632
+Nashville | TN,10000,OLH,2026092003,context_only,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092003,context_only,ndcg,0.004549344415177847,0.6036936288781507
+Nashville | TN,10000,OLH,2026092003,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,OLH,2026092003,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,ORACLE,2026092003,average,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092003,average,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092003,context_weighted,ndcg,0.0,0.00030110321322973643
+Nashville | TN,10000,ORACLE,2026092003,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092003,censor_aware,ndcg,-0.0018070076136104118,0.005631008730289877
+Nashville | TN,10000,ORACLE,2026092003,robust_context,recall,0.10000000000000009,0.10000000000000009
+Nashville | TN,10000,ORACLE,2026092003,robust_context,ndcg,0.011908864262284435,0.01748712964044663
+Nashville | TN,10000,ORACLE,2026092003,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,10000,ORACLE,2026092003,context_only,ndcg,0.01148138243809349,0.4591265712098028
+Nashville | TN,10000,ORACLE,2026092003,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,ORACLE,2026092003,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,OLH,2026092004,average,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092004,average,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092004,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092004,context_weighted,ndcg,0.0036664380091313564,0.016079312865030615
+Nashville | TN,10000,OLH,2026092004,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092004,censor_aware,ndcg,0.013893078606757814,0.016079312865030615
+Nashville | TN,10000,OLH,2026092004,robust_context,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092004,robust_context,ndcg,0.002102955425724473,0.018129278633429835
+Nashville | TN,10000,OLH,2026092004,context_only,recall,0.09999999999999998,0.3
+Nashville | TN,10000,OLH,2026092004,context_only,ndcg,0.026512791596826846,0.614561706949556
+Nashville | TN,10000,OLH,2026092004,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,OLH,2026092004,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,ORACLE,2026092004,average,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092004,average,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092004,context_weighted,ndcg,0.0,0.0014696204859254713
+Nashville | TN,10000,ORACLE,2026092004,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092004,censor_aware,ndcg,-0.0018070076136105229,0.007493900620141325
+Nashville | TN,10000,ORACLE,2026092004,robust_context,recall,0.09999999999999998,0.0
+Nashville | TN,10000,ORACLE,2026092004,robust_context,ndcg,0.026206452041194095,0.00864844443398105
+Nashville | TN,10000,ORACLE,2026092004,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,10000,ORACLE,2026092004,context_only,ndcg,0.010112315358398738,0.4675609558766251
+Nashville | TN,10000,ORACLE,2026092004,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,ORACLE,2026092004,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,OLH,2026092005,average,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092005,average,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,OLH,2026092005,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092005,context_weighted,ndcg,-0.00026705768118684414,-0.00026705768118684414
+Nashville | TN,10000,OLH,2026092005,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092005,censor_aware,ndcg,-0.004299856159348803,-0.0009597665944858225
+Nashville | TN,10000,OLH,2026092005,robust_context,recall,0.0,0.0
+Nashville | TN,10000,OLH,2026092005,robust_context,ndcg,0.015858619261228002,0.005714481565126883
+Nashville | TN,10000,OLH,2026092005,context_only,recall,0.19999999999999996,0.3
+Nashville | TN,10000,OLH,2026092005,context_only,ndcg,0.06059559580926144,0.7352432675717961
+Nashville | TN,10000,OLH,2026092005,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,OLH,2026092005,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+Nashville | TN,10000,ORACLE,2026092005,average,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092005,average,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.0017396397626426863
+Nashville | TN,10000,ORACLE,2026092005,censor_aware,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092005,censor_aware,ndcg,5.274335212768211e-05,0.007370648492932563
+Nashville | TN,10000,ORACLE,2026092005,robust_context,recall,0.0,0.0
+Nashville | TN,10000,ORACLE,2026092005,robust_context,ndcg,0.0012072871659674078,0.007370648492932563
+Nashville | TN,10000,ORACLE,2026092005,context_only,recall,0.0,-0.09999999999999998
+Nashville | TN,10000,ORACLE,2026092005,context_only,ndcg,0.01148138243809349,0.4591265712098028
+Nashville | TN,10000,ORACLE,2026092005,context_full_domain,recall,0.0,0.4
+Nashville | TN,10000,ORACLE,2026092005,context_full_domain,ndcg,0.01148138243809349,0.8248429769174301
+New Orleans | LA,2000,OLH,2026092001,average,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092001,average,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092001,context_weighted,recall,0.09999999999999998,0.09999999999999998
+New Orleans | LA,2000,OLH,2026092001,context_weighted,ndcg,0.028012951234360872,0.03531955828522593
+New Orleans | LA,2000,OLH,2026092001,censor_aware,recall,0.19999999999999996,0.09999999999999998
+New Orleans | LA,2000,OLH,2026092001,censor_aware,ndcg,0.06411760767094488,0.04167373296987942
+New Orleans | LA,2000,OLH,2026092001,robust_context,recall,0.09999999999999998,0.09999999999999998
+New Orleans | LA,2000,OLH,2026092001,robust_context,ndcg,0.026609208585463562,0.04063009898870651
+New Orleans | LA,2000,OLH,2026092001,context_only,recall,0.0,0.3
+New Orleans | LA,2000,OLH,2026092001,context_only,ndcg,0.02616964318366044,0.649761380082777
+New Orleans | LA,2000,OLH,2026092001,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,OLH,2026092001,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,ORACLE,2026092001,average,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092001,average,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092001,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092001,censor_aware,recall,0.0,0.09999999999999998
+New Orleans | LA,2000,ORACLE,2026092001,censor_aware,ndcg,-0.0008909929763585289,0.011069786642804003
+New Orleans | LA,2000,ORACLE,2026092001,robust_context,recall,0.0,0.09999999999999998
+New Orleans | LA,2000,ORACLE,2026092001,robust_context,ndcg,-0.012422348041803088,0.0075162176977769946
+New Orleans | LA,2000,ORACLE,2026092001,context_only,recall,0.09999999999999998,0.2
+New Orleans | LA,2000,ORACLE,2026092001,context_only,ndcg,0.07178013388770899,0.5360707921699824
+New Orleans | LA,2000,ORACLE,2026092001,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,ORACLE,2026092001,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,OLH,2026092002,average,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092002,average,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092002,context_weighted,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092002,context_weighted,ndcg,0.0,-0.0007500582301611658
+New Orleans | LA,2000,OLH,2026092002,censor_aware,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092002,censor_aware,ndcg,0.0009327111302638302,0.0028781152340272564
+New Orleans | LA,2000,OLH,2026092002,robust_context,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092002,robust_context,ndcg,0.004112056079880522,-0.014848636895611
+New Orleans | LA,2000,OLH,2026092002,context_only,recall,0.0,0.30000000000000004
+New Orleans | LA,2000,OLH,2026092002,context_only,ndcg,-0.009698604947765976,0.671952732317143
+New Orleans | LA,2000,OLH,2026092002,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,OLH,2026092002,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,ORACLE,2026092002,average,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092002,average,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092002,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092002,censor_aware,recall,0.0,0.09999999999999998
+New Orleans | LA,2000,ORACLE,2026092002,censor_aware,ndcg,0.001268011845678818,0.011719489003991335
+New Orleans | LA,2000,ORACLE,2026092002,robust_context,recall,0.0,0.09999999999999998
+New Orleans | LA,2000,ORACLE,2026092002,robust_context,ndcg,-9.402414150094796e-05,0.007866358955772035
+New Orleans | LA,2000,ORACLE,2026092002,context_only,recall,0.0,0.10000000000000003
+New Orleans | LA,2000,ORACLE,2026092002,context_only,ndcg,0.06565270417940994,0.5243198989940232
+New Orleans | LA,2000,ORACLE,2026092002,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,ORACLE,2026092002,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,OLH,2026092003,average,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092003,average,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092003,context_weighted,recall,0.0,0.09999999999999998
+New Orleans | LA,2000,OLH,2026092003,context_weighted,ndcg,0.00016089388747297928,0.04919925323446728
+New Orleans | LA,2000,OLH,2026092003,censor_aware,recall,0.0,0.09999999999999998
+New Orleans | LA,2000,OLH,2026092003,censor_aware,ndcg,0.004549870109411658,0.04176994223522268
+New Orleans | LA,2000,OLH,2026092003,robust_context,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092003,robust_context,ndcg,0.0,0.017675707814536312
+New Orleans | LA,2000,OLH,2026092003,context_only,recall,0.09999999999999998,0.4
+New Orleans | LA,2000,OLH,2026092003,context_only,ndcg,0.06797277972076599,0.7404513453257271
+New Orleans | LA,2000,OLH,2026092003,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,OLH,2026092003,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,ORACLE,2026092003,average,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092003,average,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092003,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092003,censor_aware,recall,0.0,-0.09999999999999998
+New Orleans | LA,2000,ORACLE,2026092003,censor_aware,ndcg,0.0007416397560157106,-0.013074550529470597
+New Orleans | LA,2000,ORACLE,2026092003,robust_context,recall,0.0,-0.09999999999999998
+New Orleans | LA,2000,ORACLE,2026092003,robust_context,ndcg,0.0,-0.028461945032086433
+New Orleans | LA,2000,ORACLE,2026092003,context_only,recall,0.09999999999999998,0.2
+New Orleans | LA,2000,ORACLE,2026092003,context_only,ndcg,0.08153590064130756,0.5961913438302557
+New Orleans | LA,2000,ORACLE,2026092003,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,ORACLE,2026092003,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,OLH,2026092004,average,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092004,average,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092004,context_weighted,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092004,context_weighted,ndcg,0.00025341427538350114,0.0028528429211327477
+New Orleans | LA,2000,OLH,2026092004,censor_aware,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092004,censor_aware,ndcg,-0.0063818755504813085,0.002868111391591044
+New Orleans | LA,2000,OLH,2026092004,robust_context,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092004,robust_context,ndcg,-0.0034490379085367895,-0.01597880248699224
+New Orleans | LA,2000,OLH,2026092004,context_only,recall,0.19999999999999996,0.39999999999999997
+New Orleans | LA,2000,OLH,2026092004,context_only,ndcg,0.10170153569396156,0.6863530055791871
+New Orleans | LA,2000,OLH,2026092004,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,OLH,2026092004,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,ORACLE,2026092004,average,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092004,average,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092004,context_weighted,ndcg,4.73657436472763e-06,0.0
+New Orleans | LA,2000,ORACLE,2026092004,censor_aware,recall,-0.09999999999999998,-0.09999999999999998
+New Orleans | LA,2000,ORACLE,2026092004,censor_aware,ndcg,-0.025377061266783518,-0.0253465567037765
+New Orleans | LA,2000,ORACLE,2026092004,robust_context,recall,-0.09999999999999998,-0.09999999999999998
+New Orleans | LA,2000,ORACLE,2026092004,robust_context,ndcg,-0.025178955572828676,-0.02535129327814123
+New Orleans | LA,2000,ORACLE,2026092004,context_only,recall,0.0,0.2
+New Orleans | LA,2000,ORACLE,2026092004,context_only,ndcg,0.057469086183367324,0.5613307320173662
+New Orleans | LA,2000,ORACLE,2026092004,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,ORACLE,2026092004,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,OLH,2026092005,average,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092005,average,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,OLH,2026092005,context_weighted,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092005,context_weighted,ndcg,-2.1812100654550193e-06,0.0012883654585422732
+New Orleans | LA,2000,OLH,2026092005,censor_aware,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092005,censor_aware,ndcg,-0.0017136729602336143,-0.0024019269379489394
+New Orleans | LA,2000,OLH,2026092005,robust_context,recall,0.0,0.0
+New Orleans | LA,2000,OLH,2026092005,robust_context,ndcg,-9.85551817355157e-05,-0.002378726138475784
+New Orleans | LA,2000,OLH,2026092005,context_only,recall,0.0,0.3
+New Orleans | LA,2000,OLH,2026092005,context_only,ndcg,0.021699315919863515,0.6715732264106837
+New Orleans | LA,2000,OLH,2026092005,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,OLH,2026092005,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,2000,ORACLE,2026092005,average,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092005,average,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.00016703914011939602
+New Orleans | LA,2000,ORACLE,2026092005,censor_aware,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092005,censor_aware,ndcg,0.0016099700075454804,-0.0007701031696892846
+New Orleans | LA,2000,ORACLE,2026092005,robust_context,recall,0.0,0.0
+New Orleans | LA,2000,ORACLE,2026092005,robust_context,ndcg,0.0,-0.008715165572424244
+New Orleans | LA,2000,ORACLE,2026092005,context_only,recall,0.0,0.10000000000000003
+New Orleans | LA,2000,ORACLE,2026092005,context_only,ndcg,0.06565270417940994,0.5332339560932725
+New Orleans | LA,2000,ORACLE,2026092005,context_full_domain,recall,0.0,0.4
+New Orleans | LA,2000,ORACLE,2026092005,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,OLH,2026092001,average,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092001,average,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092001,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092001,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092001,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092001,context_weighted,ndcg,-0.004378999713271825,0.0
+New Orleans | LA,10000,OLH,2026092001,censor_aware,recall,0.09999999999999998,0.09999999999999998
+New Orleans | LA,10000,OLH,2026092001,censor_aware,ndcg,0.022958285310359927,0.026475951664947206
+New Orleans | LA,10000,OLH,2026092001,robust_context,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092001,robust_context,ndcg,0.018315428157312463,-0.003718556697161368
+New Orleans | LA,10000,OLH,2026092001,context_only,recall,0.19999999999999996,0.49999999999999994
+New Orleans | LA,10000,OLH,2026092001,context_only,ndcg,0.09076025026600187,0.7314414860117476
+New Orleans | LA,10000,OLH,2026092001,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,OLH,2026092001,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,ORACLE,2026092001,average,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092001,average,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092001,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092001,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092001,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092001,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092001,censor_aware,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092001,censor_aware,ndcg,0.0007570624692854189,-0.0009667887436264344
+New Orleans | LA,10000,ORACLE,2026092001,robust_context,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092001,robust_context,ndcg,-0.0018625614268283908,-0.0034730934252021894
+New Orleans | LA,10000,ORACLE,2026092001,context_only,recall,0.0,0.10000000000000003
+New Orleans | LA,10000,ORACLE,2026092001,context_only,ndcg,0.057469086183367324,0.5332339560932725
+New Orleans | LA,10000,ORACLE,2026092001,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,ORACLE,2026092001,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,OLH,2026092002,average,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092002,average,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092002,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092002,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092002,context_weighted,recall,0.0,-0.09999999999999998
+New Orleans | LA,10000,OLH,2026092002,context_weighted,ndcg,0.0,-0.02525654920387943
+New Orleans | LA,10000,OLH,2026092002,censor_aware,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092002,censor_aware,ndcg,0.0009872156756255412,0.003915933301278041
+New Orleans | LA,10000,OLH,2026092002,robust_context,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092002,robust_context,ndcg,0.0,0.002470198201611762
+New Orleans | LA,10000,OLH,2026092002,context_only,recall,-0.09999999999999998,0.2
+New Orleans | LA,10000,OLH,2026092002,context_only,ndcg,0.019074736517570634,0.6418275795731978
+New Orleans | LA,10000,OLH,2026092002,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,OLH,2026092002,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,ORACLE,2026092002,average,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092002,average,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092002,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092002,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092002,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092002,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092002,censor_aware,recall,-0.09999999999999998,-0.09999999999999998
+New Orleans | LA,10000,ORACLE,2026092002,censor_aware,ndcg,-0.010192323365016631,-0.011807378772757615
+New Orleans | LA,10000,ORACLE,2026092002,robust_context,recall,-0.09999999999999998,-0.09999999999999998
+New Orleans | LA,10000,ORACLE,2026092002,robust_context,ndcg,-0.02494142458970805,-0.026207704507982377
+New Orleans | LA,10000,ORACLE,2026092002,context_only,recall,0.0,0.10000000000000003
+New Orleans | LA,10000,ORACLE,2026092002,context_only,ndcg,0.057469086183367324,0.5332339560932725
+New Orleans | LA,10000,ORACLE,2026092002,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,ORACLE,2026092002,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,OLH,2026092003,average,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092003,average,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092003,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092003,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092003,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092003,context_weighted,ndcg,-0.001023423762712139,-0.0013725858449016304
+New Orleans | LA,10000,OLH,2026092003,censor_aware,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092003,censor_aware,ndcg,-0.001023423762712139,-0.0011413401743042284
+New Orleans | LA,10000,OLH,2026092003,robust_context,recall,-0.09999999999999998,-0.09999999999999998
+New Orleans | LA,10000,OLH,2026092003,robust_context,ndcg,-0.040006457067582324,-0.07570232171725422
+New Orleans | LA,10000,OLH,2026092003,context_only,recall,0.09999999999999998,0.3
+New Orleans | LA,10000,OLH,2026092003,context_only,ndcg,0.05391932659787335,0.6530619336882013
+New Orleans | LA,10000,OLH,2026092003,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,OLH,2026092003,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,ORACLE,2026092003,average,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092003,average,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092003,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092003,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092003,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092003,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092003,censor_aware,recall,-0.09999999999999998,-0.09999999999999998
+New Orleans | LA,10000,ORACLE,2026092003,censor_aware,ndcg,-0.0237120096793475,-0.02549410422720788
+New Orleans | LA,10000,ORACLE,2026092003,robust_context,recall,-0.09999999999999998,-0.09999999999999998
+New Orleans | LA,10000,ORACLE,2026092003,robust_context,ndcg,-0.025742172237123606,-0.029134236792529467
+New Orleans | LA,10000,ORACLE,2026092003,context_only,recall,0.0,0.10000000000000003
+New Orleans | LA,10000,ORACLE,2026092003,context_only,ndcg,0.06565270417940994,0.5257373904622102
+New Orleans | LA,10000,ORACLE,2026092003,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,ORACLE,2026092003,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,OLH,2026092004,average,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092004,average,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092004,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092004,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092004,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092004,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092004,censor_aware,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092004,censor_aware,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092004,robust_context,recall,0.0,0.09999999999999998
+New Orleans | LA,10000,OLH,2026092004,robust_context,ndcg,-0.017241567682503622,0.03737318297453518
+New Orleans | LA,10000,OLH,2026092004,context_only,recall,-0.09999999999999998,0.30000000000000004
+New Orleans | LA,10000,OLH,2026092004,context_only,ndcg,0.017355812512415136,0.6030338864727496
+New Orleans | LA,10000,OLH,2026092004,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,OLH,2026092004,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,ORACLE,2026092004,average,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092004,average,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092004,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092004,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092004,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092004,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092004,censor_aware,recall,0.0,0.09999999999999998
+New Orleans | LA,10000,ORACLE,2026092004,censor_aware,ndcg,0.00178209454786038,0.023491673552065495
+New Orleans | LA,10000,ORACLE,2026092004,robust_context,recall,0.0,0.09999999999999998
+New Orleans | LA,10000,ORACLE,2026092004,robust_context,ndcg,0.0026966280057860725,0.01985154098674391
+New Orleans | LA,10000,ORACLE,2026092004,context_only,recall,0.0,0.10000000000000003
+New Orleans | LA,10000,ORACLE,2026092004,context_only,ndcg,0.057469086183367324,0.5332339560932725
+New Orleans | LA,10000,ORACLE,2026092004,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,ORACLE,2026092004,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,OLH,2026092005,average,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092005,average,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092005,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092005,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092005,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092005,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,OLH,2026092005,censor_aware,recall,0.0,0.0
+New Orleans | LA,10000,OLH,2026092005,censor_aware,ndcg,1.9473876109343813e-05,0.0017599784216070224
+New Orleans | LA,10000,OLH,2026092005,robust_context,recall,0.0,-0.09999999999999998
+New Orleans | LA,10000,OLH,2026092005,robust_context,ndcg,-0.0005701683111103417,-0.035958531929682125
+New Orleans | LA,10000,OLH,2026092005,context_only,recall,-0.09999999999999998,0.30000000000000004
+New Orleans | LA,10000,OLH,2026092005,context_only,ndcg,0.021898024669779192,0.700636213038374
+New Orleans | LA,10000,OLH,2026092005,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,OLH,2026092005,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626
+New Orleans | LA,10000,ORACLE,2026092005,average,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092005,average,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092005,variance_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092005,variance_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092005,context_weighted,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092005,context_weighted,ndcg,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092005,censor_aware,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092005,censor_aware,ndcg,0.0009371423098086806,0.0
+New Orleans | LA,10000,ORACLE,2026092005,robust_context,recall,0.0,0.0
+New Orleans | LA,10000,ORACLE,2026092005,robust_context,ndcg,-0.0005968434993824934,-0.0036401325653215855
+New Orleans | LA,10000,ORACLE,2026092005,context_only,recall,0.0,0.10000000000000003
+New Orleans | LA,10000,ORACLE,2026092005,context_only,ndcg,0.06565270417940994,0.5257373904622102
+New Orleans | LA,10000,ORACLE,2026092005,context_full_domain,recall,0.0,0.4
+New Orleans | LA,10000,ORACLE,2026092005,context_full_domain,ndcg,0.06565270417940994,0.7800380101290626

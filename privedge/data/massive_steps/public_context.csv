@@ -1,0 +1,1093 @@
+server_id,category,value,source,snapshot_date
+Istanbul@2013,schema:Accommodation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AdministrativeArea,112,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AdultEntertainment,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Airport,44,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AmusementPark,8,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AnimalShelter,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ApartmentComplex,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Aquarium,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ArtGallery,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AutoDealer,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AutoPartsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AutoRental,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AutoRepair,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AutoWash,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:AutomatedTeller,9,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Bakery,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BankOrCreditUnion,39,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BarOrPub,11,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Beach,11,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BeautySalon,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BedAndBreakfast,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BikeStore,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BodyOfWater,290,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BookStore,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BowlingAlley,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Brewery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Bridge,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BusStation,27,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:BusStop,30,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:CafeOrCoffeeShop,61,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Campground,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Canal,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Casino,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Cemetery,21,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ChildCare,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Church,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:City,191,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:CityHall,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:CivicStructure,235,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ClothingStore,14,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ComedyClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ConvenienceStore,46,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Country,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Courthouse,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:DaySpa,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:DefenceEstablishment,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Dentist,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:DepartmentStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:DryCleaningOrLaundry,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ElectronicsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Embassy,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:EmergencyService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:EntertainmentBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Event,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:EventVenue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ExerciseGym,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Festival,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:FinancialService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:FireStation,9,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Florist,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:FoodEstablishment,35,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:FoodEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:FurnitureStore,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:GardenStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:GasStation,51,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:GolfCourse,13,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:GovernmentOffice,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:GroceryStore,80,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:HairSalon,8,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:HardwareStore,13,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:HealthAndBeautyBusiness,32,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:HealthClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:HinduTemple,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:HobbyShop,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:HomeAndConstructionBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:HomeGoodsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Hospital,60,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Hostel,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Hotel,110,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:House,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:IceCreamShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:InsuranceAgency,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:InternetCafe,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:JewelryStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:LakeBodyOfWater,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Landform,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:LandmarksOrHistoricalBuildings,110,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:LegalService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:LegislativeBuilding,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Library,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:LiquorStore,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:LocalBusiness,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Locksmith,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:LodgingBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:MensClothingStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:MobilePhoneStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Mosque,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Motel,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:MotorcycleDealer,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Mountain,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:MovieRentalStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:MovieTheater,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Museum,35,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:MusicEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:MusicStore,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:MusicVenue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:NailSalon,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:NightClub,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Notary,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:OfficeEquipmentStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:OutletStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Park,86,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ParkingFacility,143,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:PawnShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:PerformingArtsTheater,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:PetStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Place,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:PlaceOfWorship,535,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Playground,18,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:PoliceStation,25,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:PostOffice,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ProfessionalService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:PublicSwimmingPool,18,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:RVPark,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:RadioStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:RealEstateAgent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:RecyclingCenter,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Residence,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Resort,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Restaurant,68,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:RiverBodyOfWater,15,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:SaleEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:SelfStorage,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ShoeStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ShoppingCenter,23,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:SkiResort,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:SportingGoodsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:SportsActivityLocation,147,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:SportsClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:StadiumOrArena,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:State,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Store,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:SubwayStation,16,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Synagogue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:TattooParlor,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:TaxiStand,31,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:TelevisionStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:TennisComplex,42,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:TouristAttraction,27,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:TouristInformationCenter,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:ToyStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:TrainStation,143,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:TravelAgency,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:WholesaleStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Winery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2013,schema:Zoo,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Istanbul@2018,schema:Accommodation,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AdministrativeArea,990,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AdultEntertainment,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Airport,127,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AmusementPark,13,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AnimalShelter,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ApartmentComplex,5782,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Aquarium,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ArtGallery,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AutoDealer,76,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AutoPartsStore,17,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AutoRental,16,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AutoRepair,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AutoWash,102,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:AutomatedTeller,389,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Bakery,262,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BankOrCreditUnion,686,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BarOrPub,166,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Beach,71,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BeautySalon,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BedAndBreakfast,44,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BikeStore,32,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BodyOfWater,438,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BookStore,52,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BowlingAlley,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Brewery,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Bridge,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BusStation,85,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:BusStop,554,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:CafeOrCoffeeShop,1357,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Campground,22,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Canal,51,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Casino,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Cemetery,26,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ChildCare,41,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Church,25,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:City,223,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:CityHall,42,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:CivicStructure,2244,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ClothingStore,1403,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ComedyClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ConvenienceStore,770,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Country,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Courthouse,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:DaySpa,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:DefenceEstablishment,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Dentist,63,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:DepartmentStore,101,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:DryCleaningOrLaundry,47,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ElectronicsStore,211,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Embassy,28,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:EmergencyService,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:EntertainmentBusiness,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Event,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:EventVenue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ExerciseGym,19,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Festival,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:FinancialService,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:FireStation,34,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Florist,44,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:FoodEstablishment,548,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:FoodEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:FurnitureStore,232,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:GardenStore,6,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:GasStation,604,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:GolfCourse,16,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:GovernmentOffice,150,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:GroceryStore,924,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:HairSalon,467,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:HardwareStore,52,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:HealthAndBeautyBusiness,2878,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:HealthClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:HinduTemple,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:HobbyShop,75,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:HomeAndConstructionBusiness,130,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:HomeGoodsStore,82,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Hospital,474,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Hostel,44,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Hotel,1068,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:House,3618,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:IceCreamShop,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:InsuranceAgency,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:InternetCafe,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:JewelryStore,54,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:LakeBodyOfWater,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Landform,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:LandmarksOrHistoricalBuildings,217,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:LegalService,17,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:LegislativeBuilding,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Library,104,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:LiquorStore,38,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:LocalBusiness,969,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Locksmith,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:LodgingBusiness,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:MensClothingStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:MobilePhoneStore,214,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Mosque,362,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Motel,7,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:MotorcycleDealer,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Mountain,8,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:MovieRentalStore,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:MovieTheater,22,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Museum,96,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:MusicEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:MusicStore,18,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:MusicVenue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:NailSalon,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:NightClub,21,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Notary,15,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:OfficeEquipmentStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:OutletStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Park,1179,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ParkingFacility,1424,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:PawnShop,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:PerformingArtsTheater,45,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:PetStore,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Place,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:PlaceOfWorship,2299,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Playground,214,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:PoliceStation,87,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:PostOffice,102,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ProfessionalService,205,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:PublicSwimmingPool,1344,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:RVPark,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:RadioStation,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:RealEstateAgent,248,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:RecyclingCenter,23,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Residence,4301,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Resort,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Restaurant,1932,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:RiverBodyOfWater,65,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:SaleEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:SelfStorage,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ShoeStore,149,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ShoppingCenter,212,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:SkiResort,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:SportingGoodsStore,18,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:SportsActivityLocation,1935,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:SportsClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:StadiumOrArena,37,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:State,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Store,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:SubwayStation,106,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Synagogue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:TattooParlor,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:TaxiStand,107,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:TelevisionStation,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:TennisComplex,668,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:TouristAttraction,175,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:TouristInformationCenter,30,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:ToyStore,13,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:TrainStation,417,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:TravelAgency,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:WholesaleStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Winery,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Istanbul@2018,schema:Zoo,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Jakarta@2013,schema:Accommodation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AdministrativeArea,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AdultEntertainment,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Airport,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AmusementPark,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AnimalShelter,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ApartmentComplex,59,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Aquarium,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ArtGallery,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AutoDealer,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AutoPartsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AutoRental,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AutoRepair,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AutoWash,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:AutomatedTeller,8,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Bakery,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BankOrCreditUnion,56,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BarOrPub,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Beach,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BeautySalon,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BedAndBreakfast,16,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BikeStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BodyOfWater,109,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BookStore,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BowlingAlley,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Brewery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Bridge,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BusStation,17,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:BusStop,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:CafeOrCoffeeShop,8,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Campground,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Canal,14,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Casino,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Cemetery,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ChildCare,58,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Church,483,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:City,366,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:CityHall,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:CivicStructure,2969,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ClothingStore,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ComedyClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ConvenienceStore,21,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Country,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Courthouse,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:DaySpa,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:DefenceEstablishment,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Dentist,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:DepartmentStore,37,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:DryCleaningOrLaundry,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ElectronicsStore,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Embassy,49,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:EmergencyService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:EntertainmentBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Event,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:EventVenue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ExerciseGym,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Festival,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:FinancialService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:FireStation,52,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Florist,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:FoodEstablishment,16,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:FoodEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:FurnitureStore,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:GardenStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:GasStation,131,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:GolfCourse,25,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:GovernmentOffice,911,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:GroceryStore,91,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:HairSalon,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:HardwareStore,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:HealthAndBeautyBusiness,9,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:HealthClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:HinduTemple,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:HobbyShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:HomeAndConstructionBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:HomeGoodsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Hospital,507,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Hostel,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Hotel,139,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:House,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:IceCreamShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:InsuranceAgency,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:InternetCafe,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:JewelryStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:LakeBodyOfWater,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Landform,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:LandmarksOrHistoricalBuildings,17,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:LegalService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:LegislativeBuilding,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Library,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:LiquorStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:LocalBusiness,26,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Locksmith,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:LodgingBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:MensClothingStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:MobilePhoneStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Mosque,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Motel,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:MotorcycleDealer,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Mountain,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:MovieRentalStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:MovieTheater,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Museum,30,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:MusicEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:MusicStore,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:MusicVenue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:NailSalon,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:NightClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Notary,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:OfficeEquipmentStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:OutletStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Park,532,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ParkingFacility,80,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:PawnShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:PerformingArtsTheater,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:PetStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Place,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:PlaceOfWorship,1966,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Playground,33,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:PoliceStation,134,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:PostOffice,30,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ProfessionalService,14,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:PublicSwimmingPool,61,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:RVPark,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:RadioStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:RealEstateAgent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:RecyclingCenter,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Residence,52,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Resort,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Restaurant,50,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:RiverBodyOfWater,97,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:SaleEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:SelfStorage,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ShoeStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ShoppingCenter,146,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:SkiResort,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:SportingGoodsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:SportsActivityLocation,291,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:SportsClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:StadiumOrArena,95,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:State,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Store,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:SubwayStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Synagogue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:TattooParlor,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:TaxiStand,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:TelevisionStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:TennisComplex,88,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:TouristAttraction,16,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:TouristInformationCenter,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:ToyStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:TrainStation,59,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:TravelAgency,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:WholesaleStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Winery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Jakarta@2013,schema:Zoo,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Kuwait City@2018,schema:Accommodation,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AdministrativeArea,794,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AdultEntertainment,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Airport,98,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AmusementPark,6,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AnimalShelter,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ApartmentComplex,26531,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Aquarium,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ArtGallery,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AutoDealer,52,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AutoPartsStore,39,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AutoRental,18,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AutoRepair,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AutoWash,18,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:AutomatedTeller,42,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Bakery,36,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BankOrCreditUnion,173,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BarOrPub,5,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Beach,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BeautySalon,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BedAndBreakfast,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BikeStore,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BodyOfWater,33,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BookStore,9,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BowlingAlley,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Brewery,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Bridge,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BusStation,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:BusStop,6,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:CafeOrCoffeeShop,125,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Campground,5,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Canal,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Casino,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Cemetery,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ChildCare,46,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Church,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:City,23,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:CityHall,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:CivicStructure,321,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ClothingStore,44,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ComedyClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ConvenienceStore,50,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Country,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Courthouse,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:DaySpa,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:DefenceEstablishment,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Dentist,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:DepartmentStore,27,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:DryCleaningOrLaundry,38,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ElectronicsStore,38,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Embassy,17,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:EmergencyService,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:EntertainmentBusiness,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Event,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:EventVenue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ExerciseGym,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Festival,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:FinancialService,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:FireStation,25,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Florist,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:FoodEstablishment,270,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:FoodEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:FurnitureStore,19,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:GardenStore,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:GasStation,125,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:GolfCourse,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:GovernmentOffice,34,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:GroceryStore,120,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:HairSalon,16,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:HardwareStore,13,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:HealthAndBeautyBusiness,204,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:HealthClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:HinduTemple,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:HobbyShop,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:HomeAndConstructionBusiness,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:HomeGoodsStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Hospital,100,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Hostel,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Hotel,80,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:House,114096,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:IceCreamShop,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:InsuranceAgency,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:InternetCafe,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:JewelryStore,29,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:LakeBodyOfWater,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Landform,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:LandmarksOrHistoricalBuildings,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:LegalService,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:LegislativeBuilding,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Library,5,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:LiquorStore,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:LocalBusiness,103,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Locksmith,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:LodgingBusiness,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:MensClothingStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:MobilePhoneStore,38,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Mosque,27,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Motel,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:MotorcycleDealer,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Mountain,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:MovieRentalStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:MovieTheater,14,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Museum,6,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:MusicEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:MusicStore,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:MusicVenue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:NailSalon,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:NightClub,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Notary,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:OfficeEquipmentStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:OutletStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Park,75,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ParkingFacility,509,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:PawnShop,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:PerformingArtsTheater,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:PetStore,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Place,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:PlaceOfWorship,681,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Playground,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:PoliceStation,57,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:PostOffice,14,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ProfessionalService,135,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:PublicSwimmingPool,28,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:RVPark,5,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:RadioStation,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:RealEstateAgent,6,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:RecyclingCenter,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Residence,28,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Resort,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Restaurant,330,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:RiverBodyOfWater,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:SaleEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:SelfStorage,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ShoeStore,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ShoppingCenter,107,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:SkiResort,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:SportingGoodsStore,13,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:SportsActivityLocation,105,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:SportsClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:StadiumOrArena,13,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:State,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Store,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:SubwayStation,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Synagogue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:TattooParlor,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:TaxiStand,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:TelevisionStation,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:TennisComplex,8,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:TouristAttraction,83,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:TouristInformationCenter,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:ToyStore,9,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:TrainStation,108,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:TravelAgency,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:WholesaleStore,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Winery,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Kuwait City@2018,schema:Zoo,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+New York@2013,schema:Accommodation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AdministrativeArea,8,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AdultEntertainment,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Airport,44,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AmusementPark,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AnimalShelter,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ApartmentComplex,81,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Aquarium,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ArtGallery,14,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AutoDealer,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AutoPartsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AutoRental,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AutoRepair,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AutoWash,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:AutomatedTeller,13,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Bakery,13,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BankOrCreditUnion,63,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BarOrPub,99,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Beach,28,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BeautySalon,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BedAndBreakfast,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BikeStore,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BodyOfWater,225,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BookStore,16,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BowlingAlley,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Brewery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Bridge,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BusStation,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:BusStop,9,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:CafeOrCoffeeShop,126,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Campground,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Canal,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Casino,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Cemetery,89,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ChildCare,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Church,17,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:City,24,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:CityHall,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:CivicStructure,2348,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ClothingStore,61,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ComedyClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ConvenienceStore,39,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Country,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Courthouse,20,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:DaySpa,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:DefenceEstablishment,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Dentist,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:DepartmentStore,9,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:DryCleaningOrLaundry,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ElectronicsStore,17,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Embassy,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:EmergencyService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:EntertainmentBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Event,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:EventVenue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ExerciseGym,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Festival,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:FinancialService,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:FireStation,351,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Florist,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:FoodEstablishment,107,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:FoodEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:FurnitureStore,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:GardenStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:GasStation,26,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:GolfCourse,23,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:GovernmentOffice,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:GroceryStore,57,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:HairSalon,13,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:HardwareStore,9,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:HealthAndBeautyBusiness,41,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:HealthClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:HinduTemple,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:HobbyShop,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:HomeAndConstructionBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:HomeGoodsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Hospital,243,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Hostel,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Hotel,93,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:House,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:IceCreamShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:InsuranceAgency,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:InternetCafe,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:JewelryStore,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:LakeBodyOfWater,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Landform,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:LandmarksOrHistoricalBuildings,102,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:LegalService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:LegislativeBuilding,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Library,166,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:LiquorStore,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:LocalBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Locksmith,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:LodgingBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:MensClothingStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:MobilePhoneStore,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Mosque,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Motel,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:MotorcycleDealer,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Mountain,22,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:MovieRentalStore,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:MovieTheater,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Museum,82,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:MusicEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:MusicStore,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:MusicVenue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:NailSalon,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:NightClub,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Notary,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:OfficeEquipmentStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:OutletStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Park,1841,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ParkingFacility,4983,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:PawnShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:PerformingArtsTheater,81,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:PetStore,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Place,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:PlaceOfWorship,1982,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Playground,104,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:PoliceStation,49,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:PostOffice,126,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ProfessionalService,8,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:PublicSwimmingPool,80,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:RVPark,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:RadioStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:RealEstateAgent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:RecyclingCenter,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Residence,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Resort,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Restaurant,227,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:RiverBodyOfWater,37,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:SaleEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:SelfStorage,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ShoeStore,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ShoppingCenter,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:SkiResort,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:SportingGoodsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:SportsActivityLocation,435,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:SportsClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:StadiumOrArena,24,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:State,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Store,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:SubwayStation,153,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Synagogue,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:TattooParlor,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:TaxiStand,5,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:TelevisionStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:TennisComplex,62,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:TouristAttraction,82,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:TouristInformationCenter,18,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:ToyStore,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:TrainStation,450,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:TravelAgency,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:WholesaleStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Winery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+New York@2013,schema:Zoo,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Accommodation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AdministrativeArea,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AdultEntertainment,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Airport,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AmusementPark,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AnimalShelter,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ApartmentComplex,14,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Aquarium,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ArtGallery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AutoDealer,18,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AutoPartsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AutoRental,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AutoRepair,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AutoWash,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:AutomatedTeller,12,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Bakery,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BankOrCreditUnion,40,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BarOrPub,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Beach,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BeautySalon,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BedAndBreakfast,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BikeStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BodyOfWater,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BookStore,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BowlingAlley,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Brewery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Bridge,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BusStation,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:BusStop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:CafeOrCoffeeShop,18,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Campground,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Canal,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Casino,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Cemetery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ChildCare,8,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Church,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:City,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:CityHall,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:CivicStructure,121,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ClothingStore,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ComedyClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ConvenienceStore,31,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Country,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Courthouse,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:DaySpa,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:DefenceEstablishment,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Dentist,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:DepartmentStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:DryCleaningOrLaundry,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ElectronicsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Embassy,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:EmergencyService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:EntertainmentBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Event,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:EventVenue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ExerciseGym,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Festival,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:FinancialService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:FireStation,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Florist,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:FoodEstablishment,25,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:FoodEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:FurnitureStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:GardenStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:GasStation,49,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:GolfCourse,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:GovernmentOffice,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:GroceryStore,18,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:HairSalon,3,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:HardwareStore,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:HealthAndBeautyBusiness,15,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:HealthClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:HinduTemple,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:HobbyShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:HomeAndConstructionBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:HomeGoodsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Hospital,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Hostel,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Hotel,17,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:House,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:IceCreamShop,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:InsuranceAgency,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:InternetCafe,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:JewelryStore,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:LakeBodyOfWater,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Landform,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:LandmarksOrHistoricalBuildings,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:LegalService,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:LegislativeBuilding,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Library,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:LiquorStore,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:LocalBusiness,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Locksmith,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:LodgingBusiness,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:MensClothingStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:MobilePhoneStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Mosque,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Motel,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:MotorcycleDealer,4,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Mountain,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:MovieRentalStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:MovieTheater,8,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Museum,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:MusicEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:MusicStore,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:MusicVenue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:NailSalon,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:NightClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Notary,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:OfficeEquipmentStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:OutletStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Park,42,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ParkingFacility,47,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:PawnShop,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:PerformingArtsTheater,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:PetStore,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Place,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:PlaceOfWorship,46,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Playground,20,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:PoliceStation,6,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:PostOffice,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ProfessionalService,22,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:PublicSwimmingPool,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:RVPark,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:RadioStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:RealEstateAgent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:RecyclingCenter,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Residence,10,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Resort,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Restaurant,138,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:RiverBodyOfWater,7,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:SaleEvent,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:SelfStorage,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ShoeStore,2,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ShoppingCenter,18,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:SkiResort,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:SportingGoodsStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:SportsActivityLocation,39,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:SportsClub,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:StadiumOrArena,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:State,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Store,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:SubwayStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Synagogue,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:TattooParlor,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:TaxiStand,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:TelevisionStation,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:TennisComplex,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:TouristAttraction,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:TouristInformationCenter,1,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:ToyStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:TrainStation,20,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:TravelAgency,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:WholesaleStore,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Winery,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2013,schema:Zoo,0,OpenStreetMap via ohsome (ODbL),2012-04-03
+Petaling Jaya@2018,schema:Accommodation,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AdministrativeArea,58,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AdultEntertainment,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Airport,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AmusementPark,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AnimalShelter,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ApartmentComplex,182,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Aquarium,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ArtGallery,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AutoDealer,31,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AutoPartsStore,25,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AutoRental,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AutoRepair,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AutoWash,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:AutomatedTeller,45,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Bakery,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BankOrCreditUnion,77,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BarOrPub,14,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Beach,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BeautySalon,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BedAndBreakfast,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BikeStore,8,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BodyOfWater,32,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BookStore,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BowlingAlley,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Brewery,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Bridge,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BusStation,6,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:BusStop,23,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:CafeOrCoffeeShop,61,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Campground,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Canal,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Casino,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Cemetery,6,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ChildCare,22,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Church,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:City,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:CityHall,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:CivicStructure,219,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ClothingStore,16,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ComedyClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ConvenienceStore,98,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Country,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Courthouse,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:DaySpa,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:DefenceEstablishment,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Dentist,21,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:DepartmentStore,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:DryCleaningOrLaundry,31,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ElectronicsStore,13,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Embassy,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:EmergencyService,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:EntertainmentBusiness,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Event,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:EventVenue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ExerciseGym,9,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Festival,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:FinancialService,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:FireStation,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Florist,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:FoodEstablishment,48,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:FoodEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:FurnitureStore,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:GardenStore,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:GasStation,92,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:GolfCourse,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:GovernmentOffice,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:GroceryStore,39,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:HairSalon,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:HardwareStore,16,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:HealthAndBeautyBusiness,41,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:HealthClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:HinduTemple,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:HobbyShop,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:HomeAndConstructionBusiness,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:HomeGoodsStore,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Hospital,60,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Hostel,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Hotel,35,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:House,1421,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:IceCreamShop,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:InsuranceAgency,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:InternetCafe,5,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:JewelryStore,5,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:LakeBodyOfWater,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Landform,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:LandmarksOrHistoricalBuildings,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:LegalService,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:LegislativeBuilding,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Library,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:LiquorStore,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:LocalBusiness,132,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Locksmith,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:LodgingBusiness,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:MensClothingStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:MobilePhoneStore,13,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Mosque,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Motel,4,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:MotorcycleDealer,39,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Mountain,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:MovieRentalStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:MovieTheater,9,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Museum,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:MusicEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:MusicStore,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:MusicVenue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:NailSalon,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:NightClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Notary,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:OfficeEquipmentStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:OutletStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Park,90,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ParkingFacility,101,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:PawnShop,5,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:PerformingArtsTheater,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:PetStore,7,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Place,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:PlaceOfWorship,111,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Playground,51,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:PoliceStation,13,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:PostOffice,10,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ProfessionalService,61,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:PublicSwimmingPool,23,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:RVPark,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:RadioStation,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:RealEstateAgent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:RecyclingCenter,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Residence,116,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Resort,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Restaurant,359,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:RiverBodyOfWater,26,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:SaleEvent,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:SelfStorage,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ShoeStore,9,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ShoppingCenter,70,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:SkiResort,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:SportingGoodsStore,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:SportsActivityLocation,89,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:SportsClub,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:StadiumOrArena,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:State,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Store,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:SubwayStation,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Synagogue,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:TattooParlor,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:TaxiStand,1,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:TelevisionStation,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:TennisComplex,12,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:TouristAttraction,8,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:TouristInformationCenter,2,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:ToyStore,3,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:TrainStation,45,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:TravelAgency,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:WholesaleStore,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Winery,0,OpenStreetMap via ohsome (ODbL),2017-10-03
+Petaling Jaya@2018,schema:Zoo,0,OpenStreetMap via ohsome (ODbL),2017-10-03

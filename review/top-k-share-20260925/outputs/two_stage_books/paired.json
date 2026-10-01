@@ -1,0 +1,28 @@
+[
+  {
+    "case": "users_1000",
+    "method": "reconstructed_average",
+    "baseline": "direct_average",
+    "units": 5,
+    "recall_delta": 0.019999999999999997,
+    "recall_delta_std": 0.04472135954999579,
+    "wins_ties_losses": [
+      1,
+      4,
+      0
+    ]
+  },
+  {
+    "case": "users_10000",
+    "method": "reconstructed_average",
+    "baseline": "direct_average",
+    "units": 5,
+    "recall_delta": 0.0,
+    "recall_delta_std": 0.0,
+    "wins_ties_losses": [
+      0,
+      5,
+      0
+    ]
+  }
+]

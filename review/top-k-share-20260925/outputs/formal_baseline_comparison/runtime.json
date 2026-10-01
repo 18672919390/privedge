@@ -1,0 +1,8 @@
+{
+  "workers": 4,
+  "cpu": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+  "logical_cpus": 12,
+  "elapsed_this_invocation_seconds": 239.6994832000055,
+  "total_job_seconds": 906.4529271999345,
+  "completed_jobs": 80
+}

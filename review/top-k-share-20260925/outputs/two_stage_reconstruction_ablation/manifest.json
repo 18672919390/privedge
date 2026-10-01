@@ -1,0 +1,33 @@
+{
+  "status": "Exploratory paired ablation, not held-out confirmation",
+  "source_seed_root": 2026091801,
+  "synthetic_seeds": 20,
+  "books_seeds": [
+    2026091701,
+    2026091702,
+    2026091703,
+    2026091704,
+    2026091705
+  ],
+  "prior_strength": 0.1,
+  "ridge": 0.1,
+  "contexts": [
+    25,
+    75,
+    250
+  ],
+  "epsilon": 2,
+  "k": 10,
+  "m": 20,
+  "stages": [
+    "equal",
+    "target_mix (candidate plus tail distance)",
+    "target_mix_full_metric"
+  ],
+  "caveat": "Reduced coordinates change prior geometry; compression is not by itself a new observation.",
+  "sha256": {
+    "experiments\\validation\\two_stage_reconstruction_ablation.py": "783440241b55c91fb468743a4c80a4b76da92f99d468b08f6a766807980d3e50",
+    "two_stage_transfer.py": "719e3a1ad1cb68e15ed31933f36ce4a7aeb9d3696948781646df0634d1e5b712",
+    "censor_estimator.py": "c3ce92582591db7ac136785d0724caab5ea0c73b2b07bfc5d89cbfcf4137d58a"
+  }
+}

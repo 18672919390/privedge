@@ -1,0 +1,26 @@
+{
+  "cache": "D:\\Project\\\u4ee3\u7801\\top-k\\outputs\\amazon_books_categories_v2\\prepared.json",
+  "seeds": [
+    2026091701,
+    2026091702,
+    2026091703,
+    2026091704,
+    2026091705
+  ],
+  "cases": [
+    [
+      "users_1000",
+      1000
+    ],
+    [
+      "users_10000",
+      10000
+    ]
+  ],
+  "epsilon": 2,
+  "top_k": 10,
+  "report_m": 20,
+  "prior_strength": 0.1,
+  "shift_tolerance": 0.02,
+  "purpose": "Exploratory stage-one preparation; target data used for evaluation only"
+}

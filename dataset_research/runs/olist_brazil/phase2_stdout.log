@@ -1,0 +1,111 @@
+ohsome 1/12: MG amenity
+ohsome 2/12: MG craft
+ohsome 3/12: MG office
+ohsome 4/12: MG shop
+ohsome 5/12: RJ amenity
+ohsome 6/12: RJ craft
+ohsome 7/12: RJ office
+ohsome 8/12: RJ shop
+ohsome 9/12: SP amenity
+ohsome 10/12: SP craft
+ohsome 11/12: SP office
+ohsome 12/12: SP shop
+{
+  "summary": {
+    "targets": 6,
+    "source_average_recall": 0.7833333333333333,
+    "source_average_ndcg": 0.8539334516337237,
+    "correct_context_recall": 0.5,
+    "correct_context_ndcg": 0.5507184117058442,
+    "swapped_context_recall": 0.46666666666666673,
+    "swapped_context_ndcg": 0.5315395091219011,
+    "correct_minus_swapped_recall": 0.03333333333333332,
+    "correct_minus_swapped_ndcg": 0.019178902583943253,
+    "correct_recall_strict_win_fraction": 0.6666666666666666,
+    "correct_ndcg_strict_win_fraction": 0.5,
+    "minimum_truth_top10_mapped_fraction": 0.9,
+    "minimum_truth_top10_nonzero_context_fraction": 0.9,
+    "minimum_candidate_recall_upper_bound": 1.0,
+    "leave_top_contributor_out_recall": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.09999999999999998,
+      "mean_delta_remaining": 0.019999999999999983
+    },
+    "leave_top_contributor_out_ndcg": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.11289270395896978,
+      "mean_delta_remaining": 0.0004361423089379479
+    }
+  },
+  "gate_C": {
+    "context_available_for_all_servers": true,
+    "min_truth_top10_mapped_fraction_ge_0.70": true,
+    "snapshot_precedes_window": true
+  },
+  "gate_D": {
+    "positive_mean_recall_delta": true,
+    "positive_mean_ndcg_delta": true,
+    "recall_strict_win_fraction_ge_0.70": false,
+    "ndcg_strict_win_fraction_ge_0.70": false,
+    "leave_top_out_recall_mean_delta_gt_0": true,
+    "leave_top_out_ndcg_mean_delta_gt_0": true
+  },
+  "diag_full_domain": {
+    "targets": 6,
+    "source_average_recall": 0.7833333333333333,
+    "source_average_ndcg": 0.8539334516337237,
+    "correct_context_recall": 0.11666666666666668,
+    "correct_context_ndcg": 0.20127894353226508,
+    "swapped_context_recall": 0.11666666666666668,
+    "swapped_context_ndcg": 0.20127894353226514,
+    "correct_minus_swapped_recall": -4.625929269271485e-18,
+    "correct_minus_swapped_ndcg": -4.625929269271485e-18,
+    "correct_recall_strict_win_fraction": 0.16666666666666666,
+    "correct_ndcg_strict_win_fraction": 0.6666666666666666,
+    "minimum_truth_top10_mapped_fraction": 0.9,
+    "minimum_truth_top10_nonzero_context_fraction": 0.9,
+    "minimum_candidate_recall_upper_bound": 1.0,
+    "leave_top_contributor_out_recall": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.1,
+      "mean_delta_remaining": -0.020000000000000007
+    },
+    "leave_top_contributor_out_ndcg": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.18089263180874252,
+      "mean_delta_remaining": -0.03617852636174851
+    }
+  },
+  "sens_excl_same_state": {
+    "targets": 6,
+    "source_average_recall": 0.8166666666666668,
+    "source_average_ndcg": 0.8765476925322514,
+    "correct_context_recall": 0.5,
+    "correct_context_ndcg": 0.5507184117058442,
+    "swapped_context_recall": 0.46666666666666673,
+    "swapped_context_ndcg": 0.5315395091219011,
+    "correct_minus_swapped_recall": 0.03333333333333332,
+    "correct_minus_swapped_ndcg": 0.019178902583943253,
+    "correct_recall_strict_win_fraction": 0.6666666666666666,
+    "correct_ndcg_strict_win_fraction": 0.5,
+    "minimum_truth_top10_mapped_fraction": 0.9,
+    "minimum_truth_top10_nonzero_context_fraction": 0.9,
+    "minimum_candidate_recall_upper_bound": 1.0,
+    "leave_top_contributor_out_recall": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.09999999999999998,
+      "mean_delta_remaining": 0.019999999999999983
+    },
+    "leave_top_contributor_out_ndcg": {
+      "removed_target": "MG@W2018",
+      "removed_delta": 0.11289270395896978,
+      "mean_delta_remaining": 0.0004361423089379479
+    }
+  }
+}
+MG@W2017 0.4 0.35 0.441 0.419 0.9
+MG@W2018 0.6 0.5 0.676 0.563 1.0
+RJ@W2017 0.5 0.4 0.538 0.462 0.9
+RJ@W2018 0.6 0.55 0.619 0.626 1.0
+SP@W2017 0.4 0.45 0.457 0.505 0.9
+SP@W2018 0.5 0.55 0.574 0.614 1.0

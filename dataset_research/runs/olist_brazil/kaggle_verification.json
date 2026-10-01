@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-09-29T10:20:00+08:00",
+  "official_source": "https://www.kaggle.com/api/v1/datasets/download/olistbr/brazilian-ecommerce (public, no credentials used)",
+  "official_zip": "downloads/olist_brazil/kaggle_official/brazilian-ecommerce.zip",
+  "official_zip_bytes": 44717580,
+  "byte_identical_to_mirror": [
+    "olist_orders_dataset.csv (8df58ef3d2d7e9944010f7beecd9b75367f5588ec6e3c91cec19ae3345ef9ecf)",
+    "olist_products_dataset.csv (3e6569628a17fbc75fd206ee357b59e20364b9afa90f5b6cd5b4d624c58aa9cc)",
+    "product_category_name_translation.csv (a81f0d1f27b27e7293f761bc79e3ce8f348ee39c4b3ed3e49bde38f478586278)"
+  ],
+  "not_byte_identical": {
+    "olist_customers_dataset.csv": {
+      "official_sha256": "983a422239e1712ded753b3bf9ecf47dc73f144d306029dcfa99e70a226883d2",
+      "cause": "official file quotes every field and keeps leading zeros of customer_zip_code_prefix",
+      "row_count_equal": true,
+      "columns_used_by_audit_identical": ["customer_id", "customer_unique_id", "customer_state"],
+      "other_differences": "customer_zip_code_prefix differs in 1 row after zero-padding; not used"
+    },
+    "olist_order_items_dataset.csv": {
+      "official_sha256": "0bc4d068c4fe38cbb01bd90e8746e3c613fe7b4baef75fab7b0e329701c3e279",
+      "cause": "official file quotes string fields; freight_value differs in 67 rows (mirror copies price into freight_value)",
+      "row_count_equal": true,
+      "columns_used_by_audit_identical": ["order_id", "order_item_id", "product_id"],
+      "other_differences": "freight_value (67 rows); not used"
+    }
+  },
+  "conclusion": "All fields read by the preregistered selection rule are identical in the official Kaggle release, so every Olist result (Gate B-E, SECURITY_V1, CONTEXT_V1) is unchanged. Gate A: pass.",
+  "credentials_read": false
+}

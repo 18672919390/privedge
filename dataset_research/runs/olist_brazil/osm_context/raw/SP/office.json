@@ -1,0 +1,451 @@
+{
+  "attribution": {
+    "url": "https://ohsome.org/copyrights",
+    "text": "© OpenStreetMap contributors"
+  },
+  "apiVersion": "1.10.4",
+  "groupByResult": [
+    {
+      "groupByObject": "office=government",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 208.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 399.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=company",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 106.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 203.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=yes",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 36.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=estate_agent",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 47.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 79.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=insurance",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 14.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 17.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=educational_institution",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 103.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 141.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=lawyer",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 50.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 69.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=telecommunication",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 28.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 39.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=association",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 19.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 32.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=ngo",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 32.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 54.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=it",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 35.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 45.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=administrative",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 26.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 36.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=accountant",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 16.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 19.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=employment_agency",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=religion",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 3.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 11.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=logistics",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=research",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 13.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 18.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=architect",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 6.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=financial",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 8.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 8.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=advertising_agency",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=notary",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 23.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 27.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=energy_supplier",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=newspaper",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 4.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=travel_agent",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 7.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 7.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=therapist",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=coworking",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=foundation",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=water_utility",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 6.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=physician",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 7.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=quango",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=real_estate_agent",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 2.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=commercial",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 1.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=airline",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "groupByObject": "office=non-governmental_organization",
+      "result": [
+        {
+          "timestamp": "2016-12-31T00:00:00Z",
+          "value": 0.0
+        },
+        {
+          "timestamp": "2017-12-31T00:00:00Z",
+          "value": 2.0
+        }
+      ]
+    }
+  ]
+}

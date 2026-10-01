@@ -1,0 +1,15 @@
+{
+  "origin": "team original research code, snapshot top-k-share-20260925",
+  "policy": "files are byte-identical copies; do not edit here",
+  "files": {
+    "adaptive_selection.py": "d01cf87caf30e7c6c4c5eaffee29c5cf0e7c1f61e34c32bdb60c1cd71e9f2755",
+    "censor_estimator.py": "c3ce92582591db7ac136785d0724caab5ea0c73b2b07bfc5d89cbfcf4137d58a",
+    "competitive_baselines.py": "6b2eb29cee105f4d9a84c81d531b88adf0eb14243a5696162cd4fdfd4e348a6a",
+    "fusion.py": "7148dd39e584b2f3d7582067dbf51695c872c326253bee153116fd145794b82e",
+    "ldp_protocols.py": "d49ce380e3a052bfc759a4efb7ecd0a7c7e5b22654a14b4d92948fdd51ac93ae",
+    "metrics.py": "353150de83bc83b61a5f7287c4bd87d744e36f22929244340441d510a33e530e",
+    "pem.py": "c679bbd068aaa1f5324e39886632f82e2a1972d3d62e635f8a25c6ef60550088",
+    "problem_definition.py": "11629cb4852f635db58432968019a5a46c9e4869cd5807a7274c003f3535a5ed",
+    "two_stage_transfer.py": "719e3a1ad1cb68e15ed31933f36ce4a7aeb9d3696948781646df0634d1e5b712"
+  }
+}

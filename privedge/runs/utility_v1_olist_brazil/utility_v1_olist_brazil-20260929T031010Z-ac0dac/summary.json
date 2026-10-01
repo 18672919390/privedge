@@ -1,0 +1,900 @@
+{
+  "cells": [
+    {
+      "epsilon": 0.5,
+      "top_m": 10,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.4,
+      "ndcg": 0.7138,
+      "candidate_recall_upper_bound": 0.9
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 10,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 0.9
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 10,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.3,
+      "ndcg": 0.6767,
+      "candidate_recall_upper_bound": 0.9,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.3,
+      "answered_ndcg": 0.6767,
+      "d_recall_vs_nonprivate_source_mean": -0.5,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.5,
+        -0.5
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0371,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0371,
+        -0.0371
+      ]
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 10,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.4,
+      "ndcg": 0.7138,
+      "candidate_recall_upper_bound": 0.9
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 20,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.5,
+      "ndcg": 0.7449,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 20,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 20,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.5,
+      "ndcg": 0.7449,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5,
+      "answered_ndcg": 0.7449,
+      "d_recall_vs_nonprivate_source_mean": -0.3,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.3,
+        -0.3
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 20,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.5,
+      "ndcg": 0.7449,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 40,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.5,
+      "ndcg": 0.7871,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 40,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 40,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.5,
+      "ndcg": 0.7801,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5,
+      "answered_ndcg": 0.7801,
+      "d_recall_vs_nonprivate_source_mean": -0.3,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.3,
+        -0.3
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 0.5,
+      "top_m": 40,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.5,
+      "ndcg": 0.7801,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9709,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9709,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.8,
+      "answered_ndcg": 0.9709,
+      "d_recall_vs_nonprivate_source_mean": 0.0,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9709,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.6,
+      "ndcg": 0.9214,
+      "candidate_recall_upper_bound": 0.8
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9648,
+      "candidate_recall_upper_bound": 0.8
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.6,
+      "ndcg": 0.9214,
+      "candidate_recall_upper_bound": 0.8,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6,
+      "answered_ndcg": 0.9214,
+      "d_recall_vs_nonprivate_source_mean": -0.2,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.2,
+        -0.2
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.6,
+      "ndcg": 0.9214,
+      "candidate_recall_upper_bound": 0.8
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9649,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9649,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.8,
+      "answered_ndcg": 0.9649,
+      "d_recall_vs_nonprivate_source_mean": 0.0,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9649,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9649,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9649,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.8,
+      "answered_ndcg": 0.9649,
+      "d_recall_vs_nonprivate_source_mean": 0.0,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9649,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.9,
+      "ndcg": 0.9789,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.9,
+      "ndcg": 0.9789,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.9,
+      "answered_ndcg": 0.9789,
+      "d_recall_vs_nonprivate_source_mean": 0.1,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        0.1,
+        0.1
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.9,
+      "ndcg": 0.9789,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9441,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9441,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7,
+      "answered_ndcg": 0.9441,
+      "d_recall_vs_nonprivate_source_mean": -0.1,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.1,
+        -0.1
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9441,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9235,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9648,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9235,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7,
+      "answered_ndcg": 0.9235,
+      "d_recall_vs_nonprivate_source_mean": -0.1,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.1,
+        -0.1
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "3",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9235,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9453,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9453,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7,
+      "answered_ndcg": 0.9453,
+      "d_recall_vs_nonprivate_source_mean": -0.1,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.1,
+        -0.1
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "5",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9453,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9453,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9453,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7,
+      "answered_ndcg": 0.9453,
+      "d_recall_vs_nonprivate_source_mean": -0.1,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.1,
+        -0.1
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9453,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9664,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9664,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.8,
+      "answered_ndcg": 0.9664,
+      "d_recall_vs_nonprivate_source_mean": 0.0,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9664,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9387,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9325,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.7,
+      "answered_ndcg": 0.9325,
+      "d_recall_vs_nonprivate_source_mean": -0.1,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        -0.1,
+        -0.1
+      ],
+      "d_ndcg_vs_variance_weighted": -0.0062,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0062,
+        -0.0062
+      ]
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 10,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.7,
+      "ndcg": 0.9387,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9659,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9659,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.8,
+      "answered_ndcg": 0.9659,
+      "d_recall_vs_nonprivate_source_mean": 0.0,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 20,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9659,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "average",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9659,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "nonprivate_source_mean",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9683,
+      "candidate_recall_upper_bound": 1.0
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "privedge",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9659,
+      "candidate_recall_upper_bound": 1.0,
+      "states": {
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.8,
+      "answered_ndcg": 0.9659,
+      "d_recall_vs_nonprivate_source_mean": 0.0,
+      "d_recall_vs_nonprivate_source_mean_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 4.0,
+      "top_m": 40,
+      "sources": "all",
+      "method": "variance_weighted",
+      "targets": 1,
+      "recall": 0.8,
+      "ndcg": 0.9659,
+      "candidate_recall_upper_bound": 1.0
+    }
+  ]
+}

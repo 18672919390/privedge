@@ -1,0 +1,844 @@
+{
+  "cells": [
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "defense": "D0_none",
+      "method": "average",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.6928,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "defense": "D0_none",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7488,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "defense": "D1_publisher",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7488,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": 0.0,
+      "d_ndcg_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "defense": "D2_gateway",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7179,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": -0.0309,
+      "d_ndcg_vs_D0_ci95": [
+        -0.0309,
+        -0.0309
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "defense": "D3_both",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7179,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": -0.0309,
+      "d_ndcg_vs_D0_ci95": [
+        -0.0309,
+        -0.0309
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "defense": "D0_none",
+      "method": "average",
+      "targets": 1,
+      "attack_success": 0.3333,
+      "recall": 0.6,
+      "ndcg": 0.6928,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "defense": "D0_none",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.715,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "defense": "D1_publisher",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.715,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": 0.0,
+      "d_ndcg_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "defense": "D2_gateway",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.3333,
+      "recall": 0.6,
+      "ndcg": 0.7095,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -0.6667,
+      "d_attack_success_vs_D0_ci95": [
+        -0.6667,
+        -0.6667
+      ],
+      "d_ndcg_vs_D0": -0.0055,
+      "d_ndcg_vs_D0_ci95": [
+        -0.0055,
+        -0.0055
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "defense": "D3_both",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.3333,
+      "recall": 0.6,
+      "ndcg": 0.7095,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -0.6667,
+      "d_attack_success_vs_D0_ci95": [
+        -0.6667,
+        -0.6667
+      ],
+      "d_ndcg_vs_D0": -0.0055,
+      "d_ndcg_vs_D0_ci95": [
+        -0.0055,
+        -0.0055
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "defense": "D0_none",
+      "method": "average",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6536,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "defense": "D0_none",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6931,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "defense": "D1_publisher",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6931,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": 0.0,
+      "d_ndcg_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "defense": "D2_gateway",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6539,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": -0.0393,
+      "d_ndcg_vs_D0_ci95": [
+        -0.0393,
+        -0.0393
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "defense": "D3_both",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6539,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": -0.0393,
+      "d_ndcg_vs_D0_ci95": [
+        -0.0393,
+        -0.0393
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "defense": "D0_none",
+      "method": "average",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.7,
+      "ndcg": 0.7158,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "defense": "D0_none",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.3333,
+      "recall": 0.6,
+      "ndcg": 0.7473,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "defense": "D1_publisher",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.3333,
+      "recall": 0.6,
+      "ndcg": 0.7473,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": 0.0,
+      "d_ndcg_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "defense": "D2_gateway",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7084,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -0.3333,
+      "d_attack_success_vs_D0_ci95": [
+        -0.3333,
+        -0.3333
+      ],
+      "d_ndcg_vs_D0": -0.0389,
+      "d_ndcg_vs_D0_ci95": [
+        -0.0389,
+        -0.0389
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "defense": "D3_both",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7084,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -0.3333,
+      "d_attack_success_vs_D0_ci95": [
+        -0.3333,
+        -0.3333
+      ],
+      "d_ndcg_vs_D0": -0.0389,
+      "d_ndcg_vs_D0_ci95": [
+        -0.0389,
+        -0.0389
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "defense": "D0_none",
+      "method": "average",
+      "targets": 1,
+      "attack_success": 0.6667,
+      "recall": 0.6,
+      "ndcg": 0.6939,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "defense": "D0_none",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6985,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "defense": "D1_publisher",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7488,
+      "fake_removed_rate": 1.0,
+      "honest_removed_rate": 0.0028,
+      "honest_removed_rate_attacked_source": 0.0166,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -1.0,
+      "d_attack_success_vs_D0_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0": 0.0503,
+      "d_ndcg_vs_D0_ci95": [
+        0.0503,
+        0.0503
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "defense": "D2_gateway",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.3333,
+      "recall": 0.6,
+      "ndcg": 0.7095,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -0.6667,
+      "d_attack_success_vs_D0_ci95": [
+        -0.6667,
+        -0.6667
+      ],
+      "d_ndcg_vs_D0": 0.011,
+      "d_ndcg_vs_D0_ci95": [
+        0.011,
+        0.011
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "defense": "D3_both",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7179,
+      "fake_removed_rate": 1.0,
+      "honest_removed_rate": 0.0028,
+      "honest_removed_rate_attacked_source": 0.0166,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -1.0,
+      "d_attack_success_vs_D0_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0": 0.0194,
+      "d_ndcg_vs_D0_ci95": [
+        0.0194,
+        0.0194
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D0_none",
+      "method": "average",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6536,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D0_none",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.5751,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D1_publisher",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7488,
+      "fake_removed_rate": 1.0,
+      "honest_removed_rate": 0.0028,
+      "honest_removed_rate_attacked_source": 0.0166,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -1.0,
+      "d_attack_success_vs_D0_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0": 0.1737,
+      "d_ndcg_vs_D0_ci95": [
+        0.1737,
+        0.1737
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D2_gateway",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.3333,
+      "recall": 0.6,
+      "ndcg": 0.7095,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 1.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -0.6667,
+      "d_attack_success_vs_D0_ci95": [
+        -0.6667,
+        -0.6667
+      ],
+      "d_ndcg_vs_D0": 0.1344,
+      "d_ndcg_vs_D0_ci95": [
+        0.1344,
+        0.1344
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D3_both",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7179,
+      "fake_removed_rate": 1.0,
+      "honest_removed_rate": 0.0028,
+      "honest_removed_rate_attacked_source": 0.0166,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -1.0,
+      "d_attack_success_vs_D0_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0": 0.1428,
+      "d_ndcg_vs_D0_ci95": [
+        0.1428,
+        0.1428
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "defense": "D0_none",
+      "method": "average",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6534,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 2.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "defense": "D0_none",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.5783,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 2.0,
+      "flagged_good": 2.0
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "defense": "D1_publisher",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7488,
+      "fake_removed_rate": 1.0,
+      "honest_removed_rate": 0.0052,
+      "honest_removed_rate_attacked_source": 0.0156,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -1.0,
+      "d_attack_success_vs_D0_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0": 0.1705,
+      "d_ndcg_vs_D0_ci95": [
+        0.1705,
+        0.1705
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "defense": "D2_gateway",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 1.0,
+      "recall": 0.5,
+      "ndcg": 0.6539,
+      "fake_removed_rate": 0.0,
+      "honest_removed_rate": 0.0,
+      "honest_removed_rate_attacked_source": 0.0,
+      "flagged_bad": 2.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": 0.0,
+      "d_attack_success_vs_D0_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0": 0.0755,
+      "d_ndcg_vs_D0_ci95": [
+        0.0755,
+        0.0755
+      ],
+      "d_recall_vs_D0": 0.0,
+      "d_recall_vs_D0_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "defense": "D3_both",
+      "method": "censor_aware",
+      "targets": 1,
+      "attack_success": 0.0,
+      "recall": 0.6,
+      "ndcg": 0.7179,
+      "fake_removed_rate": 1.0,
+      "honest_removed_rate": 0.0052,
+      "honest_removed_rate_attacked_source": 0.0156,
+      "flagged_bad": 0.0,
+      "flagged_good": 2.0,
+      "d_attack_success_vs_D0": -1.0,
+      "d_attack_success_vs_D0_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0": 0.1396,
+      "d_ndcg_vs_D0_ci95": [
+        0.1396,
+        0.1396
+      ],
+      "d_recall_vs_D0": 0.1,
+      "d_recall_vs_D0_ci95": [
+        0.1,
+        0.1
+      ]
+    }
+  ]
+}

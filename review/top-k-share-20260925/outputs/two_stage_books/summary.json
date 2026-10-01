@@ -1,0 +1,54 @@
+[
+  {
+    "case": "users_1000",
+    "method": "direct_average",
+    "seeds": 5,
+    "recall": 0.22000000000000003,
+    "recall_std": 0.130384048104053,
+    "ndcg": 0.7710781106332989,
+    "ndcg_std": 0.10976058103538121,
+    "coverage": 0.26,
+    "coverage_std": 0.11401754250991379,
+    "candidate_miss_mass": 0.5827857473391949,
+    "candidate_miss_mass_std": 0.09554282590369823
+  },
+  {
+    "case": "users_1000",
+    "method": "reconstructed_average",
+    "seeds": 5,
+    "recall": 0.24000000000000005,
+    "recall_std": 0.1341640786499874,
+    "ndcg": 0.7773780017985776,
+    "ndcg_std": 0.11437604854994064,
+    "coverage": 0.26,
+    "coverage_std": 0.11401754250991379,
+    "candidate_miss_mass": 0.5827857473391949,
+    "candidate_miss_mass_std": 0.09554282590369823
+  },
+  {
+    "case": "users_10000",
+    "method": "direct_average",
+    "seeds": 5,
+    "recall": 0.72,
+    "recall_std": 0.10954451150103325,
+    "ndcg": 0.9709440532494567,
+    "ndcg_std": 0.009849498178973954,
+    "coverage": 0.8,
+    "coverage_std": 0.07071067811865477,
+    "candidate_miss_mass": 0.3865224433132809,
+    "candidate_miss_mass_std": 0.014718391095976698
+  },
+  {
+    "case": "users_10000",
+    "method": "reconstructed_average",
+    "seeds": 5,
+    "recall": 0.72,
+    "recall_std": 0.10954451150103325,
+    "ndcg": 0.9709440532494567,
+    "ndcg_std": 0.009849498178973954,
+    "coverage": 0.8,
+    "coverage_std": 0.07071067811865477,
+    "candidate_miss_mass": 0.3865224433132809,
+    "candidate_miss_mass_std": 0.014718391095976698
+  }
+]

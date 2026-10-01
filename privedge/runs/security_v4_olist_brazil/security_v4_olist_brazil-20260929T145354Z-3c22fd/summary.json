@@ -1,0 +1,1402 @@
+{
+  "cells": [
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7833,
+      "ndcg": 0.9364,
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7833,
+      "ndcg": 0.9364,
+      "d_attack_success_vs_D0_none": 0.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0_none": 0.0,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D0_none": 0.0,
+      "d_recall_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7833,
+      "ndcg": 0.9364,
+      "d_attack_success_vs_D0_none": 0.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0_none": 0.0,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D0_none": 0.0,
+      "d_recall_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 0.2444,
+      "recall": 0.7533,
+      "ndcg": 0.9142,
+      "d_attack_success_vs_D3_both": 0.0889,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0444,
+        0.1222
+      ],
+      "d_ndcg_vs_D3_both": -0.0084,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.0107,
+        -0.0049
+      ],
+      "d_recall_vs_D3_both": -0.01,
+      "d_recall_vs_D3_both_ci95": [
+        -0.0167,
+        -0.0033
+      ],
+      "d_ndcg_vs_clean_D3": -0.0222,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0263,
+        -0.0182
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.1556,
+      "recall": 0.7633,
+      "ndcg": 0.9226,
+      "d_attack_success_vs_D0_none": -0.0889,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.1222,
+        -0.0444
+      ],
+      "d_ndcg_vs_D0_none": 0.0084,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0049,
+        0.0107
+      ],
+      "d_recall_vs_D0_none": 0.01,
+      "d_recall_vs_D0_none_ci95": [
+        0.0033,
+        0.0167
+      ],
+      "d_ndcg_vs_clean_D3": -0.0138,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0172,
+        -0.0096
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.1556,
+      "recall": 0.7633,
+      "ndcg": 0.9226,
+      "d_attack_success_vs_D0_none": -0.0889,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.1222,
+        -0.0444
+      ],
+      "d_ndcg_vs_D0_none": 0.0084,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0049,
+        0.0107
+      ],
+      "d_recall_vs_D0_none": 0.01,
+      "d_recall_vs_D0_none_ci95": [
+        0.0033,
+        0.0167
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_clean_D3": -0.0138,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0172,
+        -0.0096
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 0.8444,
+      "recall": 0.6633,
+      "ndcg": 0.8408,
+      "d_attack_success_vs_D3_both": 0.2222,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.1556,
+        0.3
+      ],
+      "d_ndcg_vs_D3_both": -0.0281,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.0442,
+        -0.0172
+      ],
+      "d_recall_vs_D3_both": -0.0367,
+      "d_recall_vs_D3_both_ci95": [
+        -0.0633,
+        -0.0133
+      ],
+      "d_ndcg_vs_clean_D3": -0.0956,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.108,
+        -0.0837
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.6222,
+      "recall": 0.7,
+      "ndcg": 0.8689,
+      "d_attack_success_vs_D0_none": -0.2222,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.3,
+        -0.1556
+      ],
+      "d_ndcg_vs_D0_none": 0.0281,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0172,
+        0.0442
+      ],
+      "d_recall_vs_D0_none": 0.0367,
+      "d_recall_vs_D0_none_ci95": [
+        0.0133,
+        0.0633
+      ],
+      "d_ndcg_vs_clean_D3": -0.0675,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0751,
+        -0.06
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.6222,
+      "recall": 0.7,
+      "ndcg": 0.8689,
+      "d_attack_success_vs_D0_none": -0.2222,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.3,
+        -0.1556
+      ],
+      "d_ndcg_vs_D0_none": 0.0281,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0172,
+        0.0442
+      ],
+      "d_recall_vs_D0_none": 0.0367,
+      "d_recall_vs_D0_none_ci95": [
+        0.0133,
+        0.0633
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_clean_D3": -0.0675,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0751,
+        -0.06
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "demote_1src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.25,
+      "ndcg": 0.2146,
+      "d_attack_success_vs_D3_both": 0.5222,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.4444,
+        0.5778
+      ],
+      "d_ndcg_vs_D3_both": -0.1072,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.1211,
+        -0.0925
+      ],
+      "d_recall_vs_D3_both": -0.08,
+      "d_recall_vs_D3_both_ci95": [
+        -0.1,
+        -0.06
+      ],
+      "d_ndcg_vs_clean_D3": -0.7217,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.7522,
+        -0.6929
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "demote_1src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.4778,
+      "recall": 0.33,
+      "ndcg": 0.3219,
+      "d_attack_success_vs_D0_none": -0.5222,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.5778,
+        -0.4444
+      ],
+      "d_ndcg_vs_D0_none": 0.1072,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0925,
+        0.1211
+      ],
+      "d_recall_vs_D0_none": 0.08,
+      "d_recall_vs_D0_none_ci95": [
+        0.06,
+        0.1
+      ],
+      "d_ndcg_vs_clean_D3": -0.6145,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.6574,
+        -0.5779
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "demote_1src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.4444,
+      "recall": 0.71,
+      "ndcg": 0.8475,
+      "d_attack_success_vs_D0_none": -0.5556,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.6222,
+        -0.4556
+      ],
+      "d_ndcg_vs_D0_none": 0.6329,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.6072,
+        0.6577
+      ],
+      "d_recall_vs_D0_none": 0.46,
+      "d_recall_vs_D0_none_ci95": [
+        0.4333,
+        0.4867
+      ],
+      "d_attack_success_vs_D3_both": -0.0333,
+      "d_attack_success_vs_D3_both_ci95": [
+        -0.0556,
+        -0.0111
+      ],
+      "d_ndcg_vs_D3_both": 0.5256,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.4981,
+        0.5589
+      ],
+      "d_recall_vs_D3_both": 0.38,
+      "d_recall_vs_D3_both_ci95": [
+        0.34,
+        0.42
+      ],
+      "d_ndcg_vs_clean_D3": -0.0889,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.1058,
+        -0.0748
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "hijack_1src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.51,
+      "ndcg": 0.6008,
+      "d_attack_success_vs_D3_both": 0.5222,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.4444,
+        0.5778
+      ],
+      "d_ndcg_vs_D3_both": -0.1333,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.157,
+        -0.1046
+      ],
+      "d_recall_vs_D3_both": -0.09,
+      "d_recall_vs_D3_both_ci95": [
+        -0.1167,
+        -0.0633
+      ],
+      "d_ndcg_vs_clean_D3": -0.3356,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.3541,
+        -0.3208
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "hijack_1src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.4778,
+      "recall": 0.6,
+      "ndcg": 0.734,
+      "d_attack_success_vs_D0_none": -0.5222,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.5778,
+        -0.4444
+      ],
+      "d_ndcg_vs_D0_none": 0.1333,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.1046,
+        0.157
+      ],
+      "d_recall_vs_D0_none": 0.09,
+      "d_recall_vs_D0_none_ci95": [
+        0.0633,
+        0.1167
+      ],
+      "d_ndcg_vs_clean_D3": -0.2023,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.2331,
+        -0.1763
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "hijack_1src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.3111,
+      "recall": 0.74,
+      "ndcg": 0.9038,
+      "d_attack_success_vs_D0_none": -0.6889,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.7222,
+        -0.6444
+      ],
+      "d_ndcg_vs_D0_none": 0.303,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.288,
+        0.3228
+      ],
+      "d_recall_vs_D0_none": 0.23,
+      "d_recall_vs_D0_none_ci95": [
+        0.1867,
+        0.27
+      ],
+      "d_attack_success_vs_D3_both": -0.1667,
+      "d_attack_success_vs_D3_both_ci95": [
+        -0.2222,
+        -0.1111
+      ],
+      "d_ndcg_vs_D3_both": 0.1697,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.144,
+        0.2008
+      ],
+      "d_recall_vs_D3_both": 0.14,
+      "d_recall_vs_D3_both_ci95": [
+        0.1,
+        0.18
+      ],
+      "d_ndcg_vs_clean_D3": -0.0326,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0358,
+        -0.0295
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "hijack_2src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.5833,
+      "ndcg": 0.5182,
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": -0.0725,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.0957,
+        -0.0492
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_clean_D3": -0.4182,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.4312,
+        -0.4053
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "hijack_2src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.5833,
+      "ndcg": 0.5907,
+      "d_attack_success_vs_D0_none": 0.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0_none": 0.0725,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0492,
+        0.0957
+      ],
+      "d_recall_vs_D0_none": 0.0,
+      "d_recall_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_clean_D3": -0.3457,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.3663,
+        -0.3252
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "hijack_2src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.6267,
+      "ndcg": 0.8031,
+      "d_attack_success_vs_D0_none": 0.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0_none": 0.2849,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.2681,
+        0.3017
+      ],
+      "d_recall_vs_D0_none": 0.0433,
+      "d_recall_vs_D0_none_ci95": [
+        0.0066,
+        0.0767
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.2124,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.1986,
+        0.2276
+      ],
+      "d_recall_vs_D3_both": 0.0433,
+      "d_recall_vs_D3_both_ci95": [
+        0.0066,
+        0.0767
+      ],
+      "d_ndcg_vs_clean_D3": -0.1333,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.1417,
+        -0.1235
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.6267,
+      "ndcg": 0.7915,
+      "d_attack_success_vs_D3_both": 1.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        1.0,
+        1.0
+      ],
+      "d_ndcg_vs_D3_both": -0.1441,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.1528,
+        -0.1355
+      ],
+      "d_recall_vs_D3_both": -0.1533,
+      "d_recall_vs_D3_both_ci95": [
+        -0.1733,
+        -0.1333
+      ],
+      "d_ndcg_vs_clean_D3": -0.1449,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.1534,
+        -0.1364
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.78,
+      "ndcg": 0.9355,
+      "d_attack_success_vs_D0_none": -1.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0_none": 0.1441,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.1355,
+        0.1528
+      ],
+      "d_recall_vs_D0_none": 0.1533,
+      "d_recall_vs_D0_none_ci95": [
+        0.1333,
+        0.1733
+      ],
+      "d_ndcg_vs_clean_D3": -0.0009,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0027,
+        0.0002
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.78,
+      "ndcg": 0.9355,
+      "d_attack_success_vs_D0_none": -1.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0_none": 0.1441,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.1355,
+        0.1528
+      ],
+      "d_recall_vs_D0_none": 0.1533,
+      "d_recall_vs_D0_none_ci95": [
+        0.1333,
+        0.1733
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_clean_D3": -0.0009,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0027,
+        0.0002
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "clean",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.78,
+      "ndcg": 0.9577,
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0008,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0024
+      ],
+      "d_recall_vs_D3_both": 0.0033,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.01
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "clean",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7767,
+      "ndcg": 0.9569,
+      "d_attack_success_vs_D0_none": 0.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0_none": -0.0008,
+      "d_ndcg_vs_D0_none_ci95": [
+        -0.0024,
+        0.0
+      ],
+      "d_recall_vs_D0_none": -0.0033,
+      "d_recall_vs_D0_none_ci95": [
+        -0.01,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "clean",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7767,
+      "ndcg": 0.9569,
+      "d_attack_success_vs_D0_none": 0.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D0_none": -0.0008,
+      "d_ndcg_vs_D0_none_ci95": [
+        -0.0024,
+        0.0
+      ],
+      "d_recall_vs_D0_none": -0.0033,
+      "d_recall_vs_D0_none_ci95": [
+        -0.01,
+        0.0
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_1src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 0.0111,
+      "recall": 0.7833,
+      "ndcg": 0.9572,
+      "d_attack_success_vs_D3_both": 0.0111,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0333
+      ],
+      "d_ndcg_vs_D3_both": -0.0006,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.0044,
+        0.0024
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        -0.01,
+        0.01
+      ],
+      "d_ndcg_vs_clean_D3": 0.0002,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0031,
+        0.0033
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_1src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7833,
+      "ndcg": 0.9578,
+      "d_attack_success_vs_D0_none": -0.0111,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.0333,
+        0.0
+      ],
+      "d_ndcg_vs_D0_none": 0.0006,
+      "d_ndcg_vs_D0_none_ci95": [
+        -0.0024,
+        0.0044
+      ],
+      "d_recall_vs_D0_none": 0.0,
+      "d_recall_vs_D0_none_ci95": [
+        -0.01,
+        0.01
+      ],
+      "d_ndcg_vs_clean_D3": 0.0009,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.001,
+        0.0029
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_1src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7833,
+      "ndcg": 0.9578,
+      "d_attack_success_vs_D0_none": -0.0111,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.0333,
+        0.0
+      ],
+      "d_ndcg_vs_D0_none": 0.0006,
+      "d_ndcg_vs_D0_none_ci95": [
+        -0.0024,
+        0.0044
+      ],
+      "d_recall_vs_D0_none": 0.0,
+      "d_recall_vs_D0_none_ci95": [
+        -0.01,
+        0.01
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_clean_D3": 0.0009,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.001,
+        0.0029
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_2src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 0.6667,
+      "recall": 0.7033,
+      "ndcg": 0.8908,
+      "d_attack_success_vs_D3_both": 0.6333,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.5444,
+        0.7222
+      ],
+      "d_ndcg_vs_D3_both": -0.0639,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.0785,
+        -0.0504
+      ],
+      "d_recall_vs_D3_both": -0.0733,
+      "d_recall_vs_D3_both_ci95": [
+        -0.1,
+        -0.0467
+      ],
+      "d_ndcg_vs_clean_D3": -0.0661,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0831,
+        -0.0508
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_2src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.0333,
+      "recall": 0.7767,
+      "ndcg": 0.9547,
+      "d_attack_success_vs_D0_none": -0.6333,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.7222,
+        -0.5444
+      ],
+      "d_ndcg_vs_D0_none": 0.0639,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0504,
+        0.0785
+      ],
+      "d_recall_vs_D0_none": 0.0733,
+      "d_recall_vs_D0_none_ci95": [
+        0.0467,
+        0.1
+      ],
+      "d_ndcg_vs_clean_D3": -0.0022,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0061,
+        0.0017
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_2src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0333,
+      "recall": 0.7767,
+      "ndcg": 0.9547,
+      "d_attack_success_vs_D0_none": -0.6333,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.7222,
+        -0.5444
+      ],
+      "d_ndcg_vs_D0_none": 0.0639,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0504,
+        0.0785
+      ],
+      "d_recall_vs_D0_none": 0.0733,
+      "d_recall_vs_D0_none_ci95": [
+        0.0467,
+        0.1
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_clean_D3": -0.0022,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0061,
+        0.0017
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "demote_1src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.2433,
+      "ndcg": 0.2457,
+      "d_attack_success_vs_D3_both": 0.8556,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.8222,
+        0.8889
+      ],
+      "d_ndcg_vs_D3_both": -0.2032,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.2268,
+        -0.1782
+      ],
+      "d_recall_vs_D3_both": -0.0767,
+      "d_recall_vs_D3_both_ci95": [
+        -0.0967,
+        -0.0567
+      ],
+      "d_ndcg_vs_clean_D3": -0.7113,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.7335,
+        -0.6885
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "demote_1src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.1444,
+      "recall": 0.32,
+      "ndcg": 0.4488,
+      "d_attack_success_vs_D0_none": -0.8556,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.8889,
+        -0.8222
+      ],
+      "d_ndcg_vs_D0_none": 0.2032,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.1782,
+        0.2268
+      ],
+      "d_recall_vs_D0_none": 0.0767,
+      "d_recall_vs_D0_none_ci95": [
+        0.0567,
+        0.0967
+      ],
+      "d_ndcg_vs_clean_D3": -0.5081,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.5487,
+        -0.4735
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "demote_1src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7567,
+      "ndcg": 0.9347,
+      "d_attack_success_vs_D0_none": -1.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0_none": 0.689,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.6712,
+        0.7074
+      ],
+      "d_recall_vs_D0_none": 0.5133,
+      "d_recall_vs_D0_none_ci95": [
+        0.4833,
+        0.5433
+      ],
+      "d_attack_success_vs_D3_both": -0.1444,
+      "d_attack_success_vs_D3_both_ci95": [
+        -0.1778,
+        -0.1111
+      ],
+      "d_ndcg_vs_D3_both": 0.4859,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.4545,
+        0.5256
+      ],
+      "d_recall_vs_D3_both": 0.4367,
+      "d_recall_vs_D3_both_ci95": [
+        0.4033,
+        0.4734
+      ],
+      "d_ndcg_vs_clean_D3": -0.0222,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0325,
+        -0.0111
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "hijack_1src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.6467,
+      "ndcg": 0.7078,
+      "d_attack_success_vs_D3_both": 0.9111,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.8556,
+        0.9556
+      ],
+      "d_ndcg_vs_D3_both": -0.2183,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.2291,
+        -0.2074
+      ],
+      "d_recall_vs_D3_both": -0.1133,
+      "d_recall_vs_D3_both_ci95": [
+        -0.1433,
+        -0.0833
+      ],
+      "d_ndcg_vs_clean_D3": -0.2492,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.2705,
+        -0.2254
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "hijack_1src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.0889,
+      "recall": 0.76,
+      "ndcg": 0.926,
+      "d_attack_success_vs_D0_none": -0.9111,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.9556,
+        -0.8556
+      ],
+      "d_ndcg_vs_D0_none": 0.2183,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.2074,
+        0.2291
+      ],
+      "d_recall_vs_D0_none": 0.1133,
+      "d_recall_vs_D0_none_ci95": [
+        0.0833,
+        0.1433
+      ],
+      "d_ndcg_vs_clean_D3": -0.0309,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0462,
+        -0.0137
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "hijack_1src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.7933,
+      "ndcg": 0.9598,
+      "d_attack_success_vs_D0_none": -1.0,
+      "d_attack_success_vs_D0_none_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_ndcg_vs_D0_none": 0.252,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.2306,
+        0.2734
+      ],
+      "d_recall_vs_D0_none": 0.1467,
+      "d_recall_vs_D0_none_ci95": [
+        0.1133,
+        0.1767
+      ],
+      "d_attack_success_vs_D3_both": -0.0889,
+      "d_attack_success_vs_D3_both_ci95": [
+        -0.1444,
+        -0.0444
+      ],
+      "d_ndcg_vs_D3_both": 0.0337,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0193,
+        0.049
+      ],
+      "d_recall_vs_D3_both": 0.0333,
+      "d_recall_vs_D3_both_ci95": [
+        0.0133,
+        0.0633
+      ],
+      "d_ndcg_vs_clean_D3": 0.0028,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0024,
+        0.0076
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "hijack_2src",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 1.0,
+      "recall": 0.6567,
+      "ndcg": 0.649,
+      "d_attack_success_vs_D3_both": 0.1222,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0222,
+        0.2556
+      ],
+      "d_ndcg_vs_D3_both": -0.2065,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.2238,
+        -0.1876
+      ],
+      "d_recall_vs_D3_both": -0.02,
+      "d_recall_vs_D3_both_ci95": [
+        -0.0467,
+        -0.0033
+      ],
+      "d_ndcg_vs_clean_D3": -0.308,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.3322,
+        -0.2857
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "hijack_2src",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.8778,
+      "recall": 0.6767,
+      "ndcg": 0.8555,
+      "d_attack_success_vs_D0_none": -0.1222,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.2556,
+        -0.0222
+      ],
+      "d_ndcg_vs_D0_none": 0.2065,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.1876,
+        0.2238
+      ],
+      "d_recall_vs_D0_none": 0.02,
+      "d_recall_vs_D0_none_ci95": [
+        0.0033,
+        0.0467
+      ],
+      "d_ndcg_vs_clean_D3": -0.1014,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.1245,
+        -0.0783
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "hijack_2src",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0667,
+      "recall": 0.78,
+      "ndcg": 0.9526,
+      "d_attack_success_vs_D0_none": -0.9333,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.9667,
+        -0.9
+      ],
+      "d_ndcg_vs_D0_none": 0.3037,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.2846,
+        0.3239
+      ],
+      "d_recall_vs_D0_none": 0.1233,
+      "d_recall_vs_D0_none_ci95": [
+        0.09,
+        0.1567
+      ],
+      "d_attack_success_vs_D3_both": -0.8111,
+      "d_attack_success_vs_D3_both_ci95": [
+        -0.9,
+        -0.6889
+      ],
+      "d_ndcg_vs_D3_both": 0.0971,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0736,
+        0.1194
+      ],
+      "d_recall_vs_D3_both": 0.1033,
+      "d_recall_vs_D3_both_ci95": [
+        0.0667,
+        0.14
+      ],
+      "d_ndcg_vs_clean_D3": -0.0043,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0107,
+        0.0027
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D0_none",
+      "targets": 6,
+      "attack_success": 0.7,
+      "recall": 0.7067,
+      "ndcg": 0.89,
+      "d_attack_success_vs_D3_both": 0.7,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.6444,
+        0.7444
+      ],
+      "d_ndcg_vs_D3_both": -0.0676,
+      "d_ndcg_vs_D3_both_ci95": [
+        -0.0778,
+        -0.0546
+      ],
+      "d_recall_vs_D3_both": -0.0733,
+      "d_recall_vs_D3_both_ci95": [
+        -0.0933,
+        -0.06
+      ],
+      "d_ndcg_vs_clean_D3": -0.0669,
+      "d_ndcg_vs_clean_D3_ci95": [
+        -0.0771,
+        -0.0539
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D3_both",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.78,
+      "ndcg": 0.9576,
+      "d_attack_success_vs_D0_none": -0.7,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.7444,
+        -0.6444
+      ],
+      "d_ndcg_vs_D0_none": 0.0676,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0546,
+        0.0778
+      ],
+      "d_recall_vs_D0_none": 0.0733,
+      "d_recall_vs_D0_none_ci95": [
+        0.06,
+        0.0933
+      ],
+      "d_ndcg_vs_clean_D3": 0.0007,
+      "d_ndcg_vs_clean_D3_ci95": [
+        0.0,
+        0.0013
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.10",
+      "defense": "D4_capped",
+      "targets": 6,
+      "attack_success": 0.0,
+      "recall": 0.78,
+      "ndcg": 0.9576,
+      "d_attack_success_vs_D0_none": -0.7,
+      "d_attack_success_vs_D0_none_ci95": [
+        -0.7444,
+        -0.6444
+      ],
+      "d_ndcg_vs_D0_none": 0.0676,
+      "d_ndcg_vs_D0_none_ci95": [
+        0.0546,
+        0.0778
+      ],
+      "d_recall_vs_D0_none": 0.0733,
+      "d_recall_vs_D0_none_ci95": [
+        0.06,
+        0.0933
+      ],
+      "d_attack_success_vs_D3_both": 0.0,
+      "d_attack_success_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_D3_both": 0.0,
+      "d_ndcg_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_D3_both": 0.0,
+      "d_recall_vs_D3_both_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_ndcg_vs_clean_D3": 0.0007,
+      "d_ndcg_vs_clean_D3_ci95": [
+        0.0,
+        0.0013
+      ]
+    }
+  ]
+}

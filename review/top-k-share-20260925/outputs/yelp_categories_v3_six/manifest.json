@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "audit": "D:\\Project\\代码\\top-k\\outputs\\data_suitability_audit\\audit.json",
+  "cities": [
+    "Philadelphia | PA",
+    "Tucson | AZ",
+    "Tampa | FL",
+    "Indianapolis | IN",
+    "Nashville | TN",
+    "New Orleans | LA"
+  ],
+  "target_design": "leave-one-city-out; each target uses all other predeclared cities as sources",
+  "users": [
+    2000,
+    10000
+  ],
+  "epsilon": 2.0,
+  "top_k": 10,
+  "report_ratio": 2.0,
+  "seeds": [
+    2026092001,
+    2026092002,
+    2026092003,
+    2026092004,
+    2026092005
+  ],
+  "release_modes": [
+    "OLH",
+    "ORACLE"
+  ],
+  "target_truth": "full globally-deduplicated retained event distribution; offline evaluation only",
+  "context_modes": [
+    "uniform",
+    "correct_catalog",
+    "swapped_catalog"
+  ],
+  "context_note": "Present metadata snapshot; no historical availability established",
+  "no_target_review_counts_in_context": true,
+  "event_selection": "Minimum SHA256(review-v2:review_id) positive matched review across ALL cities and years per user",
+  "interpretation": "Exploratory; all audited cities were inspected before this run"
+}

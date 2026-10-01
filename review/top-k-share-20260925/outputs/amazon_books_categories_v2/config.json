@@ -1,0 +1,21 @@
+{
+  "ratings": "D:\\Project\\\u4ee3\u7801\\top-k\\data\\Amazon\\Amazon Books Reviews\\Books_rating.csv",
+  "metadata": "D:\\Project\\\u4ee3\u7801\\top-k\\data\\Amazon\\Amazon Books Reviews\\books_data.csv",
+  "output_dir": "outputs\\amazon_books_categories_v2",
+  "prepare": false,
+  "source_years": [
+    2011,
+    2012
+  ],
+  "target_year": 2013,
+  "users": 1000,
+  "cache": null,
+  "epsilon": 2,
+  "top_k": 10,
+  "report_ratio": 2,
+  "seeds": [
+    1,
+    2,
+    3
+  ]
+}
