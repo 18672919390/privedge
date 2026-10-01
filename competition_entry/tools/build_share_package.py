@@ -1,19 +1,22 @@
-"""Build the team share package (code, docs, results, HTML docs) and a separate data package.
+"""Build the team-internal material package: one folder plus one zip with code, data, results and docs.
 
-Run from anywhere with the project venv:
+Run with the project venv:
     D:\\比赛\\privedge\\.venv\\Scripts\\python.exe D:\\比赛\\competition_entry\\tools\\build_share_package.py
-Outputs go to D:\\比赛\\share\\. Raw datasets, virtual environments, node_modules and caches are never included;
-the exported datasets go only into the separate data package.
+Outputs go to D:\\比赛\\share\\. Raw downloads, virtual environments, node_modules and caches are never included.
+The markdown library is loaded from D:\\比赛\\tmp\\pydeps_md (pip install --target there).
 """
 
 from __future__ import annotations
 
 import argparse
 import base64
+import csv
 import hashlib
 import html
+import io
 import mimetypes
 import re
+import shutil
 import sys
 import zipfile
 from datetime import date
@@ -26,10 +29,12 @@ import markdown  # noqa: E402
 
 DOCS = ROOT / "competition_entry" / "docs" / "v4"
 START = TOOLS / "从这里开始.md"
+TASKS = DOCS / "09_任务清单（待认领）.md"
 
 INCLUDE = [
     "privedge",
     "competition_entry/docs/v4",
+    "competition_entry/tools",
     "review/top-k-share-20260925",
     "dataset_research/TRD_AUDIT_RESULT_20260929.md",
     "dataset_research/runs/olist_brazil",
@@ -37,15 +42,15 @@ INCLUDE = [
 ]
 SKIP_DIRS = {".venv", "node_modules", "__pycache__", ".pytest_cache", ".git"}
 SKIP_FILES = {"tsconfig.tsbuildinfo"}
-DATA_DIR = "privedge/data"
 SECRET_PATTERN = re.compile(r"(\.env$|\.pem$|\.key$|kaggle\.json$|token|secret|credential|id_rsa)", re.I)
 
 CSS = """
-body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;max-width:980px;margin:32px auto;padding:0 20px;
+body{font-family:"Microsoft YaHei","PingFang SC",sans-serif;max-width:1280px;margin:32px auto;padding:0 20px;
 line-height:1.7;color:#1f2328}
 h1,h2,h3{border-bottom:1px solid #d8dee4;padding-bottom:.3em}
-table{border-collapse:collapse;margin:12px 0;display:block;overflow-x:auto}
-th,td{border:1px solid #d0d7de;padding:6px 10px;vertical-align:top}th{background:#f6f8fa}
+.tw{overflow-x:auto;margin:12px 0}table{border-collapse:collapse;width:100%}
+th,td{border:1px solid #d0d7de;padding:6px 10px;vertical-align:top;min-width:3.5em}th{background:#f6f8fa}
+td:first-child{white-space:nowrap}
 code{background:#f6f8fa;padding:.1em .35em;border-radius:4px;font-size:90%}
 pre{background:#f6f8fa;padding:12px;overflow-x:auto;border-radius:6px}pre code{padding:0}
 img{max-width:100%;border:1px solid #d8dee4;border-radius:6px;margin:8px 0}
@@ -53,14 +58,8 @@ blockquote{color:#59636e;border-left:4px solid #d0d7de;margin:0;padding:0 1em}
 nav{font-size:14px;margin-bottom:16px}nav a{margin-right:12px}
 """
 
-
-def skipped(rel: str) -> bool:
-    parts = rel.split("/")
-    return (
-        rel == DATA_DIR or rel.startswith(DATA_DIR + "/")
-        or any(p in SKIP_DIRS for p in parts)
-        or parts[-1] in SKIP_FILES
-    )
+CSV_COLUMNS = ["编号", "类别", "任务", "必做/可选", "做什么", "交付", "怎样算完成", "需要的能力", "人日", "建议截止",
+               "依赖", "认领人", "协助人", "备注"]
 
 
 def collect() -> list[tuple[Path, str]]:
@@ -70,7 +69,8 @@ def collect() -> list[tuple[Path, str]]:
         paths = [source] if source.is_file() else sorted(p for p in source.rglob("*") if p.is_file())
         for path in paths:
             rel = path.relative_to(ROOT).as_posix()
-            if skipped(rel):
+            parts = rel.split("/")
+            if any(p in SKIP_DIRS for p in parts) or parts[-1] in SKIP_FILES:
                 continue
             if SECRET_PATTERN.search(path.name):
                 raise SystemExit(f"refusing to package a possible credential file: {rel}")
@@ -78,7 +78,7 @@ def collect() -> list[tuple[Path, str]]:
     return files
 
 
-def _nest_lists(text: str) -> str:
+def _normalise(text: str) -> str:
     """Adapt GitHub-style Markdown to Python-Markdown.
 
     Python-Markdown nests lists only with 4-space indents (the docs use 2 or 3, one level deep)
@@ -95,7 +95,7 @@ def _nest_lists(text: str) -> str:
             prev = out[-1] if out else ""
             starts_block = item.match(line) or line.startswith("|")
             prev_is_text = prev.strip() and not item.match(prev) and not prev.startswith(("|", "    ", ">", "#"))
-            if starts_block and prev_is_text and not (line.startswith("|") and prev.startswith("|")):
+            if starts_block and prev_is_text:
                 out.append("")
         out.append(line)
     return "\n".join(out)
@@ -108,67 +108,62 @@ def _inline_images(body: str, base: Path) -> str:
         if src.startswith(("http:", "https:", "data:")) or not path.exists():
             return match.group(0)
         mime = mimetypes.guess_type(path.name)[0] or "image/png"
-        data = base64.b64encode(path.read_bytes()).decode("ascii")
-        return f'{match.group(1)}data:{mime};base64,{data}"'
+        return f'{match.group(1)}data:{mime};base64,{base64.b64encode(path.read_bytes()).decode("ascii")}"'
     return re.sub(r'(<img[^>]*?src=")([^"]+)"', replace, body)
 
 
 def to_html(md_path: Path, title: str, nav: str) -> str:
-    text = _nest_lists(md_path.read_text(encoding="utf-8"))
-    body = markdown.markdown(text, extensions=["tables", "fenced_code", "sane_lists", "toc"])
+    body = markdown.markdown(_normalise(md_path.read_text(encoding="utf-8")),
+                             extensions=["tables", "fenced_code", "sane_lists", "toc"])
     body = _inline_images(body, md_path.parent)
+    body = body.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
     return (f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>{html.escape(title)}</title>'
             f"<style>{CSS}</style></head><body><nav>{nav}</nav>{body}</body></html>")
 
 
-def html_docs() -> dict[str, str]:
+def html_docs() -> dict[str, bytes]:
     docs = sorted(DOCS.glob("*.md"))
-    names = {doc: doc.stem + ".html" for doc in docs}
     nav = '<a href="../从这里开始.html">从这里开始</a>' + "".join(
-        f'<a href="{html.escape(names[d])}">{html.escape(d.stem[:2])}</a>' for d in docs)
-    out = {f"文档网页版/{names[d]}": to_html(d, d.stem, nav) for d in docs}
+        f'<a href="{html.escape(d.stem)}.html">{html.escape(d.stem[:2])}</a>' for d in docs)
+    out = {f"文档网页版/{d.stem}.html": to_html(d, d.stem, nav) for d in docs}
     out["文档网页版/privedge_README.html"] = to_html(ROOT / "privedge" / "README.md", "PrivEdge README", nav)
-    start_nav = '<a href="文档网页版/07_项目全景说明（团队共享版）.html">项目全景说明</a>'
+    start_nav = ('<a href="文档网页版/07_项目全景说明（团队共享版）.html">项目全景说明</a>'
+                 '<a href="文档网页版/09_任务清单（待认领）.html">任务清单</a>')
     out["从这里开始.html"] = to_html(START, "从这里开始", start_nav)
-    return out
+    return {name: text.encode("utf-8") for name, text in out.items()}
+
+
+def _cells(line: str) -> list[str]:
+    cells = [c.strip() for c in line.strip().strip("|").split("|")]
+    return [re.sub(r"\*\*|`", "", c) for c in cells]
+
+
+def task_csv() -> bytes:
+    """Flatten every task row of the 09 task list into one sheet (UTF-8 with BOM so Excel opens it)."""
+    rows, header, category = [], None, ""
+    for line in TASKS.read_text(encoding="utf-8").splitlines():
+        if line.startswith("### "):
+            category, header = line[4:].strip(), None
+        elif line.startswith("|") and not re.match(r"^\|[\s\-|]+\|$", line):
+            cells = _cells(line)
+            if cells[0] == "编号":
+                header = cells
+            elif header and re.fullmatch(r"[A-DX]\d+", cells[0]):
+                record = dict(zip(header, cells))
+                record["类别"] = category
+                record.setdefault("建议截止", record.get("截止", ""))
+                rows.append(record)
+    buffer = io.StringIO()
+    writer = csv.DictWriter(buffer, fieldnames=CSV_COLUMNS, extrasaction="ignore", lineterminator="\r\n")
+    writer.writeheader()
+    writer.writerows(rows)
+    if len(rows) < 30:
+        raise SystemExit(f"only {len(rows)} tasks parsed from {TASKS.name}")
+    return ("\ufeff" + buffer.getvalue()).encode("utf-8")
 
 
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
-
-
-def write_zip(target: Path, top: str, files: list[tuple[Path, str]], extra: dict[str, bytes],
-              manifest: str = "文件清单.txt") -> None:
-    manifest_lines = []
-    with zipfile.ZipFile(target, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
-        for path, rel in files:
-            data = path.read_bytes()
-            archive.writestr(f"{top}/{rel}", data)
-            manifest_lines.append(f"{sha256(data)}  {rel}")
-        for rel, data in extra.items():
-            archive.writestr(f"{top}/{rel}", data)
-            manifest_lines.append(f"{sha256(data)}  {rel}")
-        archive.writestr(f"{top}/{manifest}", "\n".join(sorted(manifest_lines, key=lambda l: l[66:])) + "\n")
-    with zipfile.ZipFile(target) as archive:
-        bad = archive.testzip()
-        if bad:
-            raise SystemExit(f"CRC check failed for {bad}")
-    digest = sha256(target.read_bytes())
-    target.with_suffix(".zip.sha256").write_text(f"{digest}  {target.name}\n", encoding="utf-8")
-
-
-DATA_NOTE = """# PrivEdge 数据包说明
-
-把本压缩包解压到共享包的同一个文件夹（与 `从这里开始.html` 同级），会得到 `privedge/data/` 下的三套数据：
-
-| 文件夹 | 来源 | 许可 | 内容 |
-|---|---|---|---|
-| `meituan_trd` | 美团外卖 TRD，Zenodo DOI 10.5281/zenodo.8025855（上传者 Liu Yijian） | CC BY 4.0（使用时须署名） | 北京 11 个商圈的首单品类，品类已匿名为编号 |
-| `olist_brazil` | Kaggle `olistbr/brazilian-ecommerce` | CC BY-NC-SA 4.0（仅限非商业用途，衍生物须同许可） | 巴西各州首单品类 + 公开上下文 |
-| `massive_steps` | Massive-STEPS（Semantic Trails，CC0） | CC0；代码 Apache-2.0 | 城市签到类别 + 公开上下文 |
-
-这些是由 `privedge/privedge/adapters/export_*.py` 从公开原始数据导出的标准化文件（每用户一条事件），不含姓名、手机号等个人信息。仅限队内用于本作品，不要公开传播。详细许可见 `privedge/THIRD_PARTY_LICENSES.md`。
-"""
 
 
 def main() -> None:
@@ -177,22 +172,30 @@ def main() -> None:
     args = parser.parse_args()
     out_dir = ROOT / "share"
     out_dir.mkdir(exist_ok=True)
+    name = f"PrivEdge_团队资料_{args.date}"
+    folder, archive_path = out_dir / name, out_dir / f"{name}.zip"
+    if folder.exists():
+        shutil.rmtree(folder)
 
-    main_top = f"PrivEdge_团队共享包_{args.date}"
-    files = collect()
-    extra = {rel: text.encode("utf-8") for rel, text in html_docs().items()}
-    extra["从这里开始.md"] = START.read_bytes()
-    main_zip = out_dir / f"{main_top}.zip"
-    write_zip(main_zip, main_top, files, extra)
+    entries: dict[str, bytes] = {rel: path.read_bytes() for path, rel in collect()}
+    entries.update(html_docs())
+    entries["从这里开始.md"] = START.read_bytes()
+    entries["任务认领表.csv"] = task_csv()
+    entries["文件清单.txt"] = ("\n".join(f"{sha256(data)}  {rel}" for rel, data in sorted(entries.items()))
+                           + "\n").encode("utf-8")
 
-    data_root = ROOT / DATA_DIR
-    data_files = [(p, p.relative_to(ROOT).as_posix()) for p in sorted(data_root.rglob("*")) if p.is_file()]
-    data_zip = out_dir / f"PrivEdge_数据包_{args.date}.zip"
-    write_zip(data_zip, main_top, data_files, {"数据说明与许可.md": DATA_NOTE.encode("utf-8")},
-              manifest="数据包文件清单.txt")
-
-    for path, count in ((main_zip, len(files) + len(extra)), (data_zip, len(data_files) + 1)):
-        print(f"{path.name}: {path.stat().st_size / 1e6:.1f} MB, {count} files + manifest")
+    with zipfile.ZipFile(archive_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        for rel, data in entries.items():
+            target = folder / rel
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+            archive.writestr(f"{name}/{rel}", data)
+    with zipfile.ZipFile(archive_path) as archive:
+        if archive.testzip():
+            raise SystemExit("CRC check failed")
+    archive_path.with_suffix(".zip.sha256").write_text(f"{sha256(archive_path.read_bytes())}  {archive_path.name}\n",
+                                                       encoding="utf-8")
+    print(f"{folder}\n{archive_path}: {archive_path.stat().st_size / 1e6:.1f} MB, {len(entries)} files")
 
 
 if __name__ == "__main__":
