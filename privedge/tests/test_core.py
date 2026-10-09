@@ -58,6 +58,50 @@ def test_ledger_chain_and_budget(world):
     assert not ok and bad == 2
 
 
+def _resealed(world, index, env, **changes):
+    identity = world["publishers"][index].identity
+    return seal(replace(env, nonce="", signature="", **changes), identity.key_id, identity.private_key)
+
+
+@pytest.mark.parametrize("first", [-4.0, float("nan")])
+def test_invalid_epsilon_cannot_reset_or_poison_the_budget(world, first):
+    base = release_all(world)[0]
+    codes = []
+    for n, epsilon in enumerate([first, 4.0, 4.0, 4.0]):
+        try:
+            world["ledger"].append(_resealed(world, 0, base, release_id=f"rel-eps-{n}", window_id="W9", epsilon=epsilon))
+            codes.append("OK")
+        except LedgerError as err:
+            codes.append(err.code)
+    assert codes == ["EPSILON_INVALID", "OK", "BUDGET_EXCEEDED", "BUDGET_EXCEEDED"]
+    assert world["ledger"].spent(base.source_id, "W9") == 4.0
+
+
+@pytest.mark.parametrize("changes,code", [
+    ({"epsilon": -4.0}, "EPSILON_INVALID"), ({"epsilon": 0.0}, "EPSILON_INVALID"),
+    ({"epsilon": float("nan")}, "EPSILON_INVALID"), ({"epsilon": float("inf")}, "EPSILON_INVALID"),
+    ({"n_users": 0}, "MALFORMED"), ({"n_users": 5000.5}, "MALFORMED"),
+])
+def test_invalid_epsilon_and_user_count_are_rejected_everywhere(world, changes, code):
+    envs = release_all(world)
+    bad = _resealed(world, 1, envs[1], release_id="rel-invalid", **changes)
+    assert admit([bad], None, world["policy"], world["registry"], world["ledger"]).rejected[0]["code"] == code
+    with pytest.raises(LedgerError) as err:
+        world["ledger"].append(bad)
+    assert err.value.code == code
+
+
+def test_prediction_refuses_when_ledger_is_corrupted(world):
+    envs = release_all(world)
+    service, policy = world["service"], world["policy"]
+    assert service.predict(envs, None, policy)[0].state == NORMAL
+    world["ledger"].entries[1]["epsilon"] = 0.01
+    decision, record = service.predict(envs, None, policy)
+    assert decision.state == REFUSED and decision.top_k == []
+    assert decision.reasons[0]["code"] == "LEDGER_CORRUPTED" and decision.reasons[0]["first_bad_seq"] == 1
+    assert record["ledger_chain_ok"] is False and record["admission"]["accepted"] == []
+
+
 def test_ledger_rejects_budget_burning_by_third_parties(world):
     envs = release_all(world, epsilon=1.0)
     victim = envs[0]

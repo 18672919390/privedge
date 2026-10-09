@@ -8,11 +8,11 @@ from dataclasses import dataclass, field
 import numpy as np
 
 from .envelope import ContextEnvelope, ReleaseEnvelope, ReleaseItem, canonical_bytes, seal, sha256_hex, utc_now
-from .gateway import GatewayPolicy, admit
+from .gateway import AdmissionResult, GatewayPolicy, admit
 from .keys import Identity, KeyRegistry
 from .ldp import HASH_FAMILY, OLHReports, aggregate, perturb
 from .ledger import Ledger
-from .decision import Decision, DecisionPolicy, decide
+from .decision import REFUSED, REASONS, Decision, DecisionPolicy, decide
 from .robust import FilterReport, filter_fake_reports
 
 
@@ -115,9 +115,15 @@ class ColdStartService:
         policy: GatewayPolicy,
         decision_policy: DecisionPolicy = DecisionPolicy(),
     ) -> tuple[Decision, dict]:
-        admission = admit(releases, context, policy, self.registry, self.ledger)
-        decision = decide(admission, decision_policy)
+        # Admission reads ledger entries and budgets, so a broken chain must stop the request before it.
         chain_ok, bad = self.ledger.verify_chain()
+        if chain_ok:
+            admission = admit(releases, context, policy, self.registry, self.ledger)
+            decision = decide(admission, decision_policy)
+        else:
+            admission = AdmissionResult()
+            decision = Decision(REFUSED, reasons=[{"code": "LEDGER_CORRUPTED", "first_bad_seq": bad,
+                                                   "reason": f"{REASONS['LEDGER_CORRUPTED']}（首个断点：第 {bad} 条）"}])
         record = {
             "request_id": f"req-{uuid.uuid4().hex[:12]}",
             "at": utc_now(),
@@ -125,6 +131,7 @@ class ColdStartService:
             "inputs": sorted(env.digest() for env in releases) + ([context.digest()] if context else []),
             "ledger_head": self.ledger.head,
             "ledger_chain_ok": chain_ok,
+            "ledger_first_bad": bad,
             "admission": admission.summary(),
             "decision": decision.to_json(),
         }

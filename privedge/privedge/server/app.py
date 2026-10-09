@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import asyncio
 import threading
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
@@ -117,5 +117,17 @@ if WEB_DIST.exists():
 
     @app.get("/{path:path}")
     def spa(path: str) -> FileResponse:
-        candidate = WEB_DIST / path
-        return FileResponse(candidate if path and candidate.is_file() else WEB_DIST / "index.html")
+        candidate = _dist_file(path)
+        return FileResponse(candidate or WEB_DIST / "index.html")
+
+
+def _dist_file(path: str) -> Path | None:
+    """A file inside web/dist, or None. Absolute, drive, UNC and '..' paths are rejected before any
+    filesystem access, so the route can neither leave dist nor touch network shares."""
+    if not path or "\\" in path or ":" in path or "\x00" in path:
+        return None
+    parts = PurePosixPath(path).parts
+    if PurePosixPath(path).is_absolute() or any(part in ("", ".", "..") for part in parts):
+        return None
+    candidate = (WEB_DIST / Path(*parts)).resolve()
+    return candidate if candidate.is_relative_to(WEB_DIST.resolve()) and candidate.is_file() else None

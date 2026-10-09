@@ -8,6 +8,8 @@ different windows cover disjoint user sets under the one-event-per-user rule.
 from __future__ import annotations
 
 import json
+import math
+import numbers
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -21,6 +23,16 @@ class LedgerError(Exception):
     def __init__(self, code: str, message: str):
         super().__init__(f"{code}: {message}")
         self.code = code
+
+
+def valid_epsilon(value) -> bool:
+    """Budgets only add up correctly for positive finite epsilons: a negative one refunds budget and NaN
+    makes every later comparison false."""
+    return isinstance(value, numbers.Real) and not isinstance(value, bool) and math.isfinite(value) and value > 0
+
+
+def valid_user_count(value) -> bool:
+    return isinstance(value, numbers.Integral) and not isinstance(value, bool) and value > 0
 
 
 @dataclass(frozen=True)
@@ -48,8 +60,10 @@ class Ledger:
         return self._spent.get((source_id, window_id), 0.0)
 
     def check_budget(self, source_id: str, window_id: str, epsilon: float) -> None:
+        if not valid_epsilon(epsilon):
+            raise LedgerError("EPSILON_INVALID", f"{source_id}/{window_id} epsilon={epsilon!r}")
         total = self.spent(source_id, window_id) + epsilon
-        if total > self.policy.max_epsilon_per_window + 1e-12:
+        if not total <= self.policy.max_epsilon_per_window + 1e-12:
             raise LedgerError(
                 "BUDGET_EXCEEDED",
                 f"{source_id}/{window_id} would spend {total:.3f} > {self.policy.max_epsilon_per_window}",
@@ -68,6 +82,8 @@ class Ledger:
         if envelope.nonce in self._nonces:
             raise LedgerError("REPLAYED_NONCE", envelope.nonce)
         if is_release:
+            if not valid_user_count(envelope.n_users):
+                raise LedgerError("MALFORMED", f"n_users={envelope.n_users!r}")
             if envelope.n_users < self.policy.min_users:
                 raise LedgerError("TOO_FEW_USERS", f"{envelope.n_users} < {self.policy.min_users}")
             self.check_budget(envelope.source_id, envelope.window_id, envelope.epsilon)

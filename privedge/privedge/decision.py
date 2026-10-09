@@ -21,6 +21,7 @@ from .robust import capped_weights, source_scores, winsorize_releases
 NORMAL, DEGRADED, REFUSED = "NORMAL", "DEGRADED", "REFUSED"
 
 REASONS = {
+    "LEDGER_CORRUPTED": "账本哈希链校验失败（已登记记录被修改），停止预测",
     "INSUFFICIENT_SOURCES": "通过验证的数据源不足，拒绝输出",
     "INSUFFICIENT_CANDIDATES": "满足多源支持规则的候选类别不足 k 个",
     "SOURCE_ANOMALY": "数据源偏离共识（仅告警：区域间真实差异也会触发，影响由截尾与多源支持规则限制）",

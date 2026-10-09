@@ -25,7 +25,8 @@ interface LedgerView {
   budget: { source_id: string; window_id: string; spent: number; limit: number }[];
   registry: { key_id: string; principal: string; role: string; public_key: string; revoked: boolean }[];
 }
-interface Drill { edited_seq: number; field: string; from: number; to: number; chain_ok: boolean; first_bad: number | null; error?: string }
+interface Drill { edited_seq: number; field: string; from: number; to: number; chain_ok: boolean; first_bad: number | null;
+  decision_state?: string; decision_reason?: string | null; error?: string }
 interface AuditRecord { request_id: string; at: string; target_region: string; record_hash: string; ledger_head: string;
   admission: { accepted: string[]; rejected: { code: string; source_id: string }[] }; decision: { state: string } }
 
@@ -84,7 +85,8 @@ export function LedgerAudit({ dataset }: { dataset: DatasetInfo }) {
           {drill && (drill.error ? <p className="error">{drill.error}</p> : (
             <p className={drill.chain_ok ? "ok" : "danger-text"}>
               把第 {drill.edited_seq} 条的 {drill.field} 从 {drill.from} 改为 {drill.to} 后，哈希链校验
-              {drill.chain_ok ? "仍通过（不应发生）" : `失败，并精确定位到第 ${drill.first_bad} 条`}。真实账本未被修改。
+              {drill.chain_ok ? "仍通过（不应发生）" : `失败，并精确定位到第 ${drill.first_bad} 条`}；
+              用这份被改过的账本发起预测，结果为 {drill.decision_state === "REFUSED" ? `拒答（${drill.decision_reason}），不输出推荐` : `${drill.decision_state}（不应发生）`}。真实账本未被修改。
             </p>
           ))}
         </Card>

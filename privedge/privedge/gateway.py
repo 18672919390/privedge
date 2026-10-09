@@ -9,7 +9,7 @@ import numpy as np
 from .algorithms import ServerRelease
 from .envelope import ContextEnvelope, ReleaseEnvelope
 from .keys import KeyRegistry, check_signed
-from .ledger import Ledger
+from .ledger import Ledger, valid_epsilon, valid_user_count
 
 REASONS = {
     "SIGNATURE_INVALID": "签名校验失败（内容被篡改或伪造）",
@@ -22,6 +22,7 @@ REASONS = {
     "NOT_IN_LEDGER": "摘要未登记在账本中",
     "LEDGER_MISMATCH": "摘要内容与账本记录的摘要值不一致",
     "BUDGET_EXCEEDED": "该数据源该窗口的隐私预算已超限",
+    "EPSILON_INVALID": "ε 不是正的有限数（负数、0、NaN 或无穷）",
     "EPSILON_TOO_LARGE": "单次发布 ε 超过策略上限",
     "TOO_FEW_USERS": "参与用户数低于下限",
     "MALFORMED": "字段不合法",
@@ -79,8 +80,12 @@ def _check_release(env: ReleaseEnvelope, policy: GatewayPolicy, registry: KeyReg
         return "DOMAIN_MISMATCH"
     if env.window_id not in policy.allowed_windows:
         return "STALE_WINDOW"
+    if not valid_epsilon(env.epsilon):
+        return "EPSILON_INVALID"
     if env.epsilon > policy.max_epsilon + 1e-12:
         return "EPSILON_TOO_LARGE"
+    if not valid_user_count(env.n_users):
+        return "MALFORMED"
     if env.n_users < policy.min_users:
         return "TOO_FEW_USERS"
     categories = [item.category for item in env.items]
@@ -95,7 +100,7 @@ def _check_release(env: ReleaseEnvelope, policy: GatewayPolicy, registry: KeyReg
         return "NOT_IN_LEDGER"
     if entry["envelope_digest"] != env.digest():
         return "LEDGER_MISMATCH"
-    if ledger.spent(env.source_id, env.window_id) > ledger.policy.max_epsilon_per_window + 1e-12:
+    if not ledger.spent(env.source_id, env.window_id) <= ledger.policy.max_epsilon_per_window + 1e-12:
         return "BUDGET_EXCEEDED"
     return None
 

@@ -290,16 +290,19 @@ class DemoEngine:
                 "budget": self.ledger.budget_table()[-200:], "registry": self.registry.describe()}
 
     def tamper_drill(self, seq: int) -> dict:
-        """Edit a copy of the ledger and show that hash-chain verification pinpoints it."""
+        """Edit a copy of the ledger; show that verification pinpoints it and that prediction then refuses."""
         if not self.ledger.entries:
             return {"error": "账本为空，请先运行一次预测"}
         seq = max(0, min(seq, len(self.ledger.entries) - 1))
-        copy = Ledger(self.ledger.policy, entries=[dict(e) for e in self.ledger.entries])
+        copy = Ledger(self.ledger.policy, registry=self.registry, entries=[dict(e) for e in self.ledger.entries])
         original = copy.entries[seq]["epsilon"]
         copy.entries[seq]["epsilon"] = 0.0 if original else 0.5
         ok, bad = copy.verify_chain()
+        policy = GatewayPolicy(self.dhash, self.data.domain, frozenset(), "", "2099-01-01")
+        decision, _ = ColdStartService(self.registry, copy).predict([], None, policy)
         return {"edited_seq": seq, "field": "epsilon", "from": original, "to": copy.entries[seq]["epsilon"],
-                "chain_ok": ok, "first_bad": bad}
+                "chain_ok": ok, "first_bad": bad, "decision_state": decision.state,
+                "decision_reason": decision.reasons[0]["code"] if decision.reasons else None}
 
 
 _engines: dict[str, DemoEngine] = {}

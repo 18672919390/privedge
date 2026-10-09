@@ -3,7 +3,7 @@ import pytest
 pytest.importorskip("httpx2")
 from fastapi.testclient import TestClient  # noqa: E402
 
-from privedge.server.app import app  # noqa: E402
+from privedge.server.app import WEB_DIST, app  # noqa: E402
 
 client = TestClient(app)
 
@@ -38,3 +38,24 @@ def test_ledger_tamper_drill_pinpoints_entry():
     client.post("/api/run", json={"target": "商圈6", "epsilon": 1, "seed": 2})
     drill = client.post("/api/ledger/meituan_trd/tamper-drill?seq=2").json()
     assert drill["chain_ok"] is False and drill["first_bad"] == 2
+    assert drill["decision_state"] == "REFUSED" and drill["decision_reason"] == "LEDGER_CORRUPTED"
+    assert client.get("/api/ledger/meituan_trd").json()["chain_ok"]
+
+
+@pytest.mark.parametrize("probe", [
+    "/..%2F..%2Frequirements.lock", "/%2E%2E/%2E%2E/requirements.lock", "/..%5C..%5Crequirements.lock",
+    "/D%3A/%E6%AF%94%E8%B5%9B/privedge/requirements.lock", "/C:/Windows/win.ini", "/%2F%2Flocalhost/c$/Windows/win.ini",
+    "/assets/..%2F..%2F..%2Frequirements.lock", "/assets/%2E%2E/%2E%2E/%2E%2E/requirements.lock",
+])
+def test_static_route_never_leaves_web_dist(probe):
+    response = client.get(probe)
+    assert response.status_code in (200, 404)
+    assert "annotated-types" not in response.text and "[fonts]" not in response.text
+    if response.status_code == 200:
+        assert response.text.lstrip().lower().startswith("<!doctype html")
+
+
+def test_static_route_still_serves_built_files():
+    assert client.get("/index.html").text.lstrip().lower().startswith("<!doctype html")
+    asset = next(p for p in WEB_DIST.joinpath("assets").iterdir() if p.suffix == ".js")
+    assert client.get(f"/assets/{asset.name}").content == asset.read_bytes()

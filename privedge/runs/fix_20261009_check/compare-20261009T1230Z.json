@@ -1,0 +1,11 @@
+[
+  {
+    "recorded": "security_v2_v41_meituan_trd-20260929T151745Z-32f207",
+    "rerun": "security_v2_v41_meituan_trd-20261009T122212Z-e32f13",
+    "rows_recorded": 4510,
+    "rows_rerun": 4510,
+    "shared": 4510,
+    "changed": 0,
+    "examples": []
+  }
+]
