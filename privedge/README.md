@@ -30,7 +30,7 @@
 需要先安装 Python 3.12+（安装时勾选 "Add python.exe to PATH"）。依次双击：
 
 1. `setup.bat`：创建 `.venv` 并按 `requirements.lock` 安装依赖（首次约几分钟）；
-2. `run_tests.bat`：运行全部测试，应显示 `45 passed`；
+2. `run_tests.bat`：运行全部测试，应显示 `46 passed`；
 3. `start_console.bat`：启动控制台并自动打开 <http://127.0.0.1:8765/>（需要 `data/` 下的三套数据和已构建的 `web/dist/`）。
 
 ## 环境

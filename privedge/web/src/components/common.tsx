@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import type { NamedItem, Reason } from "../types";
 
-export const STATE_TEXT = { NORMAL: "正常输出", DEGRADED: "降级输出", REFUSED: "拒绝输出" } as const;
+export const STATE_TEXT = { NORMAL: "检查通过", DEGRADED: "降级输出", REFUSED: "拒绝输出" } as const;
 
 export function StateBadge({ state }: { state: keyof typeof STATE_TEXT }) {
   return <span className={`badge state-${state}`}>{state} · {STATE_TEXT[state]}</span>;

@@ -27,11 +27,9 @@ from ..pipeline import ColdStartService, Publisher, summarize_reports
 from ..robust import source_scores
 
 DATASETS = {
-    "meituan_trd": {"title": "美团外卖（北京 11 商圈）", "role": "主场景：新商圈开站选品",
-                    "label": lambda c: f"品类#{c}"},
-    "olist_brazil": {"title": "Olist 巴西电商（州×年）", "role": "跨国对照", "label": lambda c: c},
-    "massive_steps": {"title": "Massive-STEPS 城市签到", "role": "高异质压力测试",
-                      "label": lambda c: c.removeprefix("schema:")},
+    "meituan_trd": {"title": "美团外卖（北京 11 商圈）", "role": "主场景：新商圈开站选品"},
+    "olist_brazil": {"title": "Olist 巴西电商（州×年）", "role": "跨国对照"},
+    "massive_steps": {"title": "Massive-STEPS 城市签到", "role": "高异质压力测试"},
 }
 
 ATTACKS = {
@@ -63,7 +61,6 @@ class DemoEngine:
     def __init__(self, dataset: str):
         self.name = dataset
         self.data: StandardDataset = load(dataset)
-        self.label = DATASETS[dataset]["label"]
         self.dhash = domain_hash(self.data.categories, f"{dataset}-v1")
         self.registry = KeyRegistry()
         self.ledger = Ledger(BudgetPolicy(max_epsilon_per_window=4.0, min_users=1000), registry=self.registry)
@@ -76,6 +73,13 @@ class DemoEngine:
         self.window_seq = 0
         self.previous: dict[str, ReleaseEnvelope] = {}
         self.lock = threading.Lock()
+
+    def label(self, category: int) -> str:
+        """Category ids in the pipeline are integers. Names come from the dataset table."""
+        name = self.data.categories[int(category)]
+        if self.name == "meituan_trd":
+            return f"品类#{name}"
+        return name.removeprefix("schema:")
 
     def describe(self) -> dict:
         meta = DATASETS[self.name]

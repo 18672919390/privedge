@@ -145,6 +145,7 @@ export function ResultPanel({ result }: { result: RunResult }) {
     <div className="grid-2">
       <Card title={<>网关结论 <StateBadge state={d.state} /></>} extra={<span className="muted">融合：{d.method}，源间一致度 {d.agreement.toFixed(3)}</span>}>
         <Reasons reasons={d.reasons} alerts={d.alerts} />
+        <p className="muted small">检查通过只说明来源数量和集合一致性达标，不表示预测准确。准确度见右侧离线评估。</p>
         <TopList items={d.top_k_named} />
       </Card>
       <div className="stack">

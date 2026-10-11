@@ -1,4 +1,7 @@
-"""Three-state output: NORMAL / DEGRADED / REFUSED, always with reason codes."""
+"""Three-state output: NORMAL / DEGRADED / REFUSED, always with reason codes.
+
+NORMAL means the admission and agreement checks passed. It is not a claim that the Top-k is accurate.
+"""
 
 from __future__ import annotations
 

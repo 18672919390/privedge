@@ -8,6 +8,21 @@ from privedge.server.app import WEB_DIST, app  # noqa: E402
 client = TestClient(app)
 
 
+def test_prediction_api_works_on_every_dataset():
+    for row in client.get("/api/datasets").json():
+        target = row["servers"][-1]["id"]
+        result = client.post("/api/run", json={"dataset": row["name"], "target": target, "epsilon": 2,
+                                               "users": 1000, "seed": 1}).json()
+        assert result.get("decision", {}).get("state") in {"NORMAL", "DEGRADED", "REFUSED"}, result
+        named = result["decision"]["top_k_named"] + result["evaluation"]["truth_top10"]
+        assert named
+        assert all(isinstance(item["name"], str) and not item["name"].startswith("schema:") for item in named)
+        if row["name"] == "olist_brazil":
+            assert any(any(ch.isalpha() for ch in item["name"]) for item in named)
+        if row["name"] == "meituan_trd":
+            assert all(item["name"].startswith("品类#") for item in named)
+
+
 def test_run_blocks_weight_hijack_end_to_end():
     result = client.post("/api/run", json={"target": "商圈3", "attack": "hijack", "epsilon": 2, "seed": 7}).json()
     assert result["decision"]["state"] == "NORMAL"
