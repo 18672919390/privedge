@@ -1,0 +1,36 @@
+PrivEdge 后端接口交接（2026-10-13 集成版）
+
+现有：GET /api/datasets；POST /api/run；WS /ws/run；GET /api/ledger/{dataset}；POST /api/ledger/{dataset}/tamper-drill；GET /api/audit/{dataset}；GET /api/evidence；GET /api/prereg。
+HTTP：未知dataset404，未知target/attack400，字段边界422。target从datasets读取。WebSocket返回event后以result或error结束；解析错误给error，同连接可继续。传输error不同于result内的REFUSED。
+现场evaluation只用于离线展示，不进入预测；现场run_id不是正式实验编号。既有五块证据保持兼容，使用进程缓存。
+
+新增 GET /api/evidence/a8
+schema_version=1，status和datasets。dataset键：massive_steps/olist_brazil/meituan_trd。
+总体status：NOT_RUN / PARTIAL / READY / INVALID；各数据集：NOT_RUN / REGISTERED / INVALID。缺失或错误时methods/cells为空且附reason，不能画零值。当前正式登记为空，三套均NOT_RUN。
+REGISTERED含run_id、evidence_id、prereg及哈希、manifest_sha256、methods、cells和provenance。
+methods四种：average / variance_weighted / robust_baseline / privedge；每个含name、definition、COMPLETED或NOT_APPLICABLE。仅外部鲁棒方法可不适配，必须有reason且没有结果行。READY不代表四方法都实际运行，必须同时显示不适配说明。
+cells：method、epsilon、top_m、scenario、beta、attackers、target_scope、seeds、sample_count、ndcg、recall、attack_success、missing_reason；可选ndcg_ci95/recall_ci95/attack_success_ci95。
+指标为0—1有限数或null。null须说明原因，例如无攻击AS未定义，不转成0；区间未提供不画假误差线。已提供区间须包含对应均值。
+同条件的已完成方法须成对覆盖，种子和样本数一致，无重复行；种子与manifest.config.seeds一致。
+每次请求重读固定登记表并核对文件哈希，不需为新A8登记重启。完整性检查不能替代实验方法与统计结论复核。
+
+算法交付和接入
+1. A8独立预注册：四方法定义、外部来源/参数、共用扰动报告与配对设计、条件、未用种子、指标/区间、失败判定。已有数据和旧结果全员直接可用，不用另行提供。
+2. 新目录的manifest、逐次results.csv、summary.json、代码与分析；差结果也保留。用Run.finish登记两输出哈希；不得改旧runs。
+3. config至少含dataset、seeds、prereg_sha256；manifest含started_at/finished_at及数据/代码/环境指纹。运行ID格式a8_实验名-YYYYMMDDTHHMMSSZ-六位十六进制。
+4. 人工复核、02新E登记后，编辑privedge/evidence_registry/a8.json的runs：每数据集一条dataset/run_id/evidence_id/prereg/prereg_sha256/manifest_sha256。E21/E22为工程验收；A8编号重新协调。
+5. 格式见a8_summary.schema.json、a8_registry.schema.json。若算法summary不同，另输出约定格式，不扭曲定义，不在正式目录放虚构样例。
+以上为已实现后端约定，算法和前端仍需确认。缺少置信区间或部分指标可明确为空，不隐瞒。
+
+前端接入与待修文案
+保留原五块，新请求A8展示状态、真实方法名、条件、指标/区间、来源和不适配原因；网络失败明确提示，不永久加载、不显示旧数值。
+主标题和浏览器标题统一为“多源LDP摘要的抗投毒可信交换”，新区域选品为应用例子。
+定理1不保证已有品类名次；定理2参考攻击输入下诚实源截尾分量，0.18需诚实权重相近，证明复核后定稿。Q4不是DP证明。
+“原始选择不出设备”须注明当前同进程模拟；页脚区分登记图表与单次示例；无攻击AS若null不得按0画。
+交源码/dist、五页最终截图、2.5.5/2.7/3.4.6章节；与后端共同验收。
+
+测试与程序交付
+本轮73 passed；本机迁移73 passed，三数据合法行为、既有证据及257个保护文件相同，五页操作走通。记录在E21/E22与backend_validation。
+旧后端集成候选不含运行时；后续E23 Windows x64候选已内置CPython及31项依赖，独立解压后包内73项测试、三数据及真实HTTP/WebSocket验收通过。程序包无需另装Python/Node或联网安装；位置、大小与SHA-256见backend_validation/20261013_release/acceptance.json。
+需要拿该包做真实第二电脑验收，合入前端/A8后制作最终冻结程序、许可/版本/哈希、第三/第五章及官方模板全稿。不能将本机独立包验证冒称第二电脑验收。E23也是工程证据，A8编号另行协调。
+原型无登录、内存账本/密钥重启清空；标准表可复现，Olist/Massive原始重建脚本缺失。

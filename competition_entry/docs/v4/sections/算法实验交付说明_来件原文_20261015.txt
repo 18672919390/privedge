@@ -1,0 +1,47 @@
+【接收说明 2026-10-15】以下保留来件原文，仅作历史交付主张。关于目录已保存、种子独立及预注册资格的表述尚未核实，当前状态以算法交付核查与补交清单及E26/E27为准；不能据此视为完整原始run已收到。
+
+# compare_v1 实验复核交接
+
+独立结果复核程序：`privedge/experiments/review_compare_v1.py`。它按显式 run ID 读取不可变结果，核验结果文件和数据文件 SHA-256、预注册网格、与 `domain.json` 一致的目标集合、四方法配对及拒答计零规则，再独立重算摘要和目标簇 bootstrap 区间。绘图使用 Python 标准库生成 SVG，不依赖 matplotlib。
+
+## 正式运行
+
+| 数据集 | run ID | 目标数 | CSV 行数 |
+|---|---|---:|---:|
+| 美团 TRD | `compare_v1_meituan_trd-20261014T122937Z-6621cf` | 11 | 3960 |
+| Olist Brazil | `compare_v1_olist_brazil-20261014T122937Z-6efd0f` | 6 | 2160 |
+| Massive-STEPS | `compare_v1_massive_steps-20261014T122937Z-50c077` | 7 | 2520 |
+
+正式复核编号为 `review-20261014T124507Z-e85059`，输出目录：`privedge/runs/compare_v1_review/review-20261014T124507Z-e85059/`。三组运行的结果哈希、输入数据哈希、完整目标/种子/ε/场景/方法网格、四方法配对和原 `summary.json` 独立复算均通过。运行 manifest 只记录预注册文件路径，没有记录当时的预注册哈希；因此复核时快照不能单独证明运行前已冻结。复核时源文件的 SHA-256 为 `ce3b4936a45ba71360b7d19bc2446ed6b4b84b18f4e8c4b0d5be63eed92f95b5`（LF），三个 `preregistration_snapshot.md` 的 SHA-256 均为 `8b8ee34baee147e8e12d60c84b6c65fcd4f4890e9ff1dce84f950ff363bf7522`（CRLF）。逐字节核对确认仅有 56 处换行转换，换行归一后内容完全一致；不改写历史快照。`review_manifest.json` 登记的 27 项产物哈希全部复核匹配。
+
+## 预注册判定
+
+以下均为 ε=2、目标服务器为 bootstrap 单位、2,000 次重采样、seed=0 的目标级配对差。效用判定为 PrivEdge NDCG 减截尾频率；攻击判定为 PrivEdge 攻击成功率减无防御方差加权。
+
+| 数据集 | 清洁 NDCG 差，95% CI | MGA 单源 β=0.10 攻击差，95% CI | 权重劫持单源攻击差，95% CI | 权重劫持双源攻击差，95% CI |
+|---|---|---|---|---|
+| 美团 TRD | -0.00053 `[-0.00207, 0.00082]`，支持非劣 | -0.36364 `[-0.42424, -0.30909]`，支持降低 | -1.00000 `[-1.00000, -1.00000]`，支持降低 | -0.93939 `[-0.96970, -0.90303]`，支持降低 |
+| Olist Brazil | 0.00301 `[-0.00052, 0.00682]`，支持非劣 | -0.65556 `[-0.75583, -0.53333]`，支持降低 | -1.00000 `[-1.00000, -1.00000]`，支持降低 | -0.81111 `[-0.85556, -0.74444]`，支持降低 |
+| Massive-STEPS | 0.01999 `[0.00364, 0.04892]`，支持非劣 | -0.91429 `[-0.97143, -0.86667]`，支持降低 | -0.78095 `[-0.83810, -0.71429]`，支持降低 | -0.15238 `[-0.20952, -0.09524]`，支持降低 |
+
+三组数据、全部场景和 ε 中均未出现 PrivEdge 拒答，因此本次 `answered-only` Recall/NDCG 与拒答计零主指标相同。该条件效用字段仍按目标等权导出，但属于描述统计，不用于确认性判定。
+
+完整复核归档在主仓库 `privedge/runs/compare_v1_review/review-20261014T124507Z-e85059/`。本精简交付目录仅保留每个数据集的 `method_summary.csv`、`target_method_summary.csv`、`paired_target_differences.csv` 和 `fig_epsilon2_comparison.svg` 供第三章制表分析。正式 run ID 如上；原始 `manifest.json`、`results.csv` 和 `summary.json` 保留在主仓库 `privedge/runs/compare_v1_<dataset>/<run_id>/`，不随本交付文件夹打包。三张 SVG 均通过 XML 解析检查。
+
+## 复核器自测
+
+在 `privedge/` 目录运行：
+
+```powershell
+python -m unittest discover -s tests -p test_compare_v1_review.py
+python -m py_compile privedge/experiments/review_compare_v1.py
+```
+
+单元测试只用合成行和临时 `domain.json`，不会重跑或改写正式实验结果。
+
+## 交付状态与限制
+
+- `test_compare_v1_review.py` 的 3 项 unittest 已通过；`test_theorem_conditions.py` 的 2 项性质检查已直接调用通过；相关 Python 文件编译检查通过。这些不能替代全套 pytest、后端接口测试或前端构建/联调，后几项在当前环境未完成。
+- 本次增加四方法实验入口、独立结果复核器和回归测试，未因增加工作量而更换默认算法。隐私、容错定理条件及代码来源核对见 `competition_entry/docs/v4/10_算法与隐私代码复核_20261014.md` 和 `ALGORITHM_SOURCES_20261014.md`（路径相对仓库根目录）。
+- Massive-STEPS 的 ε=2 双源权重劫持场景中，PrivEdge 攻击成功率仍约为 0.8476；配对差降低不能写成已经消除合谋攻击。目标级 bootstrap 每格仅有 6–11 个目标，且未进行多重比较校正；区间结论只用于对应的登记单元。
+- 运行与复核目录随交付一起保留。测试负责人使用正式三组 run 和上述 review，不使用早期烟测、不完整运行或中间 review；报告章节由后续写作阶段处理，团队代码由队长合并。

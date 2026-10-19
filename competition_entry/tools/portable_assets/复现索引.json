@@ -1,0 +1,643 @@
+{
+  "version": "E34",
+  "api_version": "0.4.1",
+  "scope": "Included standard tables to computation; no public raw-data reconstruction. Existing evidence remains immutable.",
+  "cwd": "portable bundle root",
+  "core_reproduction_entry": {
+    "quick": "快速核心统计复现.cmd",
+    "full_a8": "完整A8四方法重算.cmd",
+    "formal": "重跑形式化验证.cmd",
+    "figures": "从历史证据重建图表.cmd"
+  },
+  "data_paths": {
+    "meituan_trd": "application/data/meituan_trd",
+    "olist_brazil": "application/data/olist_brazil",
+    "massive_steps": "application/data/massive_steps"
+  },
+  "source_paths": [
+    "application/privedge",
+    "application/web",
+    "tool_sources/competition_entry/tools"
+  ],
+  "locks": [
+    "application/requirements.lock",
+    "application/requirements-reproduction.lock"
+  ],
+  "claims": [
+    {
+      "id": "a8",
+      "report_topic": "四方法描述性对照",
+      "evidence_ids": [
+        "E28",
+        "E29"
+      ],
+      "historical_root": "application/evidence_registry/a8_descriptive",
+      "historical_registry": "application/evidence_registry/a8_descriptive/registry.json",
+      "parameters": {
+        "datasets": [
+          "meituan_trd",
+          "olist_brazil",
+          "massive_steps"
+        ],
+        "target_selection": "all servers as targets; remaining servers are sources",
+        "epsilons": [
+          1,
+          2
+        ],
+        "seeds": [
+          101,
+          211,
+          307,
+          401,
+          503
+        ],
+        "users_per_source": 5000,
+        "top_m": 20,
+        "top_k": 10,
+        "scenarios": 9,
+        "methods": [
+          "simple_average",
+          "variance_weighted",
+          "trimmed_frequency",
+          "privedge"
+        ]
+      },
+      "commands": [
+        {
+          "dataset": "meituan_trd",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.compare_v1",
+            "--dataset",
+            "meituan_trd",
+            "--epsilons",
+            "1,2"
+          ]
+        },
+        {
+          "dataset": "olist_brazil",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.compare_v1",
+            "--dataset",
+            "olist_brazil",
+            "--epsilons",
+            "1,2"
+          ]
+        },
+        {
+          "dataset": "massive_steps",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.compare_v1",
+            "--dataset",
+            "massive_steps",
+            "--epsilons",
+            "1,2"
+          ]
+        }
+      ],
+      "outputs": [
+        "application/runs/compare_v1_<dataset>/<new_run_id>/results.csv",
+        "application/runs/compare_v1_<dataset>/<new_run_id>/summary.json",
+        "application/runs/compare_v1_<dataset>/<new_run_id>/manifest.json"
+      ],
+      "review_argv": [
+        ".\\runtime\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "privedge.experiments.review_compare_v1",
+        "<new_TRD_run_id>",
+        "<new_Olist_run_id>",
+        "<new_Massive_run_id>"
+      ],
+      "limitations": [
+        "Historical-seed reproduction; not independent confirmation.",
+        "Quick profile selects first target and first seed; smoke_test=true; 72 rows per dataset.",
+        "Full comparison is end-to-end; not a pure aggregation-formula ablation.",
+        "Do not infer superiority to simple average under no attack."
+      ]
+    },
+    {
+      "id": "security_v2",
+      "report_topic": "发布端筛查与网关防御消融",
+      "evidence_ids": [
+        "E9",
+        "E19"
+      ],
+      "historical_runs": {
+        "massive_steps": "security_v2_massive_steps-20260929T031029Z-1bd2f5",
+        "olist_brazil": "security_v2_olist_brazil-20260929T031029Z-1ed46e",
+        "meituan_trd": "security_v2_meituan_trd-20260929T031030Z-fd18bc"
+      },
+      "parameters": {
+        "epsilons": [
+          1,
+          2
+        ],
+        "seeds": [
+          101,
+          211,
+          307,
+          401,
+          503
+        ],
+        "top_m": 20,
+        "top_k": 10,
+        "users_per_source": 5000,
+        "protocol": "v2",
+        "v41_policy": true
+      },
+      "commands": [
+        {
+          "dataset": "meituan_trd",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.security_v1",
+            "--dataset",
+            "meituan_trd",
+            "--protocol",
+            "v2",
+            "--v41-policy"
+          ]
+        },
+        {
+          "dataset": "olist_brazil",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.security_v1",
+            "--dataset",
+            "olist_brazil",
+            "--protocol",
+            "v2",
+            "--v41-policy"
+          ]
+        },
+        {
+          "dataset": "massive_steps",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.security_v1",
+            "--dataset",
+            "massive_steps",
+            "--protocol",
+            "v2",
+            "--v41-policy"
+          ]
+        }
+      ],
+      "outputs": [
+        "application/runs/security_v2_v41_<dataset>/<new_run_id>/results.csv",
+        "application/runs/security_v2_v41_<dataset>/<new_run_id>/summary.json",
+        "application/runs/security_v2_v41_<dataset>/<new_run_id>/manifest.json"
+      ],
+      "limitations": [
+        "Recorded E19 established consistency with E9; any new comparison must check complete row coverage, not only shared rows."
+      ]
+    },
+    {
+      "id": "security_v4",
+      "report_topic": "权重劫持与权重封顶",
+      "evidence_ids": [
+        "E13",
+        "E19"
+      ],
+      "historical_runs": {
+        "massive_steps": "security_v4_massive_steps-20260929T145354Z-705ea4",
+        "olist_brazil": "security_v4_olist_brazil-20260929T145354Z-3c22fd",
+        "meituan_trd": "security_v4_meituan_trd-20260929T145355Z-8514ad"
+      },
+      "parameters": {
+        "epsilons": [
+          1,
+          2
+        ],
+        "seeds": [
+          601,
+          709,
+          811,
+          907,
+          1009
+        ],
+        "top_m": 20,
+        "top_k": 10,
+        "users_per_source": 5000,
+        "clip_floor": 0
+      },
+      "commands": [
+        {
+          "dataset": "meituan_trd",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.security_v3",
+            "--dataset",
+            "meituan_trd",
+            "--tag",
+            "v4",
+            "--seeds",
+            "601,709,811,907,1009",
+            "--clip-floor",
+            "0"
+          ]
+        },
+        {
+          "dataset": "olist_brazil",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.security_v3",
+            "--dataset",
+            "olist_brazil",
+            "--tag",
+            "v4",
+            "--seeds",
+            "601,709,811,907,1009",
+            "--clip-floor",
+            "0"
+          ]
+        },
+        {
+          "dataset": "massive_steps",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.security_v3",
+            "--dataset",
+            "massive_steps",
+            "--tag",
+            "v4",
+            "--seeds",
+            "601,709,811,907,1009",
+            "--clip-floor",
+            "0"
+          ]
+        }
+      ],
+      "outputs": [
+        "application/runs/security_v4_floor_<dataset>/<new_run_id>/results.csv",
+        "application/runs/security_v4_floor_<dataset>/<new_run_id>/summary.json",
+        "application/runs/security_v4_floor_<dataset>/<new_run_id>/manifest.json"
+      ],
+      "limitations": [
+        "Repeating the historical confirmation seeds now is reproduction, not a new confirmation.",
+        "Bounded influence does not guarantee rank preservation or zero residual attack."
+      ]
+    },
+    {
+      "id": "utility",
+      "report_topic": "隐私效用、发布长度与源数敏感性",
+      "evidence_ids": [
+        "E10",
+        "E14"
+      ],
+      "historical_runs": {
+        "massive_steps": "utility_v1_massive_steps-20260929T031741Z-50e14d",
+        "olist_brazil": "utility_v1_olist_brazil-20260929T031741Z-cf67da",
+        "meituan_trd": "utility_v1_meituan_trd-20260929T031741Z-a520ee"
+      },
+      "parameters": {
+        "epsilons": [
+          0.5,
+          1,
+          2,
+          4
+        ],
+        "top_ms": [
+          10,
+          20,
+          40
+        ],
+        "source_counts": [
+          3,
+          5,
+          "all"
+        ],
+        "seeds": [
+          101,
+          211,
+          307,
+          401,
+          503
+        ],
+        "users_per_source": 5000,
+        "weight_cap": 2
+      },
+      "commands": [
+        {
+          "dataset": "meituan_trd",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.utility_v1",
+            "--dataset",
+            "meituan_trd",
+            "--weight-cap",
+            "2"
+          ]
+        },
+        {
+          "dataset": "olist_brazil",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.utility_v1",
+            "--dataset",
+            "olist_brazil",
+            "--weight-cap",
+            "2"
+          ]
+        },
+        {
+          "dataset": "massive_steps",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.utility_v1",
+            "--dataset",
+            "massive_steps",
+            "--weight-cap",
+            "2"
+          ]
+        }
+      ],
+      "outputs": [
+        "application/runs/utility_v1_capped_<dataset>/<new_run_id>/results.csv",
+        "application/runs/utility_v1_capped_<dataset>/<new_run_id>/summary.json",
+        "application/runs/utility_v1_capped_<dataset>/<new_run_id>/manifest.json"
+      ],
+      "limitations": [
+        "E14 is the capped configuration check against E10. No clean-data superiority over simple average is claimed."
+      ]
+    },
+    {
+      "id": "negative",
+      "report_topic": "负频率下限对诚实发布的核对",
+      "evidence_ids": [
+        "E15"
+      ],
+      "parameters": {
+        "datasets": [
+          "meituan_trd",
+          "olist_brazil",
+          "massive_steps"
+        ],
+        "top_ms": [
+          10,
+          20,
+          40
+        ],
+        "epsilons": [
+          0.5,
+          1,
+          2,
+          4
+        ],
+        "seeds": [
+          101,
+          211,
+          307,
+          401,
+          503
+        ],
+        "users_per_source": 5000
+      },
+      "commands": [
+        {
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.negative_check"
+          ]
+        }
+      ],
+      "outputs": [
+        "application/runs/negative_check/<new_run_id>/results.json",
+        "application/runs/negative_check/<new_run_id>/manifest.json"
+      ],
+      "limitations": [
+        "Does not prove rankings of existing categories cannot change."
+      ]
+    },
+    {
+      "id": "overhead",
+      "report_topic": "本机开销与摘要大小",
+      "evidence_ids": [
+        "E6"
+      ],
+      "historical_run": "overhead_v1-20260928T190545Z-9aa625",
+      "parameters": {
+        "users": [
+          5000,
+          20000,
+          100000
+        ],
+        "domains": [
+          71,
+          156,
+          500
+        ],
+        "epsilon": 1,
+        "top_m": 20,
+        "sources": 6,
+        "repeat": 5
+      },
+      "commands": [
+        {
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.overhead_v1",
+            "--repeat",
+            "5"
+          ]
+        }
+      ],
+      "outputs": [
+        "application/runs/overhead_v1/<new_run_id>/results.csv",
+        "application/runs/overhead_v1/<new_run_id>/manifest.json"
+      ],
+      "limitations": [
+        "Timings and memory are machine-dependent. Batch per-user cost is not mobile-device measurement."
+      ]
+    },
+    {
+      "id": "formal",
+      "report_topic": "发布协议形式化",
+      "evidence_ids": [
+        "E16"
+      ],
+      "historical_run": "formal_v1-20260929T145230Z-a095ce",
+      "input": "application/formal/privedge_release.pv",
+      "commands": [
+        {
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            ".\\run_reproduction.py",
+            "--mode",
+            "formal"
+          ]
+        }
+      ],
+      "outputs": [
+        "application/runs/formal_v1/<new_run_id>/results.json",
+        "application/runs/formal_v1/<new_run_id>/*.pv",
+        "application/runs/formal_v1/<new_run_id>/manifest.json"
+      ],
+      "limitations": [
+        "Q1-Q5, reachability and four negative controls concern the symbolic model. Not a numeric DP proof or whole-program verification."
+      ]
+    },
+    {
+      "id": "figures",
+      "report_topic": "存档数据图重绘与系统图",
+      "evidence_ids": [
+        "E6",
+        "E9",
+        "E10",
+        "E13",
+        "E16"
+      ],
+      "commands": [
+        {
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            ".\\run_reproduction.py",
+            "--mode",
+            "figures"
+          ]
+        }
+      ],
+      "outputs": [
+        "reproduction_outputs/<new_session>/figures/*.png",
+        "reproduction_outputs/<new_session>/figures/*.svg"
+      ],
+      "limitations": [
+        "Redraw reads registered historical runs; no statistical rerun occurs. A8 figures come from review_compare_v1."
+      ]
+    },
+    {
+      "id": "context_appendix",
+      "report_topic": "历史上下文附录",
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ],
+      "commands": [
+        {
+          "dataset": "olist_brazil",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.context_v1",
+            "--dataset",
+            "olist_brazil"
+          ]
+        },
+        {
+          "dataset": "massive_steps",
+          "argv": [
+            ".\\runtime\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "-m",
+            "privedge.experiments.context_v1",
+            "--dataset",
+            "massive_steps"
+          ]
+        }
+      ],
+      "outputs": [
+        "application/runs/context_v1_<dataset>/<new_run_id>/results.csv",
+        "application/runs/context_v1_<dataset>/<new_run_id>/summary.json"
+      ],
+      "limitations": [
+        "Appendix only, outside no-context mainline. TRD has no context."
+      ]
+    },
+    {
+      "id": "engineering",
+      "report_topic": "性质与系统实现核验",
+      "evidence_ids": [
+        "E17",
+        "E18",
+        "E34"
+      ],
+      "commands": [
+        {
+          "entry_file": "运行测试.cmd"
+        },
+        {
+          "entry_file": "验证程序.cmd"
+        }
+      ],
+      "outputs": [
+        "console stdout and current engineering acceptance record"
+      ],
+      "limitations": [
+        "Engineering checks and UI demonstration are not additional A8 statistical samples."
+      ]
+    }
+  ],
+  "interpretation": "Providing a full command does not assert that this delivery reran the full grid. New output is never automatically registered as evidence."
+}

@@ -1,0 +1,43 @@
+{
+  "test": "actual runStream transport with deterministic WebSocket lifecycle",
+  "passed": 9,
+  "total": 9,
+  "checks": [
+    {
+      "name": "early 1011 close reports interruption once",
+      "passed": true
+    },
+    {
+      "name": "error followed by close does not report twice",
+      "passed": true
+    },
+    {
+      "name": "normal close waits for queued result and event playback",
+      "passed": true
+    },
+    {
+      "name": "unmount cancellation suppresses queued and late callbacks",
+      "passed": true
+    },
+    {
+      "name": "cancel before connection does not send a request",
+      "passed": true
+    },
+    {
+      "name": "malformed JSON recovers with a readable error",
+      "passed": true
+    },
+    {
+      "name": "unknown message kind recovers with a readable error",
+      "passed": true
+    },
+    {
+      "name": "server validation error survives close while queued",
+      "passed": true
+    },
+    {
+      "name": "duplicate terminal messages cannot overwrite a result",
+      "passed": true
+    }
+  ]
+}

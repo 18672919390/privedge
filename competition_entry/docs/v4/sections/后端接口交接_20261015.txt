@@ -1,0 +1,27 @@
+PrivEdge 后端接口交接 2026年10月15日 E29
+
+当前开发目录完整106项通过；独立候选包用内置运行时完整106项通过。此文补充10月13日接口约定，不改变既有REST/WebSocket及五块证据格式。
+
+严格绑定入口 GET /api/evidence/a8
+保持原NOT_RUN/PARTIAL/READY/INVALID约定与evidence_registry/a8.json。当前为空，NOT_RUN仅对应这个入口；不能据此说没有描述性四方法实验。哈希绑定也不独立证明预注册时间。
+
+描述性入口 GET /api/evidence/a8/descriptive
+schema_version=1，interpretation=DESCRIPTIVE；总体AVAILABLE/PARTIAL/NOT_REGISTERED/INVALID。数据集DESCRIPTIVE时返回methods、cells、limitations、source_run_id、evidence_id=E28及provenance；缺失/损坏返回reason、空cells，不填0。每次重读固定登记及原件，不缓存旧结果。
+四方法ID average、variance_weighted、robust_baseline、privedge，对应原simple_average、variance_weighted、trimmed_frequency、privedge。裸基线使用未筛查摘要，PrivEdge含发布端筛查及摘要级防御。坐标截尾为trim=1本地适配，不继承外部论文定理。
+cells有epsilon、top_m、scenario、beta、attackers、target_scope、seeds、sample_count、ndcg/recall/attack_success及各ci95、refusal_rate。均值/区间为0—1，缺失不画0；裸基线无三态，refusal_rate为null。无攻击场景的attack_success按原记录展示为目标入榜率参照，不叫攻击效果。
+每源5000诚实报告，m20/k10，目标数11/6/7、每次来源10/5/6、5种子；sample_count=目标数×5。区间重采样单位为目标区域；共享来源及多重比较限制保留，不能把配对差区间塞进均值字段。
+
+来源和导出
+原始manifest/results/summary和完整review保留在evidence_registry/a8_descriptive；审核在audit.json，导出器快照在exporter.py，规范摘要在summaries/，登记在registry.json。原历史文件不改；导出器或摘要若有合法后续修改，应重新核验并生成新的登记指纹，不能补写旧manifest的预注册摘要。
+旧确认性标记不采用；历史冻结不足、旧种子复用、非签名/网关/账本全协议实验均随响应返回。接口完整性通过不等于算法优势成立。
+
+前端接入和合并
+新增components/A8Comparison.tsx并由Experiments.tsx独立渲染。数据集/epsilon/场景选择和方法说明、加载/错误/重试齐全，异步组件卸载不回填。App、Overview和index标题已改主线；定理1/2、Q4与来源表述同步收窄。收到B或前端旧分支时按文件合并，避免用整目录覆盖本轮接口或组件。
+浏览器核对三数据两档epsilon及双源劫持，6切片72个显示值一致，无警告/错误；截图和日志只作当前版本过程证据，不代替最终全队截图。
+
+候选及限制
+当前候选位置与SHA-256以backend_validation/20261015_a8_integration/portable_release.json为准。旧E23和B历史9cbc候选仍各自保留；本轮106不冒称B157。B源码与许可原件、前端主责章节及最终实体第二电脑验收尚待交付；当前工作稿和程序都不宣称已可正式提交。
+
+E30整合更新（2026-10-15）
+B源码补交已齐并按文件整合，当前217项测试通过。原有REST、严格A8和描述性A8接口保留，既有及描述性响应指纹不变。实验页采用全局数据集选择并同步旧图表和A8；任一证据入口加载失败不应隐藏另一个入口。切换页面/数据集应取消旧请求或播放，不回写旧结果。WebSocket二进制帧返回kind=error后仍可接收合法文本请求。当前预算仍按最后release窗口取完整latest_budget。
+报告与运行包见E30验收结论。前端负责人继续以当前文件为基础提交剩余章节/截图，不整包回退旧分支；验收必须标明实际包指纹，历史157项不等于当前217项。
