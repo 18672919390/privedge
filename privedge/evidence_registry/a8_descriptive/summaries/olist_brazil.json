@@ -1,0 +1,2498 @@
+{
+  "schema_version": 1,
+  "dataset": "olist_brazil",
+  "methods": [
+    {
+      "id": "average",
+      "name": "简单平均",
+      "definition": "未筛查Top-m摘要的候选并集频率等权平均，缺失补零。",
+      "status": "COMPLETED",
+      "reason": null
+    },
+    {
+      "id": "variance_weighted",
+      "name": "无防御方差加权",
+      "definition": "未筛查摘要，使用1/sqrt(mean variance)权重；不启用筛查、截尾、支持阈值和封顶。",
+      "status": "COMPLETED",
+      "reason": null
+    },
+    {
+      "id": "robust_baseline",
+      "name": "坐标截尾均值（本地适配）",
+      "definition": "候选并集缺失补零，各坐标两端各删1项后平均；不是Yin等论文完整复现。",
+      "status": "COMPLETED",
+      "reason": null
+    },
+    {
+      "id": "privedge",
+      "name": "PrivEdge",
+      "definition": "发布端筛查加留一截尾、多源支持与权重封顶；比较整套统计方案，不是单公式消融。",
+      "status": "COMPLETED",
+      "reason": null
+    }
+  ],
+  "cells": [
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "clean",
+      "beta": 0.0,
+      "attackers": 0,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9455096553251408,
+      "recall": 0.8233333333333334,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9270778923081879,
+        0.9581892782306705
+      ],
+      "recall_ci95": [
+        0.8000000000000002,
+        0.8500000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "clean",
+      "beta": 0.0,
+      "attackers": 0,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9454680172791307,
+      "recall": 0.8233333333333334,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9270624983895417,
+        0.9580922960379948
+      ],
+      "recall_ci95": [
+        0.8000000000000002,
+        0.8500000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "clean",
+      "beta": 0.0,
+      "attackers": 0,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.934841362426762,
+      "recall": 0.8166666666666668,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9167147103105154,
+        0.9519218328058514
+      ],
+      "recall_ci95": [
+        0.7866666666666666,
+        0.8466666666666668
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "clean",
+      "beta": 0.0,
+      "attackers": 0,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9454680172791307,
+      "recall": 0.8233333333333334,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9270624983895417,
+        0.9580922960379948
+      ],
+      "recall_ci95": [
+        0.8000000000000002,
+        0.8500000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "compromised_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9359668962847363,
+      "recall": 0.8066666666666666,
+      "attack_success": 0.09999999999999999,
+      "ndcg_ci95": [
+        0.9188798876234783,
+        0.9514237795558195
+      ],
+      "recall_ci95": [
+        0.7666666666666667,
+        0.8433333333333334
+      ],
+      "attack_success_ci95": [
+        0.022222222222222223,
+        0.18888888888888888
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "compromised_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9359848130891567,
+      "recall": 0.8066666666666666,
+      "attack_success": 0.09999999999999999,
+      "ndcg_ci95": [
+        0.9189394424739087,
+        0.9514000583142296
+      ],
+      "recall_ci95": [
+        0.7666666666666667,
+        0.8433333333333334
+      ],
+      "attack_success_ci95": [
+        0.022222222222222223,
+        0.18888888888888888
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "compromised_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9338959727396006,
+      "recall": 0.8133333333333335,
+      "attack_success": 0.011111111111111112,
+      "ndcg_ci95": [
+        0.9159084915694371,
+        0.9515219907028158
+      ],
+      "recall_ci95": [
+        0.7799999999999999,
+        0.8466666666666667
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.03333333333333333
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "compromised_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9394957153942891,
+      "recall": 0.8099999999999999,
+      "attack_success": 0.06666666666666667,
+      "ndcg_ci95": [
+        0.9221847754554896,
+        0.9538568178133106
+      ],
+      "recall_ci95": [
+        0.7766666666666667,
+        0.8433333333333334
+      ],
+      "attack_success_ci95": [
+        0.022222222222222223,
+        0.12222222222222223
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "compromised_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8616005643053674,
+      "recall": 0.6866666666666665,
+      "attack_success": 0.7111111111111111,
+      "ndcg_ci95": [
+        0.8470036976792564,
+        0.8765146340529899
+      ],
+      "recall_ci95": [
+        0.6633333333333332,
+        0.71
+      ],
+      "attack_success_ci95": [
+        0.6555555555555556,
+        0.7666666666666666
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "compromised_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8617364940781961,
+      "recall": 0.6866666666666665,
+      "attack_success": 0.7111111111111111,
+      "ndcg_ci95": [
+        0.847156447524053,
+        0.876591008975388
+      ],
+      "recall_ci95": [
+        0.6633333333333332,
+        0.71
+      ],
+      "attack_success_ci95": [
+        0.6555555555555556,
+        0.7666666666666666
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "compromised_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8963790578284375,
+      "recall": 0.7533333333333334,
+      "attack_success": 0.37777777777777777,
+      "ndcg_ci95": [
+        0.8798982866038537,
+        0.9102226114105328
+      ],
+      "recall_ci95": [
+        0.7266666666666666,
+        0.7799999999999999
+      ],
+      "attack_success_ci95": [
+        0.28888888888888886,
+        0.4666666666666666
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "compromised_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8920535544658992,
+      "recall": 0.7333333333333334,
+      "attack_success": 0.4777777777777777,
+      "ndcg_ci95": [
+        0.8710924055022023,
+        0.908565064012186
+      ],
+      "recall_ci95": [
+        0.7133333333333334,
+        0.7533333333333333
+      ],
+      "attack_success_ci95": [
+        0.4222222222222222,
+        0.5444444444444444
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.02",
+      "beta": 0.02,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9414792081074496,
+      "recall": 0.8233333333333333,
+      "attack_success": 0.022222222222222223,
+      "ndcg_ci95": [
+        0.9252975874569418,
+        0.9544235745333803
+      ],
+      "recall_ci95": [
+        0.7933333333333333,
+        0.8533333333333334
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.044444444444444446
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.02",
+      "beta": 0.02,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9414236924805386,
+      "recall": 0.8233333333333333,
+      "attack_success": 0.022222222222222223,
+      "ndcg_ci95": [
+        0.9253239530696713,
+        0.9544556998533857
+      ],
+      "recall_ci95": [
+        0.7933333333333333,
+        0.8533333333333334
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.044444444444444446
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.02",
+      "beta": 0.02,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9342355904114624,
+      "recall": 0.8166666666666668,
+      "attack_success": 0.011111111111111112,
+      "ndcg_ci95": [
+        0.9169992920682336,
+        0.9516245962573023
+      ],
+      "recall_ci95": [
+        0.7833333333333333,
+        0.8500000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.03333333333333333
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.02",
+      "beta": 0.02,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9426958765309843,
+      "recall": 0.8266666666666667,
+      "attack_success": 0.011111111111111112,
+      "ndcg_ci95": [
+        0.925806578339687,
+        0.956264794557996
+      ],
+      "recall_ci95": [
+        0.7966666666666665,
+        0.8533333333333334
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.03333333333333333
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.05",
+      "beta": 0.05,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9139657992093717,
+      "recall": 0.7766666666666665,
+      "attack_success": 0.3,
+      "ndcg_ci95": [
+        0.8975589623495706,
+        0.9238846895196519
+      ],
+      "recall_ci95": [
+        0.7599999999999999,
+        0.7899999999999999
+      ],
+      "attack_success_ci95": [
+        0.2333333333333333,
+        0.39999999999999997
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.05",
+      "beta": 0.05,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9103927947919831,
+      "recall": 0.7666666666666666,
+      "attack_success": 0.3222222222222222,
+      "ndcg_ci95": [
+        0.8956737710923557,
+        0.9212454696019692
+      ],
+      "recall_ci95": [
+        0.7533333333333333,
+        0.7799999999999999
+      ],
+      "attack_success_ci95": [
+        0.26666666666666666,
+        0.41111111111111104
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.05",
+      "beta": 0.05,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9393087276426768,
+      "recall": 0.8166666666666668,
+      "attack_success": 0.011111111111111112,
+      "ndcg_ci95": [
+        0.9233087790114328,
+        0.9556649937916063
+      ],
+      "recall_ci95": [
+        0.7866666666666666,
+        0.8466666666666667
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.03333333333333333
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.05",
+      "beta": 0.05,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9422738370094271,
+      "recall": 0.8266666666666667,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9262984266776201,
+        0.9522797815261441
+      ],
+      "recall_ci95": [
+        0.8033333333333333,
+        0.8500000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.10",
+      "beta": 0.1,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.7812360663050857,
+      "recall": 0.6333333333333333,
+      "attack_success": 0.9888888888888889,
+      "ndcg_ci95": [
+        0.7561461169669638,
+        0.8007367138261804
+      ],
+      "recall_ci95": [
+        0.6166666666666667,
+        0.6533333333333334
+      ],
+      "attack_success_ci95": [
+        0.9666666666666667,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.10",
+      "beta": 0.1,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.7729795601209043,
+      "recall": 0.6333333333333333,
+      "attack_success": 1.0,
+      "ndcg_ci95": [
+        0.7520541693246027,
+        0.7930261280407666
+      ],
+      "recall_ci95": [
+        0.6100000000000001,
+        0.6566666666666667
+      ],
+      "attack_success_ci95": [
+        1.0,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.10",
+      "beta": 0.1,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9407258881595845,
+      "recall": 0.8166666666666668,
+      "attack_success": 0.011111111111111112,
+      "ndcg_ci95": [
+        0.9239385408210725,
+        0.9549035022173552
+      ],
+      "recall_ci95": [
+        0.7866666666666666,
+        0.8466666666666667
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.03333333333333333
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.10",
+      "beta": 0.1,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9422738370094271,
+      "recall": 0.8266666666666667,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9262984266776201,
+        0.9522797815261441
+      ],
+      "recall_ci95": [
+        0.8033333333333333,
+        0.8500000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_2src_b0.05",
+      "beta": 0.05,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.7611170218211983,
+      "recall": 0.6299999999999999,
+      "attack_success": 0.9888888888888889,
+      "ndcg_ci95": [
+        0.74971134992141,
+        0.7704799145096981
+      ],
+      "recall_ci95": [
+        0.61,
+        0.65
+      ],
+      "attack_success_ci95": [
+        0.9666666666666667,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_2src_b0.05",
+      "beta": 0.05,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.7516097200720632,
+      "recall": 0.6266666666666666,
+      "attack_success": 0.9888888888888889,
+      "ndcg_ci95": [
+        0.7405210286005631,
+        0.760642618831781
+      ],
+      "recall_ci95": [
+        0.6066666666666667,
+        0.6466666666666667
+      ],
+      "attack_success_ci95": [
+        0.9666666666666667,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_2src_b0.05",
+      "beta": 0.05,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8258089573792288,
+      "recall": 0.6633333333333332,
+      "attack_success": 0.811111111111111,
+      "ndcg_ci95": [
+        0.8060858006648591,
+        0.8418707408199104
+      ],
+      "recall_ci95": [
+        0.6433333333333334,
+        0.6833333333333332
+      ],
+      "attack_success_ci95": [
+        0.7999999999999999,
+        0.8333333333333331
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "mga_2src_b0.05",
+      "beta": 0.05,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9433687017782556,
+      "recall": 0.8266666666666667,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9251893496484169,
+        0.9551626927352856
+      ],
+      "recall_ci95": [
+        0.8066666666666666,
+        0.8433333333333334
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9359668962847363,
+      "recall": 0.8066666666666666,
+      "attack_success": 0.09999999999999999,
+      "ndcg_ci95": [
+        0.9188798876234783,
+        0.9514237795558195
+      ],
+      "recall_ci95": [
+        0.7666666666666667,
+        0.8433333333333334
+      ],
+      "attack_success_ci95": [
+        0.022222222222222223,
+        0.18888888888888888
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.5598202940969502,
+      "recall": 0.47,
+      "attack_success": 1.0,
+      "ndcg_ci95": [
+        0.5466590053896788,
+        0.5748312197482409
+      ],
+      "recall_ci95": [
+        0.4566666666666666,
+        0.48
+      ],
+      "attack_success_ci95": [
+        1.0,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9338959727396006,
+      "recall": 0.8133333333333335,
+      "attack_success": 0.011111111111111112,
+      "ndcg_ci95": [
+        0.9159084915694371,
+        0.9515219907028158
+      ],
+      "recall_ci95": [
+        0.7799999999999999,
+        0.8466666666666667
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.03333333333333333
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9143903989973473,
+      "recall": 0.7733333333333334,
+      "attack_success": 0.19999999999999998,
+      "ndcg_ci95": [
+        0.9027944187234779,
+        0.9249457435569998
+      ],
+      "recall_ci95": [
+        0.75,
+        0.7966666666666667
+      ],
+      "attack_success_ci95": [
+        0.15555555555555556,
+        0.24444444444444444
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8616005643053674,
+      "recall": 0.6866666666666665,
+      "attack_success": 0.7111111111111111,
+      "ndcg_ci95": [
+        0.8470036976792564,
+        0.8765146340529899
+      ],
+      "recall_ci95": [
+        0.6633333333333332,
+        0.71
+      ],
+      "attack_success_ci95": [
+        0.6555555555555556,
+        0.7666666666666666
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.491190137091619,
+      "recall": 0.5566666666666668,
+      "attack_success": 1.0,
+      "ndcg_ci95": [
+        0.47096512368750004,
+        0.5108654227368481
+      ],
+      "recall_ci95": [
+        0.5266666666666667,
+        0.5866666666666668
+      ],
+      "attack_success_ci95": [
+        1.0,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8963790578284375,
+      "recall": 0.7533333333333334,
+      "attack_success": 0.37777777777777777,
+      "ndcg_ci95": [
+        0.8798982866038537,
+        0.9102226114105328
+      ],
+      "recall_ci95": [
+        0.7266666666666666,
+        0.7799999999999999
+      ],
+      "attack_success_ci95": [
+        0.28888888888888886,
+        0.4666666666666666
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 1.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.7860584265806841,
+      "recall": 0.6366666666666667,
+      "attack_success": 1.0,
+      "ndcg_ci95": [
+        0.7761811538834417,
+        0.7992489889290771
+      ],
+      "recall_ci95": [
+        0.6166666666666667,
+        0.6599999999999998
+      ],
+      "attack_success_ci95": [
+        1.0,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "clean",
+      "beta": 0.0,
+      "attackers": 0,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9597834970880333,
+      "recall": 0.8033333333333332,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9494313798057705,
+        0.969063437288707
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8300000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "clean",
+      "beta": 0.0,
+      "attackers": 0,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9598994871304644,
+      "recall": 0.8033333333333332,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9496776988164184,
+        0.9692246559841386
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8300000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "clean",
+      "beta": 0.0,
+      "attackers": 0,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9568869089160823,
+      "recall": 0.7933333333333333,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9472585682073105,
+        0.9667573269763511
+      ],
+      "recall_ci95": [
+        0.7633333333333333,
+        0.82
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "clean",
+      "beta": 0.0,
+      "attackers": 0,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9598994871304644,
+      "recall": 0.8033333333333332,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9496776988164184,
+        0.9692246559841386
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8300000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "compromised_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9594762504267598,
+      "recall": 0.7999999999999999,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9485787364844791,
+        0.9689615914722419
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8233333333333334
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "compromised_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9595922404691907,
+      "recall": 0.7999999999999999,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9488178860322339,
+        0.9690806057015048
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8233333333333334
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "compromised_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9568869089160823,
+      "recall": 0.7933333333333333,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9472585682073105,
+        0.9667573269763511
+      ],
+      "recall_ci95": [
+        0.7633333333333333,
+        0.82
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "compromised_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9595922404691907,
+      "recall": 0.7999999999999999,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9488178860322339,
+        0.9690806057015048
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8233333333333334
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "compromised_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8889409588106553,
+      "recall": 0.7000000000000001,
+      "attack_success": 0.6888888888888888,
+      "ndcg_ci95": [
+        0.8640467907483509,
+        0.9125318509637842
+      ],
+      "recall_ci95": [
+        0.6666666666666666,
+        0.7200000000000001
+      ],
+      "attack_success_ci95": [
+        0.6,
+        0.7777777777777777
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "compromised_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8890025385633172,
+      "recall": 0.7000000000000001,
+      "attack_success": 0.6888888888888888,
+      "ndcg_ci95": [
+        0.8641370191957986,
+        0.9125318509637842
+      ],
+      "recall_ci95": [
+        0.6666666666666666,
+        0.7200000000000001
+      ],
+      "attack_success_ci95": [
+        0.6,
+        0.7777777777777777
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "compromised_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9378155772000704,
+      "recall": 0.7666666666666666,
+      "attack_success": 0.16666666666666666,
+      "ndcg_ci95": [
+        0.923842987440723,
+        0.9506942867475258
+      ],
+      "recall_ci95": [
+        0.7266666666666667,
+        0.8066666666666666
+      ],
+      "attack_success_ci95": [
+        0.0888888888888889,
+        0.2222222222222222
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "compromised_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9515518381268002,
+      "recall": 0.7833333333333333,
+      "attack_success": 0.05555555555555556,
+      "ndcg_ci95": [
+        0.9311931186373537,
+        0.9689269157632955
+      ],
+      "recall_ci95": [
+        0.7599999999999999,
+        0.8099999999999999
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.12222222222222223
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.02",
+      "beta": 0.02,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9586977723635087,
+      "recall": 0.7966666666666665,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9466493073782528,
+        0.9688679837125184
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8166666666666668
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.02",
+      "beta": 0.02,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9586977723635087,
+      "recall": 0.7966666666666665,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9466493073782528,
+        0.9688679837125184
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8166666666666668
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.02",
+      "beta": 0.02,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9563517034825332,
+      "recall": 0.7933333333333333,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9469213163364328,
+        0.9659660846648321
+      ],
+      "recall_ci95": [
+        0.7633333333333333,
+        0.82
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.02",
+      "beta": 0.02,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9595390755007891,
+      "recall": 0.8033333333333332,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9488120240386827,
+        0.9690141321728851
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8300000000000001
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.05",
+      "beta": 0.05,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9555300491597757,
+      "recall": 0.7933333333333333,
+      "attack_success": 0.022222222222222223,
+      "ndcg_ci95": [
+        0.940644372112968,
+        0.9684590109554096
+      ],
+      "recall_ci95": [
+        0.7699999999999999,
+        0.8233333333333333
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.044444444444444446
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.05",
+      "beta": 0.05,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9552946799081287,
+      "recall": 0.7933333333333333,
+      "attack_success": 0.022222222222222223,
+      "ndcg_ci95": [
+        0.9404315679431177,
+        0.9682351676711806
+      ],
+      "recall_ci95": [
+        0.7699999999999999,
+        0.8233333333333333
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.044444444444444446
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.05",
+      "beta": 0.05,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9570573139667564,
+      "recall": 0.7966666666666667,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9471637172301245,
+        0.9673127437512524
+      ],
+      "recall_ci95": [
+        0.7666666666666667,
+        0.8233333333333333
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.05",
+      "beta": 0.05,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9602987041566173,
+      "recall": 0.8066666666666666,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9509994315509941,
+        0.9690453639327661
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8366666666666668
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.10",
+      "beta": 0.1,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8989195921067133,
+      "recall": 0.71,
+      "attack_success": 0.5666666666666667,
+      "ndcg_ci95": [
+        0.8780269770167446,
+        0.9208778484792505
+      ],
+      "recall_ci95": [
+        0.69,
+        0.7266666666666667
+      ],
+      "attack_success_ci95": [
+        0.46666666666666656,
+        0.6666666666666666
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.10",
+      "beta": 0.1,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8904109911542418,
+      "recall": 0.7033333333333333,
+      "attack_success": 0.6555555555555554,
+      "ndcg_ci95": [
+        0.8665370531708897,
+        0.9160297347846081
+      ],
+      "recall_ci95": [
+        0.6766666666666666,
+        0.7266666666666667
+      ],
+      "attack_success_ci95": [
+        0.5333333333333333,
+        0.7558333333333318
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.10",
+      "beta": 0.1,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9562476150090428,
+      "recall": 0.7933333333333334,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.948216555084286,
+        0.96480062034366
+      ],
+      "recall_ci95": [
+        0.7666666666666667,
+        0.8266666666666668
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_1src_b0.10",
+      "beta": 0.1,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9603163502816607,
+      "recall": 0.8066666666666666,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9511579843101295,
+        0.9690799925009713
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8366666666666668
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_2src_b0.05",
+      "beta": 0.05,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8879056380298292,
+      "recall": 0.7033333333333333,
+      "attack_success": 0.6777777777777777,
+      "ndcg_ci95": [
+        0.8671844113091854,
+        0.9075225492126292
+      ],
+      "recall_ci95": [
+        0.6733333333333332,
+        0.73
+      ],
+      "attack_success_ci95": [
+        0.6222222222222221,
+        0.7333333333333333
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_2src_b0.05",
+      "beta": 0.05,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8857396040863592,
+      "recall": 0.7000000000000001,
+      "attack_success": 0.7000000000000001,
+      "ndcg_ci95": [
+        0.8653358183860548,
+        0.9039280531355632
+      ],
+      "recall_ci95": [
+        0.6733333333333332,
+        0.7233333333333335
+      ],
+      "attack_success_ci95": [
+        0.6666666666666666,
+        0.7444444444444445
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_2src_b0.05",
+      "beta": 0.05,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9327575542734188,
+      "recall": 0.7600000000000001,
+      "attack_success": 0.2222222222222222,
+      "ndcg_ci95": [
+        0.91682457986356,
+        0.9488902760918752
+      ],
+      "recall_ci95": [
+        0.73,
+        0.7900000000000001
+      ],
+      "attack_success_ci95": [
+        0.14444444444444446,
+        0.28888888888888886
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "mga_2src_b0.05",
+      "beta": 0.05,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9591489834807713,
+      "recall": 0.7999999999999999,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9476417479786293,
+        0.9690141321728851
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8266666666666667
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9594762504267598,
+      "recall": 0.7999999999999999,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9485787364844791,
+        0.9689615914722419
+      ],
+      "recall_ci95": [
+        0.7766666666666665,
+        0.8233333333333334
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.6882970175981146,
+      "recall": 0.6066666666666667,
+      "attack_success": 1.0,
+      "ndcg_ci95": [
+        0.6662044948390075,
+        0.7076945199724974
+      ],
+      "recall_ci95": [
+        0.5733333333333334,
+        0.64
+      ],
+      "attack_success_ci95": [
+        1.0,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9568869089160823,
+      "recall": 0.7933333333333333,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.9472585682073105,
+        0.9667573269763511
+      ],
+      "recall_ci95": [
+        0.7633333333333333,
+        0.82
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_1src",
+      "beta": 0.0,
+      "attackers": 1,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9605921194202547,
+      "recall": 0.8099999999999999,
+      "attack_success": 0.0,
+      "ndcg_ci95": [
+        0.954232970038117,
+        0.968095839295473
+      ],
+      "recall_ci95": [
+        0.7833333333333332,
+        0.8366666666666668
+      ],
+      "attack_success_ci95": [
+        0.0,
+        0.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    },
+    {
+      "method": "average",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.8889409588106553,
+      "recall": 0.7000000000000001,
+      "attack_success": 0.6888888888888888,
+      "ndcg_ci95": [
+        0.8640467907483509,
+        0.9125318509637842
+      ],
+      "recall_ci95": [
+        0.6666666666666666,
+        0.7200000000000001
+      ],
+      "attack_success_ci95": [
+        0.6,
+        0.7777777777777777
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "variance_weighted",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.6390235038641181,
+      "recall": 0.6199999999999999,
+      "attack_success": 1.0,
+      "ndcg_ci95": [
+        0.605680913833047,
+        0.6692363913877402
+      ],
+      "recall_ci95": [
+        0.5966666666666667,
+        0.6466666666666666
+      ],
+      "attack_success_ci95": [
+        1.0,
+        1.0
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "robust_baseline",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9378155772000704,
+      "recall": 0.7666666666666666,
+      "attack_success": 0.16666666666666666,
+      "ndcg_ci95": [
+        0.923842987440723,
+        0.9506942867475258
+      ],
+      "recall_ci95": [
+        0.7266666666666667,
+        0.8066666666666666
+      ],
+      "attack_success_ci95": [
+        0.0888888888888889,
+        0.2222222222222222
+      ],
+      "missing_reason": null,
+      "refusal_rate": null
+    },
+    {
+      "method": "privedge",
+      "epsilon": 2.0,
+      "top_m": 20,
+      "scenario": "weight_hijack_2src",
+      "beta": 0.0,
+      "attackers": 2,
+      "target_scope": "all_leave_one_targets",
+      "seeds": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "sample_count": 30,
+      "ndcg": 0.9385163360572556,
+      "recall": 0.7733333333333334,
+      "attack_success": 0.18888888888888888,
+      "ndcg_ci95": [
+        0.9236292451270569,
+        0.9505946313963903
+      ],
+      "recall_ci95": [
+        0.7533333333333334,
+        0.7933333333333334
+      ],
+      "attack_success_ci95": [
+        0.14444444444444443,
+        0.25555555555555554
+      ],
+      "missing_reason": null,
+      "refusal_rate": 0.0
+    }
+  ],
+  "interpretation": "DESCRIPTIVE",
+  "source_run_id": "compare_v1_olist_brazil-20261014T122937Z-6efd0f",
+  "target_count": 6,
+  "source_count": 5,
+  "users_per_source": 5000,
+  "top_k": 10,
+  "interval_unit": "target_region",
+  "limitations": [
+    "原manifest未绑定预注册内容哈希，运行前冻结不能独立确认；101/211/307/401/503为复用种子，不作为新种子独立确认。",
+    "区间先在目标内平均5种子，再对目标区域做2000次bootstrap；留一目标共享来源，未作多重比较校正。",
+    "实验直接调用统计决策，不覆盖真实签名、网关准入和预算账本；基线与PrivEdge还存在发布端筛查差异。",
+    "无攻击时不宣称比简单平均更准；无攻击场景的目标入榜率只是参照，不表示发生了攻击。",
+    "双源合谋仍可成功，例如Massive在ε=2双源权重劫持下PrivEdge目标入榜率约0.8476。"
+  ]
+}

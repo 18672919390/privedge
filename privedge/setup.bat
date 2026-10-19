@@ -19,6 +19,7 @@ if not exist ".venv\Scripts\python.exe" (
   %PY% -m venv .venv || goto :fail
 )
 ".venv\Scripts\python.exe" -m pip install -r requirements.lock || goto :fail
+".venv\Scripts\python.exe" -m pip check || goto :fail
 
 echo.
 echo Setup finished. Next: run_tests.bat, then start_console.bat

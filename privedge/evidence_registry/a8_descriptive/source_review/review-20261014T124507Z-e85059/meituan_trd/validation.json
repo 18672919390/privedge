@@ -1,0 +1,183 @@
+{
+  "source_run_id": "compare_v1_meituan_trd-20261014T122937Z-6621cf",
+  "source_run_dir": "D:\\Project\\privedge-main\\privedge-main\\privedge\\runs\\compare_v1_meituan_trd\\compare_v1_meituan_trd-20261014T122937Z-6621cf",
+  "dataset": "meituan_trd",
+  "preregistration": {
+    "manifest_config_path": "experiments_prereg/COMPARE_V1.md",
+    "expected_path": "experiments_prereg/COMPARE_V1.md",
+    "current_file_sha256": "ce3b4936a45ba71360b7d19bc2446ed6b4b84b18f4e8c4b0d5be63eed92f95b5",
+    "snapshot_sha256": "8b8ee34baee147e8e12d60c84b6c65fcd4f4890e9ff1dce84f950ff363bf7522",
+    "path_matches": true,
+    "note": "The source run manifest records the preregistration path but not its hash; this is the hash of the current file at review time."
+  },
+  "source_hashes": {
+    "results.csv": {
+      "expected": "ef10e7ae811edd415d8982e266be362c8560cf49cea9940639db2c5d472def38",
+      "actual": "ef10e7ae811edd415d8982e266be362c8560cf49cea9940639db2c5d472def38",
+      "match": true
+    },
+    "summary.json": {
+      "expected": "40d39227f9b345148330c16c420af4353e1e2ef05508ed17715134d1ef4b1213",
+      "actual": "40d39227f9b345148330c16c420af4353e1e2ef05508ed17715134d1ef4b1213",
+      "match": true
+    }
+  },
+  "data_hashes": {
+    "private_events.csv.gz": {
+      "expected": "bbcfa829f63bda0dfe5b4db137c9de3d95cb6385902db140faa580714dd4e051",
+      "actual": "bbcfa829f63bda0dfe5b4db137c9de3d95cb6385902db140faa580714dd4e051",
+      "match": true
+    }
+  },
+  "grid_checks": {
+    "methods": {
+      "expected": [
+        "simple_average",
+        "variance_weighted",
+        "trimmed_frequency",
+        "privedge"
+      ],
+      "actual": [
+        "simple_average",
+        "variance_weighted",
+        "trimmed_frequency",
+        "privedge"
+      ],
+      "match": true
+    },
+    "seeds": {
+      "expected": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "actual": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "match": true
+    },
+    "epsilons": {
+      "expected": [
+        1.0,
+        2.0
+      ],
+      "actual": [
+        1.0,
+        2.0
+      ],
+      "match": true
+    },
+    "scenarios": {
+      "expected": [
+        "clean",
+        "mga_1src_b0.02",
+        "mga_1src_b0.05",
+        "mga_1src_b0.10",
+        "mga_2src_b0.05",
+        "compromised_1src",
+        "compromised_2src",
+        "weight_hijack_1src",
+        "weight_hijack_2src"
+      ],
+      "actual": [
+        "clean",
+        "mga_1src_b0.02",
+        "mga_1src_b0.05",
+        "mga_1src_b0.10",
+        "mga_2src_b0.05",
+        "compromised_1src",
+        "compromised_2src",
+        "weight_hijack_1src",
+        "weight_hijack_2src"
+      ],
+      "match": true
+    },
+    "targets": {
+      "expected": [
+        "商圈0",
+        "商圈1",
+        "商圈2",
+        "商圈3",
+        "商圈4",
+        "商圈5",
+        "商圈6",
+        "商圈7",
+        "商圈8",
+        "商圈9",
+        "商圈10"
+      ],
+      "actual": [
+        "商圈0",
+        "商圈1",
+        "商圈2",
+        "商圈3",
+        "商圈4",
+        "商圈5",
+        "商圈6",
+        "商圈7",
+        "商圈8",
+        "商圈9",
+        "商圈10"
+      ],
+      "missing": [],
+      "unexpected": [],
+      "duplicate_count": 0,
+      "match": true
+    },
+    "smoke_test": {
+      "actual": false,
+      "allowed": false,
+      "match": true
+    },
+    "grid_rows": {
+      "expected": 3960,
+      "actual": 3960,
+      "duplicates": 0,
+      "missing_count": 0,
+      "unexpected_count": 0,
+      "missing_examples": [],
+      "unexpected_examples": [],
+      "match": true
+    },
+    "paired_methods": {
+      "expected_cells": 990,
+      "actual_cells": 990,
+      "broken_count": 0,
+      "examples": [],
+      "match": true
+    },
+    "state_and_refusal_scoring": {
+      "errors": 0,
+      "examples": [],
+      "match": true
+    },
+    "formal_grid": {
+      "match": true
+    },
+    "valid_for_confirmatory_decision": true
+  },
+  "original_summary_recomputed_check": {
+    "match": true,
+    "issue_count": 0,
+    "issues": []
+  },
+  "confirmatory_admissible": true,
+  "answered_only_note": "Answered-only Recall/NDCG condition on non-REFUSED PrivEdge seeds. Descriptive only; not a preregistered confirmatory result.",
+  "plot_dependency": "stdlib SVG; no matplotlib required",
+  "artifact_files": [
+    "independent_summary.json",
+    "method_summary.csv",
+    "target_method_summary.csv",
+    "paired_target_differences.csv",
+    "confirmatory_decisions.json",
+    "fig_epsilon2_comparison.svg",
+    "handoff.md",
+    "preregistration_snapshot.md"
+  ]
+}

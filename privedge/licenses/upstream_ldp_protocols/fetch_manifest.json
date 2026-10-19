@@ -1,0 +1,55 @@
+{
+  "lookup_date": "2026-10-15",
+  "lookup_ref": "f7252b07733dc0e100e2f077218ab2d35d3519d5",
+  "note": "Pinned inspection revision, historical port revision not established.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "archive_name": "LICENSE",
+      "git_blob_sha": "429e193df2bd9655acc9911f6e5c48a5d83d7d05",
+      "url": "https://github.com/vvv214/LDP_Protocols/blob/f7252b07733dc0e100e2f077218ab2d35d3519d5/LICENSE",
+      "archived_sha256": "69b159f1b544b25d4870c462858b9570405062e1be17b99bc053b2f4b862e3ee",
+      "git_blob_matches": true
+    },
+    {
+      "path": "README.md",
+      "archive_name": "README.md",
+      "git_blob_sha": "a993c79822341d2e912e9f111a5c972a0cfd6ae7",
+      "url": "https://github.com/vvv214/LDP_Protocols/blob/f7252b07733dc0e100e2f077218ab2d35d3519d5/README.md",
+      "archived_sha256": "67ffaa6f4ba4ec506ad73d632fb91e5e407dd229de37a9f3321bc142e3e784bc",
+      "git_blob_matches": true
+    },
+    {
+      "path": "olh.py",
+      "archive_name": "olh.py",
+      "git_blob_sha": "819a38fdc3d10a024fd4bf8a805333f62843219d",
+      "url": "https://github.com/vvv214/LDP_Protocols/blob/f7252b07733dc0e100e2f077218ab2d35d3519d5/olh.py",
+      "archived_sha256": "a0cba209cb79dc7b96f7d0536c201b087258d6340403defc6803939c19c954a1",
+      "git_blob_matches": true
+    },
+    {
+      "path": "hio/server/fo/rr.py",
+      "archive_name": "hio__server__fo__rr.py",
+      "git_blob_sha": "2ef0f8d06d937a95408352eae08489ca875717b3",
+      "url": "https://github.com/vvv214/LDP_Protocols/blob/f7252b07733dc0e100e2f077218ab2d35d3519d5/hio/server/fo/rr.py",
+      "archived_sha256": "d212a22deae925375a88475332f44107e2287de15e35d1a5388975a748e304b1",
+      "git_blob_matches": true
+    },
+    {
+      "path": "hio/server/fo/ue.py",
+      "archive_name": "hio__server__fo__ue.py",
+      "git_blob_sha": "7f0d5926f3dd52289a59fa1827025a3f66d8afd4",
+      "url": "https://github.com/vvv214/LDP_Protocols/blob/f7252b07733dc0e100e2f077218ab2d35d3519d5/hio/server/fo/ue.py",
+      "archived_sha256": "82d8cf236cfc190f70a5e31df965e0f5ac16e4c86a10e8465280d5fcd6086db2",
+      "git_blob_matches": true
+    },
+    {
+      "path": "hio/server/fo/lh.py",
+      "archive_name": "hio__server__fo__lh.py",
+      "git_blob_sha": "987f24228cd87d074a0af95a5b35afcd311ee9f2",
+      "url": "https://github.com/vvv214/LDP_Protocols/blob/f7252b07733dc0e100e2f077218ab2d35d3519d5/hio/server/fo/lh.py",
+      "archived_sha256": "dcd01617210c7686e0fa5c938ff994c4846ac434dfb3ecd9bf409fc9a2dcc833",
+      "git_blob_matches": true
+    }
+  ]
+}

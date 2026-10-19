@@ -1,0 +1,302 @@
+{
+  "$defs": {
+    "Cell": {
+      "additionalProperties": false,
+      "properties": {
+        "method": {
+          "enum": [
+            "average",
+            "variance_weighted",
+            "robust_baseline",
+            "privedge"
+          ],
+          "title": "Method",
+          "type": "string"
+        },
+        "epsilon": {
+          "exclusiveMinimum": 0,
+          "title": "Epsilon",
+          "type": "number"
+        },
+        "top_m": {
+          "exclusiveMinimum": 0,
+          "title": "Top M",
+          "type": "integer"
+        },
+        "scenario": {
+          "minLength": 1,
+          "title": "Scenario",
+          "type": "string"
+        },
+        "beta": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Beta",
+          "type": "number"
+        },
+        "attackers": {
+          "minimum": 0,
+          "title": "Attackers",
+          "type": "integer"
+        },
+        "target_scope": {
+          "minLength": 1,
+          "title": "Target Scope",
+          "type": "string"
+        },
+        "seeds": {
+          "items": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Seeds",
+          "type": "array"
+        },
+        "sample_count": {
+          "exclusiveMinimum": 0,
+          "title": "Sample Count",
+          "type": "integer"
+        },
+        "ndcg": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Ndcg"
+        },
+        "recall": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Recall"
+        },
+        "attack_success": {
+          "anyOf": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Attack Success"
+        },
+        "ndcg_ci95": {
+          "anyOf": [
+            {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ndcg Ci95"
+        },
+        "recall_ci95": {
+          "anyOf": [
+            {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Recall Ci95"
+        },
+        "attack_success_ci95": {
+          "anyOf": [
+            {
+              "maxItems": 2,
+              "minItems": 2,
+              "prefixItems": [
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                },
+                {
+                  "maximum": 1,
+                  "minimum": 0,
+                  "type": "number"
+                }
+              ],
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Attack Success Ci95"
+        },
+        "missing_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Missing Reason"
+        }
+      },
+      "required": [
+        "method",
+        "epsilon",
+        "top_m",
+        "scenario",
+        "beta",
+        "attackers",
+        "target_scope",
+        "seeds",
+        "sample_count",
+        "ndcg",
+        "recall",
+        "attack_success"
+      ],
+      "title": "Cell",
+      "type": "object"
+    },
+    "Method": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "enum": [
+            "average",
+            "variance_weighted",
+            "robust_baseline",
+            "privedge"
+          ],
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "definition": {
+          "minLength": 1,
+          "title": "Definition",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "COMPLETED",
+            "NOT_APPLICABLE"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "definition",
+        "status"
+      ],
+      "title": "Method",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "dataset": {
+      "enum": [
+        "massive_steps",
+        "olist_brazil",
+        "meituan_trd"
+      ],
+      "title": "Dataset",
+      "type": "string"
+    },
+    "methods": {
+      "items": {
+        "$ref": "#/$defs/Method"
+      },
+      "title": "Methods",
+      "type": "array"
+    },
+    "cells": {
+      "items": {
+        "$ref": "#/$defs/Cell"
+      },
+      "minItems": 1,
+      "title": "Cells",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset",
+    "methods",
+    "cells"
+  ],
+  "title": "Summary",
+  "type": "object"
+}

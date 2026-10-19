@@ -8,4 +8,6 @@ if not exist ".venv\Scripts\python.exe" (
 )
 set "PYTHONPATH=%CD%"
 ".venv\Scripts\python.exe" -m pytest -q
+set "TEST_EXIT=%ERRORLEVEL%"
 pause
+exit /b %TEST_EXIT%

@@ -49,6 +49,8 @@ export interface SourceRow {
 }
 
 export interface RunResult {
+  /** Client-side snapshot of the completed request; not a backend API field. */
+  request_snapshot?: RunRequest;
   run_id: string;
   dataset: string;
   target: string;
@@ -56,6 +58,7 @@ export interface RunResult {
   seed: number;
   epsilon: number;
   top_m: number;
+  users?: number;
   attack: string;
   attack_name: string;
   attackers: string[];
@@ -86,4 +89,13 @@ export interface RunRequest {
   attackers: number;
   beta: number;
   seed?: number | null;
+}
+
+export interface ProgramIdentity {
+  release_id: string;
+  application_version: string;
+  source_fingerprint_sha256: string;
+  fingerprint_file_count: number;
+  fingerprint_scope: string;
+  data_sha256: Record<string, string>;
 }

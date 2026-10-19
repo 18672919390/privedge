@@ -1,5 +1,7 @@
 import { useMemo } from "react";
 import { Chart } from "./Chart";
+import { STATE_TEXT } from "./common";
+import { topologyLayout } from "../topologyLayout";
 
 export type NodeStatus = "idle" | "collect" | "release" | "admit" | "reject" | "attack";
 
@@ -21,35 +23,37 @@ const LABELS: Record<NodeStatus, string> = {
 };
 
 /** Schematic region topology: the datasets carry no coordinates, so positions are not geographic. */
-export function Topology({ target, sources, status, bad, state }: {
+export function Topology({ target, sources, status, bad, state, showNotes = true }: {
   target: string;
   sources: string[];
   status: Record<string, NodeStatus>;
   bad: string[];
   state?: string;
+  showNotes?: boolean;
 }) {
+  const layout = useMemo(() => {
+    const ctx = document.createElement("canvas").getContext("2d");
+    if (ctx) ctx.font = '13px "Microsoft YaHei", "PingFang SC", sans-serif';
+    return topologyLayout(target, sources, ctx ? text => ctx.measureText(text).width : undefined);
+  }, [target, sources]);
   const option = useMemo(() => {
-    const radius = 38;
-    const nodes = sources.map((source, index) => {
-      const angle = (2 * Math.PI * index) / Math.max(sources.length, 1) - Math.PI / 2;
+    const nodes = layout.nodes.map(({ id: source, x, y, lines, position }) => {
       const s = status[source] ?? "idle";
       return {
         name: source,
-        x: 50 + radius * Math.cos(angle),
-        y: 50 + radius * Math.sin(angle),
+        value: [x, y],
         symbolSize: 46,
         itemStyle: { color: COLORS[s], borderColor: bad.includes(source) ? "#f59e0b" : "#0b1220", borderWidth: bad.includes(source) ? 4 : 2 },
-        label: { show: true, formatter: `{b}\n${LABELS[s]}`, color: "#e5ecff", fontSize: 11 },
+        label: { show: true, position, distance: 8, formatter: `${lines.join("\n")}\n${LABELS[s]}`, color: "#e5ecff", backgroundColor: "#111a2e", padding: [3, 6], borderRadius: 4, fontSize: 13, lineHeight: 18, fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif' },
       };
     });
     const stateColor = state === "NORMAL" ? "#10b981" : state === "DEGRADED" ? "#f59e0b" : state === "REFUSED" ? "#ef4444" : "#6366f1";
     nodes.push({
       name: target,
-      x: 50,
-      y: 50,
+      value: [0, 0],
       symbolSize: 78,
       itemStyle: { color: stateColor, borderColor: "#c7d2fe", borderWidth: 3 },
-      label: { show: true, formatter: `新开站区域\n{b}\n${state ?? "网关"}`, color: "#fff", fontSize: 12 },
+      label: { show: true, position: "bottom", distance: 8, formatter: `${layout.targetLines.join("\n")}\n${STATE_TEXT[state as keyof typeof STATE_TEXT] ?? state ?? "等待运行"}`, color: "#e5ecff", backgroundColor: "#111a2e", padding: [3, 6], borderRadius: 4, fontSize: 13, lineHeight: 18, fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif' },
     });
     const links = sources.map((source) => {
       const s = status[source] ?? "idle";
@@ -69,27 +73,36 @@ export function Topology({ target, sources, status, bad, state }: {
       series: [{
         type: "graph",
         layout: "none",
+        // Transform positions only; keep circular symbols in screen pixels.
+        coordinateSystem: "cartesian2d",
+        symbol: "circle",
         roam: false,
         data: nodes,
         links,
         edgeSymbol: ["none", "arrow"],
         edgeSymbolSize: 8,
-        animationDurationUpdate: 200,
+        animationDurationUpdate: 0,
       }],
-      xAxis: { show: false, min: 0, max: 100 },
-      yAxis: { show: false, min: 0, max: 100, inverse: true },
-      grid: { left: 10, right: 10, top: 10, bottom: 10 },
+      xAxis: { type: "value", show: false, min: -layout.extent, max: layout.extent },
+      yAxis: { type: "value", show: false, min: -layout.extent, max: layout.extent, inverse: true },
+      grid: { left: 0, right: 0, top: 0, bottom: 0 },
     };
-  }, [target, sources, status, bad, state]);
+  }, [target, sources, status, bad, state, layout]);
 
   return (
     <div>
-      <Chart option={option} height={420} />
+      <Chart showDescription={showNotes} option={option} height={layout.size} canvasWidth={layout.size} title="来源交换拓扑" description={`目标区域 ${target}，共 ${sources.length} 个来源。图示不代表地理位置；窄窗口可横向滚动，下方数据表可核对完整状态。三态表示检查结论，不代表准确度。`} dataTable={
+        <div className="table-scroll" tabIndex={0} role="region" aria-label="拓扑状态明细"><table className="table">
+          <thead><tr><th scope="col">区域</th><th scope="col">角色</th><th scope="col">状态</th><th scope="col">攻击标记</th></tr></thead>
+          <tbody><tr><th scope="row">{target}</th><td>目标网关</td><td>{STATE_TEXT[state as keyof typeof STATE_TEXT] ?? state ?? "等待运行"}</td><td>—</td></tr>
+          {sources.map(source => <tr key={source}><th scope="row">{source}</th><td>来源</td><td>{LABELS[status[source] ?? "idle"]}</td><td>{bad.includes(source) ? "被攻破" : "未标记"}</td></tr>)}</tbody>
+        </table></div>
+      } />
       <div className="legend">
         {(Object.keys(COLORS) as NodeStatus[]).map((k) => (
           <span key={k}><i style={{ background: COLORS[k] }} />{LABELS[k]}</span>
         ))}
-        <span className="muted">示意拓扑：数据集只有匿名区域编号，没有坐标</span>
+        {showNotes && <span className="muted">示意拓扑：数据集只有匿名区域编号，没有坐标</span>}
       </div>
     </div>
   );

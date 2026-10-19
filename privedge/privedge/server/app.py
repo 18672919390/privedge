@@ -6,23 +6,39 @@ Run:  python -m uvicorn privedge.server.app:app --port 8765
 from __future__ import annotations
 
 import asyncio
+import json
 import threading
+import math
+from json import JSONDecodeError
 from pathlib import Path, PurePosixPath
 
 from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.encoders import jsonable_encoder
+from fastapi.exceptions import RequestValidationError
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, ValidationError
 
 from .engine import DATASETS, engine
+from .a8_evidence import a8_evidence
+from .a8_descriptive import descriptive_evidence
 from .evidence import evidence, prereg_documents
+from .version import public_version
 
 WEB_DIST = Path(__file__).resolve().parents[2] / "web" / "dist"
 
 app = FastAPI(title="PrivEdge 控制台 API", version="1.0")
 app.add_middleware(CORSMiddleware, allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
                    allow_methods=["*"], allow_headers=["*"])
+
+
+@app.exception_handler(RequestValidationError)
+async def invalid_request(request, error: RequestValidationError) -> JSONResponse:
+    # Error details can contain the rejected NaN/Infinity input; JSONResponse cannot encode it.
+    detail = jsonable_encoder(error.errors(), custom_encoder={
+        float: lambda value: value if math.isfinite(value) else str(value)})
+    return JSONResponse(status_code=422, content={"detail": detail})
 
 
 class RunRequest(BaseModel):
@@ -49,6 +65,11 @@ def datasets() -> list[dict]:
     return [_engine(name).describe() for name in DATASETS]
 
 
+@app.get("/api/version")
+def version() -> dict:
+    return public_version()
+
+
 @app.post("/api/run")
 def run(request: RunRequest) -> dict:
     try:
@@ -64,7 +85,27 @@ async def run_stream(socket: WebSocket) -> None:
     loop = asyncio.get_running_loop()
     try:
         while True:
-            request = RunRequest(**await socket.receive_json())
+            frame = await socket.receive()
+            if frame["type"] == "websocket.disconnect":
+                return
+            if frame.get("text") is None:
+                await socket.send_json({"kind": "error", "error": "请求必须是 JSON 文本帧"})
+                continue
+            try:
+                payload = json.loads(frame["text"])
+            except JSONDecodeError:
+                await socket.send_json({"kind": "error", "error": "请求必须是合法 JSON"})
+                continue
+            if not isinstance(payload, dict):
+                await socket.send_json({"kind": "error", "error": "请求必须是 JSON 对象"})
+                continue
+            try:
+                request = RunRequest(**payload)
+            except ValidationError as err:
+                detail = "; ".join(f"{'.'.join(str(part) for part in issue['loc'])}: {issue['msg']}"
+                                   for issue in err.errors())
+                await socket.send_json({"kind": "error", "error": f"请求参数不合法：{detail}"})
+                continue
             queue: asyncio.Queue = asyncio.Queue()
 
             def emit(event: dict) -> None:
@@ -110,6 +151,16 @@ def evidence_view() -> dict:
 @app.get("/api/prereg")
 def prereg() -> list[dict]:
     return prereg_documents()
+
+
+@app.get("/api/evidence/a8")
+def a8_evidence_view() -> dict:
+    return a8_evidence()
+
+
+@app.get("/api/evidence/a8/descriptive")
+def descriptive_a8_view() -> dict:
+    return descriptive_evidence()
 
 
 if WEB_DIST.exists():

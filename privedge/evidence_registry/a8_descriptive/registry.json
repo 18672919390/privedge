@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "interpretation": "DESCRIPTIVE",
+  "entries": [
+    {
+      "dataset": "massive_steps",
+      "source_run_id": "compare_v1_massive_steps-20261014T122937Z-50c077",
+      "review_id": "review-20261014T124507Z-e85059",
+      "evidence_id": "E28",
+      "source_manifest_sha256": "75aa9219d3288fc293defd92c94a5d42ccaf105a73ba34abfe99b543d5806ba1",
+      "review_manifest_sha256": "ab3afd870878ca641e355e4bd57439ea5ef723687657ecc0555f9c5ed193ff6c",
+      "summary_sha256": "58b01bc0bb244d6a93e31a54610db52a5a696206ee2b848353f0e580687d956c",
+      "audit_sha256": "51559b30446e1c667c0ceea6a22e77968ebb3260a73f730d2c8d07c99ac65808",
+      "exporter_sha256": "572caf34b0f32dac775ede3262958c80e18b185e4122db4de6a3d5fb0df27818"
+    },
+    {
+      "dataset": "meituan_trd",
+      "source_run_id": "compare_v1_meituan_trd-20261014T122937Z-6621cf",
+      "review_id": "review-20261014T124507Z-e85059",
+      "evidence_id": "E28",
+      "source_manifest_sha256": "248ec431ebf65b3bc06c0e92f28916778f0647e4177fac187d38470a29d03a2b",
+      "review_manifest_sha256": "ab3afd870878ca641e355e4bd57439ea5ef723687657ecc0555f9c5ed193ff6c",
+      "summary_sha256": "36b9dedf6d84aa50411b0001032bbd4b1596351512895a60bd8a18bfe466a8cd",
+      "audit_sha256": "51559b30446e1c667c0ceea6a22e77968ebb3260a73f730d2c8d07c99ac65808",
+      "exporter_sha256": "572caf34b0f32dac775ede3262958c80e18b185e4122db4de6a3d5fb0df27818"
+    },
+    {
+      "dataset": "olist_brazil",
+      "source_run_id": "compare_v1_olist_brazil-20261014T122937Z-6efd0f",
+      "review_id": "review-20261014T124507Z-e85059",
+      "evidence_id": "E28",
+      "source_manifest_sha256": "785ab5727f81d2d55259e84b9fe00366e8d8fabdd68130ce572381dd7144565d",
+      "review_manifest_sha256": "ab3afd870878ca641e355e4bd57439ea5ef723687657ecc0555f9c5ed193ff6c",
+      "summary_sha256": "4b824fdd3b36e90187fbc16fdc5d7c3b64ba37ff6f7a1b23509e2de2d664af48",
+      "audit_sha256": "51559b30446e1c667c0ceea6a22e77968ebb3260a73f730d2c8d07c99ac65808",
+      "exporter_sha256": "572caf34b0f32dac775ede3262958c80e18b185e4122db4de6a3d5fb0df27818"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "review_id": "review-20261014T124507Z-e85059",
+  "created_at": "2026-10-14T12:45:44.811910+00:00",
+  "source_run_ids": [
+    "compare_v1_meituan_trd-20261014T122937Z-6621cf",
+    "compare_v1_olist_brazil-20261014T122937Z-6efd0f",
+    "compare_v1_massive_steps-20261014T122937Z-50c077"
+  ],
+  "preregistration": {
+    "path": "experiments_prereg/COMPARE_V1.md",
+    "current_file_sha256": "ce3b4936a45ba71360b7d19bc2446ed6b4b84b18f4e8c4b0d5be63eed92f95b5",
+    "note": "The historical experiment manifest does not contain a preregistration hash."
+  },
+  "confirmatory_admissible_all": true,
+  "runs": [
+    {
+      "run_id": "compare_v1_meituan_trd-20261014T122937Z-6621cf",
+      "dataset": "meituan_trd",
+      "confirmatory_admissible": true
+    },
+    {
+      "run_id": "compare_v1_olist_brazil-20261014T122937Z-6efd0f",
+      "dataset": "olist_brazil",
+      "confirmatory_admissible": true
+    },
+    {
+      "run_id": "compare_v1_massive_steps-20261014T122937Z-50c077",
+      "dataset": "massive_steps",
+      "confirmatory_admissible": true
+    }
+  ],
+  "artifact_sha256": {
+    "massive_steps/confirmatory_decisions.json": "59c73a33f334ba4cde6f9938b5e9e686b6d387255817ef1b0e2c19701ddc97ac",
+    "massive_steps/fig_epsilon2_comparison.svg": "e5f855c4469bda323bb7a5df2175688a830afe801a4337061a1509fffd91a2a6",
+    "massive_steps/handoff.md": "6de786cfd2976d9496335012a62d4ea21ed29e09c7110621e4d8e36664916125",
+    "massive_steps/independent_summary.json": "245c4a092ad2b61f40e4af5a17931e3199fd98e033261f992382cf60ac523640",
+    "massive_steps/method_summary.csv": "b4c5634e3caa5cd93d82fc40657a30a073b06f1e4c102833e4c2be10a7f91190",
+    "massive_steps/paired_target_differences.csv": "39d9c4149869b3e4c546f1a6e31006cf093c057885101c6b6394700f99e0a93c",
+    "massive_steps/preregistration_snapshot.md": "8b8ee34baee147e8e12d60c84b6c65fcd4f4890e9ff1dce84f950ff363bf7522",
+    "massive_steps/target_method_summary.csv": "7bb13e1f616bb31f9555d0e7cdedea39277c0ac6c54f7e0602c068c6bc187ff7",
+    "massive_steps/validation.json": "c7f15750589a47d2b07f556a908a2bfb45ba13aa5f98d79f4fa67568ead2d185",
+    "meituan_trd/confirmatory_decisions.json": "e8f9b85bec66d6b7c148c1cb35fdf0ff586b663144638956b80be34784cb378e",
+    "meituan_trd/fig_epsilon2_comparison.svg": "c84b2773939b6baf16f913bcc438f3e5a33d68c1d071b9dba8e1ab7e1b4908c4",
+    "meituan_trd/handoff.md": "77cde3f943356e142b5031af885537bdf19708ca8bd8f890eac2189c7be9483c",
+    "meituan_trd/independent_summary.json": "1894dc05eae5402daceb14ea3b958b4f0cd95f92d366586754d3312c60fbb31e",
+    "meituan_trd/method_summary.csv": "1392874a18a3a4584656b30ef577c698fa46f1f162740f8aed295315dd51ffc8",
+    "meituan_trd/paired_target_differences.csv": "378963772dbe6ad76e4883fd8c85b56baa4a27c82a54e45e09cada7f6e550856",
+    "meituan_trd/preregistration_snapshot.md": "8b8ee34baee147e8e12d60c84b6c65fcd4f4890e9ff1dce84f950ff363bf7522",
+    "meituan_trd/target_method_summary.csv": "17e6bdc56f73aba1f353a383eed0a3c66db6cbda4ea13e9ea76c85afcd0a8ce0",
+    "meituan_trd/validation.json": "9a694bd433a84a1440ebbc93047693faf2b5f0bb3259d1de2ab2d55ee7d97ec8",
+    "olist_brazil/confirmatory_decisions.json": "7c9b46f96afd87eadf3e3548c9580e75d9ccb70137c37534e22907ff80dccdd2",
+    "olist_brazil/fig_epsilon2_comparison.svg": "72eca10ab941f0c3aac7ef34e1e2ecb73b310c1c0d137ff0db94284c87fb4031",
+    "olist_brazil/handoff.md": "165bbbf8cf6b2a7cbe6bb32abeb8fae875004c2c9ab5baad6300889df7ef23d4",
+    "olist_brazil/independent_summary.json": "c038555c06be66a725e4aefff639f4a62249d95635aaa78f1765a32effddaf6a",
+    "olist_brazil/method_summary.csv": "d877fb68bf50dd497607c6eab2543ffc5fe1049769b5039c7762c5e5839d3d24",
+    "olist_brazil/paired_target_differences.csv": "14abafe3355ff81366b790d8013bf9d25c98c60fc4bf301ad967cab1bfa9cead",
+    "olist_brazil/preregistration_snapshot.md": "8b8ee34baee147e8e12d60c84b6c65fcd4f4890e9ff1dce84f950ff363bf7522",
+    "olist_brazil/target_method_summary.csv": "a16d5d4a90b9d20ca94b7ae796d557c1063bb636e4742823811deca60c7e7ddd",
+    "olist_brazil/validation.json": "90ea4dbf3960364c42b9074dfc43a1942ef13bf7d9e51904f4f9f2882aa3e599"
+  }
+}

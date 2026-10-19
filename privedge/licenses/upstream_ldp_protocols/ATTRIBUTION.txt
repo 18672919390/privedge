@@ -1,0 +1,20 @@
+LDP_Protocols source acknowledgement
+
+Upstream: Tianhao Wang / vvv214, https://github.com/vvv214/LDP_Protocols
+License: MIT, Copyright (c) 2018 VVV214. Complete notice is retained in LICENSE.
+
+The header of privedge/research_core/ldp_protocols.py identifies its port from
+LDP_Protocols-master/hio/server/fo/rr.py, ue.py, lh.py and root olh.py.
+The port retains equations and perturbation logic, with Python 3 APIs,
+NumPy Generator injection, aggregation changes and a hash fallback.
+privedge/ldp.py is the project's optimized interface. These source bytes are
+preserved, and the port is not described as wholly independent code.
+
+On 2026-10-15 the public upstream was inspected at commit
+f7252b07733dc0e100e2f077218ab2d35d3519d5 (2023-07-26).
+This is a pinned lookup snapshot, NOT a claim about the historical port revision.
+The team member who supplied the research code must confirm the original source
+archive/revision if available. Absence of that history is stated explicitly.
+
+Archived upstream files are reference material under the same MIT notice;
+they do not replace the project's frozen research_core implementation.

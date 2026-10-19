@@ -1,0 +1,74 @@
+{
+  "$defs": {
+    "Registration": {
+      "additionalProperties": false,
+      "properties": {
+        "dataset": {
+          "enum": [
+            "massive_steps",
+            "olist_brazil",
+            "meituan_trd"
+          ],
+          "title": "Dataset",
+          "type": "string"
+        },
+        "run_id": {
+          "pattern": "^a8_[a-z0-9_]+-\\d{8}T\\d{6}Z-[0-9a-f]{6}$",
+          "title": "Run Id",
+          "type": "string"
+        },
+        "evidence_id": {
+          "pattern": "^E[1-9][0-9]*$",
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "prereg": {
+          "pattern": "^[A-Za-z0-9_-]+\\.md$",
+          "title": "Prereg",
+          "type": "string"
+        },
+        "prereg_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Prereg Sha256",
+          "type": "string"
+        },
+        "manifest_sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Manifest Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "dataset",
+        "run_id",
+        "evidence_id",
+        "prereg",
+        "prereg_sha256",
+        "manifest_sha256"
+      ],
+      "title": "Registration",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "runs": {
+      "items": {
+        "$ref": "#/$defs/Registration"
+      },
+      "title": "Runs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "runs"
+  ],
+  "title": "Registry",
+  "type": "object"
+}

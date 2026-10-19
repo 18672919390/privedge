@@ -18,7 +18,7 @@ from ..adapters.standard import StandardDataset, load
 from ..algorithms import ServerRelease, evaluate, fuse_variance_weighted, top_items
 from ..attacks import combine, mga_fake_reports, tamper_frequencies, weight_hijack_items
 from ..decision import DecisionPolicy
-from ..envelope import ReleaseEnvelope, ReleaseItem, domain_hash, seal
+from ..envelope import ReleaseEnvelope, ReleaseItem, canonical_bytes, domain_hash, seal, sha256_hex, utc_now
 from ..gateway import GatewayPolicy
 from ..keys import Identity, KeyRegistry
 from ..ldp import HASH_FAMILY
@@ -288,10 +288,17 @@ class DemoEngine:
         return envelopes, naive
 
     def ledger_view(self, limit: int = 300) -> dict:
-        ok, bad = self.ledger.verify_chain()
-        return {"entries": self.ledger.entries[-limit:], "total": len(self.ledger.entries),
-                "chain_ok": ok, "first_bad": bad, "head": self.ledger.head,
-                "budget": self.ledger.budget_table()[-200:], "registry": self.registry.describe()}
+        with self.lock:
+            ok, bad = self.ledger.verify_chain()
+            budget = self.ledger.budget_table()
+            latest = next((entry["window_id"] for entry in reversed(self.ledger.entries)
+                           if entry["kind"] == "release"), None)
+            return {"entries": [dict(entry) for entry in self.ledger.entries[-limit:]],
+                    "total": len(self.ledger.entries), "chain_ok": ok, "first_bad": bad,
+                    "head": self.ledger.head, "budget": budget[-200:],
+                    "latest_window": latest,
+                    "latest_budget": [row for row in budget if row["window_id"] == latest],
+                    "registry": self.registry.describe()}
 
     def tamper_drill(self, seq: int) -> dict:
         """Edit a copy of the ledger; show that verification pinpoints it and that prediction then refuses."""
@@ -304,9 +311,27 @@ class DemoEngine:
         ok, bad = copy.verify_chain()
         policy = GatewayPolicy(self.dhash, self.data.domain, frozenset(), "", "2099-01-01")
         decision, _ = ColdStartService(self.registry, copy).predict([], None, policy)
+        entry = copy.entries[seq]
+        record = {
+            "request_id": f"drill-{uuid.uuid4().hex[:12]}",
+            "at": utc_now(),
+            "kind": "ledger_drill",
+            "target_region": f"{entry.get('principal', '—')} · {entry.get('window_id', '—')}",
+            "inputs": [],
+            "ledger_head": self.ledger.head,
+            "ledger_chain_ok": ok,
+            "ledger_first_bad": bad,
+            "ledger_scope": "copy",
+            "admission": {"accepted": [], "rejected": []},
+            "decision": decision.to_json(),
+        }
+        record["record_hash"] = sha256_hex(canonical_bytes(record))
+        self.service.audit_log.append(record)
         return {"edited_seq": seq, "field": "epsilon", "from": original, "to": copy.entries[seq]["epsilon"],
                 "chain_ok": ok, "first_bad": bad, "decision_state": decision.state,
-                "decision_reason": decision.reasons[0]["code"] if decision.reasons else None}
+                "decision_reason": decision.reasons[0]["code"] if decision.reasons else None,
+                "entry_principal": entry.get("principal"), "entry_window": entry.get("window_id"),
+                "entry_kind": entry.get("kind"), "total": len(self.ledger.entries)}
 
 
 _engines: dict[str, DemoEngine] = {}

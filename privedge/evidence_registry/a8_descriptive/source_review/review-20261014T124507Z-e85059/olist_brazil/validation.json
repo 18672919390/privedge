@@ -1,0 +1,178 @@
+{
+  "source_run_id": "compare_v1_olist_brazil-20261014T122937Z-6efd0f",
+  "source_run_dir": "D:\\Project\\privedge-main\\privedge-main\\privedge\\runs\\compare_v1_olist_brazil\\compare_v1_olist_brazil-20261014T122937Z-6efd0f",
+  "dataset": "olist_brazil",
+  "preregistration": {
+    "manifest_config_path": "experiments_prereg/COMPARE_V1.md",
+    "expected_path": "experiments_prereg/COMPARE_V1.md",
+    "current_file_sha256": "ce3b4936a45ba71360b7d19bc2446ed6b4b84b18f4e8c4b0d5be63eed92f95b5",
+    "snapshot_sha256": "8b8ee34baee147e8e12d60c84b6c65fcd4f4890e9ff1dce84f950ff363bf7522",
+    "path_matches": true,
+    "note": "The source run manifest records the preregistration path but not its hash; this is the hash of the current file at review time."
+  },
+  "source_hashes": {
+    "results.csv": {
+      "expected": "4f2c16c5249755cc6ea453950867aaa1c7c8b0ccfdd5d2a2d00f390645d6a52f",
+      "actual": "4f2c16c5249755cc6ea453950867aaa1c7c8b0ccfdd5d2a2d00f390645d6a52f",
+      "match": true
+    },
+    "summary.json": {
+      "expected": "3fb4248651eb3b4b1749847645040b23883cb082dddf8323692cb105b10afba8",
+      "actual": "3fb4248651eb3b4b1749847645040b23883cb082dddf8323692cb105b10afba8",
+      "match": true
+    }
+  },
+  "data_hashes": {
+    "private_events.csv.gz": {
+      "expected": "96053274836cefe4d77944f77e329387d4393462b4bbfc5d8052b4dd63549db0",
+      "actual": "96053274836cefe4d77944f77e329387d4393462b4bbfc5d8052b4dd63549db0",
+      "match": true
+    },
+    "public_context.csv": {
+      "expected": "5010c4d5560d635c38e3eca5a9339f6f0f6bc7ad9f707e9bc33025299540ae32",
+      "actual": "5010c4d5560d635c38e3eca5a9339f6f0f6bc7ad9f707e9bc33025299540ae32",
+      "match": true
+    }
+  },
+  "grid_checks": {
+    "methods": {
+      "expected": [
+        "simple_average",
+        "variance_weighted",
+        "trimmed_frequency",
+        "privedge"
+      ],
+      "actual": [
+        "simple_average",
+        "variance_weighted",
+        "trimmed_frequency",
+        "privedge"
+      ],
+      "match": true
+    },
+    "seeds": {
+      "expected": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "actual": [
+        101,
+        211,
+        307,
+        401,
+        503
+      ],
+      "match": true
+    },
+    "epsilons": {
+      "expected": [
+        1.0,
+        2.0
+      ],
+      "actual": [
+        1.0,
+        2.0
+      ],
+      "match": true
+    },
+    "scenarios": {
+      "expected": [
+        "clean",
+        "mga_1src_b0.02",
+        "mga_1src_b0.05",
+        "mga_1src_b0.10",
+        "mga_2src_b0.05",
+        "compromised_1src",
+        "compromised_2src",
+        "weight_hijack_1src",
+        "weight_hijack_2src"
+      ],
+      "actual": [
+        "clean",
+        "mga_1src_b0.02",
+        "mga_1src_b0.05",
+        "mga_1src_b0.10",
+        "mga_2src_b0.05",
+        "compromised_1src",
+        "compromised_2src",
+        "weight_hijack_1src",
+        "weight_hijack_2src"
+      ],
+      "match": true
+    },
+    "targets": {
+      "expected": [
+        "MG@W2017",
+        "MG@W2018",
+        "RJ@W2017",
+        "RJ@W2018",
+        "SP@W2017",
+        "SP@W2018"
+      ],
+      "actual": [
+        "MG@W2017",
+        "MG@W2018",
+        "RJ@W2017",
+        "RJ@W2018",
+        "SP@W2017",
+        "SP@W2018"
+      ],
+      "missing": [],
+      "unexpected": [],
+      "duplicate_count": 0,
+      "match": true
+    },
+    "smoke_test": {
+      "actual": false,
+      "allowed": false,
+      "match": true
+    },
+    "grid_rows": {
+      "expected": 2160,
+      "actual": 2160,
+      "duplicates": 0,
+      "missing_count": 0,
+      "unexpected_count": 0,
+      "missing_examples": [],
+      "unexpected_examples": [],
+      "match": true
+    },
+    "paired_methods": {
+      "expected_cells": 540,
+      "actual_cells": 540,
+      "broken_count": 0,
+      "examples": [],
+      "match": true
+    },
+    "state_and_refusal_scoring": {
+      "errors": 0,
+      "examples": [],
+      "match": true
+    },
+    "formal_grid": {
+      "match": true
+    },
+    "valid_for_confirmatory_decision": true
+  },
+  "original_summary_recomputed_check": {
+    "match": true,
+    "issue_count": 0,
+    "issues": []
+  },
+  "confirmatory_admissible": true,
+  "answered_only_note": "Answered-only Recall/NDCG condition on non-REFUSED PrivEdge seeds. Descriptive only; not a preregistered confirmatory result.",
+  "plot_dependency": "stdlib SVG; no matplotlib required",
+  "artifact_files": [
+    "independent_summary.json",
+    "method_summary.csv",
+    "target_method_summary.csv",
+    "paired_target_differences.csv",
+    "confirmatory_decisions.json",
+    "fig_epsilon2_comparison.svg",
+    "handoff.md",
+    "preregistration_snapshot.md"
+  ]
+}

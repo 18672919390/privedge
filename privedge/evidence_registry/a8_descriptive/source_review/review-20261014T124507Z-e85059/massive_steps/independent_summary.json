@@ -1,0 +1,1790 @@
+{
+  "cells": [
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.5857,
+      "ndcg": 0.7603,
+      "candidate_recall_upper_bound": 0.8686
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.5857,
+      "ndcg": 0.7603,
+      "candidate_recall_upper_bound": 0.8686
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.019,
+      "recall": 0.5657,
+      "ndcg": 0.749,
+      "candidate_recall_upper_bound": 0.8686
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "clean",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.019,
+      "recall": 0.5857,
+      "ndcg": 0.7619,
+      "candidate_recall_upper_bound": 0.8686,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5857,
+      "answered_ndcg": 0.7619,
+      "answered_recall_ci95": [
+        0.5542,
+        0.6171
+      ],
+      "answered_ndcg_ci95": [
+        0.7216,
+        0.8028
+      ],
+      "d_attack_success_vs_simple_average": 0.0095,
+      "d_attack_success_vs_simple_average_ci95": [
+        0.0,
+        0.0286
+      ],
+      "d_recall_vs_simple_average": 0.0,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0086,
+        0.0086
+      ],
+      "d_ndcg_vs_simple_average": 0.0016,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0041,
+        0.0102
+      ],
+      "d_attack_success_vs_variance_weighted": 0.0095,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        0.0,
+        0.0286
+      ],
+      "d_recall_vs_variance_weighted": 0.0,
+      "d_recall_vs_variance_weighted_ci95": [
+        -0.0086,
+        0.0086
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0016,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0041,
+        0.0101
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.0,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_trimmed_frequency": 0.02,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0057,
+        0.0314
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0129,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0005,
+        0.0246
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.7619,
+      "recall": 0.5457,
+      "ndcg": 0.7371,
+      "candidate_recall_upper_bound": 0.8714
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.7619,
+      "recall": 0.5457,
+      "ndcg": 0.7371,
+      "candidate_recall_upper_bound": 0.8714
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.1333,
+      "recall": 0.5571,
+      "ndcg": 0.7449,
+      "candidate_recall_upper_bound": 0.8714
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_1src",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.2476,
+      "recall": 0.58,
+      "ndcg": 0.7587,
+      "candidate_recall_upper_bound": 0.8714,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.58,
+      "answered_ndcg": 0.7587,
+      "answered_recall_ci95": [
+        0.5429,
+        0.6172
+      ],
+      "answered_ndcg_ci95": [
+        0.7217,
+        0.7958
+      ],
+      "d_attack_success_vs_simple_average": -0.5143,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.6,
+        -0.4476
+      ],
+      "d_recall_vs_simple_average": 0.0343,
+      "d_recall_vs_simple_average_ci95": [
+        0.0143,
+        0.0514
+      ],
+      "d_ndcg_vs_simple_average": 0.0216,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.0095,
+        0.0331
+      ],
+      "d_attack_success_vs_variance_weighted": -0.5143,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.6,
+        -0.4476
+      ],
+      "d_recall_vs_variance_weighted": 0.0343,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.0143,
+        0.0514
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0216,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0095,
+        0.0331
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.1143,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.0762,
+        0.1714
+      ],
+      "d_recall_vs_trimmed_frequency": 0.0229,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0029,
+        0.0429
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0137,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        -0.0014,
+        0.0285
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5229,
+      "ndcg": 0.711,
+      "candidate_recall_upper_bound": 0.8657
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5229,
+      "ndcg": 0.711,
+      "candidate_recall_upper_bound": 0.8657
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5143,
+      "ndcg": 0.7165,
+      "candidate_recall_upper_bound": 0.8657
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "compromised_2src",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5229,
+      "ndcg": 0.7284,
+      "candidate_recall_upper_bound": 0.8657,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5229,
+      "answered_ndcg": 0.7284,
+      "answered_recall_ci95": [
+        0.4885,
+        0.5543
+      ],
+      "answered_ndcg_ci95": [
+        0.6804,
+        0.7768
+      ],
+      "d_attack_success_vs_simple_average": 0.0,
+      "d_attack_success_vs_simple_average_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_simple_average": -0.0,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0086,
+        0.0086
+      ],
+      "d_ndcg_vs_simple_average": 0.0174,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.0083,
+        0.0266
+      ],
+      "d_attack_success_vs_variance_weighted": 0.0,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_variance_weighted": -0.0,
+      "d_recall_vs_variance_weighted_ci95": [
+        -0.0086,
+        0.0086
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0174,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0083,
+        0.0266
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.0,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_trimmed_frequency": 0.0086,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0029,
+        0.0171
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0119,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0014,
+        0.0206
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.1238,
+      "recall": 0.5857,
+      "ndcg": 0.7568,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.1238,
+      "recall": 0.5857,
+      "ndcg": 0.7568,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.0857,
+      "recall": 0.5629,
+      "ndcg": 0.7453,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.02",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.1238,
+      "recall": 0.5829,
+      "ndcg": 0.7581,
+      "candidate_recall_upper_bound": 0.8629,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5829,
+      "answered_ndcg": 0.7581,
+      "answered_recall_ci95": [
+        0.54,
+        0.6229
+      ],
+      "answered_ndcg_ci95": [
+        0.7199,
+        0.7973
+      ],
+      "d_attack_success_vs_simple_average": 0.0,
+      "d_attack_success_vs_simple_average_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_simple_average": -0.0029,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0086,
+        0.0
+      ],
+      "d_ndcg_vs_simple_average": 0.0013,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0052,
+        0.0097
+      ],
+      "d_attack_success_vs_variance_weighted": 0.0,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_variance_weighted": -0.0029,
+      "d_recall_vs_variance_weighted_ci95": [
+        -0.0086,
+        0.0
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0013,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0052,
+        0.0098
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.0381,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.0095,
+        0.0762
+      ],
+      "d_recall_vs_trimmed_frequency": 0.02,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0029,
+        0.0371
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0128,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        -0.0014,
+        0.0276
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.6286,
+      "recall": 0.5543,
+      "ndcg": 0.7352,
+      "candidate_recall_upper_bound": 0.8686
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.6667,
+      "recall": 0.5514,
+      "ndcg": 0.7349,
+      "candidate_recall_upper_bound": 0.8686
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.1429,
+      "recall": 0.5629,
+      "ndcg": 0.7469,
+      "candidate_recall_upper_bound": 0.8686
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.05",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.5914,
+      "ndcg": 0.7643,
+      "candidate_recall_upper_bound": 0.8629,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5914,
+      "answered_ndcg": 0.7643,
+      "answered_recall_ci95": [
+        0.5543,
+        0.6286
+      ],
+      "answered_ndcg_ci95": [
+        0.7259,
+        0.801
+      ],
+      "d_attack_success_vs_simple_average": -0.619,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.6667,
+        -0.581
+      ],
+      "d_recall_vs_simple_average": 0.0371,
+      "d_recall_vs_simple_average_ci95": [
+        0.0171,
+        0.0571
+      ],
+      "d_ndcg_vs_simple_average": 0.0291,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.0136,
+        0.0456
+      ],
+      "d_attack_success_vs_variance_weighted": -0.6571,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.7048,
+        -0.619
+      ],
+      "d_recall_vs_variance_weighted": 0.04,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.0171,
+        0.0629
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0294,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0136,
+        0.0461
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.1333,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -0.181,
+        -0.0762
+      ],
+      "d_recall_vs_trimmed_frequency": 0.0286,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0114,
+        0.0457
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0174,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.004,
+        0.0323
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5257,
+      "ndcg": 0.7207,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5229,
+      "ndcg": 0.719,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.1238,
+      "recall": 0.5657,
+      "ndcg": 0.7468,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_1src_b0.10",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0095,
+      "recall": 0.5914,
+      "ndcg": 0.7643,
+      "candidate_recall_upper_bound": 0.8629,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5914,
+      "answered_ndcg": 0.7643,
+      "answered_recall_ci95": [
+        0.5543,
+        0.6286
+      ],
+      "answered_ndcg_ci95": [
+        0.7259,
+        0.801
+      ],
+      "d_attack_success_vs_simple_average": -0.9905,
+      "d_attack_success_vs_simple_average_ci95": [
+        -1.0,
+        -0.9714
+      ],
+      "d_recall_vs_simple_average": 0.0657,
+      "d_recall_vs_simple_average_ci95": [
+        0.0457,
+        0.0857
+      ],
+      "d_ndcg_vs_simple_average": 0.0436,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.0258,
+        0.0648
+      ],
+      "d_attack_success_vs_variance_weighted": -0.9905,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -1.0,
+        -0.9714
+      ],
+      "d_recall_vs_variance_weighted": 0.0686,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.0457,
+        0.0914
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0453,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0279,
+        0.0656
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.1143,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -0.1619,
+        -0.0667
+      ],
+      "d_recall_vs_trimmed_frequency": 0.0257,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0057,
+        0.0429
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0175,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0036,
+        0.0328
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5286,
+      "ndcg": 0.721,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5286,
+      "ndcg": 0.7205,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.9905,
+      "recall": 0.5143,
+      "ndcg": 0.7199,
+      "candidate_recall_upper_bound": 0.8629
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "mga_2src_b0.05",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.5857,
+      "ndcg": 0.7592,
+      "candidate_recall_upper_bound": 0.8629,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5857,
+      "answered_ndcg": 0.7592,
+      "answered_recall_ci95": [
+        0.5457,
+        0.6229
+      ],
+      "answered_ndcg_ci95": [
+        0.7206,
+        0.7988
+      ],
+      "d_attack_success_vs_simple_average": -1.0,
+      "d_attack_success_vs_simple_average_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_recall_vs_simple_average": 0.0571,
+      "d_recall_vs_simple_average_ci95": [
+        0.0314,
+        0.0829
+      ],
+      "d_ndcg_vs_simple_average": 0.0382,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.0298,
+        0.0465
+      ],
+      "d_attack_success_vs_variance_weighted": -1.0,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -1.0,
+        -1.0
+      ],
+      "d_recall_vs_variance_weighted": 0.0571,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.0314,
+        0.0829
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0387,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0302,
+        0.047
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.9905,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -1.0,
+        -0.9714
+      ],
+      "d_recall_vs_trimmed_frequency": 0.0714,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0486,
+        0.1
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0393,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0234,
+        0.0536
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "weight_hijack_1src",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.7619,
+      "recall": 0.5457,
+      "ndcg": 0.7371,
+      "candidate_recall_upper_bound": 0.8714
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "weight_hijack_1src",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.3914,
+      "ndcg": 0.4857,
+      "candidate_recall_upper_bound": 0.8714
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "weight_hijack_1src",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.1333,
+      "recall": 0.5571,
+      "ndcg": 0.7449,
+      "candidate_recall_upper_bound": 0.8714
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "weight_hijack_1src",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.3238,
+      "recall": 0.5486,
+      "ndcg": 0.7328,
+      "candidate_recall_upper_bound": 0.8714,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5486,
+      "answered_ndcg": 0.7328,
+      "answered_recall_ci95": [
+        0.5143,
+        0.5857
+      ],
+      "answered_ndcg_ci95": [
+        0.6896,
+        0.7848
+      ],
+      "d_attack_success_vs_simple_average": -0.4381,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.4952,
+        -0.381
+      ],
+      "d_recall_vs_simple_average": 0.0029,
+      "d_recall_vs_simple_average_ci95": [
+        -0.02,
+        0.0229
+      ],
+      "d_ndcg_vs_simple_average": -0.0042,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0339,
+        0.0166
+      ],
+      "d_attack_success_vs_variance_weighted": -0.6762,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.7143,
+        -0.619
+      ],
+      "d_recall_vs_variance_weighted": 0.1571,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.1314,
+        0.18
+      ],
+      "d_ndcg_vs_variance_weighted": 0.2471,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.1912,
+        0.3039
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.1905,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.1524,
+        0.2381
+      ],
+      "d_recall_vs_trimmed_frequency": -0.0086,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.0257,
+        0.0114
+      ],
+      "d_ndcg_vs_trimmed_frequency": -0.0121,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        -0.0551,
+        0.0177
+      ]
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "weight_hijack_2src",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5229,
+      "ndcg": 0.711,
+      "candidate_recall_upper_bound": 0.8657
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "weight_hijack_2src",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.4429,
+      "ndcg": 0.4111,
+      "candidate_recall_upper_bound": 0.8657
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "weight_hijack_2src",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5143,
+      "ndcg": 0.7165,
+      "candidate_recall_upper_bound": 0.8657
+    },
+    {
+      "epsilon": 1.0,
+      "scenario": "weight_hijack_2src",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.52,
+      "ndcg": 0.6992,
+      "candidate_recall_upper_bound": 0.8657,
+      "states": {
+        "DEGRADED": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.52,
+      "answered_ndcg": 0.6992,
+      "answered_recall_ci95": [
+        0.4771,
+        0.5543
+      ],
+      "answered_ndcg_ci95": [
+        0.6581,
+        0.746
+      ],
+      "d_attack_success_vs_simple_average": 0.0,
+      "d_attack_success_vs_simple_average_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_simple_average": -0.0029,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0143,
+        0.0086
+      ],
+      "d_ndcg_vs_simple_average": -0.0117,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0321,
+        0.0077
+      ],
+      "d_attack_success_vs_variance_weighted": 0.0,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_variance_weighted": 0.0771,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.0514,
+        0.1
+      ],
+      "d_ndcg_vs_variance_weighted": 0.2881,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.257,
+        0.323
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.0,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_trimmed_frequency": 0.0057,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.0057,
+        0.0143
+      ],
+      "d_ndcg_vs_trimmed_frequency": -0.0173,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        -0.0499,
+        0.011
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "clean",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.66,
+      "ndcg": 0.7787,
+      "candidate_recall_upper_bound": 0.9143
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "clean",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6571,
+      "ndcg": 0.7763,
+      "candidate_recall_upper_bound": 0.9143
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "clean",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6629,
+      "ndcg": 0.7599,
+      "candidate_recall_upper_bound": 0.9143
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "clean",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6571,
+      "ndcg": 0.7799,
+      "candidate_recall_upper_bound": 0.9143,
+      "states": {
+        "NORMAL": 34,
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6571,
+      "answered_ndcg": 0.7799,
+      "answered_recall_ci95": [
+        0.6171,
+        0.6943
+      ],
+      "answered_ndcg_ci95": [
+        0.738,
+        0.8198
+      ],
+      "d_attack_success_vs_simple_average": 0.0,
+      "d_attack_success_vs_simple_average_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_simple_average": -0.0029,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0229,
+        0.0171
+      ],
+      "d_ndcg_vs_simple_average": 0.0012,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0174,
+        0.024
+      ],
+      "d_attack_success_vs_variance_weighted": 0.0,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_variance_weighted": 0.0,
+      "d_recall_vs_variance_weighted_ci95": [
+        -0.02,
+        0.02
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0036,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0157,
+        0.025
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.0,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.0,
+        0.0
+      ],
+      "d_recall_vs_trimmed_frequency": -0.0057,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.02,
+        0.0057
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.02,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0036,
+        0.0489
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_1src",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.781,
+      "recall": 0.5914,
+      "ndcg": 0.7463,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_1src",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.781,
+      "recall": 0.5914,
+      "ndcg": 0.7462,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_1src",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.0286,
+      "recall": 0.6657,
+      "ndcg": 0.7586,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_1src",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0571,
+      "recall": 0.6571,
+      "ndcg": 0.7778,
+      "candidate_recall_upper_bound": 0.92,
+      "states": {
+        "NORMAL": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6571,
+      "answered_ndcg": 0.7778,
+      "answered_recall_ci95": [
+        0.6114,
+        0.6972
+      ],
+      "answered_ndcg_ci95": [
+        0.7354,
+        0.8178
+      ],
+      "d_attack_success_vs_simple_average": -0.7238,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.8286,
+        -0.6286
+      ],
+      "d_recall_vs_simple_average": 0.0657,
+      "d_recall_vs_simple_average_ci95": [
+        0.0171,
+        0.1143
+      ],
+      "d_ndcg_vs_simple_average": 0.0315,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.0108,
+        0.0536
+      ],
+      "d_attack_success_vs_variance_weighted": -0.7238,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.8286,
+        -0.6286
+      ],
+      "d_recall_vs_variance_weighted": 0.0657,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.0171,
+        0.1143
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0315,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0108,
+        0.0537
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.0286,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.0,
+        0.0667
+      ],
+      "d_recall_vs_trimmed_frequency": -0.0086,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.0314,
+        0.0114
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0192,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0027,
+        0.0484
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_2src",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5486,
+      "ndcg": 0.7189,
+      "candidate_recall_upper_bound": 0.9114
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_2src",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5486,
+      "ndcg": 0.7185,
+      "candidate_recall_upper_bound": 0.9114
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_2src",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5686,
+      "ndcg": 0.7146,
+      "candidate_recall_upper_bound": 0.9114
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "compromised_2src",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.419,
+      "recall": 0.6286,
+      "ndcg": 0.7671,
+      "candidate_recall_upper_bound": 0.9114,
+      "states": {
+        "NORMAL": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6286,
+      "answered_ndcg": 0.7671,
+      "answered_recall_ci95": [
+        0.5914,
+        0.6571
+      ],
+      "answered_ndcg_ci95": [
+        0.7249,
+        0.8092
+      ],
+      "d_attack_success_vs_simple_average": -0.581,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.6286,
+        -0.5333
+      ],
+      "d_recall_vs_simple_average": 0.08,
+      "d_recall_vs_simple_average_ci95": [
+        0.04,
+        0.1171
+      ],
+      "d_ndcg_vs_simple_average": 0.0481,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.0339,
+        0.0652
+      ],
+      "d_attack_success_vs_variance_weighted": -0.581,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.6286,
+        -0.5333
+      ],
+      "d_recall_vs_variance_weighted": 0.08,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.04,
+        0.1171
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0486,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0344,
+        0.0653
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.581,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -0.6286,
+        -0.5333
+      ],
+      "d_recall_vs_trimmed_frequency": 0.06,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0486,
+        0.0714
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0524,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0327,
+        0.0811
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.02",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.0381,
+      "recall": 0.6543,
+      "ndcg": 0.7697,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.02",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.0381,
+      "recall": 0.6543,
+      "ndcg": 0.7697,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.02",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.019,
+      "recall": 0.6629,
+      "ndcg": 0.7585,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.02",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6571,
+      "ndcg": 0.7782,
+      "candidate_recall_upper_bound": 0.9143,
+      "states": {
+        "NORMAL": 34,
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6571,
+      "answered_ndcg": 0.7782,
+      "answered_recall_ci95": [
+        0.6171,
+        0.6943
+      ],
+      "answered_ndcg_ci95": [
+        0.7347,
+        0.8188
+      ],
+      "d_attack_success_vs_simple_average": -0.0381,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.0571,
+        -0.0095
+      ],
+      "d_recall_vs_simple_average": 0.0029,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0171,
+        0.0229
+      ],
+      "d_ndcg_vs_simple_average": 0.0086,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0167,
+        0.0358
+      ],
+      "d_attack_success_vs_variance_weighted": -0.0381,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.0571,
+        -0.0095
+      ],
+      "d_recall_vs_variance_weighted": 0.0029,
+      "d_recall_vs_variance_weighted_ci95": [
+        -0.0171,
+        0.0229
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0086,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0167,
+        0.0358
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.019,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -0.0571,
+        0.0
+      ],
+      "d_recall_vs_trimmed_frequency": -0.0057,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.0257,
+        0.0143
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0197,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        -0.0001,
+        0.0548
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.05",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.3619,
+      "recall": 0.6343,
+      "ndcg": 0.7595,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.05",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.3714,
+      "recall": 0.6343,
+      "ndcg": 0.7588,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.05",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.0286,
+      "recall": 0.6629,
+      "ndcg": 0.7625,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.05",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6571,
+      "ndcg": 0.7782,
+      "candidate_recall_upper_bound": 0.9143,
+      "states": {
+        "NORMAL": 34,
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6571,
+      "answered_ndcg": 0.7782,
+      "answered_recall_ci95": [
+        0.6171,
+        0.6943
+      ],
+      "answered_ndcg_ci95": [
+        0.7347,
+        0.8188
+      ],
+      "d_attack_success_vs_simple_average": -0.3619,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.4286,
+        -0.3048
+      ],
+      "d_recall_vs_simple_average": 0.0229,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0057,
+        0.0514
+      ],
+      "d_ndcg_vs_simple_average": 0.0188,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0047,
+        0.0456
+      ],
+      "d_attack_success_vs_variance_weighted": -0.3714,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.4476,
+        -0.3048
+      ],
+      "d_recall_vs_variance_weighted": 0.0229,
+      "d_recall_vs_variance_weighted_ci95": [
+        -0.0057,
+        0.0514
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0194,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        -0.0036,
+        0.046
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.0286,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -0.0667,
+        0.0
+      ],
+      "d_recall_vs_trimmed_frequency": -0.0057,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.0286,
+        0.0171
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0158,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        -0.0,
+        0.0422
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.10",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.9048,
+      "recall": 0.5657,
+      "ndcg": 0.7276,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.10",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.9143,
+      "recall": 0.5629,
+      "ndcg": 0.7259,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.10",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.0286,
+      "recall": 0.6657,
+      "ndcg": 0.7605,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.10",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6629,
+      "ndcg": 0.7803,
+      "candidate_recall_upper_bound": 0.9171,
+      "states": {
+        "NORMAL": 34,
+        "DEGRADED": 1
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6629,
+      "answered_ndcg": 0.7803,
+      "answered_recall_ci95": [
+        0.6171,
+        0.7
+      ],
+      "answered_ndcg_ci95": [
+        0.7371,
+        0.8198
+      ],
+      "d_attack_success_vs_simple_average": -0.9048,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.9714,
+        -0.8476
+      ],
+      "d_recall_vs_simple_average": 0.0971,
+      "d_recall_vs_simple_average_ci95": [
+        0.06,
+        0.1257
+      ],
+      "d_ndcg_vs_simple_average": 0.0527,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.032,
+        0.0804
+      ],
+      "d_attack_success_vs_variance_weighted": -0.9143,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.9714,
+        -0.8667
+      ],
+      "d_recall_vs_variance_weighted": 0.1,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.0629,
+        0.1314
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0544,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.034,
+        0.0813
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.0286,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -0.0667,
+        0.0
+      ],
+      "d_recall_vs_trimmed_frequency": -0.0029,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.0143,
+        0.0086
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0198,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0015,
+        0.0481
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_2src_b0.05",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.9333,
+      "recall": 0.5571,
+      "ndcg": 0.7275,
+      "candidate_recall_upper_bound": 0.9143
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_2src_b0.05",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 0.9333,
+      "recall": 0.5571,
+      "ndcg": 0.7233,
+      "candidate_recall_upper_bound": 0.9143
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_2src_b0.05",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.781,
+      "recall": 0.5886,
+      "ndcg": 0.7379,
+      "candidate_recall_upper_bound": 0.9143
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "mga_2src_b0.05",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.0,
+      "recall": 0.6571,
+      "ndcg": 0.7798,
+      "candidate_recall_upper_bound": 0.9143,
+      "states": {
+        "NORMAL": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6571,
+      "answered_ndcg": 0.7798,
+      "answered_recall_ci95": [
+        0.6171,
+        0.6943
+      ],
+      "answered_ndcg_ci95": [
+        0.738,
+        0.8198
+      ],
+      "d_attack_success_vs_simple_average": -0.9333,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.981,
+        -0.8952
+      ],
+      "d_recall_vs_simple_average": 0.1,
+      "d_recall_vs_simple_average_ci95": [
+        0.0629,
+        0.1371
+      ],
+      "d_ndcg_vs_simple_average": 0.0524,
+      "d_ndcg_vs_simple_average_ci95": [
+        0.0341,
+        0.0753
+      ],
+      "d_attack_success_vs_variance_weighted": -0.9333,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.981,
+        -0.8952
+      ],
+      "d_recall_vs_variance_weighted": 0.1,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.0629,
+        0.1371
+      ],
+      "d_ndcg_vs_variance_weighted": 0.0566,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.0342,
+        0.0877
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.781,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -0.8286,
+        -0.7333
+      ],
+      "d_recall_vs_trimmed_frequency": 0.0686,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        0.0514,
+        0.0857
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0419,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        0.0274,
+        0.0632
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_1src",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 0.781,
+      "recall": 0.5914,
+      "ndcg": 0.7463,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_1src",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.4886,
+      "ndcg": 0.5195,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_1src",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 0.0286,
+      "recall": 0.6657,
+      "ndcg": 0.7586,
+      "candidate_recall_upper_bound": 0.92
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_1src",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.219,
+      "recall": 0.6286,
+      "ndcg": 0.7548,
+      "candidate_recall_upper_bound": 0.92,
+      "states": {
+        "NORMAL": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.6286,
+      "answered_ndcg": 0.7548,
+      "answered_recall_ci95": [
+        0.5886,
+        0.6657
+      ],
+      "answered_ndcg_ci95": [
+        0.7144,
+        0.7943
+      ],
+      "d_attack_success_vs_simple_average": -0.5619,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.6286,
+        -0.5048
+      ],
+      "d_recall_vs_simple_average": 0.0371,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0029,
+        0.0744
+      ],
+      "d_ndcg_vs_simple_average": 0.0085,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0093,
+        0.0287
+      ],
+      "d_attack_success_vs_variance_weighted": -0.781,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.8381,
+        -0.7143
+      ],
+      "d_recall_vs_variance_weighted": 0.14,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.1171,
+        0.1686
+      ],
+      "d_ndcg_vs_variance_weighted": 0.2352,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.1834,
+        0.2978
+      ],
+      "d_attack_success_vs_trimmed_frequency": 0.1905,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        0.1143,
+        0.2762
+      ],
+      "d_recall_vs_trimmed_frequency": -0.0371,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.0629,
+        -0.0171
+      ],
+      "d_ndcg_vs_trimmed_frequency": -0.0038,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        -0.0131,
+        0.0065
+      ]
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_2src",
+      "method": "simple_average",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5486,
+      "ndcg": 0.7189,
+      "candidate_recall_upper_bound": 0.9114
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_2src",
+      "method": "variance_weighted",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5171,
+      "ndcg": 0.4581,
+      "candidate_recall_upper_bound": 0.9114
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_2src",
+      "method": "trimmed_frequency",
+      "targets": 7,
+      "attack_success": 1.0,
+      "recall": 0.5686,
+      "ndcg": 0.7146,
+      "candidate_recall_upper_bound": 0.9114
+    },
+    {
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_2src",
+      "method": "privedge",
+      "targets": 7,
+      "attack_success": 0.8476,
+      "recall": 0.5829,
+      "ndcg": 0.7377,
+      "candidate_recall_upper_bound": 0.9114,
+      "states": {
+        "NORMAL": 35
+      },
+      "refusal_rate": 0.0,
+      "answered_recall": 0.5829,
+      "answered_ndcg": 0.7377,
+      "answered_recall_ci95": [
+        0.5543,
+        0.6057
+      ],
+      "answered_ndcg_ci95": [
+        0.6916,
+        0.7866
+      ],
+      "d_attack_success_vs_simple_average": -0.1524,
+      "d_attack_success_vs_simple_average_ci95": [
+        -0.2095,
+        -0.0952
+      ],
+      "d_recall_vs_simple_average": 0.0343,
+      "d_recall_vs_simple_average_ci95": [
+        -0.0114,
+        0.0771
+      ],
+      "d_ndcg_vs_simple_average": 0.0188,
+      "d_ndcg_vs_simple_average_ci95": [
+        -0.0011,
+        0.0387
+      ],
+      "d_attack_success_vs_variance_weighted": -0.1524,
+      "d_attack_success_vs_variance_weighted_ci95": [
+        -0.2095,
+        -0.0952
+      ],
+      "d_recall_vs_variance_weighted": 0.0657,
+      "d_recall_vs_variance_weighted_ci95": [
+        0.04,
+        0.0971
+      ],
+      "d_ndcg_vs_variance_weighted": 0.2796,
+      "d_ndcg_vs_variance_weighted_ci95": [
+        0.2398,
+        0.3207
+      ],
+      "d_attack_success_vs_trimmed_frequency": -0.1524,
+      "d_attack_success_vs_trimmed_frequency_ci95": [
+        -0.2095,
+        -0.0952
+      ],
+      "d_recall_vs_trimmed_frequency": 0.0143,
+      "d_recall_vs_trimmed_frequency_ci95": [
+        -0.0,
+        0.0314
+      ],
+      "d_ndcg_vs_trimmed_frequency": 0.0231,
+      "d_ndcg_vs_trimmed_frequency_ci95": [
+        -0.007,
+        0.0588
+      ]
+    }
+  ]
+}

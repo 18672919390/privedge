@@ -1,0 +1,48 @@
+.experiments-page { gap: 20px; }
+.experiments-page p { margin-block: 8px; }
+.experiments-page .small, .experiments-page .score-interval { font-size: 13px; }
+.experiments-page .card-head h1 { font-size: 20px; margin: 0; }
+.experiments-page .card-head h2 { font-size: 17px; }
+.experiments-page h3 { font-size: 15px; margin-top: 0; }
+.experiments-page .a8-comparison > .card-head { display: block; }
+.experiments-page .experiment-filters { display: grid; grid-template-columns: 1fr 1fr 2fr; gap: 16px; margin-top: 18px; }
+.experiments-page label { display: flex; flex-direction: column; gap: 6px; color: var(--muted); font-size: 13px; min-width: 0; }
+.experiments-page select { min-width: 0; max-width: 100%; font-size: 14px; }
+.experiments-page .a8-table { min-width: 820px !important; }
+.experiments-page .a8-table td { padding-block: 16px; }
+.experiments-page .a8-table th:first-child { width: 25%; }
+.experiments-page .score-mean { font-size: 17px; font-variant-numeric: tabular-nums; }
+.experiments-page .score-interval { display: block; margin-top: 4px; color: var(--muted); }
+.experiments-page .strict-a8 { border-left: 3px solid var(--line); }
+.experiments-page .strict-a8 p { margin-block: 5px; }
+.experiment-section-head { display: flex; justify-content: space-between; gap: 16px; align-items: center; margin-top: 12px; flex-wrap: wrap; }
+.experiment-section-head h2 { font-size: 19px; margin: 0; }
+.experiment-section-head p { font-size: 13px; }
+.experiment-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 20px; align-items: stretch; }
+.experiment-pair > .card { display: flex; flex-direction: column; }
+.experiment-pair > .card > .card-head { min-height: 52px; align-items: flex-start; }
+.experiment-pair > .card > p:last-child { margin-top: auto; padding-top: 12px; overflow-wrap: anywhere; }
+.experiment-overhead { display: grid; grid-template-columns: minmax(0, 2fr) minmax(220px, 1fr); gap: 28px; align-items: center; }
+.experiments-page .formal-tables { align-items: start; }
+.experiments-page .formal-tables .table { min-width: 450px; }
+.experiments-page .formal-tables th { white-space: nowrap; }
+.experiments-page code { overflow-wrap: anywhere; }
+.experiments-page details { margin-top: 12px; }
+.experiment-provenance dl { margin-bottom: 0; }
+.experiment-provenance dt { color: var(--muted); font-size: 13px; margin-top: 8px; }
+.experiment-provenance dd { margin: 2px 0 10px; overflow-wrap: anywhere; }
+.experiments-page .doc { max-height: 480px; overflow-wrap: anywhere; }
+@media (max-width: 1099px) {
+  .experiment-pair, .experiment-overhead { grid-template-columns: minmax(0,1fr); }
+  .experiment-pair > .card > .card-head { min-height: 0; }
+}
+@media (max-width: 600px) {
+  .experiments-page .experiment-filters { grid-template-columns: minmax(0,1fr); gap: 12px; }
+  .experiments-page .card { padding: 16px 12px; }
+  .experiments-page .card-head h1 { font-size: 18px; }
+  .experiment-section-head { align-items: stretch; flex-direction: column; }
+  .experiments-page .card-head > select { width: 100%; }
+}
+
+.experiments-page .experiment-chart { min-width: 0; overflow-x: auto; }
+@media (max-width: 600px) { .experiments-page .experiment-chart > .chart-block { min-width: 560px; } }

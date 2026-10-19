@@ -1,0 +1,69 @@
+{
+  "source": "experiments_prereg/COMPARE_V1.md",
+  "bootstrap": {
+    "unit": "target_server",
+    "rounds": 2000,
+    "seed": 0,
+    "interval": "percentile 95%"
+  },
+  "admissible": true,
+  "note": "Answered-only utility is descriptive and is not used for confirmatory decisions.",
+  "decisions": [
+    {
+      "name": "clean_utility_noninferiority",
+      "epsilon": 2.0,
+      "scenario": "clean",
+      "metric": "ndcg",
+      "contrast": "privedge - trimmed_frequency",
+      "mean_difference": -0.0005309182565860215,
+      "ci95": [
+        -0.0020737155239937384,
+        0.0008199286225501314
+      ],
+      "criterion": "lower_at_least -0.02",
+      "status": "supported"
+    },
+    {
+      "name": "mga_1src_b0.10_attack_reduction",
+      "epsilon": 2.0,
+      "scenario": "mga_1src_b0.10",
+      "metric": "attack_success",
+      "contrast": "privedge - variance_weighted",
+      "mean_difference": -0.36363636363636365,
+      "ci95": [
+        -0.42424242424242425,
+        -0.309090909090909
+      ],
+      "criterion": "upper_below 0.0",
+      "status": "supported"
+    },
+    {
+      "name": "weight_hijack_1src_attack_reduction",
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_1src",
+      "metric": "attack_success",
+      "contrast": "privedge - variance_weighted",
+      "mean_difference": -1.0,
+      "ci95": [
+        -1.0,
+        -1.0
+      ],
+      "criterion": "upper_below 0.0",
+      "status": "supported"
+    },
+    {
+      "name": "weight_hijack_2src_attack_reduction",
+      "epsilon": 2.0,
+      "scenario": "weight_hijack_2src",
+      "metric": "attack_success",
+      "contrast": "privedge - variance_weighted",
+      "mean_difference": -0.9393939393939394,
+      "ci95": [
+        -0.9696969696969698,
+        -0.9030303030303032
+      ],
+      "criterion": "upper_below 0.0",
+      "status": "supported"
+    }
+  ]
+}

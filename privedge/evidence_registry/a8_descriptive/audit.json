@@ -1,0 +1,266 @@
+{
+  "scope": "Read-only intake and independent re-aggregation of delivered raw results; no perturbation, predictions or experiment grid rerun.",
+  "source_archive_sha256": "fadd8cfdf36c31d09ab6139449c58fb342ca4ce53155a486a04feb683d0a7389",
+  "source_files": 41,
+  "runs": {
+    "massive_steps": {
+      "run_id": "compare_v1_massive_steps-20261014T122937Z-50c077",
+      "rows": 2520,
+      "output_hashes": {
+        "results.csv": {
+          "expected": "43237ae75fa34a2d2fec5fa5c0502a90396e8e9ef1bfc70da0283e52086c2bee",
+          "actual": "43237ae75fa34a2d2fec5fa5c0502a90396e8e9ef1bfc70da0283e52086c2bee",
+          "match": true
+        },
+        "summary.json": {
+          "expected": "2c9a725fa162b2bdc6e6ee6f0aa2060532bd8e66cd88bf543e55adfd99ad113c",
+          "actual": "2c9a725fa162b2bdc6e6ee6f0aa2060532bd8e66cd88bf543e55adfd99ad113c",
+          "match": true
+        }
+      },
+      "data_hashes": {
+        "private_events.csv.gz": true,
+        "public_context.csv": true
+      },
+      "config_conditions_match": true,
+      "finite_metrics_in_range": true,
+      "paired_attack_inputs_match": true,
+      "manifest_sha256": "75aa9219d3288fc293defd92c94a5d42ccaf105a73ba34abfe99b543d5806ba1",
+      "raw_csv_sha256": "43237ae75fa34a2d2fec5fa5c0502a90396e8e9ef1bfc70da0283e52086c2bee",
+      "recomputed": {
+        "grid_valid": true,
+        "original_summary_match": true,
+        "new_confirmatory_admissible": false,
+        "comparisons": {
+          "method_summary.csv": {
+            "rows": 72,
+            "numeric_fields": 1656,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "target_method_summary.csv": {
+            "rows": 504,
+            "numeric_fields": 3528,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "paired_target_differences.csv": {
+            "rows": 1134,
+            "numeric_fields": 4536,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "independent_summary.json": {
+            "numeric_fields": 1066,
+            "mismatches": []
+          }
+        },
+        "svg_exact": true
+      }
+    },
+    "meituan_trd": {
+      "run_id": "compare_v1_meituan_trd-20261014T122937Z-6621cf",
+      "rows": 3960,
+      "output_hashes": {
+        "results.csv": {
+          "expected": "ef10e7ae811edd415d8982e266be362c8560cf49cea9940639db2c5d472def38",
+          "actual": "ef10e7ae811edd415d8982e266be362c8560cf49cea9940639db2c5d472def38",
+          "match": true
+        },
+        "summary.json": {
+          "expected": "40d39227f9b345148330c16c420af4353e1e2ef05508ed17715134d1ef4b1213",
+          "actual": "40d39227f9b345148330c16c420af4353e1e2ef05508ed17715134d1ef4b1213",
+          "match": true
+        }
+      },
+      "data_hashes": {
+        "private_events.csv.gz": true
+      },
+      "config_conditions_match": true,
+      "finite_metrics_in_range": true,
+      "paired_attack_inputs_match": true,
+      "manifest_sha256": "248ec431ebf65b3bc06c0e92f28916778f0647e4177fac187d38470a29d03a2b",
+      "raw_csv_sha256": "ef10e7ae811edd415d8982e266be362c8560cf49cea9940639db2c5d472def38",
+      "recomputed": {
+        "grid_valid": true,
+        "original_summary_match": true,
+        "new_confirmatory_admissible": false,
+        "comparisons": {
+          "method_summary.csv": {
+            "rows": 72,
+            "numeric_fields": 1656,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "target_method_summary.csv": {
+            "rows": 792,
+            "numeric_fields": 5544,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "paired_target_differences.csv": {
+            "rows": 1782,
+            "numeric_fields": 7128,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "independent_summary.json": {
+            "numeric_fields": 1071,
+            "mismatches": []
+          }
+        },
+        "svg_exact": true
+      }
+    },
+    "olist_brazil": {
+      "run_id": "compare_v1_olist_brazil-20261014T122937Z-6efd0f",
+      "rows": 2160,
+      "output_hashes": {
+        "results.csv": {
+          "expected": "4f2c16c5249755cc6ea453950867aaa1c7c8b0ccfdd5d2a2d00f390645d6a52f",
+          "actual": "4f2c16c5249755cc6ea453950867aaa1c7c8b0ccfdd5d2a2d00f390645d6a52f",
+          "match": true
+        },
+        "summary.json": {
+          "expected": "3fb4248651eb3b4b1749847645040b23883cb082dddf8323692cb105b10afba8",
+          "actual": "3fb4248651eb3b4b1749847645040b23883cb082dddf8323692cb105b10afba8",
+          "match": true
+        }
+      },
+      "data_hashes": {
+        "private_events.csv.gz": true,
+        "public_context.csv": true
+      },
+      "config_conditions_match": true,
+      "finite_metrics_in_range": true,
+      "paired_attack_inputs_match": true,
+      "manifest_sha256": "785ab5727f81d2d55259e84b9fe00366e8d8fabdd68130ce572381dd7144565d",
+      "raw_csv_sha256": "4f2c16c5249755cc6ea453950867aaa1c7c8b0ccfdd5d2a2d00f390645d6a52f",
+      "recomputed": {
+        "grid_valid": true,
+        "original_summary_match": true,
+        "new_confirmatory_admissible": false,
+        "comparisons": {
+          "method_summary.csv": {
+            "rows": 72,
+            "numeric_fields": 1656,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "target_method_summary.csv": {
+            "rows": 432,
+            "numeric_fields": 3024,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "paired_target_differences.csv": {
+            "rows": 972,
+            "numeric_fields": 3888,
+            "mismatches": [],
+            "bytes_identical": true
+          },
+          "independent_summary.json": {
+            "numeric_fields": 1062,
+            "mismatches": []
+          }
+        },
+        "svg_exact": true
+      }
+    }
+  },
+  "issues": [],
+  "code_checks": {
+    "massive_steps": {
+      "listed_files": 42,
+      "current_matches": 39,
+      "repository_HEAD_matches": 41,
+      "current_differences": {
+        "privedge/experiments/compare_v1.py": {
+          "origin": "original algorithm delivery",
+          "expected_sha256": "010947788b404495ef50165a3e91aed24c4dc56a5eff2b4d18cd936867c9f614",
+          "current_sha256": "26521dc677c2e8dc656668db62a109468ee4b0dd1c33cf8e175ab5c6128d12a3"
+        },
+        "privedge/server/app.py": {
+          "origin": "repository HEAD",
+          "expected_sha256": "3b90b106cc028603deaa3d3ef5677c76dddb9f3b71d0ffe5ec4f32a528fdb40d",
+          "current_sha256": "bd2170ffa7437775d00da3de3db13081fb2c536c0d44d18cf495691d2e7af615"
+        },
+        "privedge/server/engine.py": {
+          "origin": "repository HEAD",
+          "expected_sha256": "da4b5ee83739f4d790dbcf7bf8d647544bc760f5fb6b3c9ac4be237ad30bb5c6",
+          "current_sha256": "94890e00f29960733a5602bebaadcc5a250c587c67509b87a62b9e25ea7e74a9"
+        }
+      },
+      "unavailable_historical_files": [],
+      "combined_matches": true
+    },
+    "meituan_trd": {
+      "listed_files": 42,
+      "current_matches": 39,
+      "repository_HEAD_matches": 41,
+      "current_differences": {
+        "privedge/experiments/compare_v1.py": {
+          "origin": "original algorithm delivery",
+          "expected_sha256": "010947788b404495ef50165a3e91aed24c4dc56a5eff2b4d18cd936867c9f614",
+          "current_sha256": "26521dc677c2e8dc656668db62a109468ee4b0dd1c33cf8e175ab5c6128d12a3"
+        },
+        "privedge/server/app.py": {
+          "origin": "repository HEAD",
+          "expected_sha256": "3b90b106cc028603deaa3d3ef5677c76dddb9f3b71d0ffe5ec4f32a528fdb40d",
+          "current_sha256": "bd2170ffa7437775d00da3de3db13081fb2c536c0d44d18cf495691d2e7af615"
+        },
+        "privedge/server/engine.py": {
+          "origin": "repository HEAD",
+          "expected_sha256": "da4b5ee83739f4d790dbcf7bf8d647544bc760f5fb6b3c9ac4be237ad30bb5c6",
+          "current_sha256": "94890e00f29960733a5602bebaadcc5a250c587c67509b87a62b9e25ea7e74a9"
+        }
+      },
+      "unavailable_historical_files": [],
+      "combined_matches": true
+    },
+    "olist_brazil": {
+      "listed_files": 42,
+      "current_matches": 39,
+      "repository_HEAD_matches": 41,
+      "current_differences": {
+        "privedge/experiments/compare_v1.py": {
+          "origin": "original algorithm delivery",
+          "expected_sha256": "010947788b404495ef50165a3e91aed24c4dc56a5eff2b4d18cd936867c9f614",
+          "current_sha256": "26521dc677c2e8dc656668db62a109468ee4b0dd1c33cf8e175ab5c6128d12a3"
+        },
+        "privedge/server/app.py": {
+          "origin": "repository HEAD",
+          "expected_sha256": "3b90b106cc028603deaa3d3ef5677c76dddb9f3b71d0ffe5ec4f32a528fdb40d",
+          "current_sha256": "bd2170ffa7437775d00da3de3db13081fb2c536c0d44d18cf495691d2e7af615"
+        },
+        "privedge/server/engine.py": {
+          "origin": "repository HEAD",
+          "expected_sha256": "da4b5ee83739f4d790dbcf7bf8d647544bc760f5fb6b3c9ac4be237ad30bb5c6",
+          "current_sha256": "94890e00f29960733a5602bebaadcc5a250c587c67509b87a62b9e25ea7e74a9"
+        }
+      },
+      "unavailable_historical_files": [],
+      "combined_matches": true
+    }
+  },
+  "received_review": {
+    "artifact_files": 27,
+    "all_artifact_hashes_match": true,
+    "previous_12_derived_files_identical": true,
+    "historical_confirmatory_flag": true,
+    "flag_not_accepted_as_confirmatory": true
+  },
+  "numeric_fields_checked": 35815,
+  "all_reaggregations_match": true,
+  "remaining_limits": [
+    "Historical preregistration content/time not bound; seeds reused; descriptive comparison only.",
+    "No historical console logs existed according to delivery; manifests and raw outputs are present.",
+    "Supplement states all 42 files match its current repository, but integration workspace has 3 known later changes; all originals available.",
+    "OLH implementation source attribution and upstream repository/commit/license remain to be resolved before final distribution claims.",
+    "Report proof conditions and scientific limitations must remain consistent; not a new algorithm experiment or final project acceptance."
+  ],
+  "protected_files": {
+    "count": 257,
+    "changed": []
+  }
+}

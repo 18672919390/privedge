@@ -1,0 +1,1135 @@
+epsilon,scenario,target_server,metric,baseline,privedge,baseline_value,difference
+1.0,clean,Istanbul@2013,attack_success,simple_average,0.0,0.0,0.0
+1.0,clean,Istanbul@2018,attack_success,simple_average,0.06666666666666667,0.06666666666666667,0.0
+1.0,clean,Jakarta@2013,attack_success,simple_average,0.0,0.0,0.0
+1.0,clean,Kuwait City@2018,attack_success,simple_average,0.0,0.0,0.0
+1.0,clean,New York@2013,attack_success,simple_average,0.0,0.0,0.0
+1.0,clean,Petaling Jaya@2013,attack_success,simple_average,0.06666666666666667,0.0,0.06666666666666667
+1.0,clean,Petaling Jaya@2018,attack_success,simple_average,0.0,0.0,0.0
+1.0,clean,Istanbul@2013,recall,simple_average,0.6399999999999999,0.6399999999999999,0.0
+1.0,clean,Istanbul@2018,recall,simple_average,0.64,0.6599999999999999,-0.019999999999999907
+1.0,clean,Jakarta@2013,recall,simple_average,0.54,0.54,0.0
+1.0,clean,Kuwait City@2018,recall,simple_average,0.58,0.58,0.0
+1.0,clean,New York@2013,recall,simple_average,0.52,0.52,0.0
+1.0,clean,Petaling Jaya@2013,recall,simple_average,0.6000000000000001,0.5800000000000001,0.020000000000000018
+1.0,clean,Petaling Jaya@2018,recall,simple_average,0.5800000000000001,0.5800000000000001,0.0
+1.0,clean,Istanbul@2013,ndcg,simple_average,0.7008199146366856,0.7014827556323197,-0.0006628409956340731
+1.0,clean,Istanbul@2018,ndcg,simple_average,0.7272109505305362,0.7366391691227528,-0.009428218592216653
+1.0,clean,Jakarta@2013,ndcg,simple_average,0.8069835756688603,0.8061817571440123,0.0008018185248479526
+1.0,clean,Kuwait City@2018,ndcg,simple_average,0.687496953171757,0.6904333232709836,-0.0029363700992266484
+1.0,clean,New York@2013,ndcg,simple_average,0.7550223683680551,0.7542598187451734,0.0007625496228816919
+1.0,clean,Petaling Jaya@2013,ndcg,simple_average,0.843362914213315,0.8450619936331029,-0.0016990794197878634
+1.0,clean,Petaling Jaya@2018,ndcg,simple_average,0.8127346097872925,0.7882933892672449,0.024441220520047602
+1.0,clean,Istanbul@2013,attack_success,variance_weighted,0.0,0.0,0.0
+1.0,clean,Istanbul@2018,attack_success,variance_weighted,0.06666666666666667,0.06666666666666667,0.0
+1.0,clean,Jakarta@2013,attack_success,variance_weighted,0.0,0.0,0.0
+1.0,clean,Kuwait City@2018,attack_success,variance_weighted,0.0,0.0,0.0
+1.0,clean,New York@2013,attack_success,variance_weighted,0.0,0.0,0.0
+1.0,clean,Petaling Jaya@2013,attack_success,variance_weighted,0.06666666666666667,0.0,0.06666666666666667
+1.0,clean,Petaling Jaya@2018,attack_success,variance_weighted,0.0,0.0,0.0
+1.0,clean,Istanbul@2013,recall,variance_weighted,0.6399999999999999,0.6399999999999999,0.0
+1.0,clean,Istanbul@2018,recall,variance_weighted,0.64,0.6599999999999999,-0.019999999999999907
+1.0,clean,Jakarta@2013,recall,variance_weighted,0.54,0.54,0.0
+1.0,clean,Kuwait City@2018,recall,variance_weighted,0.58,0.58,0.0
+1.0,clean,New York@2013,recall,variance_weighted,0.52,0.52,0.0
+1.0,clean,Petaling Jaya@2013,recall,variance_weighted,0.6000000000000001,0.5800000000000001,0.020000000000000018
+1.0,clean,Petaling Jaya@2018,recall,variance_weighted,0.5800000000000001,0.5800000000000001,0.0
+1.0,clean,Istanbul@2013,ndcg,variance_weighted,0.7008199146366856,0.7014827556323197,-0.0006628409956340731
+1.0,clean,Istanbul@2018,ndcg,variance_weighted,0.7272109505305362,0.7366391691227528,-0.009428218592216653
+1.0,clean,Jakarta@2013,ndcg,variance_weighted,0.8069835756688603,0.8061817571440123,0.0008018185248479526
+1.0,clean,Kuwait City@2018,ndcg,variance_weighted,0.687496953171757,0.6904333232709836,-0.0029363700992266484
+1.0,clean,New York@2013,ndcg,variance_weighted,0.7550223683680551,0.7542598187451734,0.0007625496228816919
+1.0,clean,Petaling Jaya@2013,ndcg,variance_weighted,0.843362914213315,0.8450614489503737,-0.0016985347370587212
+1.0,clean,Petaling Jaya@2018,ndcg,variance_weighted,0.8127346097872925,0.7883164006933755,0.02441820909391701
+1.0,clean,Istanbul@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+1.0,clean,Istanbul@2018,attack_success,trimmed_frequency,0.06666666666666667,0.06666666666666667,0.0
+1.0,clean,Jakarta@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+1.0,clean,Kuwait City@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+1.0,clean,New York@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+1.0,clean,Petaling Jaya@2013,attack_success,trimmed_frequency,0.06666666666666667,0.06666666666666667,0.0
+1.0,clean,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+1.0,clean,Istanbul@2013,recall,trimmed_frequency,0.6399999999999999,0.6,0.039999999999999925
+1.0,clean,Istanbul@2018,recall,trimmed_frequency,0.64,0.6,0.040000000000000036
+1.0,clean,Jakarta@2013,recall,trimmed_frequency,0.54,0.56,-0.020000000000000018
+1.0,clean,Kuwait City@2018,recall,trimmed_frequency,0.58,0.56,0.019999999999999907
+1.0,clean,New York@2013,recall,trimmed_frequency,0.52,0.5,0.020000000000000018
+1.0,clean,Petaling Jaya@2013,recall,trimmed_frequency,0.6000000000000001,0.5800000000000001,0.020000000000000018
+1.0,clean,Petaling Jaya@2018,recall,trimmed_frequency,0.5800000000000001,0.56,0.020000000000000018
+1.0,clean,Istanbul@2013,ndcg,trimmed_frequency,0.7008199146366856,0.6820474798238206,0.018772434812864947
+1.0,clean,Istanbul@2018,ndcg,trimmed_frequency,0.7272109505305362,0.6881896714033413,0.039021279127194886
+1.0,clean,Jakarta@2013,ndcg,trimmed_frequency,0.8069835756688603,0.8109463692582549,-0.003962793589394664
+1.0,clean,Kuwait City@2018,ndcg,trimmed_frequency,0.687496953171757,0.6656382212406131,0.02185873193114385
+1.0,clean,New York@2013,ndcg,trimmed_frequency,0.7550223683680551,0.7347187383833952,0.020303629984659954
+1.0,clean,Petaling Jaya@2013,ndcg,trimmed_frequency,0.843362914213315,0.8336578797505773,0.009705034462737738
+1.0,clean,Petaling Jaya@2018,ndcg,trimmed_frequency,0.8127346097872925,0.827988445207032,-0.015253835419739459
+1.0,compromised_1src,Istanbul@2013,attack_success,simple_average,0.3333333333333333,0.7999999999999999,-0.4666666666666666
+1.0,compromised_1src,Istanbul@2018,attack_success,simple_average,0.13333333333333333,0.8666666666666666,-0.7333333333333333
+1.0,compromised_1src,Jakarta@2013,attack_success,simple_average,0.3333333333333333,0.7333333333333333,-0.39999999999999997
+1.0,compromised_1src,Kuwait City@2018,attack_success,simple_average,0.3333333333333333,0.7333333333333333,-0.39999999999999997
+1.0,compromised_1src,New York@2013,attack_success,simple_average,0.2,0.7333333333333333,-0.5333333333333332
+1.0,compromised_1src,Petaling Jaya@2013,attack_success,simple_average,0.2,0.7333333333333333,-0.5333333333333332
+1.0,compromised_1src,Petaling Jaya@2018,attack_success,simple_average,0.2,0.7333333333333333,-0.5333333333333332
+1.0,compromised_1src,Istanbul@2013,recall,simple_average,0.6399999999999999,0.58,0.05999999999999994
+1.0,compromised_1src,Istanbul@2018,recall,simple_average,0.6599999999999999,0.6,0.05999999999999994
+1.0,compromised_1src,Jakarta@2013,recall,simple_average,0.52,0.54,-0.020000000000000018
+1.0,compromised_1src,Kuwait City@2018,recall,simple_average,0.58,0.56,0.019999999999999907
+1.0,compromised_1src,New York@2013,recall,simple_average,0.52,0.48,0.040000000000000036
+1.0,compromised_1src,Petaling Jaya@2013,recall,simple_average,0.5800000000000001,0.54,0.040000000000000036
+1.0,compromised_1src,Petaling Jaya@2018,recall,simple_average,0.5599999999999999,0.52,0.039999999999999925
+1.0,compromised_1src,Istanbul@2013,ndcg,simple_average,0.6983776610058193,0.6769853663648534,0.021392294640965925
+1.0,compromised_1src,Istanbul@2018,ndcg,simple_average,0.7333943354557684,0.6910485069837901,0.04234582847197832
+1.0,compromised_1src,Jakarta@2013,ndcg,simple_average,0.7919034638364927,0.7978182105938233,-0.005914746757330613
+1.0,compromised_1src,Kuwait City@2018,ndcg,simple_average,0.6911413678959895,0.6650393544335635,0.02610201346242591
+1.0,compromised_1src,New York@2013,ndcg,simple_average,0.7549845826476796,0.7168482203801645,0.038136362267515156
+1.0,compromised_1src,Petaling Jaya@2013,ndcg,simple_average,0.8372796067341511,0.8348064499418353,0.002473156792315856
+1.0,compromised_1src,Petaling Jaya@2018,ndcg,simple_average,0.80361819666971,0.7769926647140931,0.0266255319556169
+1.0,compromised_1src,Istanbul@2013,attack_success,variance_weighted,0.3333333333333333,0.7999999999999999,-0.4666666666666666
+1.0,compromised_1src,Istanbul@2018,attack_success,variance_weighted,0.13333333333333333,0.8666666666666666,-0.7333333333333333
+1.0,compromised_1src,Jakarta@2013,attack_success,variance_weighted,0.3333333333333333,0.7333333333333333,-0.39999999999999997
+1.0,compromised_1src,Kuwait City@2018,attack_success,variance_weighted,0.3333333333333333,0.7333333333333333,-0.39999999999999997
+1.0,compromised_1src,New York@2013,attack_success,variance_weighted,0.2,0.7333333333333333,-0.5333333333333332
+1.0,compromised_1src,Petaling Jaya@2013,attack_success,variance_weighted,0.2,0.7333333333333333,-0.5333333333333332
+1.0,compromised_1src,Petaling Jaya@2018,attack_success,variance_weighted,0.2,0.7333333333333333,-0.5333333333333332
+1.0,compromised_1src,Istanbul@2013,recall,variance_weighted,0.6399999999999999,0.58,0.05999999999999994
+1.0,compromised_1src,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.6,0.05999999999999994
+1.0,compromised_1src,Jakarta@2013,recall,variance_weighted,0.52,0.54,-0.020000000000000018
+1.0,compromised_1src,Kuwait City@2018,recall,variance_weighted,0.58,0.56,0.019999999999999907
+1.0,compromised_1src,New York@2013,recall,variance_weighted,0.52,0.48,0.040000000000000036
+1.0,compromised_1src,Petaling Jaya@2013,recall,variance_weighted,0.5800000000000001,0.54,0.040000000000000036
+1.0,compromised_1src,Petaling Jaya@2018,recall,variance_weighted,0.5599999999999999,0.52,0.039999999999999925
+1.0,compromised_1src,Istanbul@2013,ndcg,variance_weighted,0.6983776610058193,0.6769853663648534,0.021392294640965925
+1.0,compromised_1src,Istanbul@2018,ndcg,variance_weighted,0.7333943354557684,0.6910485069837901,0.04234582847197832
+1.0,compromised_1src,Jakarta@2013,ndcg,variance_weighted,0.7919034638364927,0.7978182105938233,-0.005914746757330613
+1.0,compromised_1src,Kuwait City@2018,ndcg,variance_weighted,0.6911413678959895,0.6650393544335635,0.02610201346242591
+1.0,compromised_1src,New York@2013,ndcg,variance_weighted,0.7549845826476796,0.7168482203801645,0.038136362267515156
+1.0,compromised_1src,Petaling Jaya@2013,ndcg,variance_weighted,0.8372796067341511,0.8348064499418353,0.002473156792315856
+1.0,compromised_1src,Petaling Jaya@2018,ndcg,variance_weighted,0.80361819666971,0.7769926647140931,0.0266255319556169
+1.0,compromised_1src,Istanbul@2013,attack_success,trimmed_frequency,0.3333333333333333,0.2,0.1333333333333333
+1.0,compromised_1src,Istanbul@2018,attack_success,trimmed_frequency,0.13333333333333333,0.06666666666666667,0.06666666666666667
+1.0,compromised_1src,Jakarta@2013,attack_success,trimmed_frequency,0.3333333333333333,0.06666666666666667,0.26666666666666666
+1.0,compromised_1src,Kuwait City@2018,attack_success,trimmed_frequency,0.3333333333333333,0.2,0.1333333333333333
+1.0,compromised_1src,New York@2013,attack_success,trimmed_frequency,0.2,0.13333333333333333,0.06666666666666668
+1.0,compromised_1src,Petaling Jaya@2013,attack_success,trimmed_frequency,0.2,0.13333333333333333,0.06666666666666668
+1.0,compromised_1src,Petaling Jaya@2018,attack_success,trimmed_frequency,0.2,0.13333333333333333,0.06666666666666668
+1.0,compromised_1src,Istanbul@2013,recall,trimmed_frequency,0.6399999999999999,0.58,0.05999999999999994
+1.0,compromised_1src,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6,0.05999999999999994
+1.0,compromised_1src,Jakarta@2013,recall,trimmed_frequency,0.52,0.54,-0.020000000000000018
+1.0,compromised_1src,Kuwait City@2018,recall,trimmed_frequency,0.58,0.56,0.019999999999999907
+1.0,compromised_1src,New York@2013,recall,trimmed_frequency,0.52,0.5,0.020000000000000018
+1.0,compromised_1src,Petaling Jaya@2013,recall,trimmed_frequency,0.5800000000000001,0.5800000000000001,0.0
+1.0,compromised_1src,Petaling Jaya@2018,recall,trimmed_frequency,0.5599999999999999,0.54,0.019999999999999907
+1.0,compromised_1src,Istanbul@2013,ndcg,trimmed_frequency,0.6983776610058193,0.6750667951248333,0.023310865880986076
+1.0,compromised_1src,Istanbul@2018,ndcg,trimmed_frequency,0.7333943354557684,0.6865582416665366,0.046836093789231814
+1.0,compromised_1src,Jakarta@2013,ndcg,trimmed_frequency,0.7919034638364927,0.8013280838658913,-0.00942462002939859
+1.0,compromised_1src,Kuwait City@2018,ndcg,trimmed_frequency,0.6911413678959895,0.6631811676951324,0.0279602002008571
+1.0,compromised_1src,New York@2013,ndcg,trimmed_frequency,0.7549845826476796,0.7341634095951208,0.020821173052558817
+1.0,compromised_1src,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8372796067341511,0.833837119627255,0.003442487106896097
+1.0,compromised_1src,Petaling Jaya@2018,ndcg,trimmed_frequency,0.80361819666971,0.8204722413809055,-0.01685404471119545
+1.0,compromised_2src,Istanbul@2013,attack_success,simple_average,1.0,1.0,0.0
+1.0,compromised_2src,Istanbul@2018,attack_success,simple_average,1.0,1.0,0.0
+1.0,compromised_2src,Jakarta@2013,attack_success,simple_average,1.0,1.0,0.0
+1.0,compromised_2src,Kuwait City@2018,attack_success,simple_average,1.0,1.0,0.0
+1.0,compromised_2src,New York@2013,attack_success,simple_average,1.0,1.0,0.0
+1.0,compromised_2src,Petaling Jaya@2013,attack_success,simple_average,1.0,1.0,0.0
+1.0,compromised_2src,Petaling Jaya@2018,attack_success,simple_average,1.0,1.0,0.0
+1.0,compromised_2src,Istanbul@2013,recall,simple_average,0.52,0.52,0.0
+1.0,compromised_2src,Istanbul@2018,recall,simple_average,0.6,0.5800000000000001,0.019999999999999907
+1.0,compromised_2src,Jakarta@2013,recall,simple_average,0.52,0.52,0.0
+1.0,compromised_2src,Kuwait City@2018,recall,simple_average,0.54,0.56,-0.020000000000000018
+1.0,compromised_2src,New York@2013,recall,simple_average,0.44000000000000006,0.44000000000000006,0.0
+1.0,compromised_2src,Petaling Jaya@2013,recall,simple_average,0.52,0.52,0.0
+1.0,compromised_2src,Petaling Jaya@2018,recall,simple_average,0.52,0.52,0.0
+1.0,compromised_2src,Istanbul@2013,ndcg,simple_average,0.6561609907995055,0.6381715035062031,0.01798948729330241
+1.0,compromised_2src,Istanbul@2018,ndcg,simple_average,0.6830867459331788,0.6607533743565929,0.02233337157658588
+1.0,compromised_2src,Jakarta@2013,ndcg,simple_average,0.7849694141539254,0.7810469734302204,0.003922440723704956
+1.0,compromised_2src,Kuwait City@2018,ndcg,simple_average,0.6564719316303667,0.6579204589771792,-0.001448527346812556
+1.0,compromised_2src,New York@2013,ndcg,simple_average,0.6944832443592407,0.6788832820726849,0.015599962286555802
+1.0,compromised_2src,Petaling Jaya@2013,ndcg,simple_average,0.8255994216133334,0.8008639267428013,0.02473549487053217
+1.0,compromised_2src,Petaling Jaya@2018,ndcg,simple_average,0.7980436708568672,0.759116879583404,0.03892679127346321
+1.0,compromised_2src,Istanbul@2013,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,compromised_2src,Istanbul@2018,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,compromised_2src,Jakarta@2013,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,compromised_2src,Kuwait City@2018,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,compromised_2src,New York@2013,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,compromised_2src,Petaling Jaya@2013,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,compromised_2src,Petaling Jaya@2018,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,compromised_2src,Istanbul@2013,recall,variance_weighted,0.52,0.52,0.0
+1.0,compromised_2src,Istanbul@2018,recall,variance_weighted,0.6,0.5800000000000001,0.019999999999999907
+1.0,compromised_2src,Jakarta@2013,recall,variance_weighted,0.52,0.52,0.0
+1.0,compromised_2src,Kuwait City@2018,recall,variance_weighted,0.54,0.56,-0.020000000000000018
+1.0,compromised_2src,New York@2013,recall,variance_weighted,0.44000000000000006,0.44000000000000006,0.0
+1.0,compromised_2src,Petaling Jaya@2013,recall,variance_weighted,0.52,0.52,0.0
+1.0,compromised_2src,Petaling Jaya@2018,recall,variance_weighted,0.52,0.52,0.0
+1.0,compromised_2src,Istanbul@2013,ndcg,variance_weighted,0.6561609907995055,0.6381715035062031,0.01798948729330241
+1.0,compromised_2src,Istanbul@2018,ndcg,variance_weighted,0.6830867459331788,0.6607533743565929,0.02233337157658588
+1.0,compromised_2src,Jakarta@2013,ndcg,variance_weighted,0.7849694141539254,0.7810469734302204,0.003922440723704956
+1.0,compromised_2src,Kuwait City@2018,ndcg,variance_weighted,0.6564719316303667,0.6579204589771792,-0.001448527346812556
+1.0,compromised_2src,New York@2013,ndcg,variance_weighted,0.6944832443592407,0.6788832820726849,0.015599962286555802
+1.0,compromised_2src,Petaling Jaya@2013,ndcg,variance_weighted,0.8255994216133334,0.8008639267428013,0.02473549487053217
+1.0,compromised_2src,Petaling Jaya@2018,ndcg,variance_weighted,0.7980436708568672,0.759116879583404,0.03892679127346321
+1.0,compromised_2src,Istanbul@2013,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,compromised_2src,Istanbul@2018,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,compromised_2src,Jakarta@2013,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,compromised_2src,Kuwait City@2018,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,compromised_2src,New York@2013,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,compromised_2src,Petaling Jaya@2013,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,compromised_2src,Petaling Jaya@2018,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,compromised_2src,Istanbul@2013,recall,trimmed_frequency,0.52,0.5,0.020000000000000018
+1.0,compromised_2src,Istanbul@2018,recall,trimmed_frequency,0.6,0.5800000000000001,0.019999999999999907
+1.0,compromised_2src,Jakarta@2013,recall,trimmed_frequency,0.52,0.52,0.0
+1.0,compromised_2src,Kuwait City@2018,recall,trimmed_frequency,0.54,0.54,0.0
+1.0,compromised_2src,New York@2013,recall,trimmed_frequency,0.44000000000000006,0.44000000000000006,0.0
+1.0,compromised_2src,Petaling Jaya@2013,recall,trimmed_frequency,0.52,0.52,0.0
+1.0,compromised_2src,Petaling Jaya@2018,recall,trimmed_frequency,0.52,0.5,0.020000000000000018
+1.0,compromised_2src,Istanbul@2013,ndcg,trimmed_frequency,0.6561609907995055,0.6442927233138405,0.011868267485665052
+1.0,compromised_2src,Istanbul@2018,ndcg,trimmed_frequency,0.6830867459331788,0.6545444862653524,0.02854225966782631
+1.0,compromised_2src,Jakarta@2013,ndcg,trimmed_frequency,0.7849694141539254,0.7783657960029594,0.006603618150965995
+1.0,compromised_2src,Kuwait City@2018,ndcg,trimmed_frequency,0.6564719316303667,0.6344908109607841,0.021981120669582577
+1.0,compromised_2src,New York@2013,ndcg,trimmed_frequency,0.6944832443592407,0.6890674418908728,0.005415802468367925
+1.0,compromised_2src,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8255994216133334,0.8025352580989443,0.023064163514389113
+1.0,compromised_2src,Petaling Jaya@2018,ndcg,trimmed_frequency,0.7980436708568672,0.8122607399940396,-0.014217069137172356
+1.0,mga_1src_b0.02,Istanbul@2013,attack_success,simple_average,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,Istanbul@2018,attack_success,simple_average,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,Jakarta@2013,attack_success,simple_average,0.2,0.2,0.0
+1.0,mga_1src_b0.02,Kuwait City@2018,attack_success,simple_average,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,New York@2013,attack_success,simple_average,0.06666666666666667,0.06666666666666667,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2013,attack_success,simple_average,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2018,attack_success,simple_average,0.06666666666666667,0.06666666666666667,0.0
+1.0,mga_1src_b0.02,Istanbul@2013,recall,simple_average,0.6399999999999999,0.6399999999999999,0.0
+1.0,mga_1src_b0.02,Istanbul@2018,recall,simple_average,0.6599999999999999,0.68,-0.02000000000000013
+1.0,mga_1src_b0.02,Jakarta@2013,recall,simple_average,0.52,0.52,0.0
+1.0,mga_1src_b0.02,Kuwait City@2018,recall,simple_average,0.58,0.58,0.0
+1.0,mga_1src_b0.02,New York@2013,recall,simple_average,0.5,0.5,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2013,recall,simple_average,0.6000000000000001,0.6000000000000001,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2018,recall,simple_average,0.5800000000000001,0.5800000000000001,0.0
+1.0,mga_1src_b0.02,Istanbul@2013,ndcg,simple_average,0.6986790811948874,0.699159204453357,-0.00048012325846957804
+1.0,mga_1src_b0.02,Istanbul@2018,ndcg,simple_average,0.7331166542446977,0.7434155604737404,-0.010298906229042615
+1.0,mga_1src_b0.02,Jakarta@2013,ndcg,simple_average,0.792160261132068,0.7980779818982973,-0.005917720766229206
+1.0,mga_1src_b0.02,Kuwait City@2018,ndcg,simple_average,0.6936017375454411,0.6881836428580683,0.005418094687372754
+1.0,mga_1src_b0.02,New York@2013,ndcg,simple_average,0.7349328524352818,0.7344011346931074,0.0005317177421744201
+1.0,mga_1src_b0.02,Petaling Jaya@2013,ndcg,simple_average,0.8436108826110335,0.8484974641562821,-0.0048865815452486805
+1.0,mga_1src_b0.02,Petaling Jaya@2018,ndcg,simple_average,0.810693006777865,0.7861080026727334,0.024585004105131647
+1.0,mga_1src_b0.02,Istanbul@2013,attack_success,variance_weighted,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,Istanbul@2018,attack_success,variance_weighted,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,Jakarta@2013,attack_success,variance_weighted,0.2,0.2,0.0
+1.0,mga_1src_b0.02,Kuwait City@2018,attack_success,variance_weighted,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,New York@2013,attack_success,variance_weighted,0.06666666666666667,0.06666666666666667,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2013,attack_success,variance_weighted,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2018,attack_success,variance_weighted,0.06666666666666667,0.06666666666666667,0.0
+1.0,mga_1src_b0.02,Istanbul@2013,recall,variance_weighted,0.6399999999999999,0.6399999999999999,0.0
+1.0,mga_1src_b0.02,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.68,-0.02000000000000013
+1.0,mga_1src_b0.02,Jakarta@2013,recall,variance_weighted,0.52,0.52,0.0
+1.0,mga_1src_b0.02,Kuwait City@2018,recall,variance_weighted,0.58,0.58,0.0
+1.0,mga_1src_b0.02,New York@2013,recall,variance_weighted,0.5,0.5,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2013,recall,variance_weighted,0.6000000000000001,0.6000000000000001,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2018,recall,variance_weighted,0.5800000000000001,0.5800000000000001,0.0
+1.0,mga_1src_b0.02,Istanbul@2013,ndcg,variance_weighted,0.6986790811948874,0.6986790811948874,0.0
+1.0,mga_1src_b0.02,Istanbul@2018,ndcg,variance_weighted,0.7331166542446977,0.7434155604737404,-0.010298906229042615
+1.0,mga_1src_b0.02,Jakarta@2013,ndcg,variance_weighted,0.792160261132068,0.7980779818982973,-0.005917720766229206
+1.0,mga_1src_b0.02,Kuwait City@2018,ndcg,variance_weighted,0.6936017375454411,0.6881836428580683,0.005418094687372754
+1.0,mga_1src_b0.02,New York@2013,ndcg,variance_weighted,0.7349328524352818,0.7344011346931074,0.0005317177421744201
+1.0,mga_1src_b0.02,Petaling Jaya@2013,ndcg,variance_weighted,0.8436108826110335,0.8486626920946903,-0.0050518094836567995
+1.0,mga_1src_b0.02,Petaling Jaya@2018,ndcg,variance_weighted,0.810693006777865,0.7861080026727334,0.024585004105131647
+1.0,mga_1src_b0.02,Istanbul@2013,attack_success,trimmed_frequency,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,Istanbul@2018,attack_success,trimmed_frequency,0.13333333333333333,0.06666666666666667,0.06666666666666667
+1.0,mga_1src_b0.02,Jakarta@2013,attack_success,trimmed_frequency,0.2,0.06666666666666667,0.13333333333333336
+1.0,mga_1src_b0.02,Kuwait City@2018,attack_success,trimmed_frequency,0.13333333333333333,0.13333333333333333,0.0
+1.0,mga_1src_b0.02,New York@2013,attack_success,trimmed_frequency,0.06666666666666667,0.06666666666666667,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2013,attack_success,trimmed_frequency,0.13333333333333333,0.06666666666666667,0.06666666666666667
+1.0,mga_1src_b0.02,Petaling Jaya@2018,attack_success,trimmed_frequency,0.06666666666666667,0.06666666666666667,0.0
+1.0,mga_1src_b0.02,Istanbul@2013,recall,trimmed_frequency,0.6399999999999999,0.6,0.039999999999999925
+1.0,mga_1src_b0.02,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6,0.05999999999999994
+1.0,mga_1src_b0.02,Jakarta@2013,recall,trimmed_frequency,0.52,0.54,-0.020000000000000018
+1.0,mga_1src_b0.02,Kuwait City@2018,recall,trimmed_frequency,0.58,0.56,0.019999999999999907
+1.0,mga_1src_b0.02,New York@2013,recall,trimmed_frequency,0.5,0.5,0.0
+1.0,mga_1src_b0.02,Petaling Jaya@2013,recall,trimmed_frequency,0.6000000000000001,0.5800000000000001,0.020000000000000018
+1.0,mga_1src_b0.02,Petaling Jaya@2018,recall,trimmed_frequency,0.5800000000000001,0.56,0.020000000000000018
+1.0,mga_1src_b0.02,Istanbul@2013,ndcg,trimmed_frequency,0.6986790811948874,0.6805421061604089,0.01813697503447853
+1.0,mga_1src_b0.02,Istanbul@2018,ndcg,trimmed_frequency,0.7331166542446977,0.6864914124871264,0.04662524175757132
+1.0,mga_1src_b0.02,Jakarta@2013,ndcg,trimmed_frequency,0.792160261132068,0.8013265113853614,-0.009166250253293318
+1.0,mga_1src_b0.02,Kuwait City@2018,ndcg,trimmed_frequency,0.6936017375454411,0.6594244481816384,0.03417728936380271
+1.0,mga_1src_b0.02,New York@2013,ndcg,trimmed_frequency,0.7349328524352818,0.7313631107552897,0.0035697416799921333
+1.0,mga_1src_b0.02,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8436108826110335,0.8337423119353001,0.009868570675733324
+1.0,mga_1src_b0.02,Petaling Jaya@2018,ndcg,trimmed_frequency,0.810693006777865,0.8243606919282265,-0.01366768515036143
+1.0,mga_1src_b0.05,Istanbul@2013,attack_success,simple_average,0.0,0.6666666666666666,-0.6666666666666666
+1.0,mga_1src_b0.05,Istanbul@2018,attack_success,simple_average,0.06666666666666667,0.7999999999999999,-0.7333333333333333
+1.0,mga_1src_b0.05,Jakarta@2013,attack_success,simple_average,0.0,0.6,-0.6
+1.0,mga_1src_b0.05,Kuwait City@2018,attack_success,simple_average,0.0,0.6,-0.6
+1.0,mga_1src_b0.05,New York@2013,attack_success,simple_average,0.0,0.5333333333333333,-0.5333333333333333
+1.0,mga_1src_b0.05,Petaling Jaya@2013,attack_success,simple_average,0.0,0.5999999999999999,-0.5999999999999999
+1.0,mga_1src_b0.05,Petaling Jaya@2018,attack_success,simple_average,0.0,0.5999999999999999,-0.5999999999999999
+1.0,mga_1src_b0.05,Istanbul@2013,recall,simple_average,0.6599999999999999,0.6,0.05999999999999994
+1.0,mga_1src_b0.05,Istanbul@2018,recall,simple_average,0.6599999999999999,0.5800000000000001,0.07999999999999985
+1.0,mga_1src_b0.05,Jakarta@2013,recall,simple_average,0.54,0.52,0.020000000000000018
+1.0,mga_1src_b0.05,Kuwait City@2018,recall,simple_average,0.58,0.58,0.0
+1.0,mga_1src_b0.05,New York@2013,recall,simple_average,0.52,0.48,0.040000000000000036
+1.0,mga_1src_b0.05,Petaling Jaya@2013,recall,simple_average,0.5800000000000001,0.5800000000000001,0.0
+1.0,mga_1src_b0.05,Petaling Jaya@2018,recall,simple_average,0.6,0.54,0.05999999999999994
+1.0,mga_1src_b0.05,Istanbul@2013,ndcg,simple_average,0.7040889748681802,0.6839325967023121,0.020156378165868127
+1.0,mga_1src_b0.05,Istanbul@2018,ndcg,simple_average,0.7415579762133457,0.6893875604541184,0.05217041575922732
+1.0,mga_1src_b0.05,Jakarta@2013,ndcg,simple_average,0.8026815385028128,0.7962649632111176,0.006416575291695148
+1.0,mga_1src_b0.05,Kuwait City@2018,ndcg,simple_average,0.6930289540650103,0.6749235171119705,0.01810543695303979
+1.0,mga_1src_b0.05,New York@2013,ndcg,simple_average,0.7540072990960113,0.688868627109716,0.0651386719862953
+1.0,mga_1src_b0.05,Petaling Jaya@2013,ndcg,simple_average,0.8389533518827355,0.8362526243739493,0.002700727508786138
+1.0,mga_1src_b0.05,Petaling Jaya@2018,ndcg,simple_average,0.8154608765117706,0.7766786551076338,0.038782221404136785
+1.0,mga_1src_b0.05,Istanbul@2013,attack_success,variance_weighted,0.0,0.6666666666666666,-0.6666666666666666
+1.0,mga_1src_b0.05,Istanbul@2018,attack_success,variance_weighted,0.06666666666666667,0.8666666666666666,-0.7999999999999999
+1.0,mga_1src_b0.05,Jakarta@2013,attack_success,variance_weighted,0.0,0.6,-0.6
+1.0,mga_1src_b0.05,Kuwait City@2018,attack_success,variance_weighted,0.0,0.6,-0.6
+1.0,mga_1src_b0.05,New York@2013,attack_success,variance_weighted,0.0,0.6666666666666666,-0.6666666666666666
+1.0,mga_1src_b0.05,Petaling Jaya@2013,attack_success,variance_weighted,0.0,0.5999999999999999,-0.5999999999999999
+1.0,mga_1src_b0.05,Petaling Jaya@2018,attack_success,variance_weighted,0.0,0.6666666666666666,-0.6666666666666666
+1.0,mga_1src_b0.05,Istanbul@2013,recall,variance_weighted,0.6599999999999999,0.58,0.07999999999999996
+1.0,mga_1src_b0.05,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.5800000000000001,0.07999999999999985
+1.0,mga_1src_b0.05,Jakarta@2013,recall,variance_weighted,0.54,0.52,0.020000000000000018
+1.0,mga_1src_b0.05,Kuwait City@2018,recall,variance_weighted,0.58,0.58,0.0
+1.0,mga_1src_b0.05,New York@2013,recall,variance_weighted,0.52,0.48,0.040000000000000036
+1.0,mga_1src_b0.05,Petaling Jaya@2013,recall,variance_weighted,0.5800000000000001,0.5800000000000001,0.0
+1.0,mga_1src_b0.05,Petaling Jaya@2018,recall,variance_weighted,0.6,0.54,0.05999999999999994
+1.0,mga_1src_b0.05,Istanbul@2013,ndcg,variance_weighted,0.7040889748681802,0.6793331209291014,0.024755853939078865
+1.0,mga_1src_b0.05,Istanbul@2018,ndcg,variance_weighted,0.7415579762133457,0.6880870167512141,0.05347095946213165
+1.0,mga_1src_b0.05,Jakarta@2013,ndcg,variance_weighted,0.8026815385028128,0.7959494193062903,0.006732119196522501
+1.0,mga_1src_b0.05,Kuwait City@2018,ndcg,variance_weighted,0.6930289540650103,0.6749235171119705,0.01810543695303979
+1.0,mga_1src_b0.05,New York@2013,ndcg,variance_weighted,0.7540072990960113,0.6901772233313649,0.06383007576464639
+1.0,mga_1src_b0.05,Petaling Jaya@2013,ndcg,variance_weighted,0.8389533518827355,0.84050405958928,-0.0015507077065445296
+1.0,mga_1src_b0.05,Petaling Jaya@2018,ndcg,variance_weighted,0.8154608765117706,0.7752979695398045,0.04016290697196612
+1.0,mga_1src_b0.05,Istanbul@2013,attack_success,trimmed_frequency,0.0,0.2,-0.2
+1.0,mga_1src_b0.05,Istanbul@2018,attack_success,trimmed_frequency,0.06666666666666667,0.06666666666666667,0.0
+1.0,mga_1src_b0.05,Jakarta@2013,attack_success,trimmed_frequency,0.0,0.06666666666666667,-0.06666666666666667
+1.0,mga_1src_b0.05,Kuwait City@2018,attack_success,trimmed_frequency,0.0,0.2,-0.2
+1.0,mga_1src_b0.05,New York@2013,attack_success,trimmed_frequency,0.0,0.13333333333333333,-0.13333333333333333
+1.0,mga_1src_b0.05,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.13333333333333333,-0.13333333333333333
+1.0,mga_1src_b0.05,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.2,-0.2
+1.0,mga_1src_b0.05,Istanbul@2013,recall,trimmed_frequency,0.6599999999999999,0.5999999999999999,0.06000000000000005
+1.0,mga_1src_b0.05,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6,0.05999999999999994
+1.0,mga_1src_b0.05,Jakarta@2013,recall,trimmed_frequency,0.54,0.54,0.0
+1.0,mga_1src_b0.05,Kuwait City@2018,recall,trimmed_frequency,0.58,0.56,0.019999999999999907
+1.0,mga_1src_b0.05,New York@2013,recall,trimmed_frequency,0.52,0.5,0.020000000000000018
+1.0,mga_1src_b0.05,Petaling Jaya@2013,recall,trimmed_frequency,0.5800000000000001,0.5800000000000001,0.0
+1.0,mga_1src_b0.05,Petaling Jaya@2018,recall,trimmed_frequency,0.6,0.56,0.039999999999999925
+1.0,mga_1src_b0.05,Istanbul@2013,ndcg,trimmed_frequency,0.7040889748681802,0.6822176067697927,0.021871368098387522
+1.0,mga_1src_b0.05,Istanbul@2018,ndcg,trimmed_frequency,0.7415579762133457,0.6868398935893308,0.0547180826240149
+1.0,mga_1src_b0.05,Jakarta@2013,ndcg,trimmed_frequency,0.8026815385028128,0.7994095149470823,0.003272023555730419
+1.0,mga_1src_b0.05,Kuwait City@2018,ndcg,trimmed_frequency,0.6930289540650103,0.6630673978614423,0.029961556203567996
+1.0,mga_1src_b0.05,New York@2013,ndcg,trimmed_frequency,0.7540072990960113,0.7367434110435749,0.017263888052436394
+1.0,mga_1src_b0.05,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8389533518827355,0.8339921975480855,0.004961154334649942
+1.0,mga_1src_b0.05,Petaling Jaya@2018,ndcg,trimmed_frequency,0.8154608765117706,0.8258491867967555,-0.01038831028498488
+1.0,mga_1src_b0.10,Istanbul@2013,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Istanbul@2018,attack_success,simple_average,0.06666666666666667,1.0,-0.9333333333333333
+1.0,mga_1src_b0.10,Jakarta@2013,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Kuwait City@2018,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,New York@2013,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Petaling Jaya@2013,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Petaling Jaya@2018,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Istanbul@2013,recall,simple_average,0.6599999999999999,0.56,0.09999999999999987
+1.0,mga_1src_b0.10,Istanbul@2018,recall,simple_average,0.6599999999999999,0.5800000000000001,0.07999999999999985
+1.0,mga_1src_b0.10,Jakarta@2013,recall,simple_average,0.54,0.52,0.020000000000000018
+1.0,mga_1src_b0.10,Kuwait City@2018,recall,simple_average,0.58,0.56,0.019999999999999907
+1.0,mga_1src_b0.10,New York@2013,recall,simple_average,0.52,0.44000000000000006,0.07999999999999996
+1.0,mga_1src_b0.10,Petaling Jaya@2013,recall,simple_average,0.5800000000000001,0.5,0.08000000000000007
+1.0,mga_1src_b0.10,Petaling Jaya@2018,recall,simple_average,0.6,0.52,0.07999999999999996
+1.0,mga_1src_b0.10,Istanbul@2013,ndcg,simple_average,0.7040889748681802,0.6681990265081921,0.035889948359988155
+1.0,mga_1src_b0.10,Istanbul@2018,ndcg,simple_average,0.7415579762133457,0.6736921571468921,0.06786581906645361
+1.0,mga_1src_b0.10,Jakarta@2013,ndcg,simple_average,0.8026815385028128,0.786547565332679,0.016133973170133764
+1.0,mga_1src_b0.10,Kuwait City@2018,ndcg,simple_average,0.6930289540650103,0.6581276794602816,0.034901274604728694
+1.0,mga_1src_b0.10,New York@2013,ndcg,simple_average,0.7540072990960113,0.6593299197074973,0.09467737938851395
+1.0,mga_1src_b0.10,Petaling Jaya@2013,ndcg,simple_average,0.8389533518827355,0.8216746903357988,0.01727866154693669
+1.0,mga_1src_b0.10,Petaling Jaya@2018,ndcg,simple_average,0.8154608765117706,0.7772804970721846,0.038180379439585965
+1.0,mga_1src_b0.10,Istanbul@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Istanbul@2018,attack_success,variance_weighted,0.06666666666666667,1.0,-0.9333333333333333
+1.0,mga_1src_b0.10,Jakarta@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Kuwait City@2018,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,New York@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Petaling Jaya@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Petaling Jaya@2018,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_1src_b0.10,Istanbul@2013,recall,variance_weighted,0.6599999999999999,0.56,0.09999999999999987
+1.0,mga_1src_b0.10,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.5800000000000001,0.07999999999999985
+1.0,mga_1src_b0.10,Jakarta@2013,recall,variance_weighted,0.54,0.52,0.020000000000000018
+1.0,mga_1src_b0.10,Kuwait City@2018,recall,variance_weighted,0.58,0.56,0.019999999999999907
+1.0,mga_1src_b0.10,New York@2013,recall,variance_weighted,0.52,0.44000000000000006,0.07999999999999996
+1.0,mga_1src_b0.10,Petaling Jaya@2013,recall,variance_weighted,0.5800000000000001,0.5,0.08000000000000007
+1.0,mga_1src_b0.10,Petaling Jaya@2018,recall,variance_weighted,0.6,0.5,0.09999999999999998
+1.0,mga_1src_b0.10,Istanbul@2013,ndcg,variance_weighted,0.7040889748681802,0.6670098074681502,0.03707916740003003
+1.0,mga_1src_b0.10,Istanbul@2018,ndcg,variance_weighted,0.7415579762133457,0.6717449141297875,0.0698130620835582
+1.0,mga_1src_b0.10,Jakarta@2013,ndcg,variance_weighted,0.8026815385028128,0.7854158410792822,0.017265697423530568
+1.0,mga_1src_b0.10,Kuwait City@2018,ndcg,variance_weighted,0.6930289540650103,0.6581276794602816,0.034901274604728694
+1.0,mga_1src_b0.10,New York@2013,ndcg,variance_weighted,0.7540072990960113,0.6597400214116984,0.09426727768431287
+1.0,mga_1src_b0.10,Petaling Jaya@2013,ndcg,variance_weighted,0.8389533518827355,0.8197453106889983,0.019208041193737202
+1.0,mga_1src_b0.10,Petaling Jaya@2018,ndcg,variance_weighted,0.8154608765117706,0.7710782290601894,0.04438264745158116
+1.0,mga_1src_b0.10,Istanbul@2013,attack_success,trimmed_frequency,0.0,0.2,-0.2
+1.0,mga_1src_b0.10,Istanbul@2018,attack_success,trimmed_frequency,0.06666666666666667,0.06666666666666667,0.0
+1.0,mga_1src_b0.10,Jakarta@2013,attack_success,trimmed_frequency,0.0,0.06666666666666667,-0.06666666666666667
+1.0,mga_1src_b0.10,Kuwait City@2018,attack_success,trimmed_frequency,0.0,0.2,-0.2
+1.0,mga_1src_b0.10,New York@2013,attack_success,trimmed_frequency,0.0,0.13333333333333333,-0.13333333333333333
+1.0,mga_1src_b0.10,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.13333333333333333,-0.13333333333333333
+1.0,mga_1src_b0.10,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.06666666666666667,-0.06666666666666667
+1.0,mga_1src_b0.10,Istanbul@2013,recall,trimmed_frequency,0.6599999999999999,0.5999999999999999,0.06000000000000005
+1.0,mga_1src_b0.10,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6,0.05999999999999994
+1.0,mga_1src_b0.10,Jakarta@2013,recall,trimmed_frequency,0.54,0.54,0.0
+1.0,mga_1src_b0.10,Kuwait City@2018,recall,trimmed_frequency,0.58,0.56,0.019999999999999907
+1.0,mga_1src_b0.10,New York@2013,recall,trimmed_frequency,0.52,0.52,0.0
+1.0,mga_1src_b0.10,Petaling Jaya@2013,recall,trimmed_frequency,0.5800000000000001,0.5800000000000001,0.0
+1.0,mga_1src_b0.10,Petaling Jaya@2018,recall,trimmed_frequency,0.6,0.56,0.039999999999999925
+1.0,mga_1src_b0.10,Istanbul@2013,ndcg,trimmed_frequency,0.7040889748681802,0.6820980225052563,0.02199095236292392
+1.0,mga_1src_b0.10,Istanbul@2018,ndcg,trimmed_frequency,0.7415579762133457,0.689186049957408,0.052371926255937784
+1.0,mga_1src_b0.10,Jakarta@2013,ndcg,trimmed_frequency,0.8026815385028128,0.7983115007673021,0.004370037735510701
+1.0,mga_1src_b0.10,Kuwait City@2018,ndcg,trimmed_frequency,0.6930289540650103,0.6547598434904869,0.038269110574523424
+1.0,mga_1src_b0.10,New York@2013,ndcg,trimmed_frequency,0.7540072990960113,0.742430561837207,0.01157673725880426
+1.0,mga_1src_b0.10,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8389533518827355,0.8339710948837757,0.004982256998959711
+1.0,mga_1src_b0.10,Petaling Jaya@2018,ndcg,trimmed_frequency,0.8154608765117706,0.8267807847811863,-0.011319908269415757
+1.0,mga_2src_b0.05,Istanbul@2013,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Istanbul@2018,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Jakarta@2013,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Kuwait City@2018,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,New York@2013,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Petaling Jaya@2013,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Petaling Jaya@2018,attack_success,simple_average,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Istanbul@2013,recall,simple_average,0.6599999999999999,0.54,0.11999999999999988
+1.0,mga_2src_b0.05,Istanbul@2018,recall,simple_average,0.64,0.5800000000000001,0.05999999999999994
+1.0,mga_2src_b0.05,Jakarta@2013,recall,simple_average,0.54,0.52,0.020000000000000018
+1.0,mga_2src_b0.05,Kuwait City@2018,recall,simple_average,0.58,0.58,0.0
+1.0,mga_2src_b0.05,New York@2013,recall,simple_average,0.5,0.44000000000000006,0.05999999999999994
+1.0,mga_2src_b0.05,Petaling Jaya@2013,recall,simple_average,0.5800000000000001,0.52,0.06000000000000005
+1.0,mga_2src_b0.05,Petaling Jaya@2018,recall,simple_average,0.6,0.52,0.07999999999999996
+1.0,mga_2src_b0.05,Istanbul@2013,ndcg,simple_average,0.7024055261040847,0.6611611755175991,0.04124435058648557
+1.0,mga_2src_b0.05,Istanbul@2018,ndcg,simple_average,0.7247088863478653,0.6717772335629741,0.0529316527848912
+1.0,mga_2src_b0.05,Jakarta@2013,ndcg,simple_average,0.8020665024180923,0.7837833439187983,0.01828315849929396
+1.0,mga_2src_b0.05,Kuwait City@2018,ndcg,simple_average,0.6945388951838749,0.6654697588698543,0.029069136314020638
+1.0,mga_2src_b0.05,New York@2013,ndcg,simple_average,0.736253707672555,0.6867462966208585,0.04950741105169654
+1.0,mga_2src_b0.05,Petaling Jaya@2013,ndcg,simple_average,0.8390491488858437,0.8063588135520042,0.03269033533383947
+1.0,mga_2src_b0.05,Petaling Jaya@2018,ndcg,simple_average,0.8154286722079076,0.7715196281824479,0.0439090440254597
+1.0,mga_2src_b0.05,Istanbul@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Istanbul@2018,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Jakarta@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Kuwait City@2018,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,New York@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Petaling Jaya@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Petaling Jaya@2018,attack_success,variance_weighted,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Istanbul@2013,recall,variance_weighted,0.6599999999999999,0.54,0.11999999999999988
+1.0,mga_2src_b0.05,Istanbul@2018,recall,variance_weighted,0.64,0.5800000000000001,0.05999999999999994
+1.0,mga_2src_b0.05,Jakarta@2013,recall,variance_weighted,0.54,0.52,0.020000000000000018
+1.0,mga_2src_b0.05,Kuwait City@2018,recall,variance_weighted,0.58,0.58,0.0
+1.0,mga_2src_b0.05,New York@2013,recall,variance_weighted,0.5,0.44000000000000006,0.05999999999999994
+1.0,mga_2src_b0.05,Petaling Jaya@2013,recall,variance_weighted,0.5800000000000001,0.52,0.06000000000000005
+1.0,mga_2src_b0.05,Petaling Jaya@2018,recall,variance_weighted,0.6,0.52,0.07999999999999996
+1.0,mga_2src_b0.05,Istanbul@2013,ndcg,variance_weighted,0.7024055261040847,0.660906984884521,0.041498541219563645
+1.0,mga_2src_b0.05,Istanbul@2018,ndcg,variance_weighted,0.7247088863478653,0.6717772335629741,0.0529316527848912
+1.0,mga_2src_b0.05,Jakarta@2013,ndcg,variance_weighted,0.8020665024180923,0.7837833439187983,0.01828315849929396
+1.0,mga_2src_b0.05,Kuwait City@2018,ndcg,variance_weighted,0.6945388951838749,0.6650146700409749,0.029524225142899985
+1.0,mga_2src_b0.05,New York@2013,ndcg,variance_weighted,0.736253707672555,0.6867462966208585,0.04950741105169654
+1.0,mga_2src_b0.05,Petaling Jaya@2013,ndcg,variance_weighted,0.8390491488858437,0.8057353196175155,0.033313829268328154
+1.0,mga_2src_b0.05,Petaling Jaya@2018,ndcg,variance_weighted,0.8154286722079076,0.7696988762611299,0.04572979594677773
+1.0,mga_2src_b0.05,Istanbul@2013,attack_success,trimmed_frequency,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Istanbul@2018,attack_success,trimmed_frequency,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Jakarta@2013,attack_success,trimmed_frequency,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Kuwait City@2018,attack_success,trimmed_frequency,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,New York@2013,attack_success,trimmed_frequency,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.9333333333333332,-0.9333333333333332
+1.0,mga_2src_b0.05,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,1.0,-1.0
+1.0,mga_2src_b0.05,Istanbul@2013,recall,trimmed_frequency,0.6599999999999999,0.52,0.1399999999999999
+1.0,mga_2src_b0.05,Istanbul@2018,recall,trimmed_frequency,0.64,0.5800000000000001,0.05999999999999994
+1.0,mga_2src_b0.05,Jakarta@2013,recall,trimmed_frequency,0.54,0.52,0.020000000000000018
+1.0,mga_2src_b0.05,Kuwait City@2018,recall,trimmed_frequency,0.58,0.52,0.05999999999999994
+1.0,mga_2src_b0.05,New York@2013,recall,trimmed_frequency,0.5,0.44000000000000006,0.05999999999999994
+1.0,mga_2src_b0.05,Petaling Jaya@2013,recall,trimmed_frequency,0.5800000000000001,0.52,0.06000000000000005
+1.0,mga_2src_b0.05,Petaling Jaya@2018,recall,trimmed_frequency,0.6,0.5,0.09999999999999998
+1.0,mga_2src_b0.05,Istanbul@2013,ndcg,trimmed_frequency,0.7024055261040847,0.6619483386688649,0.040457187435219755
+1.0,mga_2src_b0.05,Istanbul@2018,ndcg,trimmed_frequency,0.7247088863478653,0.6631252044145584,0.06158368193330699
+1.0,mga_2src_b0.05,Jakarta@2013,ndcg,trimmed_frequency,0.8020665024180923,0.7795873428618043,0.022479159556287986
+1.0,mga_2src_b0.05,Kuwait City@2018,ndcg,trimmed_frequency,0.6945388951838749,0.6275327883888859,0.06700610679498897
+1.0,mga_2src_b0.05,New York@2013,ndcg,trimmed_frequency,0.736253707672555,0.6908184328016269,0.04543527487092813
+1.0,mga_2src_b0.05,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8390491488858437,0.8026065291894812,0.03644261969636253
+1.0,mga_2src_b0.05,Petaling Jaya@2018,ndcg,trimmed_frequency,0.8154286722079076,0.813760871927161,0.0016678002807466452
+1.0,weight_hijack_1src,Istanbul@2013,attack_success,simple_average,0.4666666666666666,0.7999999999999999,-0.3333333333333333
+1.0,weight_hijack_1src,Istanbul@2018,attack_success,simple_average,0.26666666666666666,0.8666666666666666,-0.5999999999999999
+1.0,weight_hijack_1src,Jakarta@2013,attack_success,simple_average,0.3333333333333333,0.7333333333333333,-0.39999999999999997
+1.0,weight_hijack_1src,Kuwait City@2018,attack_success,simple_average,0.3333333333333333,0.7333333333333333,-0.39999999999999997
+1.0,weight_hijack_1src,New York@2013,attack_success,simple_average,0.26666666666666666,0.7333333333333333,-0.4666666666666666
+1.0,weight_hijack_1src,Petaling Jaya@2013,attack_success,simple_average,0.3333333333333333,0.7333333333333333,-0.39999999999999997
+1.0,weight_hijack_1src,Petaling Jaya@2018,attack_success,simple_average,0.26666666666666666,0.7333333333333333,-0.4666666666666666
+1.0,weight_hijack_1src,Istanbul@2013,recall,simple_average,0.54,0.58,-0.039999999999999925
+1.0,weight_hijack_1src,Istanbul@2018,recall,simple_average,0.64,0.6,0.040000000000000036
+1.0,weight_hijack_1src,Jakarta@2013,recall,simple_average,0.52,0.54,-0.020000000000000018
+1.0,weight_hijack_1src,Kuwait City@2018,recall,simple_average,0.54,0.56,-0.020000000000000018
+1.0,weight_hijack_1src,New York@2013,recall,simple_average,0.48,0.48,0.0
+1.0,weight_hijack_1src,Petaling Jaya@2013,recall,simple_average,0.58,0.54,0.039999999999999925
+1.0,weight_hijack_1src,Petaling Jaya@2018,recall,simple_average,0.54,0.52,0.020000000000000018
+1.0,weight_hijack_1src,Istanbul@2013,ndcg,simple_average,0.6801803807394208,0.6769853663648534,0.003195014374567373
+1.0,weight_hijack_1src,Istanbul@2018,ndcg,simple_average,0.7142268822114943,0.6910485069837901,0.023178375227704273
+1.0,weight_hijack_1src,Jakarta@2013,ndcg,simple_average,0.801852612613499,0.7978182105938233,0.0040344020196757535
+1.0,weight_hijack_1src,Kuwait City@2018,ndcg,simple_average,0.6785912240544694,0.6650393544335635,0.013551869620905821
+1.0,weight_hijack_1src,New York@2013,ndcg,simple_average,0.6999480485245866,0.7168482203801645,-0.016900171855577906
+1.0,weight_hijack_1src,Petaling Jaya@2013,ndcg,simple_average,0.8637091893754565,0.8348064499418353,0.028902739433621205
+1.0,weight_hijack_1src,Petaling Jaya@2018,ndcg,simple_average,0.6913925523315648,0.7769926647140931,-0.08560011238252829
+1.0,weight_hijack_1src,Istanbul@2013,attack_success,variance_weighted,0.4666666666666666,1.0,-0.5333333333333334
+1.0,weight_hijack_1src,Istanbul@2018,attack_success,variance_weighted,0.26666666666666666,1.0,-0.7333333333333334
+1.0,weight_hijack_1src,Jakarta@2013,attack_success,variance_weighted,0.3333333333333333,1.0,-0.6666666666666667
+1.0,weight_hijack_1src,Kuwait City@2018,attack_success,variance_weighted,0.3333333333333333,1.0,-0.6666666666666667
+1.0,weight_hijack_1src,New York@2013,attack_success,variance_weighted,0.26666666666666666,1.0,-0.7333333333333334
+1.0,weight_hijack_1src,Petaling Jaya@2013,attack_success,variance_weighted,0.3333333333333333,1.0,-0.6666666666666667
+1.0,weight_hijack_1src,Petaling Jaya@2018,attack_success,variance_weighted,0.26666666666666666,1.0,-0.7333333333333334
+1.0,weight_hijack_1src,Istanbul@2013,recall,variance_weighted,0.54,0.42000000000000004,0.12
+1.0,weight_hijack_1src,Istanbul@2018,recall,variance_weighted,0.64,0.44000000000000006,0.19999999999999996
+1.0,weight_hijack_1src,Jakarta@2013,recall,variance_weighted,0.52,0.36,0.16000000000000003
+1.0,weight_hijack_1src,Kuwait City@2018,recall,variance_weighted,0.54,0.44000000000000006,0.09999999999999998
+1.0,weight_hijack_1src,New York@2013,recall,variance_weighted,0.48,0.32,0.15999999999999998
+1.0,weight_hijack_1src,Petaling Jaya@2013,recall,variance_weighted,0.58,0.4,0.17999999999999994
+1.0,weight_hijack_1src,Petaling Jaya@2018,recall,variance_weighted,0.54,0.36,0.18000000000000005
+1.0,weight_hijack_1src,Istanbul@2013,ndcg,variance_weighted,0.6801803807394208,0.5080955640931037,0.17208481664631703
+1.0,weight_hijack_1src,Istanbul@2018,ndcg,variance_weighted,0.7142268822114943,0.5387616943548454,0.17546518785664889
+1.0,weight_hijack_1src,Jakarta@2013,ndcg,variance_weighted,0.801852612613499,0.45706812333994834,0.3447844892735507
+1.0,weight_hijack_1src,Kuwait City@2018,ndcg,variance_weighted,0.6785912240544694,0.533389112638168,0.14520211141630135
+1.0,weight_hijack_1src,New York@2013,ndcg,variance_weighted,0.6999480485245866,0.4045232281521722,0.2954248203724144
+1.0,weight_hijack_1src,Petaling Jaya@2013,ndcg,variance_weighted,0.8637091893754565,0.6132939336633151,0.2504152557121414
+1.0,weight_hijack_1src,Petaling Jaya@2018,ndcg,variance_weighted,0.6913925523315648,0.3450363854467373,0.3463561668848275
+1.0,weight_hijack_1src,Istanbul@2013,attack_success,trimmed_frequency,0.4666666666666666,0.2,0.2666666666666666
+1.0,weight_hijack_1src,Istanbul@2018,attack_success,trimmed_frequency,0.26666666666666666,0.06666666666666667,0.2
+1.0,weight_hijack_1src,Jakarta@2013,attack_success,trimmed_frequency,0.3333333333333333,0.06666666666666667,0.26666666666666666
+1.0,weight_hijack_1src,Kuwait City@2018,attack_success,trimmed_frequency,0.3333333333333333,0.2,0.1333333333333333
+1.0,weight_hijack_1src,New York@2013,attack_success,trimmed_frequency,0.26666666666666666,0.13333333333333333,0.13333333333333333
+1.0,weight_hijack_1src,Petaling Jaya@2013,attack_success,trimmed_frequency,0.3333333333333333,0.13333333333333333,0.19999999999999998
+1.0,weight_hijack_1src,Petaling Jaya@2018,attack_success,trimmed_frequency,0.26666666666666666,0.13333333333333333,0.13333333333333333
+1.0,weight_hijack_1src,Istanbul@2013,recall,trimmed_frequency,0.54,0.58,-0.039999999999999925
+1.0,weight_hijack_1src,Istanbul@2018,recall,trimmed_frequency,0.64,0.6,0.040000000000000036
+1.0,weight_hijack_1src,Jakarta@2013,recall,trimmed_frequency,0.52,0.54,-0.020000000000000018
+1.0,weight_hijack_1src,Kuwait City@2018,recall,trimmed_frequency,0.54,0.56,-0.020000000000000018
+1.0,weight_hijack_1src,New York@2013,recall,trimmed_frequency,0.48,0.5,-0.020000000000000018
+1.0,weight_hijack_1src,Petaling Jaya@2013,recall,trimmed_frequency,0.58,0.5800000000000001,-1.1102230246251565e-16
+1.0,weight_hijack_1src,Petaling Jaya@2018,recall,trimmed_frequency,0.54,0.54,0.0
+1.0,weight_hijack_1src,Istanbul@2013,ndcg,trimmed_frequency,0.6801803807394208,0.6750667951248333,0.005113585614587524
+1.0,weight_hijack_1src,Istanbul@2018,ndcg,trimmed_frequency,0.7142268822114943,0.6865582416665366,0.027668640544957768
+1.0,weight_hijack_1src,Jakarta@2013,ndcg,trimmed_frequency,0.801852612613499,0.8013280838658913,0.0005245287476077776
+1.0,weight_hijack_1src,Kuwait City@2018,ndcg,trimmed_frequency,0.6785912240544694,0.6631811676951324,0.01541005635933701
+1.0,weight_hijack_1src,New York@2013,ndcg,trimmed_frequency,0.6999480485245866,0.7341634095951208,-0.034215361070534245
+1.0,weight_hijack_1src,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8637091893754565,0.833837119627255,0.029872069748201446
+1.0,weight_hijack_1src,Petaling Jaya@2018,ndcg,trimmed_frequency,0.6913925523315648,0.8204722413809055,-0.12907968904934064
+1.0,weight_hijack_2src,Istanbul@2013,attack_success,simple_average,1.0,1.0,0.0
+1.0,weight_hijack_2src,Istanbul@2018,attack_success,simple_average,1.0,1.0,0.0
+1.0,weight_hijack_2src,Jakarta@2013,attack_success,simple_average,1.0,1.0,0.0
+1.0,weight_hijack_2src,Kuwait City@2018,attack_success,simple_average,1.0,1.0,0.0
+1.0,weight_hijack_2src,New York@2013,attack_success,simple_average,1.0,1.0,0.0
+1.0,weight_hijack_2src,Petaling Jaya@2013,attack_success,simple_average,1.0,1.0,0.0
+1.0,weight_hijack_2src,Petaling Jaya@2018,attack_success,simple_average,1.0,1.0,0.0
+1.0,weight_hijack_2src,Istanbul@2013,recall,simple_average,0.52,0.52,0.0
+1.0,weight_hijack_2src,Istanbul@2018,recall,simple_average,0.6,0.5800000000000001,0.019999999999999907
+1.0,weight_hijack_2src,Jakarta@2013,recall,simple_average,0.52,0.52,0.0
+1.0,weight_hijack_2src,Kuwait City@2018,recall,simple_average,0.54,0.56,-0.020000000000000018
+1.0,weight_hijack_2src,New York@2013,recall,simple_average,0.42000000000000004,0.44000000000000006,-0.020000000000000018
+1.0,weight_hijack_2src,Petaling Jaya@2013,recall,simple_average,0.54,0.52,0.020000000000000018
+1.0,weight_hijack_2src,Petaling Jaya@2018,recall,simple_average,0.5,0.52,-0.020000000000000018
+1.0,weight_hijack_2src,Istanbul@2013,ndcg,simple_average,0.6379921088680989,0.6381715035062031,-0.0001793946381042355
+1.0,weight_hijack_2src,Istanbul@2018,ndcg,simple_average,0.6822311573856912,0.6607533743565929,0.021477783029098307
+1.0,weight_hijack_2src,Jakarta@2013,ndcg,simple_average,0.7287050478181131,0.7810469734302204,-0.052341925612107376
+1.0,weight_hijack_2src,Kuwait City@2018,ndcg,simple_average,0.6537914980821091,0.6579204589771792,-0.0041289608950700885
+1.0,weight_hijack_2src,New York@2013,ndcg,simple_average,0.6470840001627032,0.6788832820726849,-0.031799281909981714
+1.0,weight_hijack_2src,Petaling Jaya@2013,ndcg,simple_average,0.8237402999908587,0.8008639267428013,0.02287637324805747
+1.0,weight_hijack_2src,Petaling Jaya@2018,ndcg,simple_average,0.7210855234739522,0.759116879583404,-0.03803135610945185
+1.0,weight_hijack_2src,Istanbul@2013,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,weight_hijack_2src,Istanbul@2018,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,weight_hijack_2src,Jakarta@2013,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,weight_hijack_2src,Kuwait City@2018,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,weight_hijack_2src,New York@2013,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,weight_hijack_2src,Petaling Jaya@2013,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,weight_hijack_2src,Petaling Jaya@2018,attack_success,variance_weighted,1.0,1.0,0.0
+1.0,weight_hijack_2src,Istanbul@2013,recall,variance_weighted,0.52,0.4,0.12
+1.0,weight_hijack_2src,Istanbul@2018,recall,variance_weighted,0.6,0.5,0.09999999999999998
+1.0,weight_hijack_2src,Jakarta@2013,recall,variance_weighted,0.52,0.5,0.020000000000000018
+1.0,weight_hijack_2src,Kuwait City@2018,recall,variance_weighted,0.54,0.45999999999999996,0.08000000000000007
+1.0,weight_hijack_2src,New York@2013,recall,variance_weighted,0.42000000000000004,0.38,0.040000000000000036
+1.0,weight_hijack_2src,Petaling Jaya@2013,recall,variance_weighted,0.54,0.45999999999999996,0.08000000000000007
+1.0,weight_hijack_2src,Petaling Jaya@2018,recall,variance_weighted,0.5,0.4,0.09999999999999998
+1.0,weight_hijack_2src,Istanbul@2013,ndcg,variance_weighted,0.6379921088680989,0.3341342560239016,0.30385785284419725
+1.0,weight_hijack_2src,Istanbul@2018,ndcg,variance_weighted,0.6822311573856912,0.43448191444470996,0.24774924294098122
+1.0,weight_hijack_2src,Jakarta@2013,ndcg,variance_weighted,0.7287050478181131,0.45632710025478407,0.272377947563329
+1.0,weight_hijack_2src,Kuwait City@2018,ndcg,variance_weighted,0.6537914980821091,0.38682993604616656,0.26696156203594257
+1.0,weight_hijack_2src,New York@2013,ndcg,variance_weighted,0.6470840001627032,0.41545767182195953,0.23162632834074365
+1.0,weight_hijack_2src,Petaling Jaya@2013,ndcg,variance_weighted,0.8237402999908587,0.446848969894823,0.37689133009603576
+1.0,weight_hijack_2src,Petaling Jaya@2018,ndcg,variance_weighted,0.7210855234739522,0.4037996908227669,0.31728583265118526
+1.0,weight_hijack_2src,Istanbul@2013,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,weight_hijack_2src,Istanbul@2018,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,weight_hijack_2src,Jakarta@2013,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,weight_hijack_2src,Kuwait City@2018,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,weight_hijack_2src,New York@2013,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,weight_hijack_2src,Petaling Jaya@2013,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,weight_hijack_2src,Petaling Jaya@2018,attack_success,trimmed_frequency,1.0,1.0,0.0
+1.0,weight_hijack_2src,Istanbul@2013,recall,trimmed_frequency,0.52,0.5,0.020000000000000018
+1.0,weight_hijack_2src,Istanbul@2018,recall,trimmed_frequency,0.6,0.5800000000000001,0.019999999999999907
+1.0,weight_hijack_2src,Jakarta@2013,recall,trimmed_frequency,0.52,0.52,0.0
+1.0,weight_hijack_2src,Kuwait City@2018,recall,trimmed_frequency,0.54,0.54,0.0
+1.0,weight_hijack_2src,New York@2013,recall,trimmed_frequency,0.42000000000000004,0.44000000000000006,-0.020000000000000018
+1.0,weight_hijack_2src,Petaling Jaya@2013,recall,trimmed_frequency,0.54,0.52,0.020000000000000018
+1.0,weight_hijack_2src,Petaling Jaya@2018,recall,trimmed_frequency,0.5,0.5,0.0
+1.0,weight_hijack_2src,Istanbul@2013,ndcg,trimmed_frequency,0.6379921088680989,0.6442927233138405,-0.0063006144457415925
+1.0,weight_hijack_2src,Istanbul@2018,ndcg,trimmed_frequency,0.6822311573856912,0.6545444862653524,0.027686671120338735
+1.0,weight_hijack_2src,Jakarta@2013,ndcg,trimmed_frequency,0.7287050478181131,0.7783657960029594,-0.04966074818484634
+1.0,weight_hijack_2src,Kuwait City@2018,ndcg,trimmed_frequency,0.6537914980821091,0.6344908109607841,0.019300687121325044
+1.0,weight_hijack_2src,New York@2013,ndcg,trimmed_frequency,0.6470840001627032,0.6890674418908728,-0.04198344172816959
+1.0,weight_hijack_2src,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8237402999908587,0.8025352580989443,0.02120504189191441
+1.0,weight_hijack_2src,Petaling Jaya@2018,ndcg,trimmed_frequency,0.7210855234739522,0.8122607399940396,-0.09117521652008742
+2.0,clean,Istanbul@2013,attack_success,simple_average,0.0,0.0,0.0
+2.0,clean,Istanbul@2018,attack_success,simple_average,0.0,0.0,0.0
+2.0,clean,Jakarta@2013,attack_success,simple_average,0.0,0.0,0.0
+2.0,clean,Kuwait City@2018,attack_success,simple_average,0.0,0.0,0.0
+2.0,clean,New York@2013,attack_success,simple_average,0.0,0.0,0.0
+2.0,clean,Petaling Jaya@2013,attack_success,simple_average,0.0,0.0,0.0
+2.0,clean,Petaling Jaya@2018,attack_success,simple_average,0.0,0.0,0.0
+2.0,clean,Istanbul@2013,recall,simple_average,0.72,0.74,-0.020000000000000018
+2.0,clean,Istanbul@2018,recall,simple_average,0.6599999999999999,0.7,-0.040000000000000036
+2.0,clean,Jakarta@2013,recall,simple_average,0.7000000000000001,0.66,0.040000000000000036
+2.0,clean,Kuwait City@2018,recall,simple_average,0.5800000000000001,0.6,-0.019999999999999907
+2.0,clean,New York@2013,recall,simple_average,0.5800000000000001,0.6,-0.019999999999999907
+2.0,clean,Petaling Jaya@2013,recall,simple_average,0.7,0.68,0.019999999999999907
+2.0,clean,Petaling Jaya@2018,recall,simple_average,0.66,0.6399999999999999,0.02000000000000013
+2.0,clean,Istanbul@2013,ndcg,simple_average,0.7154086378021907,0.7282546465981243,-0.012846008795933672
+2.0,clean,Istanbul@2018,ndcg,simple_average,0.734554312129606,0.7731236238536965,-0.038569311724090505
+2.0,clean,Jakarta@2013,ndcg,simple_average,0.83550828484846,0.8150796550146199,0.020428629833840084
+2.0,clean,Kuwait City@2018,ndcg,simple_average,0.6960066215467942,0.7087815026285327,-0.01277488108173852
+2.0,clean,New York@2013,ndcg,simple_average,0.8018699475024492,0.8081525392756914,-0.0062825917732421965
+2.0,clean,Petaling Jaya@2013,ndcg,simple_average,0.8401954229915344,0.8400884415112436,0.0001069814802907576
+2.0,clean,Petaling Jaya@2018,ndcg,simple_average,0.835741667409569,0.777698183019083,0.05804348439048601
+2.0,clean,Istanbul@2013,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,clean,Istanbul@2018,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,clean,Jakarta@2013,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,clean,Kuwait City@2018,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,clean,New York@2013,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,clean,Petaling Jaya@2013,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,clean,Petaling Jaya@2018,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,clean,Istanbul@2013,recall,variance_weighted,0.72,0.74,-0.020000000000000018
+2.0,clean,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.7,-0.040000000000000036
+2.0,clean,Jakarta@2013,recall,variance_weighted,0.7000000000000001,0.66,0.040000000000000036
+2.0,clean,Kuwait City@2018,recall,variance_weighted,0.5800000000000001,0.6,-0.019999999999999907
+2.0,clean,New York@2013,recall,variance_weighted,0.5800000000000001,0.5800000000000001,0.0
+2.0,clean,Petaling Jaya@2013,recall,variance_weighted,0.7,0.68,0.019999999999999907
+2.0,clean,Petaling Jaya@2018,recall,variance_weighted,0.66,0.6399999999999999,0.02000000000000013
+2.0,clean,Istanbul@2013,ndcg,variance_weighted,0.7154086378021907,0.7280550329895703,-0.012646395187379644
+2.0,clean,Istanbul@2018,ndcg,variance_weighted,0.734554312129606,0.7731236238536965,-0.038569311724090505
+2.0,clean,Jakarta@2013,ndcg,variance_weighted,0.83550828484846,0.8150796550146199,0.020428629833840084
+2.0,clean,Kuwait City@2018,ndcg,variance_weighted,0.6960066215467942,0.7087815026285327,-0.01277488108173852
+2.0,clean,New York@2013,ndcg,variance_weighted,0.8018699475024492,0.7914169631909785,0.010452984311470681
+2.0,clean,Petaling Jaya@2013,ndcg,variance_weighted,0.8401954229915344,0.8400884415112436,0.0001069814802907576
+2.0,clean,Petaling Jaya@2018,ndcg,variance_weighted,0.835741667409569,0.777698183019083,0.05804348439048601
+2.0,clean,Istanbul@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,clean,Istanbul@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,clean,Jakarta@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,clean,Kuwait City@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,clean,New York@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,clean,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,clean,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,clean,Istanbul@2013,recall,trimmed_frequency,0.72,0.7200000000000001,-1.1102230246251565e-16
+2.0,clean,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6599999999999999,0.0
+2.0,clean,Jakarta@2013,recall,trimmed_frequency,0.7000000000000001,0.74,-0.039999999999999925
+2.0,clean,Kuwait City@2018,recall,trimmed_frequency,0.5800000000000001,0.5800000000000001,0.0
+2.0,clean,New York@2013,recall,trimmed_frequency,0.5800000000000001,0.56,0.020000000000000018
+2.0,clean,Petaling Jaya@2013,recall,trimmed_frequency,0.7,0.7,0.0
+2.0,clean,Petaling Jaya@2018,recall,trimmed_frequency,0.66,0.68,-0.020000000000000018
+2.0,clean,Istanbul@2013,ndcg,trimmed_frequency,0.7154086378021907,0.7107710601922097,0.0046375776099809585
+2.0,clean,Istanbul@2018,ndcg,trimmed_frequency,0.734554312129606,0.7300073888532476,0.004546923276358417
+2.0,clean,Jakarta@2013,ndcg,trimmed_frequency,0.83550828484846,0.8258111351634504,0.009697149685009565
+2.0,clean,Kuwait City@2018,ndcg,trimmed_frequency,0.6960066215467942,0.6825024016245769,0.013504219922217287
+2.0,clean,New York@2013,ndcg,trimmed_frequency,0.8018699475024492,0.6975783209244367,0.1042916265780125
+2.0,clean,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8401954229915344,0.8401090195276106,8.640346392374543e-05
+2.0,clean,Petaling Jaya@2018,ndcg,trimmed_frequency,0.835741667409569,0.8325624316767234,0.00317923573284562
+2.0,compromised_1src,Istanbul@2013,attack_success,simple_average,0.06666666666666667,0.7999999999999999,-0.7333333333333333
+2.0,compromised_1src,Istanbul@2018,attack_success,simple_average,0.13333333333333333,0.8,-0.6666666666666667
+2.0,compromised_1src,Jakarta@2013,attack_success,simple_average,0.13333333333333333,0.7333333333333332,-0.5999999999999999
+2.0,compromised_1src,Kuwait City@2018,attack_success,simple_average,0.06666666666666667,0.5999999999999999,-0.5333333333333332
+2.0,compromised_1src,New York@2013,attack_success,simple_average,0.0,0.9333333333333332,-0.9333333333333332
+2.0,compromised_1src,Petaling Jaya@2013,attack_success,simple_average,0.0,0.8666666666666666,-0.8666666666666666
+2.0,compromised_1src,Petaling Jaya@2018,attack_success,simple_average,0.0,0.7333333333333333,-0.7333333333333333
+2.0,compromised_1src,Istanbul@2013,recall,simple_average,0.72,0.6599999999999999,0.06000000000000005
+2.0,compromised_1src,Istanbul@2018,recall,simple_average,0.6599999999999999,0.6599999999999999,0.0
+2.0,compromised_1src,Jakarta@2013,recall,simple_average,0.7000000000000001,0.6000000000000001,0.09999999999999998
+2.0,compromised_1src,Kuwait City@2018,recall,simple_average,0.5800000000000001,0.62,-0.039999999999999925
+2.0,compromised_1src,New York@2013,recall,simple_average,0.56,0.5,0.06000000000000005
+2.0,compromised_1src,Petaling Jaya@2013,recall,simple_average,0.7200000000000001,0.54,0.18000000000000005
+2.0,compromised_1src,Petaling Jaya@2018,recall,simple_average,0.66,0.56,0.09999999999999998
+2.0,compromised_1src,Istanbul@2013,ndcg,simple_average,0.7155218566146079,0.6968832101882676,0.018638646426340277
+2.0,compromised_1src,Istanbul@2018,ndcg,simple_average,0.734007122208944,0.7333824710617796,0.0006246511471644789
+2.0,compromised_1src,Jakarta@2013,ndcg,simple_average,0.834730636467995,0.8013795662738061,0.033351070194188814
+2.0,compromised_1src,Kuwait City@2018,ndcg,simple_average,0.6965841324887494,0.7047983103653215,-0.008214177876572082
+2.0,compromised_1src,New York@2013,ndcg,simple_average,0.7852032707163452,0.71509847236892,0.07010479834742522
+2.0,compromised_1src,Petaling Jaya@2013,ndcg,simple_average,0.8424719148829899,0.8094121636759551,0.03305975120703475
+2.0,compromised_1src,Petaling Jaya@2018,ndcg,simple_average,0.835741667409569,0.7628032900697926,0.07293837733977637
+2.0,compromised_1src,Istanbul@2013,attack_success,variance_weighted,0.06666666666666667,0.7999999999999999,-0.7333333333333333
+2.0,compromised_1src,Istanbul@2018,attack_success,variance_weighted,0.13333333333333333,0.8,-0.6666666666666667
+2.0,compromised_1src,Jakarta@2013,attack_success,variance_weighted,0.13333333333333333,0.7333333333333332,-0.5999999999999999
+2.0,compromised_1src,Kuwait City@2018,attack_success,variance_weighted,0.06666666666666667,0.5999999999999999,-0.5333333333333332
+2.0,compromised_1src,New York@2013,attack_success,variance_weighted,0.0,0.9333333333333332,-0.9333333333333332
+2.0,compromised_1src,Petaling Jaya@2013,attack_success,variance_weighted,0.0,0.8666666666666666,-0.8666666666666666
+2.0,compromised_1src,Petaling Jaya@2018,attack_success,variance_weighted,0.0,0.7333333333333333,-0.7333333333333333
+2.0,compromised_1src,Istanbul@2013,recall,variance_weighted,0.72,0.6599999999999999,0.06000000000000005
+2.0,compromised_1src,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.6599999999999999,0.0
+2.0,compromised_1src,Jakarta@2013,recall,variance_weighted,0.7000000000000001,0.6000000000000001,0.09999999999999998
+2.0,compromised_1src,Kuwait City@2018,recall,variance_weighted,0.5800000000000001,0.62,-0.039999999999999925
+2.0,compromised_1src,New York@2013,recall,variance_weighted,0.56,0.5,0.06000000000000005
+2.0,compromised_1src,Petaling Jaya@2013,recall,variance_weighted,0.7200000000000001,0.54,0.18000000000000005
+2.0,compromised_1src,Petaling Jaya@2018,recall,variance_weighted,0.66,0.56,0.09999999999999998
+2.0,compromised_1src,Istanbul@2013,ndcg,variance_weighted,0.7155218566146079,0.6966835965797135,0.018838260034894416
+2.0,compromised_1src,Istanbul@2018,ndcg,variance_weighted,0.734007122208944,0.7333824710617796,0.0006246511471644789
+2.0,compromised_1src,Jakarta@2013,ndcg,variance_weighted,0.834730636467995,0.8013795662738061,0.033351070194188814
+2.0,compromised_1src,Kuwait City@2018,ndcg,variance_weighted,0.6965841324887494,0.7047983103653215,-0.008214177876572082
+2.0,compromised_1src,New York@2013,ndcg,variance_weighted,0.7852032707163452,0.71509847236892,0.07010479834742522
+2.0,compromised_1src,Petaling Jaya@2013,ndcg,variance_weighted,0.8424719148829899,0.8094121636759551,0.03305975120703475
+2.0,compromised_1src,Petaling Jaya@2018,ndcg,variance_weighted,0.835741667409569,0.7628032900697926,0.07293837733977637
+2.0,compromised_1src,Istanbul@2013,attack_success,trimmed_frequency,0.06666666666666667,0.0,0.06666666666666667
+2.0,compromised_1src,Istanbul@2018,attack_success,trimmed_frequency,0.13333333333333333,0.13333333333333333,0.0
+2.0,compromised_1src,Jakarta@2013,attack_success,trimmed_frequency,0.13333333333333333,0.0,0.13333333333333333
+2.0,compromised_1src,Kuwait City@2018,attack_success,trimmed_frequency,0.06666666666666667,0.06666666666666667,0.0
+2.0,compromised_1src,New York@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,compromised_1src,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,compromised_1src,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,compromised_1src,Istanbul@2013,recall,trimmed_frequency,0.72,0.7200000000000001,-1.1102230246251565e-16
+2.0,compromised_1src,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6599999999999999,0.0
+2.0,compromised_1src,Jakarta@2013,recall,trimmed_frequency,0.7000000000000001,0.76,-0.05999999999999994
+2.0,compromised_1src,Kuwait City@2018,recall,trimmed_frequency,0.5800000000000001,0.5800000000000001,0.0
+2.0,compromised_1src,New York@2013,recall,trimmed_frequency,0.56,0.54,0.020000000000000018
+2.0,compromised_1src,Petaling Jaya@2013,recall,trimmed_frequency,0.7200000000000001,0.7,0.02000000000000013
+2.0,compromised_1src,Petaling Jaya@2018,recall,trimmed_frequency,0.66,0.7,-0.039999999999999925
+2.0,compromised_1src,Istanbul@2013,ndcg,trimmed_frequency,0.7155218566146079,0.7107710601922097,0.004750796422398174
+2.0,compromised_1src,Istanbul@2018,ndcg,trimmed_frequency,0.734007122208944,0.7301482357115118,0.003858886497432268
+2.0,compromised_1src,Jakarta@2013,ndcg,trimmed_frequency,0.834730636467995,0.8297712119337417,0.004959424534253243
+2.0,compromised_1src,Kuwait City@2018,ndcg,trimmed_frequency,0.6965841324887494,0.6830832934638462,0.013500839024903177
+2.0,compromised_1src,New York@2013,ndcg,trimmed_frequency,0.7852032707163452,0.6810417066047336,0.1041615641116116
+2.0,compromised_1src,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8424719148829899,0.8385299500075257,0.003941964875464166
+2.0,compromised_1src,Petaling Jaya@2018,ndcg,trimmed_frequency,0.835741667409569,0.8365963466654172,-0.0008546792558481453
+2.0,compromised_2src,Istanbul@2013,attack_success,simple_average,0.4666666666666666,1.0,-0.5333333333333334
+2.0,compromised_2src,Istanbul@2018,attack_success,simple_average,0.4,1.0,-0.6
+2.0,compromised_2src,Jakarta@2013,attack_success,simple_average,0.5333333333333333,1.0,-0.4666666666666667
+2.0,compromised_2src,Kuwait City@2018,attack_success,simple_average,0.3333333333333333,1.0,-0.6666666666666667
+2.0,compromised_2src,New York@2013,attack_success,simple_average,0.4,1.0,-0.6
+2.0,compromised_2src,Petaling Jaya@2013,attack_success,simple_average,0.4666666666666666,1.0,-0.5333333333333334
+2.0,compromised_2src,Petaling Jaya@2018,attack_success,simple_average,0.3333333333333333,1.0,-0.6666666666666667
+2.0,compromised_2src,Istanbul@2013,recall,simple_average,0.6599999999999999,0.6,0.05999999999999994
+2.0,compromised_2src,Istanbul@2018,recall,simple_average,0.6599999999999999,0.6199999999999999,0.040000000000000036
+2.0,compromised_2src,Jakarta@2013,recall,simple_average,0.66,0.52,0.14
+2.0,compromised_2src,Kuwait City@2018,recall,simple_average,0.5800000000000001,0.58,1.1102230246251565e-16
+2.0,compromised_2src,New York@2013,recall,simple_average,0.54,0.5,0.040000000000000036
+2.0,compromised_2src,Petaling Jaya@2013,recall,simple_average,0.6599999999999999,0.52,0.1399999999999999
+2.0,compromised_2src,Petaling Jaya@2018,recall,simple_average,0.6399999999999999,0.5,0.1399999999999999
+2.0,compromised_2src,Istanbul@2013,ndcg,simple_average,0.7002215781598474,0.665165835794397,0.03505574236545039
+2.0,compromised_2src,Istanbul@2018,ndcg,simple_average,0.7282384017824763,0.7000408660662334,0.02819753571624295
+2.0,compromised_2src,Jakarta@2013,ndcg,simple_average,0.8272772827703232,0.768358743917895,0.05891853885242815
+2.0,compromised_2src,Kuwait City@2018,ndcg,simple_average,0.6934696702859074,0.667195246391182,0.02627442389472545
+2.0,compromised_2src,New York@2013,ndcg,simple_average,0.7619317674301038,0.6978566515420579,0.06407511588804593
+2.0,compromised_2src,Petaling Jaya@2013,ndcg,simple_average,0.8291158115160238,0.7944476503045795,0.034668161211444226
+2.0,compromised_2src,Petaling Jaya@2018,ndcg,simple_average,0.8292092799026609,0.7394915491055551,0.08971773079710577
+2.0,compromised_2src,Istanbul@2013,attack_success,variance_weighted,0.4666666666666666,1.0,-0.5333333333333334
+2.0,compromised_2src,Istanbul@2018,attack_success,variance_weighted,0.4,1.0,-0.6
+2.0,compromised_2src,Jakarta@2013,attack_success,variance_weighted,0.5333333333333333,1.0,-0.4666666666666667
+2.0,compromised_2src,Kuwait City@2018,attack_success,variance_weighted,0.3333333333333333,1.0,-0.6666666666666667
+2.0,compromised_2src,New York@2013,attack_success,variance_weighted,0.4,1.0,-0.6
+2.0,compromised_2src,Petaling Jaya@2013,attack_success,variance_weighted,0.4666666666666666,1.0,-0.5333333333333334
+2.0,compromised_2src,Petaling Jaya@2018,attack_success,variance_weighted,0.3333333333333333,1.0,-0.6666666666666667
+2.0,compromised_2src,Istanbul@2013,recall,variance_weighted,0.6599999999999999,0.6,0.05999999999999994
+2.0,compromised_2src,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.6199999999999999,0.040000000000000036
+2.0,compromised_2src,Jakarta@2013,recall,variance_weighted,0.66,0.52,0.14
+2.0,compromised_2src,Kuwait City@2018,recall,variance_weighted,0.5800000000000001,0.58,1.1102230246251565e-16
+2.0,compromised_2src,New York@2013,recall,variance_weighted,0.54,0.5,0.040000000000000036
+2.0,compromised_2src,Petaling Jaya@2013,recall,variance_weighted,0.6599999999999999,0.52,0.1399999999999999
+2.0,compromised_2src,Petaling Jaya@2018,recall,variance_weighted,0.6399999999999999,0.5,0.1399999999999999
+2.0,compromised_2src,Istanbul@2013,ndcg,variance_weighted,0.7002215781598474,0.6619366104310516,0.03828496772879586
+2.0,compromised_2src,Istanbul@2018,ndcg,variance_weighted,0.7282384017824763,0.7000408660662334,0.02819753571624295
+2.0,compromised_2src,Jakarta@2013,ndcg,variance_weighted,0.8272772827703232,0.768358743917895,0.05891853885242815
+2.0,compromised_2src,Kuwait City@2018,ndcg,variance_weighted,0.6934696702859074,0.667195246391182,0.02627442389472545
+2.0,compromised_2src,New York@2013,ndcg,variance_weighted,0.7619317674301038,0.6978566515420579,0.06407511588804593
+2.0,compromised_2src,Petaling Jaya@2013,ndcg,variance_weighted,0.8291158115160238,0.7944476503045795,0.034668161211444226
+2.0,compromised_2src,Petaling Jaya@2018,ndcg,variance_weighted,0.8292092799026609,0.7394915491055551,0.08971773079710577
+2.0,compromised_2src,Istanbul@2013,attack_success,trimmed_frequency,0.4666666666666666,1.0,-0.5333333333333334
+2.0,compromised_2src,Istanbul@2018,attack_success,trimmed_frequency,0.4,1.0,-0.6
+2.0,compromised_2src,Jakarta@2013,attack_success,trimmed_frequency,0.5333333333333333,1.0,-0.4666666666666667
+2.0,compromised_2src,Kuwait City@2018,attack_success,trimmed_frequency,0.3333333333333333,1.0,-0.6666666666666667
+2.0,compromised_2src,New York@2013,attack_success,trimmed_frequency,0.4,1.0,-0.6
+2.0,compromised_2src,Petaling Jaya@2013,attack_success,trimmed_frequency,0.4666666666666666,1.0,-0.5333333333333334
+2.0,compromised_2src,Petaling Jaya@2018,attack_success,trimmed_frequency,0.3333333333333333,1.0,-0.6666666666666667
+2.0,compromised_2src,Istanbul@2013,recall,trimmed_frequency,0.6599999999999999,0.6,0.05999999999999994
+2.0,compromised_2src,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.5800000000000001,0.07999999999999985
+2.0,compromised_2src,Jakarta@2013,recall,trimmed_frequency,0.66,0.6000000000000001,0.05999999999999994
+2.0,compromised_2src,Kuwait City@2018,recall,trimmed_frequency,0.5800000000000001,0.54,0.040000000000000036
+2.0,compromised_2src,New York@2013,recall,trimmed_frequency,0.54,0.5,0.040000000000000036
+2.0,compromised_2src,Petaling Jaya@2013,recall,trimmed_frequency,0.6599999999999999,0.6,0.05999999999999994
+2.0,compromised_2src,Petaling Jaya@2018,recall,trimmed_frequency,0.6399999999999999,0.56,0.07999999999999985
+2.0,compromised_2src,Istanbul@2013,ndcg,trimmed_frequency,0.7002215781598474,0.6574293653026366,0.0427922128572108
+2.0,compromised_2src,Istanbul@2018,ndcg,trimmed_frequency,0.7282384017824763,0.6754976705285821,0.052740731253894224
+2.0,compromised_2src,Jakarta@2013,ndcg,trimmed_frequency,0.8272772827703232,0.7860438865470927,0.04123339622323052
+2.0,compromised_2src,Kuwait City@2018,ndcg,trimmed_frequency,0.6934696702859074,0.6401666890588628,0.05330298122704469
+2.0,compromised_2src,New York@2013,ndcg,trimmed_frequency,0.7619317674301038,0.6310424005793961,0.13088936685070773
+2.0,compromised_2src,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8291158115160238,0.8095476571050225,0.019568154411001237
+2.0,compromised_2src,Petaling Jaya@2018,ndcg,trimmed_frequency,0.8292092799026609,0.8027474115410189,0.026461868361641994
+2.0,mga_1src_b0.02,Istanbul@2013,attack_success,simple_average,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.02,Istanbul@2018,attack_success,simple_average,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.02,Jakarta@2013,attack_success,simple_average,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.02,Kuwait City@2018,attack_success,simple_average,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.02,New York@2013,attack_success,simple_average,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Petaling Jaya@2013,attack_success,simple_average,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Petaling Jaya@2018,attack_success,simple_average,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Istanbul@2013,recall,simple_average,0.72,0.74,-0.020000000000000018
+2.0,mga_1src_b0.02,Istanbul@2018,recall,simple_average,0.6599999999999999,0.7,-0.040000000000000036
+2.0,mga_1src_b0.02,Jakarta@2013,recall,simple_average,0.7000000000000001,0.66,0.040000000000000036
+2.0,mga_1src_b0.02,Kuwait City@2018,recall,simple_average,0.5800000000000001,0.6,-0.019999999999999907
+2.0,mga_1src_b0.02,New York@2013,recall,simple_average,0.5800000000000001,0.56,0.020000000000000018
+2.0,mga_1src_b0.02,Petaling Jaya@2013,recall,simple_average,0.7,0.68,0.019999999999999907
+2.0,mga_1src_b0.02,Petaling Jaya@2018,recall,simple_average,0.66,0.6399999999999999,0.02000000000000013
+2.0,mga_1src_b0.02,Istanbul@2013,ndcg,simple_average,0.7040921189302629,0.7278170900680607,-0.023724971137797812
+2.0,mga_1src_b0.02,Istanbul@2018,ndcg,simple_average,0.734554312129606,0.7728448638364763,-0.038290551706870346
+2.0,mga_1src_b0.02,Jakarta@2013,ndcg,simple_average,0.83550828484846,0.8150934559076181,0.0204148289408419
+2.0,mga_1src_b0.02,Kuwait City@2018,ndcg,simple_average,0.6957358057398275,0.7091918621546619,-0.013456056414834383
+2.0,mga_1src_b0.02,New York@2013,ndcg,simple_average,0.8018699475024492,0.7453755945878255,0.05649435291462368
+2.0,mga_1src_b0.02,Petaling Jaya@2013,ndcg,simple_average,0.8401954229915344,0.839821641625545,0.0003737813659894229
+2.0,mga_1src_b0.02,Petaling Jaya@2018,ndcg,simple_average,0.835741667409569,0.777698183019083,0.05804348439048601
+2.0,mga_1src_b0.02,Istanbul@2013,attack_success,variance_weighted,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.02,Istanbul@2018,attack_success,variance_weighted,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.02,Jakarta@2013,attack_success,variance_weighted,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.02,Kuwait City@2018,attack_success,variance_weighted,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.02,New York@2013,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Petaling Jaya@2013,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Petaling Jaya@2018,attack_success,variance_weighted,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Istanbul@2013,recall,variance_weighted,0.72,0.74,-0.020000000000000018
+2.0,mga_1src_b0.02,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.7,-0.040000000000000036
+2.0,mga_1src_b0.02,Jakarta@2013,recall,variance_weighted,0.7000000000000001,0.66,0.040000000000000036
+2.0,mga_1src_b0.02,Kuwait City@2018,recall,variance_weighted,0.5800000000000001,0.6,-0.019999999999999907
+2.0,mga_1src_b0.02,New York@2013,recall,variance_weighted,0.5800000000000001,0.56,0.020000000000000018
+2.0,mga_1src_b0.02,Petaling Jaya@2013,recall,variance_weighted,0.7,0.68,0.019999999999999907
+2.0,mga_1src_b0.02,Petaling Jaya@2018,recall,variance_weighted,0.66,0.6399999999999999,0.02000000000000013
+2.0,mga_1src_b0.02,Istanbul@2013,ndcg,variance_weighted,0.7040921189302629,0.7278170900680607,-0.023724971137797812
+2.0,mga_1src_b0.02,Istanbul@2018,ndcg,variance_weighted,0.734554312129606,0.7728448638364763,-0.038290551706870346
+2.0,mga_1src_b0.02,Jakarta@2013,ndcg,variance_weighted,0.83550828484846,0.8150107841142669,0.020497500734193097
+2.0,mga_1src_b0.02,Kuwait City@2018,ndcg,variance_weighted,0.6957358057398275,0.7091918621546619,-0.013456056414834383
+2.0,mga_1src_b0.02,New York@2013,ndcg,variance_weighted,0.8018699475024492,0.7453755945878255,0.05649435291462368
+2.0,mga_1src_b0.02,Petaling Jaya@2013,ndcg,variance_weighted,0.8401954229915344,0.839821641625545,0.0003737813659894229
+2.0,mga_1src_b0.02,Petaling Jaya@2018,ndcg,variance_weighted,0.835741667409569,0.777698183019083,0.05804348439048601
+2.0,mga_1src_b0.02,Istanbul@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Istanbul@2018,attack_success,trimmed_frequency,0.0,0.13333333333333333,-0.13333333333333333
+2.0,mga_1src_b0.02,Jakarta@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Kuwait City@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.02,New York@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.02,Istanbul@2013,recall,trimmed_frequency,0.72,0.7200000000000001,-1.1102230246251565e-16
+2.0,mga_1src_b0.02,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6599999999999999,0.0
+2.0,mga_1src_b0.02,Jakarta@2013,recall,trimmed_frequency,0.7000000000000001,0.76,-0.05999999999999994
+2.0,mga_1src_b0.02,Kuwait City@2018,recall,trimmed_frequency,0.5800000000000001,0.5800000000000001,0.0
+2.0,mga_1src_b0.02,New York@2013,recall,trimmed_frequency,0.5800000000000001,0.54,0.040000000000000036
+2.0,mga_1src_b0.02,Petaling Jaya@2013,recall,trimmed_frequency,0.7,0.7,0.0
+2.0,mga_1src_b0.02,Petaling Jaya@2018,recall,trimmed_frequency,0.66,0.68,-0.020000000000000018
+2.0,mga_1src_b0.02,Istanbul@2013,ndcg,trimmed_frequency,0.7040921189302629,0.7107710601922097,-0.006678941261946791
+2.0,mga_1src_b0.02,Istanbul@2018,ndcg,trimmed_frequency,0.734554312129606,0.7301416552655796,0.004412656864026365
+2.0,mga_1src_b0.02,Jakarta@2013,ndcg,trimmed_frequency,0.83550828484846,0.831240809622571,0.004267475225888995
+2.0,mga_1src_b0.02,Kuwait City@2018,ndcg,trimmed_frequency,0.6957358057398275,0.6836506617138595,0.012085144025968053
+2.0,mga_1src_b0.02,New York@2013,ndcg,trimmed_frequency,0.8018699475024492,0.6810417066047336,0.1208282408977156
+2.0,mga_1src_b0.02,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8401954229915344,0.8400341854133293,0.00016123757820507567
+2.0,mga_1src_b0.02,Petaling Jaya@2018,ndcg,trimmed_frequency,0.835741667409569,0.8326565360236879,0.003085131385881068
+2.0,mga_1src_b0.05,Istanbul@2013,attack_success,simple_average,0.0,0.39999999999999997,-0.39999999999999997
+2.0,mga_1src_b0.05,Istanbul@2018,attack_success,simple_average,0.0,0.3333333333333333,-0.3333333333333333
+2.0,mga_1src_b0.05,Jakarta@2013,attack_success,simple_average,0.0,0.5333333333333333,-0.5333333333333333
+2.0,mga_1src_b0.05,Kuwait City@2018,attack_success,simple_average,0.0,0.26666666666666666,-0.26666666666666666
+2.0,mga_1src_b0.05,New York@2013,attack_success,simple_average,0.0,0.26666666666666666,-0.26666666666666666
+2.0,mga_1src_b0.05,Petaling Jaya@2013,attack_success,simple_average,0.0,0.39999999999999997,-0.39999999999999997
+2.0,mga_1src_b0.05,Petaling Jaya@2018,attack_success,simple_average,0.0,0.3333333333333333,-0.3333333333333333
+2.0,mga_1src_b0.05,Istanbul@2013,recall,simple_average,0.72,0.74,-0.020000000000000018
+2.0,mga_1src_b0.05,Istanbul@2018,recall,simple_average,0.6599999999999999,0.6799999999999999,-0.020000000000000018
+2.0,mga_1src_b0.05,Jakarta@2013,recall,simple_average,0.7000000000000001,0.62,0.08000000000000007
+2.0,mga_1src_b0.05,Kuwait City@2018,recall,simple_average,0.5800000000000001,0.6,-0.019999999999999907
+2.0,mga_1src_b0.05,New York@2013,recall,simple_average,0.5800000000000001,0.56,0.020000000000000018
+2.0,mga_1src_b0.05,Petaling Jaya@2013,recall,simple_average,0.7,0.6199999999999999,0.08000000000000007
+2.0,mga_1src_b0.05,Petaling Jaya@2018,recall,simple_average,0.66,0.62,0.040000000000000036
+2.0,mga_1src_b0.05,Istanbul@2013,ndcg,simple_average,0.7040921189302629,0.713036978093804,-0.008944859163541041
+2.0,mga_1src_b0.05,Istanbul@2018,ndcg,simple_average,0.734554312129606,0.7557408533421628,-0.02118654121255681
+2.0,mga_1src_b0.05,Jakarta@2013,ndcg,simple_average,0.83550828484846,0.8114498508230344,0.024058434025425512
+2.0,mga_1src_b0.05,Kuwait City@2018,ndcg,simple_average,0.695659729952856,0.7060449376620662,-0.010385207709210253
+2.0,mga_1src_b0.05,New York@2013,ndcg,simple_average,0.8018699475024492,0.7284585596885971,0.07341138781385215
+2.0,mga_1src_b0.05,Petaling Jaya@2013,ndcg,simple_average,0.8401954229915344,0.8252112171104258,0.014984205881108603
+2.0,mga_1src_b0.05,Petaling Jaya@2018,ndcg,simple_average,0.835741667409569,0.7762886716266488,0.05945299578292018
+2.0,mga_1src_b0.05,Istanbul@2013,attack_success,variance_weighted,0.0,0.4666666666666666,-0.4666666666666666
+2.0,mga_1src_b0.05,Istanbul@2018,attack_success,variance_weighted,0.0,0.3333333333333333,-0.3333333333333333
+2.0,mga_1src_b0.05,Jakarta@2013,attack_success,variance_weighted,0.0,0.5333333333333333,-0.5333333333333333
+2.0,mga_1src_b0.05,Kuwait City@2018,attack_success,variance_weighted,0.0,0.26666666666666666,-0.26666666666666666
+2.0,mga_1src_b0.05,New York@2013,attack_success,variance_weighted,0.0,0.26666666666666666,-0.26666666666666666
+2.0,mga_1src_b0.05,Petaling Jaya@2013,attack_success,variance_weighted,0.0,0.39999999999999997,-0.39999999999999997
+2.0,mga_1src_b0.05,Petaling Jaya@2018,attack_success,variance_weighted,0.0,0.3333333333333333,-0.3333333333333333
+2.0,mga_1src_b0.05,Istanbul@2013,recall,variance_weighted,0.72,0.74,-0.020000000000000018
+2.0,mga_1src_b0.05,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.6799999999999999,-0.020000000000000018
+2.0,mga_1src_b0.05,Jakarta@2013,recall,variance_weighted,0.7000000000000001,0.62,0.08000000000000007
+2.0,mga_1src_b0.05,Kuwait City@2018,recall,variance_weighted,0.5800000000000001,0.6,-0.019999999999999907
+2.0,mga_1src_b0.05,New York@2013,recall,variance_weighted,0.5800000000000001,0.56,0.020000000000000018
+2.0,mga_1src_b0.05,Petaling Jaya@2013,recall,variance_weighted,0.7,0.6199999999999999,0.08000000000000007
+2.0,mga_1src_b0.05,Petaling Jaya@2018,recall,variance_weighted,0.66,0.62,0.040000000000000036
+2.0,mga_1src_b0.05,Istanbul@2013,ndcg,variance_weighted,0.7040921189302629,0.7108190101468747,-0.006726891216611741
+2.0,mga_1src_b0.05,Istanbul@2018,ndcg,variance_weighted,0.734554312129606,0.7557408533421628,-0.02118654121255681
+2.0,mga_1src_b0.05,Jakarta@2013,ndcg,variance_weighted,0.83550828484846,0.8091251394944298,0.02638314535403019
+2.0,mga_1src_b0.05,Kuwait City@2018,ndcg,variance_weighted,0.695659729952856,0.7060449376620662,-0.010385207709210253
+2.0,mga_1src_b0.05,New York@2013,ndcg,variance_weighted,0.8018699475024492,0.7284585596885971,0.07341138781385215
+2.0,mga_1src_b0.05,Petaling Jaya@2013,ndcg,variance_weighted,0.8401954229915344,0.8252112171104258,0.014984205881108603
+2.0,mga_1src_b0.05,Petaling Jaya@2018,ndcg,variance_weighted,0.835741667409569,0.7762886716266488,0.05945299578292018
+2.0,mga_1src_b0.05,Istanbul@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.05,Istanbul@2018,attack_success,trimmed_frequency,0.0,0.13333333333333333,-0.13333333333333333
+2.0,mga_1src_b0.05,Jakarta@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.05,Kuwait City@2018,attack_success,trimmed_frequency,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.05,New York@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.05,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.05,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.05,Istanbul@2013,recall,trimmed_frequency,0.72,0.7200000000000001,-1.1102230246251565e-16
+2.0,mga_1src_b0.05,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6599999999999999,0.0
+2.0,mga_1src_b0.05,Jakarta@2013,recall,trimmed_frequency,0.7000000000000001,0.76,-0.05999999999999994
+2.0,mga_1src_b0.05,Kuwait City@2018,recall,trimmed_frequency,0.5800000000000001,0.5800000000000001,0.0
+2.0,mga_1src_b0.05,New York@2013,recall,trimmed_frequency,0.5800000000000001,0.54,0.040000000000000036
+2.0,mga_1src_b0.05,Petaling Jaya@2013,recall,trimmed_frequency,0.7,0.68,0.019999999999999907
+2.0,mga_1src_b0.05,Petaling Jaya@2018,recall,trimmed_frequency,0.66,0.7,-0.039999999999999925
+2.0,mga_1src_b0.05,Istanbul@2013,ndcg,trimmed_frequency,0.7040921189302629,0.7108302356356949,-0.006738116705432007
+2.0,mga_1src_b0.05,Istanbul@2018,ndcg,trimmed_frequency,0.734554312129606,0.7301416552655796,0.004412656864026365
+2.0,mga_1src_b0.05,Jakarta@2013,ndcg,trimmed_frequency,0.83550828484846,0.8297712119337417,0.005737072914718255
+2.0,mga_1src_b0.05,Kuwait City@2018,ndcg,trimmed_frequency,0.695659729952856,0.6824546881653484,0.013205041787507588
+2.0,mga_1src_b0.05,New York@2013,ndcg,trimmed_frequency,0.8018699475024492,0.7104584554338069,0.0914114920686423
+2.0,mga_1src_b0.05,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8401954229915344,0.8369771983127757,0.003218224678758652
+2.0,mga_1src_b0.05,Petaling Jaya@2018,ndcg,trimmed_frequency,0.835741667409569,0.8366645849843819,-0.000922917574812887
+2.0,mga_1src_b0.10,Istanbul@2013,attack_success,simple_average,0.0,1.0,-1.0
+2.0,mga_1src_b0.10,Istanbul@2018,attack_success,simple_average,0.0,1.0,-1.0
+2.0,mga_1src_b0.10,Jakarta@2013,attack_success,simple_average,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_1src_b0.10,Kuwait City@2018,attack_success,simple_average,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_1src_b0.10,New York@2013,attack_success,simple_average,0.0,1.0,-1.0
+2.0,mga_1src_b0.10,Petaling Jaya@2013,attack_success,simple_average,0.0,0.7999999999999999,-0.7999999999999999
+2.0,mga_1src_b0.10,Petaling Jaya@2018,attack_success,simple_average,0.0,0.7999999999999999,-0.7999999999999999
+2.0,mga_1src_b0.10,Istanbul@2013,recall,simple_average,0.72,0.6,0.12
+2.0,mga_1src_b0.10,Istanbul@2018,recall,simple_average,0.7,0.6199999999999999,0.08000000000000007
+2.0,mga_1src_b0.10,Jakarta@2013,recall,simple_average,0.7000000000000001,0.56,0.14
+2.0,mga_1src_b0.10,Kuwait City@2018,recall,simple_average,0.5800000000000001,0.58,1.1102230246251565e-16
+2.0,mga_1src_b0.10,New York@2013,recall,simple_average,0.5800000000000001,0.48,0.10000000000000009
+2.0,mga_1src_b0.10,Petaling Jaya@2013,recall,simple_average,0.7,0.56,0.1399999999999999
+2.0,mga_1src_b0.10,Petaling Jaya@2018,recall,simple_average,0.66,0.56,0.09999999999999998
+2.0,mga_1src_b0.10,Istanbul@2013,ndcg,simple_average,0.7040921189302629,0.6707017391700789,0.033390379760184
+2.0,mga_1src_b0.10,Istanbul@2018,ndcg,simple_average,0.7554323488639078,0.7080561581991613,0.04737619066474641
+2.0,mga_1src_b0.10,Jakarta@2013,ndcg,simple_average,0.83550828484846,0.7898976601952878,0.045610624653172116
+2.0,mga_1src_b0.10,Kuwait City@2018,ndcg,simple_average,0.695659729952856,0.6780641811772959,0.01759554877556002
+2.0,mga_1src_b0.10,New York@2013,ndcg,simple_average,0.798144905355868,0.6747575061960935,0.12338739915977448
+2.0,mga_1src_b0.10,Petaling Jaya@2013,ndcg,simple_average,0.8401954229915344,0.8092909900087115,0.03090443298282286
+2.0,mga_1src_b0.10,Petaling Jaya@2018,ndcg,simple_average,0.8328946668318229,0.7621982853510066,0.07069638148081625
+2.0,mga_1src_b0.10,Istanbul@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+2.0,mga_1src_b0.10,Istanbul@2018,attack_success,variance_weighted,0.0,1.0,-1.0
+2.0,mga_1src_b0.10,Jakarta@2013,attack_success,variance_weighted,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_1src_b0.10,Kuwait City@2018,attack_success,variance_weighted,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_1src_b0.10,New York@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+2.0,mga_1src_b0.10,Petaling Jaya@2013,attack_success,variance_weighted,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_1src_b0.10,Petaling Jaya@2018,attack_success,variance_weighted,0.0,0.7999999999999999,-0.7999999999999999
+2.0,mga_1src_b0.10,Istanbul@2013,recall,variance_weighted,0.72,0.6,0.12
+2.0,mga_1src_b0.10,Istanbul@2018,recall,variance_weighted,0.7,0.6199999999999999,0.08000000000000007
+2.0,mga_1src_b0.10,Jakarta@2013,recall,variance_weighted,0.7000000000000001,0.56,0.14
+2.0,mga_1src_b0.10,Kuwait City@2018,recall,variance_weighted,0.5800000000000001,0.58,1.1102230246251565e-16
+2.0,mga_1src_b0.10,New York@2013,recall,variance_weighted,0.5800000000000001,0.48,0.10000000000000009
+2.0,mga_1src_b0.10,Petaling Jaya@2013,recall,variance_weighted,0.7,0.54,0.15999999999999992
+2.0,mga_1src_b0.10,Petaling Jaya@2018,recall,variance_weighted,0.66,0.56,0.09999999999999998
+2.0,mga_1src_b0.10,Istanbul@2013,ndcg,variance_weighted,0.7040921189302629,0.6687241968134103,0.03536792211685258
+2.0,mga_1src_b0.10,Istanbul@2018,ndcg,variance_weighted,0.7554323488639078,0.7066345805189723,0.04879776834493543
+2.0,mga_1src_b0.10,Jakarta@2013,ndcg,variance_weighted,0.83550828484846,0.7874870352424861,0.04802124960597387
+2.0,mga_1src_b0.10,Kuwait City@2018,ndcg,variance_weighted,0.695659729952856,0.677914812741989,0.017744917210867017
+2.0,mga_1src_b0.10,New York@2013,ndcg,variance_weighted,0.798144905355868,0.6732334574700473,0.12491144788582076
+2.0,mga_1src_b0.10,Petaling Jaya@2013,ndcg,variance_weighted,0.8401954229915344,0.8047673425730327,0.03542808041850165
+2.0,mga_1src_b0.10,Petaling Jaya@2018,ndcg,variance_weighted,0.8328946668318229,0.7621982853510066,0.07069638148081625
+2.0,mga_1src_b0.10,Istanbul@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.10,Istanbul@2018,attack_success,trimmed_frequency,0.0,0.13333333333333333,-0.13333333333333333
+2.0,mga_1src_b0.10,Jakarta@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.10,Kuwait City@2018,attack_success,trimmed_frequency,0.0,0.06666666666666667,-0.06666666666666667
+2.0,mga_1src_b0.10,New York@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.10,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.10,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.0,0.0
+2.0,mga_1src_b0.10,Istanbul@2013,recall,trimmed_frequency,0.72,0.74,-0.020000000000000018
+2.0,mga_1src_b0.10,Istanbul@2018,recall,trimmed_frequency,0.7,0.6799999999999999,0.020000000000000018
+2.0,mga_1src_b0.10,Jakarta@2013,recall,trimmed_frequency,0.7000000000000001,0.72,-0.019999999999999907
+2.0,mga_1src_b0.10,Kuwait City@2018,recall,trimmed_frequency,0.5800000000000001,0.5800000000000001,0.0
+2.0,mga_1src_b0.10,New York@2013,recall,trimmed_frequency,0.5800000000000001,0.56,0.020000000000000018
+2.0,mga_1src_b0.10,Petaling Jaya@2013,recall,trimmed_frequency,0.7,0.7,0.0
+2.0,mga_1src_b0.10,Petaling Jaya@2018,recall,trimmed_frequency,0.66,0.68,-0.020000000000000018
+2.0,mga_1src_b0.10,Istanbul@2013,ndcg,trimmed_frequency,0.7040921189302629,0.7119885868018084,-0.00789646787154552
+2.0,mga_1src_b0.10,Istanbul@2018,ndcg,trimmed_frequency,0.7554323488639078,0.7438854725688454,0.011546876295062347
+2.0,mga_1src_b0.10,Jakarta@2013,ndcg,trimmed_frequency,0.83550828484846,0.8196465355122898,0.015861749336170128
+2.0,mga_1src_b0.10,Kuwait City@2018,ndcg,trimmed_frequency,0.695659729952856,0.6797408136342,0.01591891631865594
+2.0,mga_1src_b0.10,New York@2013,ndcg,trimmed_frequency,0.798144905355868,0.6978191851624127,0.10032572019345531
+2.0,mga_1src_b0.10,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8401954229915344,0.8381792689815513,0.0020161540099831177
+2.0,mga_1src_b0.10,Petaling Jaya@2018,ndcg,trimmed_frequency,0.8328946668318229,0.8323203846187793,0.0005742822130435643
+2.0,mga_2src_b0.05,Istanbul@2013,attack_success,simple_average,0.0,1.0,-1.0
+2.0,mga_2src_b0.05,Istanbul@2018,attack_success,simple_average,0.0,1.0,-1.0
+2.0,mga_2src_b0.05,Jakarta@2013,attack_success,simple_average,0.0,0.9333333333333332,-0.9333333333333332
+2.0,mga_2src_b0.05,Kuwait City@2018,attack_success,simple_average,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_2src_b0.05,New York@2013,attack_success,simple_average,0.0,1.0,-1.0
+2.0,mga_2src_b0.05,Petaling Jaya@2013,attack_success,simple_average,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_2src_b0.05,Petaling Jaya@2018,attack_success,simple_average,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_2src_b0.05,Istanbul@2013,recall,simple_average,0.72,0.6,0.12
+2.0,mga_2src_b0.05,Istanbul@2018,recall,simple_average,0.6599999999999999,0.6199999999999999,0.040000000000000036
+2.0,mga_2src_b0.05,Jakarta@2013,recall,simple_average,0.7000000000000001,0.54,0.16000000000000003
+2.0,mga_2src_b0.05,Kuwait City@2018,recall,simple_average,0.5800000000000001,0.56,0.020000000000000018
+2.0,mga_2src_b0.05,New York@2013,recall,simple_average,0.5800000000000001,0.5,0.08000000000000007
+2.0,mga_2src_b0.05,Petaling Jaya@2013,recall,simple_average,0.7,0.54,0.15999999999999992
+2.0,mga_2src_b0.05,Petaling Jaya@2018,recall,simple_average,0.66,0.54,0.12
+2.0,mga_2src_b0.05,Istanbul@2013,ndcg,simple_average,0.7154086378021907,0.6680578117715935,0.04735082603059715
+2.0,mga_2src_b0.05,Istanbul@2018,ndcg,simple_average,0.734554312129606,0.7061503039275415,0.028404008202064457
+2.0,mga_2src_b0.05,Jakarta@2013,ndcg,simple_average,0.83550828484846,0.7830307461950088,0.05247753865345117
+2.0,mga_2src_b0.05,Kuwait City@2018,ndcg,simple_average,0.695659729952856,0.6756246399735983,0.020035089979257625
+2.0,mga_2src_b0.05,New York@2013,ndcg,simple_average,0.8018699475024492,0.6975456157278481,0.1043243317746011
+2.0,mga_2src_b0.05,Petaling Jaya@2013,ndcg,simple_average,0.8401954229915344,0.8050664884723702,0.03512893451916421
+2.0,mga_2src_b0.05,Petaling Jaya@2018,ndcg,simple_average,0.835741667409569,0.7568847739784174,0.07885689343115165
+2.0,mga_2src_b0.05,Istanbul@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+2.0,mga_2src_b0.05,Istanbul@2018,attack_success,variance_weighted,0.0,1.0,-1.0
+2.0,mga_2src_b0.05,Jakarta@2013,attack_success,variance_weighted,0.0,0.9333333333333332,-0.9333333333333332
+2.0,mga_2src_b0.05,Kuwait City@2018,attack_success,variance_weighted,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_2src_b0.05,New York@2013,attack_success,variance_weighted,0.0,1.0,-1.0
+2.0,mga_2src_b0.05,Petaling Jaya@2013,attack_success,variance_weighted,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_2src_b0.05,Petaling Jaya@2018,attack_success,variance_weighted,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_2src_b0.05,Istanbul@2013,recall,variance_weighted,0.72,0.6,0.12
+2.0,mga_2src_b0.05,Istanbul@2018,recall,variance_weighted,0.6599999999999999,0.6199999999999999,0.040000000000000036
+2.0,mga_2src_b0.05,Jakarta@2013,recall,variance_weighted,0.7000000000000001,0.54,0.16000000000000003
+2.0,mga_2src_b0.05,Kuwait City@2018,recall,variance_weighted,0.5800000000000001,0.56,0.020000000000000018
+2.0,mga_2src_b0.05,New York@2013,recall,variance_weighted,0.5800000000000001,0.5,0.08000000000000007
+2.0,mga_2src_b0.05,Petaling Jaya@2013,recall,variance_weighted,0.7,0.54,0.15999999999999992
+2.0,mga_2src_b0.05,Petaling Jaya@2018,recall,variance_weighted,0.66,0.54,0.12
+2.0,mga_2src_b0.05,Istanbul@2013,ndcg,variance_weighted,0.7154086378021907,0.6680578117715935,0.04735082603059715
+2.0,mga_2src_b0.05,Istanbul@2018,ndcg,variance_weighted,0.734554312129606,0.7061503039275415,0.028404008202064457
+2.0,mga_2src_b0.05,Jakarta@2013,ndcg,variance_weighted,0.83550828484846,0.7829602431971999,0.052548041651260036
+2.0,mga_2src_b0.05,Kuwait City@2018,ndcg,variance_weighted,0.695659729952856,0.6756246399735983,0.020035089979257625
+2.0,mga_2src_b0.05,New York@2013,ndcg,variance_weighted,0.8018699475024492,0.6685807330926149,0.13328921440983432
+2.0,mga_2src_b0.05,Petaling Jaya@2013,ndcg,variance_weighted,0.8401954229915344,0.8047491044225346,0.035446318568999824
+2.0,mga_2src_b0.05,Petaling Jaya@2018,ndcg,variance_weighted,0.835741667409569,0.7567919077512766,0.07894975965829243
+2.0,mga_2src_b0.05,Istanbul@2013,attack_success,trimmed_frequency,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_2src_b0.05,Istanbul@2018,attack_success,trimmed_frequency,0.0,0.8666666666666666,-0.8666666666666666
+2.0,mga_2src_b0.05,Jakarta@2013,attack_success,trimmed_frequency,0.0,0.7333333333333332,-0.7333333333333332
+2.0,mga_2src_b0.05,Kuwait City@2018,attack_success,trimmed_frequency,0.0,0.7999999999999999,-0.7999999999999999
+2.0,mga_2src_b0.05,New York@2013,attack_success,trimmed_frequency,0.0,0.7999999999999999,-0.7999999999999999
+2.0,mga_2src_b0.05,Petaling Jaya@2013,attack_success,trimmed_frequency,0.0,0.6666666666666666,-0.6666666666666666
+2.0,mga_2src_b0.05,Petaling Jaya@2018,attack_success,trimmed_frequency,0.0,0.7333333333333333,-0.7333333333333333
+2.0,mga_2src_b0.05,Istanbul@2013,recall,trimmed_frequency,0.72,0.6399999999999999,0.08000000000000007
+2.0,mga_2src_b0.05,Istanbul@2018,recall,trimmed_frequency,0.6599999999999999,0.6,0.05999999999999994
+2.0,mga_2src_b0.05,Jakarta@2013,recall,trimmed_frequency,0.7000000000000001,0.62,0.08000000000000007
+2.0,mga_2src_b0.05,Kuwait City@2018,recall,trimmed_frequency,0.5800000000000001,0.5599999999999999,0.02000000000000013
+2.0,mga_2src_b0.05,New York@2013,recall,trimmed_frequency,0.5800000000000001,0.5,0.08000000000000007
+2.0,mga_2src_b0.05,Petaling Jaya@2013,recall,trimmed_frequency,0.7,0.6,0.09999999999999998
+2.0,mga_2src_b0.05,Petaling Jaya@2018,recall,trimmed_frequency,0.66,0.6000000000000001,0.05999999999999994
+2.0,mga_2src_b0.05,Istanbul@2013,ndcg,trimmed_frequency,0.7154086378021907,0.6773670596167999,0.03804157818539078
+2.0,mga_2src_b0.05,Istanbul@2018,ndcg,trimmed_frequency,0.734554312129606,0.6934388038807289,0.04111550824887711
+2.0,mga_2src_b0.05,Jakarta@2013,ndcg,trimmed_frequency,0.83550828484846,0.8024753094818953,0.03303297536656469
+2.0,mga_2src_b0.05,Kuwait City@2018,ndcg,trimmed_frequency,0.695659729952856,0.6547601680859603,0.040899561866895695
+2.0,mga_2src_b0.05,New York@2013,ndcg,trimmed_frequency,0.8018699475024492,0.7014237211958494,0.10044622630659983
+2.0,mga_2src_b0.05,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8401954229915344,0.8190979663166059,0.02109745667492846
+2.0,mga_2src_b0.05,Petaling Jaya@2018,ndcg,trimmed_frequency,0.835741667409569,0.8169265793843532,0.01881508802521581
+2.0,weight_hijack_1src,Istanbul@2013,attack_success,simple_average,0.26666666666666666,0.7999999999999999,-0.5333333333333332
+2.0,weight_hijack_1src,Istanbul@2018,attack_success,simple_average,0.2,0.8,-0.6000000000000001
+2.0,weight_hijack_1src,Jakarta@2013,attack_success,simple_average,0.2,0.7333333333333332,-0.5333333333333332
+2.0,weight_hijack_1src,Kuwait City@2018,attack_success,simple_average,0.13333333333333333,0.5999999999999999,-0.46666666666666656
+2.0,weight_hijack_1src,New York@2013,attack_success,simple_average,0.2,0.9333333333333332,-0.7333333333333332
+2.0,weight_hijack_1src,Petaling Jaya@2013,attack_success,simple_average,0.39999999999999997,0.8666666666666666,-0.4666666666666666
+2.0,weight_hijack_1src,Petaling Jaya@2018,attack_success,simple_average,0.13333333333333333,0.7333333333333333,-0.6
+2.0,weight_hijack_1src,Istanbul@2013,recall,simple_average,0.7,0.6599999999999999,0.040000000000000036
+2.0,weight_hijack_1src,Istanbul@2018,recall,simple_average,0.6399999999999999,0.6599999999999999,-0.020000000000000018
+2.0,weight_hijack_1src,Jakarta@2013,recall,simple_average,0.66,0.6000000000000001,0.05999999999999994
+2.0,weight_hijack_1src,Kuwait City@2018,recall,simple_average,0.56,0.62,-0.05999999999999994
+2.0,weight_hijack_1src,New York@2013,recall,simple_average,0.54,0.5,0.040000000000000036
+2.0,weight_hijack_1src,Petaling Jaya@2013,recall,simple_average,0.6599999999999999,0.54,0.11999999999999988
+2.0,weight_hijack_1src,Petaling Jaya@2018,recall,simple_average,0.6399999999999999,0.56,0.07999999999999985
+2.0,weight_hijack_1src,Istanbul@2013,ndcg,simple_average,0.7105679110598415,0.6968832101882676,0.013684700871573918
+2.0,weight_hijack_1src,Istanbul@2018,ndcg,simple_average,0.7153157658262101,0.7333824710617796,-0.018066705235569414
+2.0,weight_hijack_1src,Jakarta@2013,ndcg,simple_average,0.8097034945893189,0.8013795662738061,0.008323928315512763
+2.0,weight_hijack_1src,Kuwait City@2018,ndcg,simple_average,0.7020866587790128,0.7047983103653215,-0.0027116515863087054
+2.0,weight_hijack_1src,New York@2013,ndcg,simple_average,0.6905124979288259,0.71509847236892,-0.024585974440094138
+2.0,weight_hijack_1src,Petaling Jaya@2013,ndcg,simple_average,0.8348056052860187,0.8094121636759551,0.025393441610063516
+2.0,weight_hijack_1src,Petaling Jaya@2018,ndcg,simple_average,0.8203392204235523,0.7628032900697926,0.0575359303537597
+2.0,weight_hijack_1src,Istanbul@2013,attack_success,variance_weighted,0.26666666666666666,1.0,-0.7333333333333334
+2.0,weight_hijack_1src,Istanbul@2018,attack_success,variance_weighted,0.2,1.0,-0.8
+2.0,weight_hijack_1src,Jakarta@2013,attack_success,variance_weighted,0.2,1.0,-0.8
+2.0,weight_hijack_1src,Kuwait City@2018,attack_success,variance_weighted,0.13333333333333333,1.0,-0.8666666666666667
+2.0,weight_hijack_1src,New York@2013,attack_success,variance_weighted,0.2,1.0,-0.8
+2.0,weight_hijack_1src,Petaling Jaya@2013,attack_success,variance_weighted,0.39999999999999997,1.0,-0.6000000000000001
+2.0,weight_hijack_1src,Petaling Jaya@2018,attack_success,variance_weighted,0.13333333333333333,1.0,-0.8666666666666667
+2.0,weight_hijack_1src,Istanbul@2013,recall,variance_weighted,0.7,0.52,0.17999999999999994
+2.0,weight_hijack_1src,Istanbul@2018,recall,variance_weighted,0.6399999999999999,0.52,0.11999999999999988
+2.0,weight_hijack_1src,Jakarta@2013,recall,variance_weighted,0.66,0.48,0.18000000000000005
+2.0,weight_hijack_1src,Kuwait City@2018,recall,variance_weighted,0.56,0.45999999999999996,0.10000000000000009
+2.0,weight_hijack_1src,New York@2013,recall,variance_weighted,0.54,0.42000000000000004,0.12
+2.0,weight_hijack_1src,Petaling Jaya@2013,recall,variance_weighted,0.6599999999999999,0.5599999999999999,0.09999999999999998
+2.0,weight_hijack_1src,Petaling Jaya@2018,recall,variance_weighted,0.6399999999999999,0.45999999999999996,0.17999999999999994
+2.0,weight_hijack_1src,Istanbul@2013,ndcg,variance_weighted,0.7105679110598415,0.5574635503325225,0.15310436072731903
+2.0,weight_hijack_1src,Istanbul@2018,ndcg,variance_weighted,0.7153157658262101,0.5322237412071054,0.1830920246191048
+2.0,weight_hijack_1src,Jakarta@2013,ndcg,variance_weighted,0.8097034945893189,0.527435902640782,0.2822675919485369
+2.0,weight_hijack_1src,Kuwait City@2018,ndcg,variance_weighted,0.7020866587790128,0.5375456548841904,0.1645410038948224
+2.0,weight_hijack_1src,New York@2013,ndcg,variance_weighted,0.6905124979288259,0.4468888591753002,0.24362363875352566
+2.0,weight_hijack_1src,Petaling Jaya@2013,ndcg,variance_weighted,0.8348056052860187,0.6120526695282428,0.22275293575777588
+2.0,weight_hijack_1src,Petaling Jaya@2018,ndcg,variance_weighted,0.8203392204235523,0.42319774376410335,0.397141476659449
+2.0,weight_hijack_1src,Istanbul@2013,attack_success,trimmed_frequency,0.26666666666666666,0.0,0.26666666666666666
+2.0,weight_hijack_1src,Istanbul@2018,attack_success,trimmed_frequency,0.2,0.13333333333333333,0.06666666666666668
+2.0,weight_hijack_1src,Jakarta@2013,attack_success,trimmed_frequency,0.2,0.0,0.2
+2.0,weight_hijack_1src,Kuwait City@2018,attack_success,trimmed_frequency,0.13333333333333333,0.06666666666666667,0.06666666666666667
+2.0,weight_hijack_1src,New York@2013,attack_success,trimmed_frequency,0.2,0.0,0.2
+2.0,weight_hijack_1src,Petaling Jaya@2013,attack_success,trimmed_frequency,0.39999999999999997,0.0,0.39999999999999997
+2.0,weight_hijack_1src,Petaling Jaya@2018,attack_success,trimmed_frequency,0.13333333333333333,0.0,0.13333333333333333
+2.0,weight_hijack_1src,Istanbul@2013,recall,trimmed_frequency,0.7,0.7200000000000001,-0.02000000000000013
+2.0,weight_hijack_1src,Istanbul@2018,recall,trimmed_frequency,0.6399999999999999,0.6599999999999999,-0.020000000000000018
+2.0,weight_hijack_1src,Jakarta@2013,recall,trimmed_frequency,0.66,0.76,-0.09999999999999998
+2.0,weight_hijack_1src,Kuwait City@2018,recall,trimmed_frequency,0.56,0.5800000000000001,-0.020000000000000018
+2.0,weight_hijack_1src,New York@2013,recall,trimmed_frequency,0.54,0.54,0.0
+2.0,weight_hijack_1src,Petaling Jaya@2013,recall,trimmed_frequency,0.6599999999999999,0.7,-0.040000000000000036
+2.0,weight_hijack_1src,Petaling Jaya@2018,recall,trimmed_frequency,0.6399999999999999,0.7,-0.06000000000000005
+2.0,weight_hijack_1src,Istanbul@2013,ndcg,trimmed_frequency,0.7105679110598415,0.7107710601922097,-0.00020314913236818555
+2.0,weight_hijack_1src,Istanbul@2018,ndcg,trimmed_frequency,0.7153157658262101,0.7301482357115118,-0.014832469885301625
+2.0,weight_hijack_1src,Jakarta@2013,ndcg,trimmed_frequency,0.8097034945893189,0.8297712119337417,-0.02006771734442281
+2.0,weight_hijack_1src,Kuwait City@2018,ndcg,trimmed_frequency,0.7020866587790128,0.6830832934638462,0.019003365315166554
+2.0,weight_hijack_1src,New York@2013,ndcg,trimmed_frequency,0.6905124979288259,0.6810417066047336,0.009470791324092231
+2.0,weight_hijack_1src,Petaling Jaya@2013,ndcg,trimmed_frequency,0.8348056052860187,0.8385299500075257,-0.003724344721507067
+2.0,weight_hijack_1src,Petaling Jaya@2018,ndcg,trimmed_frequency,0.8203392204235523,0.8365963466654172,-0.016257126241864817
+2.0,weight_hijack_2src,Istanbul@2013,attack_success,simple_average,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Istanbul@2018,attack_success,simple_average,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Jakarta@2013,attack_success,simple_average,0.7333333333333333,1.0,-0.2666666666666667
+2.0,weight_hijack_2src,Kuwait City@2018,attack_success,simple_average,0.8666666666666666,1.0,-0.13333333333333341
+2.0,weight_hijack_2src,New York@2013,attack_success,simple_average,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Petaling Jaya@2013,attack_success,simple_average,0.7999999999999999,1.0,-0.20000000000000007
+2.0,weight_hijack_2src,Petaling Jaya@2018,attack_success,simple_average,0.7333333333333333,1.0,-0.2666666666666667
+2.0,weight_hijack_2src,Istanbul@2013,recall,simple_average,0.6,0.6,0.0
+2.0,weight_hijack_2src,Istanbul@2018,recall,simple_average,0.56,0.6199999999999999,-0.05999999999999983
+2.0,weight_hijack_2src,Jakarta@2013,recall,simple_average,0.62,0.52,0.09999999999999998
+2.0,weight_hijack_2src,Kuwait City@2018,recall,simple_average,0.5599999999999999,0.58,-0.020000000000000018
+2.0,weight_hijack_2src,New York@2013,recall,simple_average,0.52,0.5,0.020000000000000018
+2.0,weight_hijack_2src,Petaling Jaya@2013,recall,simple_average,0.6,0.52,0.07999999999999996
+2.0,weight_hijack_2src,Petaling Jaya@2018,recall,simple_average,0.62,0.5,0.12
+2.0,weight_hijack_2src,Istanbul@2013,ndcg,simple_average,0.6698553753246659,0.665165835794397,0.004689539530268849
+2.0,weight_hijack_2src,Istanbul@2018,ndcg,simple_average,0.6749894311573776,0.7000408660662334,-0.025051434908855752
+2.0,weight_hijack_2src,Jakarta@2013,ndcg,simple_average,0.804039882150871,0.768358743917895,0.03568113823297592
+2.0,weight_hijack_2src,Kuwait City@2018,ndcg,simple_average,0.6592225198651167,0.667195246391182,-0.007972726526065288
+2.0,weight_hijack_2src,New York@2013,ndcg,simple_average,0.7496535275229376,0.6978566515420579,0.051796875980879675
+2.0,weight_hijack_2src,Petaling Jaya@2013,ndcg,simple_average,0.843428966872011,0.7944476503045795,0.04898131656743143
+2.0,weight_hijack_2src,Petaling Jaya@2018,ndcg,simple_average,0.7628770075197341,0.7394915491055551,0.02338545841417894
+2.0,weight_hijack_2src,Istanbul@2013,attack_success,variance_weighted,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Istanbul@2018,attack_success,variance_weighted,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Jakarta@2013,attack_success,variance_weighted,0.7333333333333333,1.0,-0.2666666666666667
+2.0,weight_hijack_2src,Kuwait City@2018,attack_success,variance_weighted,0.8666666666666666,1.0,-0.13333333333333341
+2.0,weight_hijack_2src,New York@2013,attack_success,variance_weighted,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Petaling Jaya@2013,attack_success,variance_weighted,0.7999999999999999,1.0,-0.20000000000000007
+2.0,weight_hijack_2src,Petaling Jaya@2018,attack_success,variance_weighted,0.7333333333333333,1.0,-0.2666666666666667
+2.0,weight_hijack_2src,Istanbul@2013,recall,variance_weighted,0.6,0.56,0.039999999999999925
+2.0,weight_hijack_2src,Istanbul@2018,recall,variance_weighted,0.56,0.54,0.020000000000000018
+2.0,weight_hijack_2src,Jakarta@2013,recall,variance_weighted,0.62,0.54,0.07999999999999996
+2.0,weight_hijack_2src,Kuwait City@2018,recall,variance_weighted,0.5599999999999999,0.48,0.07999999999999996
+2.0,weight_hijack_2src,New York@2013,recall,variance_weighted,0.52,0.44000000000000006,0.07999999999999996
+2.0,weight_hijack_2src,Petaling Jaya@2013,recall,variance_weighted,0.6,0.58,0.020000000000000018
+2.0,weight_hijack_2src,Petaling Jaya@2018,recall,variance_weighted,0.62,0.48,0.14
+2.0,weight_hijack_2src,Istanbul@2013,ndcg,variance_weighted,0.6698553753246659,0.45944883350949633,0.21040654181516955
+2.0,weight_hijack_2src,Istanbul@2018,ndcg,variance_weighted,0.6749894311573776,0.4505531842273548,0.22443624693002284
+2.0,weight_hijack_2src,Jakarta@2013,ndcg,variance_weighted,0.804039882150871,0.4736770835918058,0.33036279855906514
+2.0,weight_hijack_2src,Kuwait City@2018,ndcg,variance_weighted,0.6592225198651167,0.4480881749379145,0.21113434492720223
+2.0,weight_hijack_2src,New York@2013,ndcg,variance_weighted,0.7496535275229376,0.4427160814421109,0.3069374460808267
+2.0,weight_hijack_2src,Petaling Jaya@2013,ndcg,variance_weighted,0.843428966872011,0.5298955353345247,0.31353343153748625
+2.0,weight_hijack_2src,Petaling Jaya@2018,ndcg,variance_weighted,0.7628770075197341,0.4026601741206128,0.3602168333991213
+2.0,weight_hijack_2src,Istanbul@2013,attack_success,trimmed_frequency,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Istanbul@2018,attack_success,trimmed_frequency,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Jakarta@2013,attack_success,trimmed_frequency,0.7333333333333333,1.0,-0.2666666666666667
+2.0,weight_hijack_2src,Kuwait City@2018,attack_success,trimmed_frequency,0.8666666666666666,1.0,-0.13333333333333341
+2.0,weight_hijack_2src,New York@2013,attack_success,trimmed_frequency,0.9333333333333332,1.0,-0.06666666666666676
+2.0,weight_hijack_2src,Petaling Jaya@2013,attack_success,trimmed_frequency,0.7999999999999999,1.0,-0.20000000000000007
+2.0,weight_hijack_2src,Petaling Jaya@2018,attack_success,trimmed_frequency,0.7333333333333333,1.0,-0.2666666666666667
+2.0,weight_hijack_2src,Istanbul@2013,recall,trimmed_frequency,0.6,0.6,0.0
+2.0,weight_hijack_2src,Istanbul@2018,recall,trimmed_frequency,0.56,0.5800000000000001,-0.020000000000000018
+2.0,weight_hijack_2src,Jakarta@2013,recall,trimmed_frequency,0.62,0.6000000000000001,0.019999999999999907
+2.0,weight_hijack_2src,Kuwait City@2018,recall,trimmed_frequency,0.5599999999999999,0.54,0.019999999999999907
+2.0,weight_hijack_2src,New York@2013,recall,trimmed_frequency,0.52,0.5,0.020000000000000018
+2.0,weight_hijack_2src,Petaling Jaya@2013,recall,trimmed_frequency,0.6,0.6,0.0
+2.0,weight_hijack_2src,Petaling Jaya@2018,recall,trimmed_frequency,0.62,0.56,0.05999999999999994
+2.0,weight_hijack_2src,Istanbul@2013,ndcg,trimmed_frequency,0.6698553753246659,0.6574293653026366,0.012426010022029255
+2.0,weight_hijack_2src,Istanbul@2018,ndcg,trimmed_frequency,0.6749894311573776,0.6754976705285821,-0.0005082393712044775
+2.0,weight_hijack_2src,Jakarta@2013,ndcg,trimmed_frequency,0.804039882150871,0.7860438865470927,0.017995995603778292
+2.0,weight_hijack_2src,Kuwait City@2018,ndcg,trimmed_frequency,0.6592225198651167,0.6401666890588628,0.01905583080625395
+2.0,weight_hijack_2src,New York@2013,ndcg,trimmed_frequency,0.7496535275229376,0.6310424005793961,0.11861112694354148
+2.0,weight_hijack_2src,Petaling Jaya@2013,ndcg,trimmed_frequency,0.843428966872011,0.8095476571050225,0.03388130976698844
+2.0,weight_hijack_2src,Petaling Jaya@2018,ndcg,trimmed_frequency,0.7628770075197341,0.8027474115410189,-0.03987040402128483
